@@ -32,7 +32,11 @@
       <td>Monday</td>
       <td>
         <ul>
-          <li>  Definition of pseudo-group of transformations</li>
+        </ul>
+      </td>
+    </tr>
+<!--  ##################  Week 2  ################## -->
+    <tr><th></th><th align=center>Week 2</th></tr><tr>
         </ul>
       </td>
     </tr>
