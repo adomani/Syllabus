@@ -53,21 +53,6 @@
   </tbody>
 </table>
 
-
-Week 2:
-* Pre-recorded:
-rotation group, $\mathbb{R} \otimes S^1$
- Difference between the free abelian group on ordered pairs and the tensor product.
-* Tuesday:
-<ul><li>$\mathbb{Z}/2 \otimes \mathbb{Z}/3$ and $\mathbb{Z} \otimes A$ -- examples that can be computed "directly".</li>
-    <li>$\mathbb{Z}/a \otimes \mathbb{Z}/b$ -- an example computed via the universal property.</li></ul>
-* Thursday: Definition of the Dehn invariant.
-
-  Torsion subgroup $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z} \subset \mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$.
-
-
-
-
 Week 1:
 * Pre-recorded: Statement and proof of Wallace-Bolyai-Gerwien Theorem.
 * Tuesday: Overview of Hilbert's problems and specifically Hilbert's 3rd problem.  Initial introduction to tensor products.
