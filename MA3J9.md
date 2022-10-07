@@ -19,141 +19,83 @@
   <tbody>
 <!--  ##################  Week 1  ################## -->
     <tr><th></th><th align=center>Week 1</th></tr><tr>
+      <td>Recorded</td>
+      <td>
+        <ul>
+          <li>  rotation group, $\mathbb{R} \otimes S^1$</li>
+          <li>  Difference between the free abelian group on ordered pairs and the tensor product.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Tuesday</td>
+      <td>
+        <ul>
+          <li>  $\mathbb{Z}/2 \otimes \mathbb{Z}/3$ and $\mathbb{Z} \otimes A$ &mdash; examples that can be computed "directly".</li>
+          <li>  $\mathbb{Z}/a \otimes \mathbb{Z}/b$ &mdash; an example computed via the universal property.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Thursday</td>
+      <td>
+        <ul>
+          <li>  Definition of the Dehn invariant.</li>
+          <li>  Torsion subgroup $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z} \subset \mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$.</li>
         </ul>
       </td>
     </tr>
 <!--  ##################  Week 2  ################## -->
     <tr><th></th><th align=center>Week 2</th></tr><tr>
+      <td>Recorded</td>
+      <td>
+        <ul>
+          <li>  rotation group, $\mathbb{R} \otimes S^1$</li>
+          <li>  Difference between the free abelian group on ordered pairs and the tensor product.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Tuesday</td>
+      <td>
+        <ul>
+          <li>  $\mathbb{Z}/2 \otimes \mathbb{Z}/3$ and $\mathbb{Z} \otimes A$ &mdash; examples that can be computed "directly".</li>
+          <li>  $\mathbb{Z}/a \otimes \mathbb{Z}/b$ &mdash; an example computed via the universal property.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Thursday</td>
+      <td>
+        <ul>
+          <li>  Definition of the Dehn invariant.</li>
+          <li>  Torsion subgroup $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z} \subset \mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$.</li>
         </ul>
       </td>
     </tr>
 <!--  ##################  Week 3  ################## -->
     <tr><th></th><th align=center>Week 3</th></tr><tr>
+      <td>Recorded</td>
+      <td>
+        <ul>
+          <li>  invariance of the Dehn invariant under scissor congruence.</li>
+          <li>  Rotation group, $\mathbb{R} \otimes S^1$, polyhedra, definition of the Dehn invariant.</li>
         </ul>
       </td>
     </tr>
-<!--  ##################  Week 4  ################## -->
-    <tr><th></th><th align=center>Week 4</th></tr><tr>
+    <tr>
+      <td>Tuesday</td>
+      <td>
+        <ul>
+          <li>  Tensor product of $\mathbb{R}$ with rotations by a rational multiple of $\pi$, $\mathbb{R} \otimes \mathbb{Z}$.</li>
         </ul>
       </td>
     </tr>
-<!--  ##################  Week 5  ################## -->
-    <tr><th></th><th align=center>Week 5</th></tr><tr>
-        </ul>
-      </td>
-    </tr>
-<!--  ##################  Week 6  ################## -->
-    <tr><th></th><th align=center>Week 6</th></tr><tr>
-        </ul>
-      </td>
-    </tr>
-<!--  ##################  Week 7  ################## -->
-    <tr><th></th><th align=center>Week 7</th></tr><tr>
-        </ul>
-      </td>
-    </tr>
-<!--  ##################  Week 8  ################## -->
-    <tr><th></th><th align=center>Week 8</th></tr><tr>
-        </ul>
-      </td>
-    </tr>
-<!--  ##################  Week 9  ################## -->
-    <tr><th></th><th align=center>Week 9</th></tr><tr>
-        </ul>
-      </td>
-    </tr>
-<!--  ##################  Week 10  ################## -->
-    <tr><th></th><th align=center>Week 10</th></tr><tr>
-        </ul>
-      </td>
-    </tr>
-<!--  ##################  Week 11  ################## -->
-    <tr><th></th><th align=center>Week 11</th></tr><tr>
-        </ul>
-      </td>
-    </tr>
-<!--  ##################  Week 12  ################## -->
-    <tr><th></th><th align=center>Week 12</th></tr><tr>
-        </ul>
-      </td>
-    </tr>
-<!--  ##################  Week 13  ################## -->
-    <tr><th></th><th align=center>Week 13</th></tr><tr>
-        </ul>
-      </td>
-    </tr>
-<!--  ##################  Week 14  ################## -->
-    <tr><th></th><th align=center>Week 14</th></tr><tr>
-        </ul>
-      </td>
-    </tr>
-<!--  ##################  Week 15  ################## -->
-    <tr><th></th><th align=center>Week 15</th></tr><tr>
-        </ul>
-      </td>
-    </tr>
-<!--  ##################  Week 16  ################## -->
-    <tr><th></th><th align=center>Week 16</th></tr><tr>
-        </ul>
-      </td>
-    </tr>
-<!--  ##################  Week 17  ################## -->
-    <tr><th></th><th align=center>Week 17</th></tr><tr>
-        </ul>
-      </td>
-    </tr>
-<!--  ##################  Week 18  ################## -->
-    <tr><th></th><th align=center>Week 18</th></tr><tr>
-        </ul>
-      </td>
-    </tr>
-<!--  ##################  Week 19  ################## -->
-    <tr><th></th><th align=center>Week 19</th></tr><tr>
-        </ul>
-      </td>
-    </tr>
-<!--  ##################  Week 20  ################## -->
-    <tr><th></th><th align=center>Week 20</th></tr><tr>
-        </ul>
-      </td>
-    </tr>
-<!--  ##################  Week 21  ################## -->
-    <tr><th></th><th align=center>Week 21</th></tr><tr>
-        </ul>
-      </td>
-    </tr>
-<!--  ##################  Week 22  ################## -->
-    <tr><th></th><th align=center>Week 22</th></tr><tr>
-        </ul>
-      </td>
-    </tr>
-<!--  ##################  Week 23  ################## -->
-    <tr><th></th><th align=center>Week 23</th></tr><tr>
-        </ul>
-      </td>
-    </tr>
-<!--  ##################  Week 24  ################## -->
-    <tr><th></th><th align=center>Week 24</th></tr><tr>
-        </ul>
-      </td>
-    </tr>
-<!--  ##################  Week 25  ################## -->
-    <tr><th></th><th align=center>Week 25</th></tr><tr>
-        </ul>
-      </td>
-    </tr>
-<!--  ##################  Week 26  ################## -->
-    <tr><th></th><th align=center>Week 26</th></tr><tr>
-        </ul>
-      </td>
-    </tr>
-<!--  ##################  Week 27  ################## -->
-    <tr><th></th><th align=center>Week 27</th></tr><tr>
-        </ul>
-      </td>
-    </tr>
-<!--  ##################  Week 28  ################## -->
-    <tr><th></th><th align=center>Week 28</th></tr><tr>
+    <tr>
+      <td>Thursday</td>
+      <td>
+        <ul>
+          <li>  Computation of the Dehn invariant for the cube and, partially, for the regular tetrahedron.</li>
           <li></li>
         </ul>
       </td>

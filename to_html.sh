@@ -86,7 +86,7 @@ hcim.src"
   wk=0
   syll_head "$titolo" > $nome
   while IFS= read -r line; do
-    if [[ $line =~ [^--] ]];
+    if [[ $line =~ ^[--] ]];
     then
       ((wk++))
       week_head $wk >> $nome
