@@ -53,7 +53,7 @@ day_entries () {
     if [[ $1 == "mon" ]]
     then
       echo '      <td>Monday</td>'
-    elif [[ $1 == "thu" ]]
+    elif [[ $1 == "tue" ]]
     then
       echo '      <td>Tuesday</td>'
     elif [[ $1 == "thu" ]]

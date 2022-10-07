@@ -28,6 +28,7 @@
       </td>
     </tr>
     <tr>
+      <td>Tuesday</td>
       <td>
         <ul>
           <li>  $\mathbb{Z}/2 \otimes \mathbb{Z}/3$ and $\mathbb{Z} \otimes A$ &mdash; examples that can be computed "directly".</li>
@@ -36,7 +37,7 @@
       </td>
     </tr>
     <tr>
-      <td>Tuesday</td>
+      <td>Thursday</td>
       <td>
         <ul>
           <li>  Definition of the Dehn invariant.</li>
@@ -66,6 +67,7 @@
       </td>
     </tr>
     <tr>
+      <td>Tuesday</td>
       <td>
         <ul>
           <li>  $\mathbb{Z}/2 \otimes \mathbb{Z}/3$ and $\mathbb{Z} \otimes A$ &mdash; examples that can be computed "directly".</li>
@@ -74,7 +76,7 @@
       </td>
     </tr>
     <tr>
-      <td>Tuesday</td>
+      <td>Thursday</td>
       <td>
         <ul>
           <li>  Definition of the Dehn invariant.</li>
