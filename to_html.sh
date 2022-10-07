@@ -1,3 +1,5 @@
+#  This file converts a template file to a markdown, syllabus page
+#  The main function is `produce_html_from`
 ##  generates the code for using MathJax in the file prova
 ##  erasing a pre-existing file prova
 syll_head () {
@@ -14,12 +16,12 @@ syll_head () {
 </script>
 </head>
 
-
-# MA3J9 Historical Challenges in Mathematics
-##  Autumn 2022
+'
+  echo "# $1
+## Autumn 2022
 
 <table>
-  <tbody>'
+  <tbody>"
 }
 
 syll_tail () {
@@ -66,20 +68,34 @@ day_entries () {
 }
 
 produce_html_from () {
+  if [[ $1 = "hcim.src" ]]
+  then
+    nome="MA3J9.md"
+    titolo="MA3J9 Historical Challenges in Mathematics"
+  elif [[ $1 = "mani.src" ]]
+  then
+    nome="MA3H5.md"
+    titolo="MA3H5 Manifolds"
+  else
+    echo "Sorry, the only supported files are
+mani.src
+hcim.src"
+    return
+  fi
+  echo $nome
   wk=0
-  syll_head > prova.md
+  syll_head "$titolo" > $nome
   while IFS= read -r line; do
     if [[ $line == "--" ]];
     then
       ((wk++))
-      week_head $wk >> prova.md
+      week_head $wk >> $nome
     elif [[ $line =~ ^[mpt] ]]
     then
-      echo $line
-      day_entries "$line" >> prova.md
+      day_entries "$line" >> $nome
     else
-      echo "          <li>$line</li>" >> prova.md
+      echo "          <li>$line</li>" >> $nome
     fi
-  done < syll.src
-  syll_tail >> prova.md
+  done < $1
+  syll_tail >> $nome
 }
