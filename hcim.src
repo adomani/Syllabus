@@ -89,7 +89,7 @@ pre
   Composite numbers and non-powers of two are Diophantine sets.
   Discussion about their complements being Diophantine.
 tue
-  Diophantine equations for {\tt{and}}, {\tt{or}}, less-than-or-equal, divisibility, min.
+  Diophantine equations for `and`, `or`, less-than-or-equal, divisibility, min.
   A Diophantine equation for the primes.
 thu
   Converting an algorithm into a Diophantine equation: statement of the Davis-Putnam-Robinson-Matiyasevich Theorem.

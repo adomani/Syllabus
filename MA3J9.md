@@ -251,7 +251,7 @@
       <td>Tuesday</td>
       <td>
         <ul>
-          <li>  Diophantine equations for {\tt{and}}, {\tt{or}}, less-than-or-equal, divisibility, min.</li>
+          <li>  Diophantine equations for `and`, `or`, less-than-or-equal, divisibility, min.</li>
           <li>  A Diophantine equation for the primes.</li>
         </ul>
       </td>
