@@ -1,4 +1,4 @@
---
+--  Week 1
 pre
   rotation group, $\mathbb{R} \otimes S^1$
   Difference between the free abelian group on ordered pairs and the tensor product.
@@ -8,7 +8,7 @@ tue
 thu
   Definition of the Dehn invariant.
   Torsion subgroup $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z} \subset \mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$.
---
+--  Week 2
 pre
   rotation group, $\mathbb{R} \otimes S^1$
   Difference between the free abelian group on ordered pairs and the tensor product.
@@ -18,3 +18,12 @@ tue
 thu
   Definition of the Dehn invariant.
   Torsion subgroup $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z} \subset \mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$.
+--  Week 3
+pre
+  invariance of the Dehn invariant under scissor congruence.
+  Rotation group, $\mathbb{R} \otimes S^1$, polyhedra, definition of the Dehn invariant.
+tue
+  Tensor product of $\mathbb{R}$ with rotations by a rational multiple of $\pi$, $\mathbb{R} \otimes \mathbb{Z}$.
+thu
+  Computation of the Dehn invariant for the cube and, partially, for the regular tetrahedron.
+

@@ -73,5 +73,32 @@
         </ul>
       </td>
     </tr>
+<!--  ##################  Week 3  ################## -->
+    <tr><th></th><th align=center>Week 3</th></tr><tr>
+      <td>Recorded</td>
+      <td>
+        <ul>
+          <li>  invariance of the Dehn invariant under scissor congruence.</li>
+          <li>  Rotation group, $\mathbb{R} \otimes S^1$, polyhedra, definition of the Dehn invariant.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Tuesday</td>
+      <td>
+        <ul>
+          <li>  Tensor product of $\mathbb{R}$ with rotations by a rational multiple of $\pi$, $\mathbb{R} \otimes \mathbb{Z}$.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Thursday</td>
+      <td>
+        <ul>
+          <li>  Computation of the Dehn invariant for the cube and, partially, for the regular tetrahedron.</li>
+          <li></li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
