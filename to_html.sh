@@ -80,7 +80,7 @@ produce_html_from () {
     echo "Sorry, the only supported files are
 mani.src
 hcim.src"
-    return
+    return 1
   fi
   echo $nome
   wk=0
@@ -101,7 +101,8 @@ hcim.src"
 }
 
 cosyl () {
-  produce_html_from $1
-  git add -A && git commit -m "$1"
-  git push
+  produce_html_from $1 &&
+    git add -A &&
+    git commit -m "$1" &&
+    git push
 }
