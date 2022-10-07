@@ -12,7 +12,7 @@
 </head>
 
 
-# MA3J9 Historical Challenges in Mathematics
+# [MA3J9 Historical Challenges in Mathematics](https://moodle.warwick.ac.uk/course/view.php?id=52244)
 ## Autumn 2022
 
 <table>
