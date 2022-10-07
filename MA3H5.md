@@ -19,24 +19,36 @@
   <tbody>
 <!--  ##################  Week 1  ################## -->
     <tr><th></th><th align=center>Week 1</th></tr><tr>
-      <td>Recorded</td>
-      <td>
-        <ul>
-          <li>  Tensor products</li>
-          <li>  Tensor algebra</li>
-          <li>  Exterior algebra</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>Monday</td>
-      <td>
-        <ul>
         </ul>
       </td>
     </tr>
 <!--  ##################  Week 2  ################## -->
     <tr><th></th><th align=center>Week 2</th></tr><tr>
+        </ul>
+      </td>
+    </tr>
+<!--  ##################  Week 3  ################## -->
+    <tr><th></th><th align=center>Week 3</th></tr><tr>
+        </ul>
+      </td>
+    </tr>
+<!--  ##################  Week 4  ################## -->
+    <tr><th></th><th align=center>Week 4</th></tr><tr>
+        </ul>
+      </td>
+    </tr>
+<!--  ##################  Week 5  ################## -->
+    <tr><th></th><th align=center>Week 5</th></tr><tr>
+        </ul>
+      </td>
+    </tr>
+<!--  ##################  Week 6  ################## -->
+    <tr><th></th><th align=center>Week 6</th></tr><tr>
+        </ul>
+      </td>
+    </tr>
+<!--  ##################  Week 7  ################## -->
+    <tr><th></th><th align=center>Week 7</th></tr><tr>
         </ul>
       </td>
     </tr>
