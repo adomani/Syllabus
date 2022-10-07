@@ -23,7 +23,10 @@ syll_head () {
 }
 
 syll_tail () {
-  echo "  </tbody>
+  echo "        </ul>
+      </td>
+    </tr>
+  </tbody>
 </table>"
 }
 

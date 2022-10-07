@@ -70,5 +70,8 @@
         <ul>
           <li>  Definition of the Dehn invariant.</li>
           <li>  Torsion subgroup $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z} \subset \mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
