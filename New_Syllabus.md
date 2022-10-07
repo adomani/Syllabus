@@ -24,7 +24,7 @@
       <td>Pre-recorded</td>
       <td>
         <ul>
-          <li>rotation group, \\(\mathbb{R} \otimes S^1\\)</li>
+          <li>rotation group, $\mathbb{R} \otimes S^1$</li>
           <li>Difference between the free abelian group on ordered pairs and the tensor product.</li>
         </ul>
       </td>
