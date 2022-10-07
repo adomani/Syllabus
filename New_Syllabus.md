@@ -24,7 +24,7 @@
       <td>Pre-recorded</td>
       <td>
         <ul>
-          <li>rotation group, $\mathbb{R} \otimes S^1$</li>
+          <li>rotation group, \\(\mathbb{R} \otimes S^1\\)</li>
           <li>Difference between the free abelian group on ordered pairs and the tensor product.</li>
         </ul>
       </td>
@@ -45,7 +45,8 @@
       <td>
         <ul>
           <li>Definition of the Dehn invariant.</li>
-          <li>Torsion subgroup $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z} \subset \mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$.</li>
+          <li>Torsion subgroup $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z} \subset
+            \mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$.</li>
         </ul>
       </td>
     </tr>
