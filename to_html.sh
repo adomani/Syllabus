@@ -44,7 +44,7 @@ week_head () {
 day_entries () {
   if [[ $1 == "pre" ]]
   then
-    echo '      <td>Pre-recorded</td>'
+    echo '      <td>Recorded</td>'
   elif [[ $1 == "tue" ]]
   then
     echo '        </ul>
@@ -68,24 +68,24 @@ table_entries () {
   echo "          <li>$1</li>"
 }
 
-
-wk=0
-syll_head > prova.md
-while IFS= read -r line; do
-  if [[ $line == "--" ]];
-  then
-    ((wk++))
-    week_head $wk >> prova.md
-  elif [[ $line =~ ^[pt] ]]
-  then
-    echo $line
-    day_entries "$line" >> prova.md
-  else
-    table_entries "$line" >> prova.md
-  fi
-done < syll.src
-syll_tail >> prova.md
-
+produce_html_from () {
+  wk=0
+  syll_head > prova.md
+  while IFS= read -r line; do
+    if [[ $line == "--" ]];
+    then
+      ((wk++))
+      week_head $wk >> prova.md
+    elif [[ $line =~ ^[pt] ]]
+    then
+      echo $line
+      day_entries "$line" >> prova.md
+    else
+      table_entries "$line" >> prova.md
+    fi
+  done < syll.src
+  syll_tail >> prova.md
+}
 
 # MA3J9 Historical Challenges in Mathematics
 ##  Autumn 2022
