@@ -99,3 +99,9 @@ hcim.src"
   done < $1
   syll_tail >> $nome
 }
+
+cosyl () {
+  produce_html_from $1
+  git add -A && git commit -m "$1"
+  git push
+}
