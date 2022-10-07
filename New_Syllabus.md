@@ -3,6 +3,10 @@ $a$
 
 $$ on $$
 
+```math
+3 \sqrt{2}
+```
+
 # MA3J9 Historical Challenges in Mathematics
 ###  Autumn 2022
 Week 1:
