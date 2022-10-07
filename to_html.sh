@@ -86,19 +86,3 @@ produce_html_from () {
   done < syll.src
   syll_tail >> prova.md
 }
-
-# MA3J9 Historical Challenges in Mathematics
-##  Autumn 2022
-
-<table>
-  <tbody>
-
-
-wk=0
-while IFS= read -r line; do
-  if [[ $line == "--" ]];
-  then
-    ((wk++))
-    echo $wk
-  fi
-done < syll.src
