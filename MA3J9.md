@@ -87,7 +87,7 @@
       <td>Tuesday</td>
       <td>
         <ul>
-          <li>  Tensor product of~$\mathbb{R}$ with rotations by a rational multiple of $\pi$: the subgroup $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z}$ of $\mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$</li>
+          <li>  Tensor product of $\mathbb{R}$ with rotations by a rational multiple of $\pi$: the subgroup $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z}$ of $\mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$</li>
         </ul>
       </td>
     </tr>
@@ -151,7 +151,7 @@
       <td>Thursday</td>
       <td>
         <ul>
-          <li>  Orders on $\Q(\sqrt{d})$.</li>
+          <li>  Orders on $\mathbb{Q}(\sqrt{d})$.</li>
         </ul>
       </td>
     </tr>
@@ -231,7 +231,7 @@
       <td>
         <ul>
           <li>  Lagrange's four square theorem (statement only).</li>
-          <li>  Algorithmic equivalence of solving Diophantine equations over~$\Z$ or over~$\N$.</li>
+          <li>  Algorithmic equivalence of solving Diophantine equations over $\mathbb{Z}$ or over $\mathbb{N}$.</li>
           <li>  More on Diophantine equations, converting a Diophantine equation into an algorithm.</li>
         </ul>
       </td>
@@ -278,7 +278,7 @@
       <td>Tuesday</td>
       <td>
         <ul>
-          <li>  Hilbert's 10th problem over rings other than~$\Z$.</li>
+          <li>  Hilbert's 10th problem over rings other than $\mathbb{Z}$.</li>
           <li>  Rule 110 and cellular automata.</li>
         </ul>
       </td>

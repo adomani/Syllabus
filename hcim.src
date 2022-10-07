@@ -26,7 +26,7 @@ pre
   Definition of the Dehn invariant.
 Computation of the Dehn invariant for the cube and for the regular tetrahedron.
 tue
-  Tensor product of~$\mathbb{R}$ with rotations by a rational multiple of $\pi$: the subgroup $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z}$ of $\mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$
+  Tensor product of $\mathbb{R}$ with rotations by a rational multiple of $\pi$: the subgroup $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z}$ of $\mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$
 (what appears different, may not be different).
 thu
   Proof of invariance of the Dehn invariant under scissor congruence.
@@ -51,7 +51,7 @@ tue
   Fields of rational functions.
   Quadratic fields.
 thu
-  Orders on $\Q(\sqrt{d})$.
+  Orders on $\mathbb{Q}(\sqrt{d})$.
 
 --  Week 6
 pre
@@ -80,7 +80,7 @@ tue
   First examples: unions, intersections,\ldots
 thu
   Lagrange's four square theorem (statement only).
-  Algorithmic equivalence of solving Diophantine equations over~$\Z$ or over~$\N$.
+  Algorithmic equivalence of solving Diophantine equations over $\mathbb{Z}$ or over $\mathbb{N}$.
   More on Diophantine equations, converting a Diophantine equation into an algorithm.
 
 --  Week 9
@@ -99,7 +99,7 @@ thu
 pre
   TBA
 tue
-  Hilbert's 10th problem over rings other than~$\Z$.
+  Hilbert's 10th problem over rings other than $\mathbb{Z}$.
   Rule 110 and cellular automata.
 thu
   Gödel's Theorem from the perspective of Hilbert's 10th problem, more undecidability.
