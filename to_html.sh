@@ -67,20 +67,20 @@ table_entries () {
 
 
 wk=0
-syll_head > prova
+syll_head > prova.html
 while IFS= read -r line; do
   if [[ $line == "--" ]];
   then
     ((wk++))
-    week_head $wk >> prova
+    week_head $wk >> prova.html
   elif [[ $line =~ [pt] ]]
   then
-    day_entries $line >> prova
+    day_entries $line >> prova.html
   else
-    table_entries $line >> prova
+    table_entries $line >> prova.html
   fi
 done < syll.src
-syll_tail >> prova
+syll_tail >> prova.html
 
 
 # MA3J9 Historical Challenges in Mathematics
