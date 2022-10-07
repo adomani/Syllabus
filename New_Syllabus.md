@@ -1,3 +1,8 @@
+
+$a$
+
+$$ on $$
+
 Week 1:
 * Pre-recorded: Statement and proof of Wallace-Bolyai-Gerwien Theorem.
 * Tuesday: Overview of Hilbert's problems and specifically Hilbert's 3rd problem.  Initial introduction to tensor products.
