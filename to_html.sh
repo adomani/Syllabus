@@ -93,7 +93,8 @@ hcim.src"
     elif [[ $line =~ ^[mpt] ]]
     then
       day_entries "$line" >> $nome
-    else
+    elif [[ $line = " "* ]]
+    then
       echo "          <li>$line</li>" >> $nome
     fi
   done < $1
