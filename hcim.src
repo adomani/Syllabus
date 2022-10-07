@@ -12,11 +12,6 @@ thu
 pre
   rotation group, $\mathbb{R} \otimes S^1$
   Difference between the free abelian group on ordered pairs and the tensor product.
-mon
-  more
-  of
-  the
-  same
 tue
   $\mathbb{Z}/2 \otimes \mathbb{Z}/3$ and $\mathbb{Z} \otimes A$ &mdash; examples that can be computed "directly".
   $\mathbb{Z}/a \otimes \mathbb{Z}/b$ &mdash; an example computed via the universal property.

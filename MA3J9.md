@@ -56,17 +56,6 @@
       </td>
     </tr>
     <tr>
-      <td>Monday</td>
-      <td>
-        <ul>
-          <li>  more</li>
-          <li>  of</li>
-          <li>  the</li>
-          <li>  same</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
       <td>Tuesday</td>
       <td>
         <ul>
