@@ -50,7 +50,10 @@ day_entries () {
       </td>
     </tr>
     <tr>'
-    if [[ $1 == "tue" ]]
+    if [[ $1 == "mon" ]]
+    then
+      echo '      <td>Monday</td>'
+    elif [[ $1 == "thu" ]]
     then
       echo '      <td>Tuesday</td>'
     elif [[ $1 == "thu" ]]
