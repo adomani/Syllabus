@@ -1,25 +1,7 @@
 --
 pre
-  rotation group, $\mathbb{R} \otimes S^1$
-  Difference between the free abelian group on ordered pairs and the tensor product.
-tue
-  $\mathbb{Z}/2 \otimes \mathbb{Z}/3$ and $\mathbb{Z} \otimes A$ &mdash; examples that can be computed "directly".
-  $\mathbb{Z}/a \otimes \mathbb{Z}/b$ &mdash; an example computed via the universal property.
-thu
-  Definition of the Dehn invariant.
-  Torsion subgroup $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z} \subset \mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$.
---
-pre
-  rotation group, $\mathbb{R} \otimes S^1$
-  Difference between the free abelian group on ordered pairs and the tensor product.
+  Tensor products
+  Tensor algebra
+  Exterior algebra
 mon
-  more
-  of
-  the
-  same
-tue
-  $\mathbb{Z}/2 \otimes \mathbb{Z}/3$ and $\mathbb{Z} \otimes A$ &mdash; examples that can be computed "directly".
-  $\mathbb{Z}/a \otimes \mathbb{Z}/b$ &mdash; an example computed via the universal property.
-thu
-  Definition of the Dehn invariant.
-  Torsion subgroup $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z} \subset \mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$.
+  Definition of pseudo-group of transformations
