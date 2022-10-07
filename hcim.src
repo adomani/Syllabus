@@ -8,6 +8,7 @@ tue
 thu
   Definition of the Dehn invariant.
   Torsion subgroup $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z} \subset \mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$.
+
 --  Week 2
 pre
   rotation group, $\mathbb{R} \otimes S^1$
@@ -18,12 +19,87 @@ tue
 thu
   Definition of the Dehn invariant.
   Torsion subgroup $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z} \subset \mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$.
+
 --  Week 3
 pre
-  invariance of the Dehn invariant under scissor congruence.
-  Rotation group, $\mathbb{R} \otimes S^1$, polyhedra, definition of the Dehn invariant.
+  Dihedral angles.
+  Definition of the Dehn invariant.
+Computation of the Dehn invariant for the cube and for the regular tetrahedron.
 tue
-  Tensor product of $\mathbb{R}$ with rotations by a rational multiple of $\pi$, $\mathbb{R} \otimes \mathbb{Z}$.
+  Tensor product of~$\mathbb{R}$ with rotations by a rational multiple of $\pi$: the subgroup $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z}$ of $\mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$
+(what appears different, may not be different).
 thu
-  Computation of the Dehn invariant for the cube and, partially, for the regular tetrahedron.
+  Proof of invariance of the Dehn invariant under scissor congruence.
 
+--  Week 4
+pre
+  Answer to Hilbert's 3rd problem, using Dehn invariant and explicit computations.
+  Comments on non-vanishing of the Dehn invariant of the regular tetrahedron.
+tue
+  Overview of Hilbert's 17th problem.
+  Motzkin's example.
+  Sums of squares.
+thu
+  Formally real fields, preorders, orders, initial properties.
+  Artin-Schreier Theorem.
+
+--  Week 5
+pre
+  The Artin-Lang homomorphism theorem (statement only).
+tue
+  Orders and order relations, totally positive elements.
+  Fields of rational functions.
+  Quadratic fields.
+thu
+  Orders on $\Q(\sqrt{d})$.
+
+--  Week 6
+pre
+  TBA
+tue
+  Complements and Q\&A during breather week.
+thu
+  Complements and Q\&A during breather week.
+
+--  Week 7
+pre
+  Motzkin's polynomial is not a sum of squares.
+tue
+  Extending a formally real field by adding a square root of an element in a preorder.
+  Using the Artin-Lang homomorphism theorem to answer Hilbert's 17th problem.
+thu
+  Newton polygons for polynomials in two variables.
+  Newton polygons and squares of polynomials.
+
+--  Week 8
+pre
+  A listable set with non-listable complement.
+tue
+  Overview of Hilbert’s 10th problem.
+  Diophantine equations, Diophantine sets, algorithms, listable sets.
+  First examples: unions, intersections,\ldots
+thu
+  Lagrange's four square theorem (statement only).
+  Algorithmic equivalence of solving Diophantine equations over~$\Z$ or over~$\N$.
+  More on Diophantine equations, converting a Diophantine equation into an algorithm.
+
+--  Week 9
+pre
+  Putnam's trick.
+  Composite numbers and non-powers of two are Diophantine sets.
+  Discussion about their complements being Diophantine.
+tue
+  Diophantine equations for {\tt{and}}, {\tt{or}}, less-than-or-equal, divisibility, min.
+  A Diophantine equation for the primes.
+thu
+  Converting an algorithm into a Diophantine equation: statement of the Davis-Putnam-Robinson-Matiyasevich Theorem.
+  Using equivalence of Diophantine and listable to resolve Hilbert's 10th problem.
+
+--  Week 10
+pre
+  TBA
+tue
+  Hilbert's 10th problem over rings other than~$\Z$.
+  Rule 110 and cellular automata.
+thu
+  Gödel's Theorem from the perspective of Hilbert's 10th problem, more undecidability.
