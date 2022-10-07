@@ -14,6 +14,39 @@
 # MA3J9 Historical Challenges in Mathematics
 ##  Autumn 2022
 
+<table>
+  <tbody>
+    <tr>
+      <th align="center">Week 2</th>
+    </tr>
+    <tr>
+      <td>Pre-recorded</td>
+      <td><ul><li>rotation group, $\mathbb{R} \otimes S^1$</li><li>Difference between the free abelian group on ordered pairs and the tensor product.</li></ul></td>
+    </tr>
+    <tr>
+      <td>Tuesday</td>
+      <td>centered</td>
+      <td>$12</td>
+    </tr>
+    <tr>
+      <td>zebra stripes</td>
+      <td align="center">are neat</td>
+      <td align="right">$1</td>
+    </tr>
+    <tr>
+      <td>
+        <ul>
+          <li>item1</li>
+          <li>item2</li>
+        </ul>
+      </td>
+      <td align="center">See the list</td>
+      <td align="right">from the first column</td>
+    </tr>
+  </tbody>
+</table>
+
+
 Week 2:
 * Pre-recorded:
 rotation group, $\mathbb{R} \otimes S^1$
