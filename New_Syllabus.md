@@ -9,6 +9,8 @@
     }
   };
 </script>
+
+<title>MA3J9 Historical Challenges in Mathematics<title>
 </head>
 
 # MA3J9 Historical Challenges in Mathematics
