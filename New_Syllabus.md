@@ -14,8 +14,40 @@
 # MA3J9 Historical Challenges in Mathematics
 ##  Autumn 2022
 
+Week 1:
+* Pre-recorded: Statement and proof of Wallace-Bolyai-Gerwien Theorem.
+* Tuesday: Overview of Hilbert's problems and specifically Hilbert's 3rd problem.  Initial introduction to tensor products.
+* Thursday: Tensor products.
+
 <table>
   <tbody>
+    <tr>
+      <th></th>
+      <th align="center">Week 1</th>
+    </tr>
+    <tr>
+      <td>Pre-recorded</td>
+      <td><ul><li>Statement and proof of Wallace-Bolyai-Gerwien Theorem.</li></ul></td>
+    </tr>
+    <tr>
+      <td>Tuesday</td>
+      <td>
+        <ul>
+          <li>Overview of Hilbert's problems.</li>
+          <li>Hilbert's 3rd problem.</li>
+          <li>Initial introduction to tensor products.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Thursday</td>
+      <td>
+        <ul>
+          <li>Free abelian groups.</li>
+        </ul>
+      </td>
+    </tr>
+<!-- ########################################################### -->
     <tr>
       <th></th>
       <th align="center">Week 2</th>
@@ -52,11 +84,6 @@
     </tr>
   </tbody>
 </table>
-
-Week 1:
-* Pre-recorded: Statement and proof of Wallace-Bolyai-Gerwien Theorem.
-* Tuesday: Overview of Hilbert's problems and specifically Hilbert's 3rd problem.  Initial introduction to tensor products.
-* Thursday: Tensor products.
 
 Week 2:
 * Pre-recorded:
