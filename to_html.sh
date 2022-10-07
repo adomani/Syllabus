@@ -64,10 +64,6 @@ day_entries () {
         <ul>'
 }
 
-table_entries () {
-  echo "          <li>$1</li>"
-}
-
 produce_html_from () {
   wk=0
   syll_head > prova.md
@@ -81,7 +77,7 @@ produce_html_from () {
       echo $line
       day_entries "$line" >> prova.md
     else
-      table_entries "$line" >> prova.md
+      echo "          <li>$line</li>" >> prova.md
     fi
   done < syll.src
   syll_tail >> prova.md
