@@ -27,9 +27,10 @@ Week 2:
 * Pre-recorded:
 rotation group, $\mathbb{R} \otimes S^1$
  Difference between the free abelian group on ordered pairs and the tensor product.
-* Tuesday: $\mathbb{Z}/2 \otimes \mathbb{Z}/3$ and $\mathbb{Z} \otimes A$ -- examples that can be computed "directly".
+* Tuesday:
+* * $\mathbb{Z}/2 \otimes \mathbb{Z}/3$ and $\mathbb{Z} \otimes A$ -- examples that can be computed "directly".
 
-  $\mathbb{Z}/a \otimes \mathbb{Z}/b$ -- an example computed via the universal property.
+* * $\mathbb{Z}/a \otimes \mathbb{Z}/b$ -- an example computed via the universal property.
 * Thursday: Definition of the Dehn invariant.
 
   Torsion subgroup $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z} \subset \mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$.
