@@ -34,7 +34,7 @@ week_head () {
       </td>
     </tr>"
   fi
-  echo "<\!--  ##################  Week $1  ################## -->
+  echo "<"\!"--  ##################  Week $1  ################## -->
     <tr><th></th><th align="center">Week $1</th></tr><tr>"
 }
 
@@ -73,11 +73,12 @@ while IFS= read -r line; do
   then
     ((wk++))
     week_head $wk >> prova.html
-  elif [[ $line =~ [pt] ]]
+  elif [[ $line =~ ^[pt] ]]
   then
-    day_entries $line >> prova.html
+    echo $line
+    day_entries "$line" >> prova.html
   else
-    table_entries $line >> prova.html
+    table_entries "$line" >> prova.html
   fi
 done < syll.src
 syll_tail >> prova.html
