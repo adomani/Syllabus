@@ -71,11 +71,11 @@ produce_html_from () {
   if [[ $1 = "hcim.src" ]]
   then
     nome="MA3J9.md"
-    titolo="MA3J9 Historical Challenges in Mathematics"
+    titolo="[MA3J9 Historical Challenges in Mathematics](https://moodle.warwick.ac.uk/course/view.php?id=52244)"
   elif [[ $1 = "mani.src" ]]
   then
     nome="MA3H5.md"
-    titolo="MA3H5 Manifolds"
+    titolo="[MA3H5 Manifolds](https://moodle.warwick.ac.uk/course/view.php?id=52238)"
   else
     echo "Sorry, the only supported files are
 mani.src
