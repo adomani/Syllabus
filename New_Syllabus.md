@@ -14,11 +14,6 @@
 # MA3J9 Historical Challenges in Mathematics
 ##  Autumn 2022
 
-Week 1:
-* Pre-recorded: Statement and proof of Wallace-Bolyai-Gerwien Theorem.
-* Tuesday: Overview of Hilbert's problems and specifically Hilbert's 3rd problem.  Initial introduction to tensor products.
-* Thursday: Tensor products.
-
 <table>
   <tbody>
     <tr>
@@ -35,17 +30,13 @@ Week 1:
         <ul>
           <li>Overview of Hilbert's problems.</li>
           <li>Hilbert's 3rd problem.</li>
-          <li>Initial introduction to tensor products.</li>
+          <li>Free abelian groups.</li>
         </ul>
       </td>
     </tr>
     <tr>
       <td>Thursday</td>
-      <td>
-        <ul>
-          <li>Free abelian groups.</li>
-        </ul>
-      </td>
+      <td><ul><li>Tensor products.</li></ul></td>
     </tr>
 <!-- ########################################################### -->
     <tr>
@@ -66,9 +57,9 @@ Week 1:
       <td>
         <ul>
           <li>$\mathbb{Z}/2 \otimes \mathbb{Z}/3$ and $\mathbb{Z} \otimes A$
-                -- examples that can be computed "directly".</li>
+                &mdash; examples that can be computed "directly".</li>
           <li>$\mathbb{Z}/a \otimes \mathbb{Z}/b$
-                -- an example computed via the universal property.</li>
+                &mdash; an example computed via the universal property.</li>
         </ul>
       </td>
     </tr>
