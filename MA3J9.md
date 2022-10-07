@@ -168,7 +168,7 @@
       <td>Tuesday</td>
       <td>
         <ul>
-          <li>  Complements and Q\&A during breather week.</li>
+          <li>  Complements and Q&A during breather week.</li>
         </ul>
       </td>
     </tr>
@@ -176,7 +176,7 @@
       <td>Thursday</td>
       <td>
         <ul>
-          <li>  Complements and Q\&A during breather week.</li>
+          <li>  Complements and Q&A during breather week.</li>
         </ul>
       </td>
     </tr>
