@@ -19,7 +19,7 @@
   <tbody>
 <!--  ##################  Week 1  ################## -->
     <tr><th></th><th align=center>Week 1</th></tr><tr>
-      <td>Pre-recorded</td>
+      <td>Recorded</td>
       <td>
         <ul>
           <li>  rotation group, $\mathbb{R} \otimes S^1$</li>
@@ -47,7 +47,7 @@
     </tr>
 <!--  ##################  Week 2  ################## -->
     <tr><th></th><th align=center>Week 2</th></tr><tr>
-      <td>Pre-recorded</td>
+      <td>Recorded</td>
       <td>
         <ul>
           <li>  rotation group, $\mathbb{R} \otimes S^1$</li>

@@ -45,20 +45,18 @@ day_entries () {
   if [[ $1 == "pre" ]]
   then
     echo '      <td>Recorded</td>'
-  elif [[ $1 == "tue" ]]
-  then
+  else
     echo '        </ul>
       </td>
     </tr>
-    <tr>
-      <td>Tuesday</td>'
-  elif [[ $1 == "thu" ]]
-  then
-    echo '        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>Thursday</td>'
+    <tr>'
+    if [[ $1 == "tue" ]]
+    then
+      echo '      <td>Tuesday</td>'
+    elif [[ $1 == "thu" ]]
+    then
+      echo '      <td>Thursday</td>'
+    fi
   fi
   echo '      <td>
         <ul>'
@@ -72,7 +70,7 @@ produce_html_from () {
     then
       ((wk++))
       week_head $wk >> prova.md
-    elif [[ $line =~ ^[pt] ]]
+    elif [[ $line =~ ^[mpt] ]]
     then
       echo $line
       day_entries "$line" >> prova.md
