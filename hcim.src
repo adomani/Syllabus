@@ -1,17 +1,16 @@
 --  Week 1
 pre
-  rotation group, $\mathbb{R} \otimes S^1$
-  Difference between the free abelian group on ordered pairs and the tensor product.
+  Statement and proof of Wallace-Bolyai-Gerwien Theorem.
 tue
-  $\mathbb{Z}/2 \otimes \mathbb{Z}/3$ and $\mathbb{Z} \otimes A$ &mdash; examples that can be computed "directly".
-  $\mathbb{Z}/a \otimes \mathbb{Z}/b$ &mdash; an example computed via the universal property.
+  Overview of Hilbert's problems.
+  Hilbert's 3rd problem.
+  Initial introduction to free abelian groups and tensor products.
 thu
-  Definition of the Dehn invariant.
-  Torsion subgroup $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z} \subset \mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$.
+  Tensor products.
 
 --  Week 2
 pre
-  rotation group, $\mathbb{R} \otimes S^1$
+  rotation group, $\mathbb{R} \otimes S^1$.
   Difference between the free abelian group on ordered pairs and the tensor product.
 tue
   $\mathbb{Z}/2 \otimes \mathbb{Z}/3$ and $\mathbb{Z} \otimes A$ &mdash; examples that can be computed "directly".
@@ -89,7 +88,7 @@ pre
   Composite numbers and non-powers of two are Diophantine sets.
   Discussion about their complements being Diophantine.
 tue
-  Diophantine equations for `and`, `or`, less-than-or-equal, divisibility, min.
+  Diophantine equations for <code>and</code>, <code>or</code>, less-than-or-equal, divisibility, min.
   A Diophantine equation for the primes.
 thu
   Converting an algorithm into a Diophantine equation: statement of the Davis-Putnam-Robinson-Matiyasevich Theorem.
