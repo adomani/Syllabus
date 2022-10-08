@@ -112,16 +112,6 @@ to_html_from () {
   syll_tail $1 >> $nome
 }
 
-# `cosyl <file>` converts a file to html using `to_html_from <file>` and then
-# committing the generated .md file to the GitHub repository.
-# This could maybe be a GitHub action?
-cosyl () {
-  to_html_from $1 &&
-    git add -A &&
-    git commit -m "$1" &&
-    git push
-}
-
 # `convert_to_md <file>?` takes an option file argument.  If produces the md files
 # for the (tentative) syllabi that have been modified.  If the optional argument <file>
 # is passed, then it produces the md file for that input, regardless of whether the
