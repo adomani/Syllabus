@@ -12,17 +12,28 @@
 
 <script type='text/javascript'>
 window.onload = function() {
-    var nome = window.location;
+    var gia = 0;
+    if(gia == 0) {
+        var gia = 1;
+        window.location.reload();
+    };
+}
+</script>
+
+<!--
+<script type='text/javascript'>
+window.onload = function() {
     if(!window.location.hash) {
         window.location = window.location + '#loaded';
         window.location.reload();
-    };
-    window.location = nome;
+    }
 }
 </script>
+-->
+
 </head>
 
-# Tentative Syllabus (reload, nome)
+# Tentative Syllabus (reload, ite)
 ## Autumn 2022
 
 <table>
