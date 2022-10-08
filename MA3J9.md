@@ -1,4 +1,3 @@
-<head>
 <script type="text/javascript" id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
@@ -9,9 +8,20 @@
     }
   };
 </script>
-</head>
 
-
+<!-- https://www.geeksforgeeks.org/how-to-reload-page-only-once-in-javascript/ -->
+<script type='text/javascript'>
+  (() => {
+      if (window.localStorage) {
+          if (!localStorage.getItem('reload')) {
+              localStorage['reload'] = true;
+              window.location.reload();
+          } else {
+              localStorage.removeItem('reload');
+          }
+      }
+  })();
+</script>
 # [MA3J9 Historical Challenges in Mathematics](https://moodle.warwick.ac.uk/course/view.php?id=52244)
 ## Autumn 2022
 
