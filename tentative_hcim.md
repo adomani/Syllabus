@@ -18,7 +18,7 @@ window.onload = function() {
 }
 </head>
 
-# Tentative Syllabus (reload)
+# Tentative Syllabus (reload + hidden)
 ## Autumn 2022
 
 <table>
