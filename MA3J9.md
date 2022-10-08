@@ -32,7 +32,7 @@
       <td>Recorded</td>
       <td>
         <ul>
-          <li>  Statement and proof of Wallace-Bolyai-Gerwien Theorem.</li>
+          <li>Statement and proof of Wallace-Bolyai-Gerwien Theorem.</li>
         </ul>
       </td>
     </tr>
@@ -40,9 +40,9 @@
       <td>Tuesday</td>
       <td>
         <ul>
-          <li>  Overview of Hilbert's problems.</li>
-          <li>  Hilbert's 3rd problem.</li>
-          <li>  Initial introduction to free abelian groups and tensor products.</li>
+          <li>Overview of Hilbert's problems.</li>
+          <li>Hilbert's 3rd problem.</li>
+          <li>Initial introduction to free abelian groups and tensor products.</li>
         </ul>
       </td>
     </tr>
@@ -50,7 +50,7 @@
       <td>Thursday</td>
       <td>
         <ul>
-          <li>  Tensor products.</li>
+          <li>Tensor products.</li>
         </ul>
       </td>
     </tr>

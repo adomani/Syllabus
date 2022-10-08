@@ -88,9 +88,9 @@ produce_html_from () {
     elif [[ $line =~ ^[pmtwf] ]]
     then
       day_entries "$line" >> $nome
-    elif [[ $line = " "* ]]
+    elif [[ $line = "  "* ]]
     then
-      echo "          <li>$line</li>" >> $nome
+      echo "          <li>${line:2}</li>" >> $nome
     fi
   done < $1
   syll_tail >> $nome
