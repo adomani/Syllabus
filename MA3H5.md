@@ -22,9 +22,9 @@
       <td>Recorded</td>
       <td>
         <ul>
-          <li>  Tensor products</li>
-          <li>  Tensor algebra</li>
-          <li>  Exterior algebra</li>
+          <li>  Tensor products.</li>
+          <li>  Tensor algebra.</li>
+          <li>  Exterior algebra.</li>
         </ul>
       </td>
     </tr>
@@ -32,7 +32,7 @@
       <td>Wednesday</td>
       <td>
         <ul>
-          <li>  Definition of pseudo-group of transformations</li>
+          <li>  Definition of pseudo-group of transformations.</li>
         </ul>
       </td>
     </tr>
