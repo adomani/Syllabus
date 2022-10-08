@@ -20,7 +20,9 @@ syll_head () {
   <tbody>"
 }
 
-# `syll_tail` analogous to `syll_head` except that it simply closes all open tags, taking no input.
+# `syll_tail <file>` analogous to `syll_head` except that it closes all open tags and
+# uses the input file name to make an educated guess of whether to include a link to the
+# tentative syllabus or not.
 syll_tail () {
   echo "        </ul>
       </td>
@@ -120,15 +122,18 @@ cosyl () {
     git push
 }
 
+# `convert_to_md <file>?` takes an option file argument.  If produces the md files
+# for the (tentative) syllabi that have been modified.  If the optional argument <file>
+# is passed, then it produces the md file for that input, regardless of whether the
+# file has been modified or not.
 convert_to_md () {
   mypth=$(pwd | sed 's=Syllabi.*=Syllabi/.src/=g')
   cd "$mypth"
   for fil in MA3H5 MA3J9 MA3H5_tentative MA3J9_tentative
   do
     camb=$(git diff --name-only origin/master $fil | wc -w)
-    if [[ $camb != 0 ]];
+    if [[ $camb != 0 ]] || [[ $1 = $fil ]];
     then
-      echo "$fil"
       to_html_from "$fil"
       mv "$fil.md" ..
     fi
