@@ -11,8 +11,8 @@
 </script>
 
 <script type='text/javascript'>
+var gia = 0;
 window.onload = function() {
-    var gia = 0;
     if(gia == 0) {
         var gia = 1;
         window.location.reload();
@@ -33,7 +33,7 @@ window.onload = function() {
 
 </head>
 
-# Tentative Syllabus (reload, ite)
+# Tentative Syllabus (reload, outloop)
 ## Autumn 2022
 
 <table>
