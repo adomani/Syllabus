@@ -11,26 +11,19 @@
 
 <!-- https://www.geeksforgeeks.org/how-to-reload-page-only-once-in-javascript/ -->
 <script type='text/javascript'>
-  // JavaScript anonymous function
   (() => {
       if (window.localStorage) {
-          // If there is no item as 'reload'
-          // in localstorage then create one &
-          // reload the page
           if (!localStorage.getItem('reload')) {
               localStorage['reload'] = true;
               window.location.reload();
           } else {
-              // If there exists a 'reload' item
-              // then clear the 'reload' item in
-              // local storage
               localStorage.removeItem('reload');
           }
       }
-  })(); // Calling anonymous function here only
+  })();
 </script>
 
-# Tentative Syllabus (storage)
+# Tentative Syllabus
 ## Autumn 2022
 
 <table>
@@ -40,7 +33,7 @@
       <td>Recorded</td>
       <td>
         <ul>
-          <li>  Statement and proof of Wallace-Bolyai-Gerwien Theorem.</li>
+          <li>Statement and proof of Wallace-Bolyai-Gerwien Theorem.</li>
         </ul>
       </td>
     </tr>
@@ -48,9 +41,9 @@
       <td>Tuesday</td>
       <td>
         <ul>
-          <li>  Overview of Hilbert's problems.</li>
-          <li>  Hilbert's 3rd problem.</li>
-          <li>  Initial introduction to free abelian groups and tensor products.</li>
+          <li>Overview of Hilbert's problems.</li>
+          <li>Hilbert's 3rd problem.</li>
+          <li>Initial introduction to free abelian groups and tensor products.</li>
         </ul>
       </td>
     </tr>
@@ -58,7 +51,7 @@
       <td>Thursday</td>
       <td>
         <ul>
-          <li>  Tensor products.</li>
+          <li>Tensor products.</li>
         </ul>
       </td>
     </tr>
@@ -67,8 +60,8 @@
       <td>Recorded</td>
       <td>
         <ul>
-          <li>  rotation group, $\mathbb{R} \otimes S^1$.</li>
-          <li>  Difference between the free abelian group on ordered pairs and the tensor product.</li>
+          <li>Rotation group, $\mathbb{R} \otimes S^1$.</li>
+          <li>Difference between the free abelian group on ordered pairs and the tensor product.</li>
         </ul>
       </td>
     </tr>
@@ -76,8 +69,8 @@
       <td>Tuesday</td>
       <td>
         <ul>
-          <li>  $\mathbb{Z}/2 \otimes \mathbb{Z}/3$ and $\mathbb{Z} \otimes A$ &mdash; examples that can be computed "directly".</li>
-          <li>  $\mathbb{Z}/a \otimes \mathbb{Z}/b$ &mdash; an example computed via the universal property.</li>
+          <li>$\mathbb{Z}/2 \otimes \mathbb{Z}/3$ and $\mathbb{Z} \otimes A$ &mdash; examples that can be computed "directly".</li>
+          <li>$\mathbb{Z}/a \otimes \mathbb{Z}/b$ &mdash; an example computed via the universal property.</li>
         </ul>
       </td>
     </tr>
@@ -85,8 +78,8 @@
       <td>Thursday</td>
       <td>
         <ul>
-          <li>  Definition of the Dehn invariant.</li>
-          <li>  Torsion subgroup $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z} \subset \mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$.</li>
+          <li>Definition of the Dehn invariant.</li>
+          <li>Torsion subgroup $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z} \subset \mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$.</li>
         </ul>
       </td>
     </tr>
@@ -95,8 +88,8 @@
       <td>Recorded</td>
       <td>
         <ul>
-          <li>  Dihedral angles.</li>
-          <li>  Definition of the Dehn invariant.</li>
+          <li>Dihedral angles.</li>
+          <li>Definition of the Dehn invariant.</li>
         </ul>
       </td>
     </tr>
@@ -104,7 +97,7 @@
       <td>Tuesday</td>
       <td>
         <ul>
-          <li>  Tensor product of $\mathbb{R}$ with rotations by a rational multiple of $\pi$: the subgroup $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z}$ of $\mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$</li>
+          <li>Tensor product of $\mathbb{R}$ with rotations by a rational multiple of $\pi$: the subgroup $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z}$ of $\mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$</li>
         </ul>
       </td>
     </tr>
@@ -112,7 +105,7 @@
       <td>Thursday</td>
       <td>
         <ul>
-          <li>  Proof of invariance of the Dehn invariant under scissor congruence.</li>
+          <li>Proof of invariance of the Dehn invariant under scissor congruence.</li>
         </ul>
       </td>
     </tr>
@@ -121,8 +114,8 @@
       <td>Recorded</td>
       <td>
         <ul>
-          <li>  Answer to Hilbert's 3rd problem, using Dehn invariant and explicit computations.</li>
-          <li>  Comments on non-vanishing of the Dehn invariant of the regular tetrahedron.</li>
+          <li>Answer to Hilbert's 3rd problem, using Dehn invariant and explicit computations.</li>
+          <li>Comments on non-vanishing of the Dehn invariant of the regular tetrahedron.</li>
         </ul>
       </td>
     </tr>
@@ -130,9 +123,9 @@
       <td>Tuesday</td>
       <td>
         <ul>
-          <li>  Overview of Hilbert's 17th problem.</li>
-          <li>  Motzkin's example.</li>
-          <li>  Sums of squares.</li>
+          <li>Overview of Hilbert's 17th problem.</li>
+          <li>Motzkin's example.</li>
+          <li>Sums of squares.</li>
         </ul>
       </td>
     </tr>
@@ -140,8 +133,8 @@
       <td>Thursday</td>
       <td>
         <ul>
-          <li>  Formally real fields, preorders, orders, initial properties.</li>
-          <li>  Artin-Schreier Theorem.</li>
+          <li>Formally real fields, preorders, orders, initial properties.</li>
+          <li>Artin-Schreier Theorem.</li>
         </ul>
       </td>
     </tr>
@@ -150,7 +143,7 @@
       <td>Recorded</td>
       <td>
         <ul>
-          <li>  The Artin-Lang homomorphism theorem (statement only).</li>
+          <li>The Artin-Lang homomorphism theorem (statement only).</li>
         </ul>
       </td>
     </tr>
@@ -158,9 +151,9 @@
       <td>Tuesday</td>
       <td>
         <ul>
-          <li>  Orders and order relations, totally positive elements.</li>
-          <li>  Fields of rational functions.</li>
-          <li>  Quadratic fields.</li>
+          <li>Orders and order relations, totally positive elements.</li>
+          <li>Fields of rational functions.</li>
+          <li>Quadratic fields.</li>
         </ul>
       </td>
     </tr>
@@ -168,7 +161,7 @@
       <td>Thursday</td>
       <td>
         <ul>
-          <li>  Orders on $\mathbb{Q}(\sqrt{d})$.</li>
+          <li>Orders on $\mathbb{Q}(\sqrt{d})$.</li>
         </ul>
       </td>
     </tr>
@@ -177,7 +170,7 @@
       <td>Recorded</td>
       <td>
         <ul>
-          <li>  TBA</li>
+          <li>TBA</li>
         </ul>
       </td>
     </tr>
@@ -185,7 +178,7 @@
       <td>Tuesday</td>
       <td>
         <ul>
-          <li>  Complements and Q&A during breather week.</li>
+          <li>Complements and Q&A during breather week.</li>
         </ul>
       </td>
     </tr>
@@ -193,7 +186,7 @@
       <td>Thursday</td>
       <td>
         <ul>
-          <li>  Complements and Q&A during breather week.</li>
+          <li>Complements and Q&A during breather week.</li>
         </ul>
       </td>
     </tr>
@@ -202,7 +195,7 @@
       <td>Recorded</td>
       <td>
         <ul>
-          <li>  Motzkin's polynomial is not a sum of squares.</li>
+          <li>Motzkin's polynomial is not a sum of squares.</li>
         </ul>
       </td>
     </tr>
@@ -210,8 +203,8 @@
       <td>Tuesday</td>
       <td>
         <ul>
-          <li>  Extending a formally real field by adding a square root of an element in a preorder.</li>
-          <li>  Using the Artin-Lang homomorphism theorem to answer Hilbert's 17th problem.</li>
+          <li>Extending a formally real field by adding a square root of an element in a preorder.</li>
+          <li>Using the Artin-Lang homomorphism theorem to answer Hilbert's 17th problem.</li>
         </ul>
       </td>
     </tr>
@@ -219,8 +212,8 @@
       <td>Thursday</td>
       <td>
         <ul>
-          <li>  Newton polygons for polynomials in two variables.</li>
-          <li>  Newton polygons and squares of polynomials.</li>
+          <li>Newton polygons for polynomials in two variables.</li>
+          <li>Newton polygons and squares of polynomials.</li>
         </ul>
       </td>
     </tr>
@@ -229,7 +222,7 @@
       <td>Recorded</td>
       <td>
         <ul>
-          <li>  A listable set with non-listable complement.</li>
+          <li>A listable set with non-listable complement.</li>
         </ul>
       </td>
     </tr>
@@ -237,9 +230,9 @@
       <td>Tuesday</td>
       <td>
         <ul>
-          <li>  Overview of Hilbert’s 10th problem.</li>
-          <li>  Diophantine equations, Diophantine sets, algorithms, listable sets.</li>
-          <li>  First examples: unions, intersections,\ldots</li>
+          <li>Overview of Hilbert’s 10th problem.</li>
+          <li>Diophantine equations, Diophantine sets, algorithms, listable sets.</li>
+          <li>First examples: unions, intersections,\ldots</li>
         </ul>
       </td>
     </tr>
@@ -247,9 +240,9 @@
       <td>Thursday</td>
       <td>
         <ul>
-          <li>  Lagrange's four square theorem (statement only).</li>
-          <li>  Algorithmic equivalence of solving Diophantine equations over $\mathbb{Z}$ or over $\mathbb{N}$.</li>
-          <li>  More on Diophantine equations, converting a Diophantine equation into an algorithm.</li>
+          <li>Lagrange's four square theorem (statement only).</li>
+          <li>Algorithmic equivalence of solving Diophantine equations over $\mathbb{Z}$ or over $\mathbb{N}$.</li>
+          <li>More on Diophantine equations, converting a Diophantine equation into an algorithm.</li>
         </ul>
       </td>
     </tr>
@@ -258,9 +251,9 @@
       <td>Recorded</td>
       <td>
         <ul>
-          <li>  Putnam's trick.</li>
-          <li>  Composite numbers and non-powers of two are Diophantine sets.</li>
-          <li>  Discussion about their complements being Diophantine.</li>
+          <li>Putnam's trick.</li>
+          <li>Composite numbers and non-powers of two are Diophantine sets.</li>
+          <li>Discussion about their complements being Diophantine.</li>
         </ul>
       </td>
     </tr>
@@ -268,8 +261,8 @@
       <td>Tuesday</td>
       <td>
         <ul>
-          <li>  Diophantine equations for <code>and</code>, <code>or</code>, less-than-or-equal, divisibility, min.</li>
-          <li>  A Diophantine equation for the primes.</li>
+          <li>Diophantine equations for <code>and</code>, <code>or</code>, less-than-or-equal, divisibility, min.</li>
+          <li>A Diophantine equation for the primes.</li>
         </ul>
       </td>
     </tr>
@@ -277,8 +270,8 @@
       <td>Thursday</td>
       <td>
         <ul>
-          <li>  Converting an algorithm into a Diophantine equation: statement of the Davis-Putnam-Robinson-Matiyasevich Theorem.</li>
-          <li>  Using equivalence of Diophantine and listable to resolve Hilbert's 10th problem.</li>
+          <li>Converting an algorithm into a Diophantine equation: statement of the Davis-Putnam-Robinson-Matiyasevich Theorem.</li>
+          <li>Using equivalence of Diophantine and listable to resolve Hilbert's 10th problem.</li>
         </ul>
       </td>
     </tr>
@@ -287,7 +280,7 @@
       <td>Recorded</td>
       <td>
         <ul>
-          <li>  TBA</li>
+          <li>TBA</li>
         </ul>
       </td>
     </tr>
@@ -295,8 +288,8 @@
       <td>Tuesday</td>
       <td>
         <ul>
-          <li>  Hilbert's 10th problem over rings other than $\mathbb{Z}$.</li>
-          <li>  Rule 110 and cellular automata.</li>
+          <li>Hilbert's 10th problem over rings other than $\mathbb{Z}$.</li>
+          <li>Rule 110 and cellular automata.</li>
         </ul>
       </td>
     </tr>
@@ -304,7 +297,7 @@
       <td>Thursday</td>
       <td>
         <ul>
-          <li>  G&ouml;del's Theorem from the perspective of Hilbert's 10th problem, more undecidability.</li>
+          <li>G&ouml;del's Theorem from the perspective of Hilbert's 10th problem, more undecidability.</li>
         </ul>
       </td>
     </tr>
