@@ -9,7 +9,6 @@
     }
   };
 </script>
-</head>
 
 window.onload = function() {
     if(!window.location.hash) {
@@ -17,6 +16,7 @@ window.onload = function() {
         window.location.reload();
     }
 }
+</head>
 
 # Tentative Syllabus (reload)
 ## Autumn 2022
