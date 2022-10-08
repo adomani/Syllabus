@@ -1,16 +1,9 @@
 <head>
-<script src=".js/stylesheet.js"></script>
 <!--
+<script src=".js/stylesheet.js"></script>
+-->
 <script type="text/javascript" id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
-<script type='text/javascript'>
-window.onload = function() {
-    if(!window.location.hash) {
-        window.location = window.location + '#loaded';
-        window.location.reload();
-    }
-}
 </script>
 <script>
   MathJax = {
@@ -19,10 +12,18 @@ window.onload = function() {
     }
   };
 </script>
--->
+
+<script type='text/javascript'>
+window.onload = function() {
+    if(!window.location.hash) {
+        window.location = window.location + '#loaded';
+        window.location.reload();
+    }
+}
+</script>
 </head>
 
-# Tentative Syllabus (reload + js)
+# Tentative Syllabus (reload + no js)
 ## Autumn 2022
 
 <table>
