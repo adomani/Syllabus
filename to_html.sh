@@ -39,22 +39,7 @@ day_entries () {
       </td>
     </tr>
     <tr>'
-    if [[ $1 == "mon" ]]
-    then
-      echo '      <td>Monday</td>'
-    elif [[ $1 == "tue" ]]
-    then
-      echo '      <td>Tuesday</td>'
-    elif [[ $1 == "wed" ]]
-    then
-      echo '      <td>Wednesday</td>'
-    elif [[ $1 == "thu" ]]
-    then
-      echo '      <td>Thursday</td>'
-    elif [[ $1 == "fri" ]]
-    then
-      echo '      <td>Friday</td>'
-    fi
+    echo "      <td>$(date -d "$1" +%A)</td>"
   fi
   echo '      <td>
         <ul>'
