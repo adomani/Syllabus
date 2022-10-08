@@ -23,7 +23,7 @@
   })();
 </script>
 
-# [MA3J9 Historical Challenges in Mathematics](https://moodle.warwick.ac.uk/course/view.php?id=52244)  syllabus
+# [MA3H5 Manifolds](https://moodle.warwick.ac.uk/course/view.php?id=52238) tentative syllabus
 ## Autumn 2022
 
 <table>
@@ -33,25 +33,17 @@
       <td>Recorded</td>
       <td>
         <ul>
-          <li>Statement and proof of Wallace-Bolyai-Gerwien Theorem.</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>Tuesday</td>
-      <td>
-        <ul>
-          <li>Overview of Hilbert's problems.</li>
-          <li>Hilbert's 3rd problem.</li>
-          <li>Initial introduction to free abelian groups and tensor products.</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>Thursday</td>
-      <td>
-        <ul>
           <li>Tensor products.</li>
+          <li>Tensor algebra.</li>
+          <li>Exterior algebra.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Wednesday</td>
+      <td>
+        <ul>
+          <li>Definition of pseudo-group of transformations.</li>
         </ul>
       </td>
     </tr>

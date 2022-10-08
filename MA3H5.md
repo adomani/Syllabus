@@ -1,4 +1,3 @@
-<head>
 <script type="text/javascript" id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
@@ -9,10 +8,22 @@
     }
   };
 </script>
-</head>
 
+<!-- https://www.geeksforgeeks.org/how-to-reload-page-only-once-in-javascript/ -->
+<script type='text/javascript'>
+  (() => {
+      if (window.localStorage) {
+          if (!localStorage.getItem('reload')) {
+              localStorage['reload'] = true;
+              window.location.reload();
+          } else {
+              localStorage.removeItem('reload');
+          }
+      }
+  })();
+</script>
 
-# [MA3H5 Manifolds](https://moodle.warwick.ac.uk/course/view.php?id=52238)
+# [MA3H5 Manifolds](https://moodle.warwick.ac.uk/course/view.php?id=52238)  syllabus
 ## Autumn 2022
 
 <table>
@@ -22,9 +33,9 @@
       <td>Recorded</td>
       <td>
         <ul>
-          <li>  Tensor products.</li>
-          <li>  Tensor algebra.</li>
-          <li>  Exterior algebra.</li>
+          <li>Tensor products.</li>
+          <li>Tensor algebra.</li>
+          <li>Exterior algebra.</li>
         </ul>
       </td>
     </tr>
@@ -32,9 +43,11 @@
       <td>Wednesday</td>
       <td>
         <ul>
-          <li>  Definition of pseudo-group of transformations.</li>
+          <li>Definition of pseudo-group of transformations.</li>
         </ul>
       </td>
     </tr>
   </tbody>
 </table>
+<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+<div style="text-align: right">Last modified: Saturday, Oct 08 2022</div>
