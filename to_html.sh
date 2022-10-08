@@ -110,3 +110,34 @@ cosyl () {
     git commit -m "$1" &&
     git push
 }
+
+for fil in MA3H5 MA3J9 MA3H5_tentative MA3J9_tentative to_html.sh
+do
+#  nome="$nom.md"
+#  fin=${nom:6}
+#  if [[ ${nom:0:5} = "MA3H5" ]];
+#  then
+#    titolo="[MA3H5 Manifolds](https://moodle.warwick.ac.uk/course/view.php?id=52238) $fin syllabus"
+#  elif [[ ${nom:0:5} = "MA3J9" ]];
+#  then
+#    titolo="[MA3J9 Historical Challenges in Mathematics](https://moodle.warwick.ac.uk/course/view.php?id=52244) $fin syllabus"
+#  else
+#    titolo="$nom"
+#  fi
+#  echo "$nome è il nome"
+#  echo "$titolo è il titolo"
+#    ##$(echo "$fil" | sed 's/\.src$/\.md/g')
+  camb=$(git diff --name-only origin/master $fil | wc -w)
+  if [[ $camb != 0 ]];
+  then
+    echo "$fil è cambiato"
+  else
+    echo "$fil non è cambiato"
+#    to_html_from $fil
+#
+#    echo "** $fil è diverso"
+##  else
+##    echo "-- $fil non è cambiato"
+  fi
+done
+
