@@ -12,16 +12,17 @@
 
 <script type='text/javascript'>
 window.onload = function() {
+    var nome = window.location;
     if(!window.location.hash) {
         window.location = window.location + '#loaded';
         window.location.reload();
     };
-    window.location = 'window.location.href';
+    window.location = nome;
 }
 </script>
 </head>
 
-# Tentative Syllabus (reload, hardcode)
+# Tentative Syllabus (reload, nome)
 ## Autumn 2022
 
 <table>
