@@ -10,7 +10,7 @@ thu
 
 --  Week 2
 pre
-  rotation group, $\mathbb{R} \otimes S^1$.
+  Rotation group, $\mathbb{R} \otimes S^1$.
   Difference between the free abelian group on ordered pairs and the tensor product.
 tue
   $\mathbb{Z}/2 \otimes \mathbb{Z}/3$ and $\mathbb{Z} \otimes A$ &mdash; examples that can be computed "directly".
