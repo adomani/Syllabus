@@ -64,6 +64,9 @@ day_entries () {
     elif [[ $1 == "thu" ]]
     then
       echo '      <td>Thursday</td>'
+    elif [[ $1 == "fri" ]]
+    then
+      echo '      <td>Friday</td>'
     fi
   fi
   echo '      <td>
@@ -93,7 +96,7 @@ hcim.src"
     then
       ((wk++))
       week_head $wk >> $nome
-    elif [[ $line =~ ^[mpt] ]]
+    elif [[ $line =~ ^[pmtwf] ]]
     then
       day_entries "$line" >> $nome
     elif [[ $line = " "* ]]
