@@ -15,13 +15,13 @@ window.onload = function() {
     if(!window.location.hash) {
         window.location = window.location + '#loaded';
         window.location.reload();
-    }
-    window.location = window.location.href;
+    };
+    window.location = 'window.location.href';
 }
 </script>
 </head>
 
-# Tentative Syllabus (reload, href)
+# Tentative Syllabus (reload, hardcode)
 ## Autumn 2022
 
 <table>
