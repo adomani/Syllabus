@@ -33,7 +33,7 @@ window.onload = function() {
 
 </head>
 
-# Tentative Syllabus (reload, outloop)
+# Tentative Syllabus
 ## Autumn 2022
 
 <table>
