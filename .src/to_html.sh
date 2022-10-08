@@ -12,7 +12,7 @@
 # and reload the page.
 # After that, it adds the user input <mytitle>, for instance `MA3J9`, the date and some html.
 syll_head () {
-  cat .body_content | grep -v "^  *//" | sed 's=  *//.*==g'
+  cat body_content | grep -v "^  *//" | sed 's=  *//.*==g'
   echo "# $1
 ## Autumn 2022
 
@@ -26,7 +26,8 @@ syll_tail () {
       </td>
     </tr>
   </tbody>
-</table>"
+</table>
+Last modified: $(date +"%A, %b %d %Y")"
 }
 
 # `week_head <num>` produces the header for the table entry for week number <num>.
@@ -111,6 +112,24 @@ cosyl () {
     git push
 }
 
+test_changes () {
+  mypth=$(pwd | sed 's=Syllabi.*=Syllabi/.src/=g')
+  cd "$mypth"
+  for fil in MA3H5 MA3J9 MA3H5_tentative MA3J9_tentative
+  do
+    camb=$(git diff --name-only origin/master $fil | wc -w)
+    if [[ $camb != 0 ]];
+    then
+      echo "**  $fil è differente"
+      echo "  a questo punto, darei questi comandi:"
+      echo "1: to_html_from $fil"
+      echo "2: mv "$fil.md" .."
+      echo ""
+    fi
+  done
+}
+
+
 for fil in MA3H5 MA3J9 MA3H5_tentative MA3J9_tentative to_html.sh
 do
 #  nome="$nom.md"
@@ -130,6 +149,7 @@ do
   camb=$(git diff --name-only origin/master $fil | wc -w)
   if [[ $camb != 0 ]];
   then
+    to_html_from $fil
     echo "$fil è cambiato"
   else
     echo "$fil non è cambiato"
