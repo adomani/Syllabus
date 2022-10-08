@@ -88,8 +88,7 @@
       <td>Recorded</td>
       <td>
         <ul>
-          <li>Dihedral angles.</li>
-          <li>Definition of the Dehn invariant.</li>
+          <li>Proof of invariance of the Dehn invariant under scissor congruence.</li>
         </ul>
       </td>
     </tr>
@@ -97,7 +96,8 @@
       <td>Tuesday</td>
       <td>
         <ul>
-          <li>Tensor product of $\mathbb{R}$ with rotations by a rational multiple of $\pi$: the subgroup $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z}$ of $\mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$</li>
+          <li>Dihedral angles.</li>
+          <li>Definition of the Dehn invariant.  Computation of the Dehn invariant for the cube and for the regular tetrahedron.</li>
         </ul>
       </td>
     </tr>
@@ -105,7 +105,7 @@
       <td>Thursday</td>
       <td>
         <ul>
-          <li>Proof of invariance of the Dehn invariant under scissor congruence.</li>
+          <li>Tensor product of $\mathbb{R}$ with rotations by a rational multiple of $\pi$: the subgroup $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z}$ of $\mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$</li>
         </ul>
       </td>
     </tr>

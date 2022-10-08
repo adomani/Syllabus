@@ -21,14 +21,13 @@ thu
 
 --  Week 3
 pre
-  Dihedral angles.
-  Definition of the Dehn invariant.
-Computation of the Dehn invariant for the cube and for the regular tetrahedron.
+  Proof of invariance of the Dehn invariant under scissor congruence.
 tue
+  Dihedral angles.
+  Definition of the Dehn invariant.  Computation of the Dehn invariant for the cube and for the regular tetrahedron.
+thu
   Tensor product of $\mathbb{R}$ with rotations by a rational multiple of $\pi$: the subgroup $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z}$ of $\mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$
 (what appears different, may not be different).
-thu
-  Proof of invariance of the Dehn invariant under scissor congruence.
 
 --  Week 4
 pre
