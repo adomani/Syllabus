@@ -9,49 +9,26 @@
   };
 </script>
 
-   <script type='text/javascript'>
-  
-        // JavaScript anonymous function
-        (() => {
-            if (window.localStorage) {
-  
-                // If there is no item as 'reload'
-                // in localstorage then create one &
-                // reload the page
-                if (!localStorage.getItem('reload')) {
-                    localStorage['reload'] = true;
-                    window.location.reload();
-                } else {
-  
-                    // If there exists a 'reload' item
-                    // then clear the 'reload' item in
-                    // local storage
-                    localStorage.removeItem('reload');
-                }
-            }
-        })(); // Calling anonymous function here only
-    </script>
-<!--
+<!-- https://www.geeksforgeeks.org/how-to-reload-page-only-once-in-javascript/ -->
 <script type='text/javascript'>
-var gia = 0;
-window.onload = function() {
-    if(gia == 0) {
-        var gia = 1;
-        window.location.reload();
-    };
-}
+  // JavaScript anonymous function
+  (() => {
+      if (window.localStorage) {
+          // If there is no item as 'reload'
+          // in localstorage then create one &
+          // reload the page
+          if (!localStorage.getItem('reload')) {
+              localStorage['reload'] = true;
+              window.location.reload();
+          } else {
+              // If there exists a 'reload' item
+              // then clear the 'reload' item in
+              // local storage
+              localStorage.removeItem('reload');
+          }
+      }
+  })(); // Calling anonymous function here only
 </script>
-
-<script type='text/javascript'>
-window.onload = function() {
-    if(!window.location.hash) {
-        window.location = window.location + '#loaded';
-        window.location.reload();
-    }
-}
-</script>
--->
-
 
 # Tentative Syllabus (storage)
 ## Autumn 2022
