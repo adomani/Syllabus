@@ -25,13 +25,6 @@
           <li>  Tensor products</li>
           <li>  Tensor algebra</li>
           <li>  Exterior algebra</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>Monday</td>
-      <td>
-        <ul>
           <li>  Definition of pseudo-group of transformations</li>
         </ul>
       </td>
