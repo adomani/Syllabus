@@ -27,7 +27,12 @@ syll_tail () {
     </tr>
   </tbody>
 </table>
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>"
+  if [[ ${1:6} = "" ]];
+    then
+      echo "What we may be doing in the coming lectures: [tentative syllabus]($1_tentative)"
+  fi
+echo "<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 <div style=\"text-align: right\">Last modified: $(date +"%A, %b %d %Y")</div>"
 
 }
@@ -102,7 +107,7 @@ to_html_from () {
       echo "          <li>${line:2}</li>" >> $nome
     fi
   done < $1
-  syll_tail >> $nome
+  syll_tail $1 >> $nome
 }
 
 # `cosyl <file>` converts a file to html using `to_html_from <file>` and then
