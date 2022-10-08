@@ -1,7 +1,4 @@
 <head>
-<!--
-<script src=".js/stylesheet.js"></script>
--->
 <script type="text/javascript" id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
@@ -19,11 +16,12 @@ window.onload = function() {
         window.location = window.location + '#loaded';
         window.location.reload();
     }
+  window.location = window.location;
 }
 </script>
 </head>
 
-# Tentative Syllabus (reload + no js)
+# Tentative Syllabus (reload, no reload?)
 ## Autumn 2022
 
 <table>
