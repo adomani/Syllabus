@@ -3,20 +3,7 @@
 ##  generates the code for using MathJax in the file prova
 ##  erasing a pre-existing file prova
 syll_head () {
-  echo '<head>
-<script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
-<script>
-  MathJax = {
-    tex: {
-      inlineMath: [['\''$'\'', '\''$'\'']]
-    }
-  };
-</script>
-</head>
-
-'
+  cat .body_content | grep -v "^  *//" | sed 's=  *//.*==g'
   echo "# $1
 ## Autumn 2022
 
