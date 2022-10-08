@@ -76,12 +76,13 @@ day_entries () {
 #   topics covered on the current day.
 to_html_from () {
   nome="$1.md"
+  tent=$(if [[ ${1:6} = "tentative" ]]; then echo " tentative syllabus"; else echo ""; fi);
   if [[ ${1:0:5} = "MA3H5" ]];
   then
-    titolo="[MA3H5 Manifolds](https://moodle.warwick.ac.uk/course/view.php?id=52238) ${1:6} syllabus"
+    titolo="[MA3H5 Manifolds](https://moodle.warwick.ac.uk/course/view.php?id=52238)$tent"
   elif [[ ${1:0:5} = "MA3J9" ]];
   then
-    titolo="[MA3J9 Historical Challenges in Mathematics](https://moodle.warwick.ac.uk/course/view.php?id=52244) ${1:6} syllabus"
+    titolo="[MA3J9 Historical Challenges in Mathematics](https://moodle.warwick.ac.uk/course/view.php?id=52244)$tent"
   else
     titolo="$1"
   fi

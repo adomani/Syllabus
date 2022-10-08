@@ -23,7 +23,7 @@
   })();
 </script>
 
-# [MA3J9 Historical Challenges in Mathematics](https://moodle.warwick.ac.uk/course/view.php?id=52244)  syllabus
+# [MA3J9 Historical Challenges in Mathematics](https://moodle.warwick.ac.uk/course/view.php?id=52244)
 ## Autumn 2022
 
 <table>
@@ -59,5 +59,3 @@
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 <div style="text-align: right">Last modified: Saturday, Oct 08 2022</div>
-
-tentative
