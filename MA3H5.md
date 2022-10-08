@@ -29,39 +29,7 @@
       </td>
     </tr>
     <tr>
-      <td>Monday</td>
-      <td>
-        <ul>
-          <li>  Definition of pseudo-group of transformations</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>Tuesday</td>
-      <td>
-        <ul>
-          <li>  Definition of pseudo-group of transformations</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
       <td>Wednesday</td>
-      <td>
-        <ul>
-          <li>  Definition of pseudo-group of transformations</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>Thursday</td>
-      <td>
-        <ul>
-          <li>  Definition of pseudo-group of transformations</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>Friday</td>
       <td>
         <ul>
           <li>  Definition of pseudo-group of transformations</li>
