@@ -11,8 +11,14 @@
 </script>
 </head>
 
+window.onload = function() {
+    if(!window.location.hash) {
+        window.location = window.location + '#loaded';
+        window.location.reload();
+    }
+}
 
-# Tentative Syllabus
+# Tentative Syllabus (reload)
 ## Autumn 2022
 
 <table>
