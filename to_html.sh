@@ -70,19 +70,17 @@ day_entries () {
 # * Lines beginning with `pre, mon, tue, .., sun` inform the converter of whether the lecture
 #   is "Recorded" or of in what day it took place.
 # * Finally, lines beginning with `  ` (two spaces) are items in a list that correspond to the
-#   topics covered on the curren day.
+#   topics covered on the current day.
 to_html_from () {
-  if [[ $1 = "hcim.src" ]]
+  nome="$1.md"
+  if [[ ${1:0:5} = "MA3H5" ]];
   then
-    nome="MA3J9.md"
-    titolo="[MA3J9 Historical Challenges in Mathematics](https://moodle.warwick.ac.uk/course/view.php?id=52244)"
-  elif [[ $1 = "mani.src" ]]
+    titolo="[MA3H5 Manifolds](https://moodle.warwick.ac.uk/course/view.php?id=52238) ${1:6} syllabus"
+  elif [[ ${1:0:5} = "MA3J9" ]];
   then
-    nome="MA3H5.md"
-    titolo="[MA3H5 Manifolds](https://moodle.warwick.ac.uk/course/view.php?id=52238)"
+    titolo="[MA3J9 Historical Challenges in Mathematics](https://moodle.warwick.ac.uk/course/view.php?id=52244) ${1:6} syllabus"
   else
-    nome=$(echo $1 | sed 's/\....//g')".md"
-    titolo="Tentative Syllabus"
+    titolo="$1"
   fi
   echo $nome
   wk=0
