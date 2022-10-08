@@ -112,7 +112,7 @@ cosyl () {
     git push
 }
 
-test_changes () {
+convert_to_md () {
   mypth=$(pwd | sed 's=Syllabi.*=Syllabi/.src/=g')
   cd "$mypth"
   for fil in MA3H5 MA3J9 MA3H5_tentative MA3J9_tentative
@@ -120,44 +120,9 @@ test_changes () {
     camb=$(git diff --name-only origin/master $fil | wc -w)
     if [[ $camb != 0 ]];
     then
-      echo "**  $fil è differente"
-      echo "  a questo punto, darei questi comandi:"
-      echo "1: to_html_from $fil"
-      echo "2: mv "$fil.md" .."
-      echo ""
+      echo "$fil"
+      to_html_from "$fil"
+      mv "$fil.md" ..
     fi
   done
 }
-
-
-for fil in MA3H5 MA3J9 MA3H5_tentative MA3J9_tentative to_html.sh
-do
-#  nome="$nom.md"
-#  fin=${nom:6}
-#  if [[ ${nom:0:5} = "MA3H5" ]];
-#  then
-#    titolo="[MA3H5 Manifolds](https://moodle.warwick.ac.uk/course/view.php?id=52238) $fin syllabus"
-#  elif [[ ${nom:0:5} = "MA3J9" ]];
-#  then
-#    titolo="[MA3J9 Historical Challenges in Mathematics](https://moodle.warwick.ac.uk/course/view.php?id=52244) $fin syllabus"
-#  else
-#    titolo="$nom"
-#  fi
-#  echo "$nome è il nome"
-#  echo "$titolo è il titolo"
-#    ##$(echo "$fil" | sed 's/\.src$/\.md/g')
-  camb=$(git diff --name-only origin/master $fil | wc -w)
-  if [[ $camb != 0 ]];
-  then
-    to_html_from $fil
-    echo "$fil è cambiato"
-  else
-    echo "$fil non è cambiato"
-#    to_html_from $fil
-#
-#    echo "** $fil è diverso"
-##  else
-##    echo "-- $fil non è cambiato"
-  fi
-done
-
