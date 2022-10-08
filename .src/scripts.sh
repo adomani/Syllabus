@@ -27,7 +27,9 @@ syll_tail () {
     </tr>
   </tbody>
 </table>
-Last modified: $(date +"%A, %b %d %Y")"
+<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+<div style=\"text-align: right\">Last modified: $(date +"%A, %b %d %Y")</div>"
+
 }
 
 # `week_head <num>` produces the header for the table entry for week number <num>.
