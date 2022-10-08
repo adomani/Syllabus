@@ -47,6 +47,45 @@
         </ul>
       </td>
     </tr>
+<!--  ##################  Week 2  ################## -->
+    <tr><th></th><th align=center>Week 2</th></tr><tr>
+      <td>Recorded</td>
+      <td>
+        <ul>
+          <li>More on the exterior algebra.</li>
+          <li>Interpretation via multilinear, alternating maps.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Monday</td>
+      <td>
+        <ul>
+          <li>Definition of a manifold and examples.</li>
+          <li>Product manifolds, submanifolds, manifolds defined by equations in another manifold.</li>
+          <li>Projective space and submanifolds defined by homogeneous polynomials.</li>
+          <li>Quotient manifolds.</li>
+        </ul>
+      </td>
+    </tr>
+<!--  ##################  Week 3  ################## -->
+    <tr><th></th><th align=center>Week 3</th></tr><tr>
+      <td>Recorded</td>
+      <td>
+        <ul>
+          <li>TBA</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Monday</td>
+      <td>
+        <ul>
+          <li>Tangent spaces, vector fields, one-parameter subgroups\ldots.</li>
+          <li>TBC</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
