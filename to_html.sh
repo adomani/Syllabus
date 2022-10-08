@@ -1,7 +1,16 @@
-#  This file converts a template file to a markdown, syllabus page
-#  The main function is `produce_html_from`
-##  generates the code for using MathJax in the file prova
-##  erasing a pre-existing file prova
+#############################################################################################
+#############################################################################################
+######  This file converts a template file to a markdown, syllabus page                ######
+######  The main function is `to_html_from <file>`                                ######
+######  The generated file overwrites a possibly pre-existing one with the same name.  ######
+######  This is all good, as long as the previous file was also auto-generated...      ######
+#############################################################################################
+#############################################################################################
+
+# `syll_head <mytitle>` creates the "head" (really it will be at the beginning of the <body>)
+# for the syllabus.  The function reads the content of the file `.body_content`, to use MathJax
+# and reload the page.
+# After that, it adds the user input <mytitle>, for instance `MA3J9`, the date and some html.
 syll_head () {
   cat .body_content | grep -v "^  *//" | sed 's=  *//.*==g'
   echo "# $1
@@ -11,6 +20,7 @@ syll_head () {
   <tbody>"
 }
 
+# `syll_tail` analogous to `syll_head` except that it simply closes all open tags, taking no input.
 syll_tail () {
   echo "        </ul>
       </td>
@@ -19,6 +29,8 @@ syll_tail () {
 </table>"
 }
 
+# `week_head <num>` produces the header for the table entry for week number <num>.
+# The input is which week it is: the html code depends on whether it is the first week or not.
 week_head () {
   if [[ $1 != 1 ]];
   then
@@ -30,6 +42,11 @@ week_head () {
     <tr><th></th><th align="center">Week $1</th></tr><tr>"
 }
 
+# `day_entries <day>` produces the table entries for each <day>.
+# <day> could be either `pre`, meaning Recorded content, or
+# it could be `mon, tue,...`, meaning the obvious day of the week.
+# If the input is an actual day, `date ...` converts it to full format, e.g. `fri --> Friday`.
+# And them more html.
 day_entries () {
   if [[ $1 == "pre" ]]
   then
@@ -45,7 +62,16 @@ day_entries () {
         <ul>'
 }
 
-produce_html_from () {
+# `to_html_from <file>` converts <file> into a formatted html page.
+# The <file> is intended to be the syllabus for a module.
+# * Weeks are separated by a line beginning with `--`
+#     Note that writing `-- Week i` actually ignores `i`: the number is simply the count of
+#     how many `^--` have appeared so far in the file.
+# * Lines beginning with `pre, mon, tue, .., sun` inform the converter of whether the lecture
+#   is "Recorded" or of in what day it took place.
+# * Finally, lines beginning with `  ` (two spaces) are items in a list that correspond to the
+#   topics covered on the curren day.
+to_html_from () {
   if [[ $1 = "hcim.src" ]]
   then
     nome="MA3J9.md"
@@ -57,10 +83,6 @@ produce_html_from () {
   else
     nome=$(echo $1 | sed 's/\....//g')".md"
     titolo="Tentative Syllabus"
-##     echo "Sorry, the only supported files are
-## mani.src
-## hcim.src"
-##     return 1
   fi
   echo $nome
   wk=0
@@ -81,8 +103,11 @@ produce_html_from () {
   syll_tail >> $nome
 }
 
+# `cosyl <file>` converts a file to html using `to_html_from <file>` and then
+# committing the generated .md file to the GitHub repository.
+# This could maybe be a GitHub action?
 cosyl () {
-  produce_html_from $1 &&
+  to_html_from $1 &&
     git add -A &&
     git commit -m "$1" &&
     git push
