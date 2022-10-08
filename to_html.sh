@@ -83,10 +83,12 @@ produce_html_from () {
     nome="MA3H5.md"
     titolo="[MA3H5 Manifolds](https://moodle.warwick.ac.uk/course/view.php?id=52238)"
   else
-    echo "Sorry, the only supported files are
-mani.src
-hcim.src"
-    return 1
+    nome=$(echo $1 | sed 's/\....//g')".md"
+    titolo="Tentative Syllabus"
+##     echo "Sorry, the only supported files are
+## mani.src
+## hcim.src"
+##     return 1
   fi
   echo $nome
   wk=0
