@@ -30,14 +30,14 @@
   <tbody>
 <!--  ##################  Week 1  ################## -->
     <tr><th></th><th align=center>Week 1</th></tr><tr>
+            <td>Wednesday</td>
+      <td>
+        <ul>
+          <li>Definition of pseudo-group of transformations.</li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td>Wednesday</td>
-      <td>
-        <ul>
-          <li>Definition of pseudo-group of transformations.</li>
       <td>Recorded</td>
       <td>
         <ul>
@@ -49,16 +49,16 @@
     </tr>
 <!--  ##################  Week 2  ################## -->
     <tr><th></th><th align=center>Week 2</th></tr><tr>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>Monday</td>
+            <td>Monday</td>
       <td>
         <ul>
           <li>Definition of a manifold and examples.</li>
           <li>Product manifolds, submanifolds, manifolds defined by equations in another manifold (independent reading).</li>
           <li>Projective space.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
       <td>Recorded</td>
       <td>
         <ul>
@@ -69,16 +69,16 @@
     </tr>
 <!--  ##################  Week 3  ################## -->
     <tr><th></th><th align=center>Week 3</th></tr><tr>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>Monday</td>
+            <td>Monday</td>
       <td>
         <ul>
           <li>Quotient manifolds.</li>
           <li>Tangent spaces, vector fields, one-parameter subgroups\ldots.</li>
           <li>TBC</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
       <td>Recorded</td>
       <td>
         <ul>
