@@ -84,6 +84,7 @@ day_entries () {
 to_html_from () {
   nome="$1.md"
   tent=$(if [[ ${1:6} = "tentative" ]]; then echo " tentative syllabus"; else echo ""; fi);
+  if [[ $tent = "" ]]; then sou="$1_tentative"; else sou=$1; fi;
   if [[ ${1:0:5} = "MA3H5" ]];
   then
     titolo="[MA3H5 Manifolds](https://moodle.warwick.ac.uk/course/view.php?id=52238)$tent"
@@ -108,7 +109,7 @@ to_html_from () {
     then
       echo "          <li>${line:2}</li>" >> $nome
     fi
-  done < $1
+  done < <(if [[ $tent = "" ]]; then sed '/^_tentative/q' $sou; else cat $sou; fi)
   syll_tail $1 >> $nome
 }
 
@@ -125,7 +126,7 @@ convert_to_md () {
     if [[ $camb != 0 ]] || [[ $1 = $fil ]];
     then
       to_html_from "$fil"
-      mv "$fil.md" ..
+      mv -f "$fil.md" ..
     fi
   done
 }
