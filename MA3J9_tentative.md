@@ -303,6 +303,6 @@
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-What we have done so far: [current syllabus](MA3J9_tentative)
+What we have done so far: [current syllabus](MA3J9)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 <div style="text-align: right">Last modified: Monday, Oct 10 2022</div>

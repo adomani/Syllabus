@@ -34,9 +34,9 @@ syll_tail () {
   then
     echo "What we may be doing in the coming lectures: [tentative syllabus]($1_tentative)"
   else
-    echo "What we have done so far: [current syllabus]($1)"
+    echo "What we have done so far: [current syllabus](${1:0:5})"
   fi
-echo "<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+  echo "<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 <div style=\"text-align: right\">Last modified: $(date +"%A, %b %d %Y")</div>"
 
 }
