@@ -72,6 +72,31 @@ day_entries () {
         <ul>'
 }
 
+code_to_entry () {
+  if [[ $1 == "pre" ]]
+  then
+    echo "<td>Recorded</td>"
+  else
+    echo "      <td>$(date -d "$1" +%A)</td>"
+  fi
+}
+
+day_entries_split () {
+  ce=$(code_to_entry $1)
+  if ($2);
+  then 
+    echo "      $ce"
+  else
+    echo '        </ul>
+      </td>
+    </tr>
+    <tr>'
+    echo "      $ce"
+  fi
+  echo '      <td>
+        <ul>'
+}
+
 # `to_html_from <file>` converts <file> into a formatted html page.
 # The <file> is intended to be the syllabus for a module.
 # * Weeks are separated by a line beginning with `--`
@@ -96,15 +121,18 @@ to_html_from () {
   fi
   echo $nome
   wk=0
+  con=true
   syll_head "$titolo" > $nome
   while IFS= read -r line; do
     if [[ $line =~ ^[--] ]];
     then
       ((wk++))
+      con=true
       week_head $wk >> $nome
     elif [[ $line =~ ^[pmtwf] ]]
     then
-      day_entries "$line" >> $nome
+      day_entries_split "$line" "$con" >> $nome
+      con=false
     elif [[ $line = "  "* ]]
     then
       echo "          <li>${line:2}</li>" >> $nome
