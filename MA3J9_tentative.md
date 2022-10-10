@@ -60,8 +60,7 @@
       <td>Recorded</td>
       <td>
         <ul>
-          <li>Rotation group, $\mathbb{R} \otimes S^1$.</li>
-          <li>Difference between the free abelian group on ordered pairs and the tensor product.</li>
+          <li>Rotation group.</li>
         </ul>
       </td>
     </tr>
