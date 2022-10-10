@@ -1,24 +1,23 @@
 -- Week 1
+wed
+  Definition of pseudo-group of transformations.
 pre
   Tensor products.
   Tensor algebra.
   Exterior algebra.
-wed
-  Definition of pseudo-group of transformations.
-_tentative
 -- Week 2
+mon
+  Definition of a manifold and examples.
+  Product manifolds, submanifolds, manifolds defined by equations in another manifold (independent reading).
+  Projective space.
+_tentative
 pre
   More on the exterior algebra.
   Interpretation via multilinear, alternating maps.
-mon
-  Definition of a manifold and examples.
-  Product manifolds, submanifolds, manifolds defined by equations in another manifold.
-  Projective space and submanifolds defined by homogeneous polynomials.
-  Quotient manifolds.
 
 -- Week 3
-pre
-  TBA
 mon
+  Quotient manifolds.
   Tangent spaces, vector fields, one-parameter subgroups\ldots.
   TBC
+pre
