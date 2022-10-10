@@ -55,9 +55,19 @@
         </ul>
       </td>
     </tr>
+<!--  ##################  Week 2  ################## -->
+    <tr><th></th><th align=center>Week 2</th></tr><tr>
+      <td>Recorded</td>
+      <td>
+        <ul>
+          <li>Rotation group, $\mathbb{R} \otimes S^1$.</li>
+          <li>Difference between the free abelian group on ordered pairs and the tensor product.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3J9_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Saturday, Oct 08 2022</div>
+<div style="text-align: right">Last modified: Monday, Oct 10 2022</div>

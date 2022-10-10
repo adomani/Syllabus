@@ -52,4 +52,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3H5_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Saturday, Oct 08 2022</div>
+<div style="text-align: right">Last modified: Monday, Oct 10 2022</div>
