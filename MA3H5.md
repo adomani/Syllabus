@@ -30,6 +30,14 @@
   <tbody>
 <!--  ##################  Week 1  ################## -->
     <tr><th></th><th align=center>Week 1</th></tr><tr>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Wednesday</td>
+      <td>
+        <ul>
+          <li>Definition of pseudo-group of transformations.</li>
       <td>Recorded</td>
       <td>
         <ul>
@@ -39,11 +47,18 @@
         </ul>
       </td>
     </tr>
+<!--  ##################  Week 2  ################## -->
+    <tr><th></th><th align=center>Week 2</th></tr><tr>
+        </ul>
+      </td>
+    </tr>
     <tr>
-      <td>Wednesday</td>
+      <td>Monday</td>
       <td>
         <ul>
-          <li>Definition of pseudo-group of transformations.</li>
+          <li>Definition of a manifold and examples.</li>
+          <li>Product manifolds, submanifolds, manifolds defined by equations in another manifold (independent reading).</li>
+          <li>Projective space.</li>
         </ul>
       </td>
     </tr>
