@@ -120,13 +120,16 @@ to_html_from () {
 convert_to_md () {
   mypth=$(pwd | sed 's=Syllabi.*=Syllabi/.src/=g')
   cd "$mypth"
-  for fil in MA3H5 MA3J9 MA3H5_tentative MA3J9_tentative
+  for fil in MA3H5_tentative MA3J9_tentative
   do
     camb=$(git diff --name-only origin/master $fil | wc -w)
     if [[ $camb != 0 ]] || [[ $1 = $fil ]];
     then
       to_html_from "$fil"
       mv -f "$fil.md" ..
+      nont=${fil:0:5}
+      to_html_from "$nont"
+      mv -f "$nont.md" ..
     fi
   done
 }
