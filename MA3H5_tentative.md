@@ -88,5 +88,6 @@
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+What we have done so far: [current syllabus](MA3H5_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 <div style="text-align: right">Last modified: Monday, Oct 10 2022</div>

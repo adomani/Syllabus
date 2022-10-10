@@ -38,7 +38,7 @@
       </td>
     </tr>
     <tr>
-      <td>Tuesday</td>
+            <td>Tuesday</td>
       <td>
         <ul>
           <li>Overview of Hilbert's problems.</li>
@@ -48,7 +48,7 @@
       </td>
     </tr>
     <tr>
-      <td>Thursday</td>
+            <td>Thursday</td>
       <td>
         <ul>
           <li>Tensor products.</li>
@@ -65,7 +65,7 @@
       </td>
     </tr>
     <tr>
-      <td>Tuesday</td>
+            <td>Tuesday</td>
       <td>
         <ul>
           <li>$\mathbb{Z}/2 \otimes \mathbb{Z}/3$ and $\mathbb{Z} \otimes A$ &mdash; examples that can be computed "directly".</li>
@@ -74,7 +74,7 @@
       </td>
     </tr>
     <tr>
-      <td>Thursday</td>
+            <td>Thursday</td>
       <td>
         <ul>
           <li>The group $\mathcal{D} = \mathbb{R} \otimes S^1$.</li>
@@ -92,7 +92,7 @@
       </td>
     </tr>
     <tr>
-      <td>Tuesday</td>
+            <td>Tuesday</td>
       <td>
         <ul>
           <li>Dihedral angles.</li>
@@ -101,7 +101,7 @@
       </td>
     </tr>
     <tr>
-      <td>Thursday</td>
+            <td>Thursday</td>
       <td>
         <ul>
           <li>Tensor product of $\mathbb{R}$ with rotations by a rational multiple of $\pi$: the subgroup $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z}$ of $\mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$</li>
@@ -119,7 +119,7 @@
       </td>
     </tr>
     <tr>
-      <td>Tuesday</td>
+            <td>Tuesday</td>
       <td>
         <ul>
           <li>Overview of Hilbert's 17th problem.</li>
@@ -129,7 +129,7 @@
       </td>
     </tr>
     <tr>
-      <td>Thursday</td>
+            <td>Thursday</td>
       <td>
         <ul>
           <li>Formally real fields, preorders, orders, initial properties.</li>
@@ -147,7 +147,7 @@
       </td>
     </tr>
     <tr>
-      <td>Tuesday</td>
+            <td>Tuesday</td>
       <td>
         <ul>
           <li>Orders and order relations, totally positive elements.</li>
@@ -157,7 +157,7 @@
       </td>
     </tr>
     <tr>
-      <td>Thursday</td>
+            <td>Thursday</td>
       <td>
         <ul>
           <li>Orders on $\mathbb{Q}(\sqrt{d})$.</li>
@@ -174,7 +174,7 @@
       </td>
     </tr>
     <tr>
-      <td>Tuesday</td>
+            <td>Tuesday</td>
       <td>
         <ul>
           <li>Complements and Q&A during breather week.</li>
@@ -182,7 +182,7 @@
       </td>
     </tr>
     <tr>
-      <td>Thursday</td>
+            <td>Thursday</td>
       <td>
         <ul>
           <li>Complements and Q&A during breather week.</li>
@@ -199,7 +199,7 @@
       </td>
     </tr>
     <tr>
-      <td>Tuesday</td>
+            <td>Tuesday</td>
       <td>
         <ul>
           <li>Extending a formally real field by adding a square root of an element in a preorder.</li>
@@ -208,7 +208,7 @@
       </td>
     </tr>
     <tr>
-      <td>Thursday</td>
+            <td>Thursday</td>
       <td>
         <ul>
           <li>Newton polygons for polynomials in two variables.</li>
@@ -226,7 +226,7 @@
       </td>
     </tr>
     <tr>
-      <td>Tuesday</td>
+            <td>Tuesday</td>
       <td>
         <ul>
           <li>Overview of Hilbert’s 10th problem.</li>
@@ -236,7 +236,7 @@
       </td>
     </tr>
     <tr>
-      <td>Thursday</td>
+            <td>Thursday</td>
       <td>
         <ul>
           <li>Lagrange's four square theorem (statement only).</li>
@@ -257,7 +257,7 @@
       </td>
     </tr>
     <tr>
-      <td>Tuesday</td>
+            <td>Tuesday</td>
       <td>
         <ul>
           <li>Diophantine equations for <code>and</code>, <code>or</code>, less-than-or-equal, divisibility, min.</li>
@@ -266,7 +266,7 @@
       </td>
     </tr>
     <tr>
-      <td>Thursday</td>
+            <td>Thursday</td>
       <td>
         <ul>
           <li>Converting an algorithm into a Diophantine equation: statement of the Davis-Putnam-Robinson-Matiyasevich Theorem.</li>
@@ -284,7 +284,7 @@
       </td>
     </tr>
     <tr>
-      <td>Tuesday</td>
+            <td>Tuesday</td>
       <td>
         <ul>
           <li>Hilbert's 10th problem over rings other than $\mathbb{Z}$.</li>
@@ -293,7 +293,7 @@
       </td>
     </tr>
     <tr>
-      <td>Thursday</td>
+            <td>Thursday</td>
       <td>
         <ul>
           <li>G&ouml;del's Theorem from the perspective of Hilbert's 10th problem, more undecidability.</li>
@@ -303,5 +303,6 @@
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+What we have done so far: [current syllabus](MA3J9_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 <div style="text-align: right">Last modified: Monday, Oct 10 2022</div>

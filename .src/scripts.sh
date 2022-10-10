@@ -31,8 +31,10 @@ syll_tail () {
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>"
   if [[ ${1:6} = "" ]];
-    then
-      echo "What we may be doing in the coming lectures: [tentative syllabus]($1_tentative)"
+  then
+    echo "What we may be doing in the coming lectures: [tentative syllabus]($1_tentative)"
+  else
+    echo "What we have done so far: [current syllabus]($1)"
   fi
 echo "<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 <div style=\"text-align: right\">Last modified: $(date +"%A, %b %d %Y")</div>"
