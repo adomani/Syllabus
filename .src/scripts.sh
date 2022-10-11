@@ -54,26 +54,10 @@ week_head () {
     <tr><th></th><th align="center">Week $1</th></tr><tr>"
 }
 
-# `day_entries <day>` produces the table entries for each <day>.
+# `code_to_entry <day>` prepares the input for `day_entries_split`
 # <day> could be either `pre`, meaning Recorded content, or
 # it could be `mon, tue,...`, meaning the obvious day of the week.
 # If the input is an actual day, `date ...` converts it to full format, e.g. `fri --> Friday`.
-# And them more html.
-day_entries () {
-  if [[ $1 == "pre" ]]
-  then
-    echo '      <td>Recorded</td>'
-  else
-    echo '        </ul>
-      </td>
-    </tr>
-    <tr>'
-    echo "      <td>$(date -d "$1" +%A)</td>"
-  fi
-  echo '      <td>
-        <ul>'
-}
-
 code_to_entry () {
   if [[ $1 == "pre" ]]
   then
@@ -83,6 +67,13 @@ code_to_entry () {
   fi
 }
 
+# `day_entries_split <day> <bool>` produces the table entries for each <day>,
+# with a slight difference in html depending on whether
+# * it is the first entry of the current week -- `<bool> = true`;
+# * it is the not the first entry of the current week -- `<bool> = false`;
+# <day> gets parsed by `code_to_entry` and results in 'Recorded', or
+# a day of the week, e.g. 'Friday'.
+# And then, more html.
 day_entries_split () {
   ce=$(code_to_entry $1)
   if ($2);
@@ -105,7 +96,7 @@ day_entries_split () {
 #     Note that writing `-- Week i` actually ignores `i`: the number is simply the count of
 #     how many `^--` have appeared so far in the file.
 # * Lines beginning with `pre, mon, tue, .., sun` inform the converter of whether the lecture
-#   is "Recorded" or of in what day it took place.
+#   is "Recorded" or of the day in which it took place.
 # * Finally, lines beginning with `  ` (two spaces) are items in a list that correspond to the
 #   topics covered on the current day.
 to_html_from () {
@@ -141,6 +132,46 @@ to_html_from () {
     fi
   done < <(if [[ $tent = "" ]]; then sed '/^_tentative/q' $sou; else cat $sou; fi)
   syll_tail $1 >> $nome
+}
+
+make_md () {
+  mypth=$(pwd | sed -E 's=(Syllab[iu][s]?).*=\1/.src/=g')
+  cd "$mypth"
+  to_html_from $1
+  diffe="$(diff $1.md ../$1.md | grep -v "Last modified" | grep -v "^---$" | wc -l)"
+  echo "$diffe"
+  if [[ $diffe -gt 1 ]]
+  then
+    echo "no"
+    mv -f "$1.md" ../"$1.md"
+  else
+    echo "sì"
+    rm -f "$1.md"
+  fi
+}
+
+mani () {
+  make_md MA3H5
+  make_md MA3H5_tentative
+}
+
+hcim () {
+  make_md MA3J9
+  make_md MA3J9_tentative
+}
+
+mani () {
+  mypth=$(pwd | sed -E 's=(Syllab[iu][s]?).*=\1/.src/=g')
+  cd "$mypth"
+  to_html_from MA3H5
+  to_html_from MA3H5_tentative
+  diffe="$(diff MA3H5_tentative.md ../MA3H5_tentative.md | grep -v "Last modified" | grep -v "^---$" | wc -l)"
+  if [[ $diffe != 1 ]]
+  then
+    mv MA3H5_tentative.md ../MA3H5_tentative.md
+  else
+    rm -f MA3H5_tentative.md
+  fi
 }
 
 # `convert_to_md <file>?` takes an option file argument.  If produces the md files
