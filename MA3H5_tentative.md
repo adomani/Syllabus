@@ -37,8 +37,7 @@
         </ul>
       </td>
     </tr>
-    <tr>
-      <td>Recorded</td>
+    <tr>  <td>Recorded</td>
       <td>
         <ul>
           <li>Tensor products.</li>
@@ -58,8 +57,7 @@
         </ul>
       </td>
     </tr>
-    <tr>
-      <td>Recorded</td>
+    <tr>  <td>Recorded</td>
       <td>
         <ul>
           <li>More on the exterior algebra.</li>
@@ -78,8 +76,7 @@
         </ul>
       </td>
     </tr>
-    <tr>
-      <td>Recorded</td>
+    <tr>  <td>Recorded</td>
       <td>
         <ul>
         </ul>
