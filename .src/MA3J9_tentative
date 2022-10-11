@@ -15,7 +15,7 @@ tue
   $\mathbb{Z}/2\mathbb{Z} \otimes \mathbb{Z}/3\mathbb{Z}$ and $\mathbb{Z}/m\mathbb{Z} \otimes \mathbb{Z}/n\mathbb{Z}$ with $m, n$ coprime.
 _tentative
 thu
-  $\mathbb{Z}/2 \otimes \mathbb{Z}/2$ &mdash; an example computed via passage to the quotient.
+  $\mathbb{Z}/2\mathbb{Z} \otimes \mathbb{Z}/2\mathbb{Z}$ &mdash; an example computed via passage to the quotient.
   Dihedral angles.
   Computation of dihedral angles for the cube and for the regular tetrahedron.
 
