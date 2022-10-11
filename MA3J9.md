@@ -38,7 +38,7 @@
       </td>
     </tr>
     <tr>
-      <td>Tuesday</td>
+            <td>Tuesday</td>
       <td>
         <ul>
           <li>Overview of Hilbert's problems.</li>
@@ -48,7 +48,7 @@
       </td>
     </tr>
     <tr>
-      <td>Thursday</td>
+            <td>Thursday</td>
       <td>
         <ul>
           <li>Tensor products.</li>
@@ -64,9 +64,17 @@
         </ul>
       </td>
     </tr>
+    <tr>
+            <td>Tuesday</td>
+      <td>
+        <ul>
+          <li>$\mathbb{Z}/2 \otimes \mathbb{Z}/3$ and $\mathbb{Z} \otimes A$ &mdash; examples that can be computed "directly".</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3J9_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Monday, Oct 10 2022</div>
+<div style="text-align: right">Last modified: Tuesday, Oct 11 2022</div>

@@ -11,11 +11,11 @@ thu
 --  Week 2
 pre
   Rotation group.
-_tentative
 tue
   $\mathbb{Z}/2 \otimes \mathbb{Z}/3$ and $\mathbb{Z} \otimes A$ &mdash; examples that can be computed "directly".
-  $\mathbb{Z}/a \otimes \mathbb{Z}/b$ &mdash; an example computed via the universal property.
+_tentative
 thu
+  $\mathbb{Z}/a \otimes \mathbb{Z}/b$ &mdash; an example computed via the universal property.
   Dihedral angles.
   Computation of dihedral angles for the cube and for the regular tetrahedron.
 

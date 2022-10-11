@@ -69,7 +69,6 @@
       <td>
         <ul>
           <li>$\mathbb{Z}/2 \otimes \mathbb{Z}/3$ and $\mathbb{Z} \otimes A$ &mdash; examples that can be computed "directly".</li>
-          <li>$\mathbb{Z}/a \otimes \mathbb{Z}/b$ &mdash; an example computed via the universal property.</li>
         </ul>
       </td>
     </tr>
@@ -77,6 +76,7 @@
             <td>Thursday</td>
       <td>
         <ul>
+          <li>$\mathbb{Z}/a \otimes \mathbb{Z}/b$ &mdash; an example computed via the universal property.</li>
           <li>Dihedral angles.</li>
           <li>Computation of dihedral angles for the cube and for the regular tetrahedron.</li>
         </ul>
