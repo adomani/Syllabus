@@ -29,16 +29,15 @@
 <table>
   <tbody>
 <!--  ##################  Week 1  ################## -->
-    <tr><th></th><th align=center>Week 1</th></tr><tr>
-      <td>Recorded</td>
+    <tr><th></th><th align=center>Week 1</th></tr>
+    <tr><td>Recorded</td>
       <td>
         <ul>
           <li>Statement and proof of Wallace-Bolyai-Gerwien Theorem.</li>
         </ul>
       </td>
     </tr>
-    <tr>
-            <td>Tuesday</td>
+    <tr><td>Tuesday</td>
       <td>
         <ul>
           <li>Overview of Hilbert's problems.</li>
@@ -47,8 +46,7 @@
         </ul>
       </td>
     </tr>
-    <tr>
-            <td>Thursday</td>
+    <tr><td>Thursday</td>
       <td>
         <ul>
           <li>Tensor products.</li>
@@ -56,16 +54,15 @@
       </td>
     </tr>
 <!--  ##################  Week 2  ################## -->
-    <tr><th></th><th align=center>Week 2</th></tr><tr>
-      <td>Recorded</td>
+    <tr><th></th><th align=center>Week 2</th></tr>
+    <tr><td>Recorded</td>
       <td>
         <ul>
           <li>Rotation group.</li>
         </ul>
       </td>
     </tr>
-    <tr>
-            <td>Tuesday</td>
+    <tr><td>Tuesday</td>
       <td>
         <ul>
           <li>$\mathbb{Z}/2 \otimes \mathbb{Z}/3$ and $\mathbb{Z} \otimes A$ &mdash; examples that can be computed "directly".</li>

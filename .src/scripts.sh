@@ -51,7 +51,7 @@ week_head () {
     </tr>"
   fi
   echo "<"\!"--  ##################  Week $1  ################## -->
-    <tr><th></th><th align="center">Week $1</th></tr><tr>"
+    <tr><th></th><th align="center">Week $1</th></tr>"
 }
 
 # `code_to_entry <day>` prepares the input for `day_entries_split`
@@ -63,14 +63,14 @@ code_to_entry () {
   then
     echo "<td>Recorded</td>"
   else
-    echo "      <td>$(date -d "$1" +%A)</td>"
+    echo "<td>$(date -d "$1" +%A)</td>"
   fi
 }
 
 # `day_entries_split <day> <bool>` produces the table entries for each <day>,
 # with a slight difference in html depending on whether
-# * it is the first entry of the current week -- `<bool> = true`;
-# * it is the not the first entry of the current week -- `<bool> = false`;
+# * it is the first entry of the current week -- `<bool> = false`;
+# * it is the not the first entry of the current week -- `<bool> = true`;
 # <day> gets parsed by `code_to_entry` and results in 'Recorded', or
 # a day of the week, e.g. 'Friday'.
 # And then, more html.
@@ -78,14 +78,11 @@ day_entries_split () {
   ce=$(code_to_entry $1)
   if ($2);
   then 
-    echo "      $ce"
-  else
     echo '        </ul>
       </td>
-    </tr>
-    <tr>'
-    echo "      $ce"
+    </tr>'
   fi
+  echo "    <tr>$ce"
   echo '      <td>
         <ul>'
 }
@@ -120,12 +117,12 @@ to_html_from () {
     if [[ $line =~ ^[--] ]];
     then
       ((wk++))
-      con=true
+      con=false
       week_head $wk >> $nome
     elif [[ $line =~ ^[pmtwf] ]]
     then
       day_entries_split "$line" "$con" >> $nome
-      con=false
+      con=true
     elif [[ $line = "  "* ]]
     then
       echo "          <li>${line:2}</li>" >> $nome
@@ -160,7 +157,7 @@ hcim () {
   make_md MA3J9_tentative
 }
 
-mani () {
+mani_old () {
   mypth=$(pwd | sed -E 's=(Syllab[iu][s]?).*=\1/.src/=g')
   cd "$mypth"
   to_html_from MA3H5

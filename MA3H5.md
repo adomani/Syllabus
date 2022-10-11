@@ -30,14 +30,14 @@
   <tbody>
 <!--  ##################  Week 1  ################## -->
     <tr><th></th><th align=center>Week 1</th></tr>
-    <tr>        <td>Wednesday</td>
+    <tr><td>Wednesday</td>
       <td>
         <ul>
           <li>Definition of pseudo-group of transformations.</li>
         </ul>
       </td>
     </tr>
-    <tr>  <td>Recorded</td>
+    <tr><td>Recorded</td>
       <td>
         <ul>
           <li>Tensor products.</li>
@@ -48,7 +48,7 @@
     </tr>
 <!--  ##################  Week 2  ################## -->
     <tr><th></th><th align=center>Week 2</th></tr>
-    <tr>        <td>Monday</td>
+    <tr><td>Monday</td>
       <td>
         <ul>
           <li>Definition of a manifold and examples.</li>
@@ -57,7 +57,7 @@
         </ul>
       </td>
     </tr>
-    <tr>  <td>Recorded</td>
+    <tr><td>Recorded</td>
       <td>
         <ul>
           <li>More on the exterior algebra.</li>

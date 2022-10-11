@@ -29,16 +29,15 @@
 <table>
   <tbody>
 <!--  ##################  Week 1  ################## -->
-    <tr><th></th><th align=center>Week 1</th></tr><tr>
-      <td>Recorded</td>
+    <tr><th></th><th align=center>Week 1</th></tr>
+    <tr><td>Recorded</td>
       <td>
         <ul>
           <li>Statement and proof of Wallace-Bolyai-Gerwien Theorem.</li>
         </ul>
       </td>
     </tr>
-    <tr>
-            <td>Tuesday</td>
+    <tr><td>Tuesday</td>
       <td>
         <ul>
           <li>Overview of Hilbert's problems.</li>
@@ -47,8 +46,7 @@
         </ul>
       </td>
     </tr>
-    <tr>
-            <td>Thursday</td>
+    <tr><td>Thursday</td>
       <td>
         <ul>
           <li>Tensor products.</li>
@@ -56,24 +54,22 @@
       </td>
     </tr>
 <!--  ##################  Week 2  ################## -->
-    <tr><th></th><th align=center>Week 2</th></tr><tr>
-      <td>Recorded</td>
+    <tr><th></th><th align=center>Week 2</th></tr>
+    <tr><td>Recorded</td>
       <td>
         <ul>
           <li>Rotation group.</li>
         </ul>
       </td>
     </tr>
-    <tr>
-            <td>Tuesday</td>
+    <tr><td>Tuesday</td>
       <td>
         <ul>
           <li>$\mathbb{Z}/2 \otimes \mathbb{Z}/3$ and $\mathbb{Z} \otimes A$ &mdash; examples that can be computed "directly".</li>
         </ul>
       </td>
     </tr>
-    <tr>
-            <td>Thursday</td>
+    <tr><td>Thursday</td>
       <td>
         <ul>
           <li>$\mathbb{Z}/a \otimes \mathbb{Z}/b$ &mdash; an example computed via the universal property.</li>
@@ -83,16 +79,15 @@
       </td>
     </tr>
 <!--  ##################  Week 3  ################## -->
-    <tr><th></th><th align=center>Week 3</th></tr><tr>
-      <td>Recorded</td>
+    <tr><th></th><th align=center>Week 3</th></tr>
+    <tr><td>Recorded</td>
       <td>
         <ul>
           <li>Proof of invariance of the Dehn invariant under scissor congruence.</li>
         </ul>
       </td>
     </tr>
-    <tr>
-            <td>Tuesday</td>
+    <tr><td>Tuesday</td>
       <td>
         <ul>
           <li>The group $\mathcal{D} = \mathbb{R} \otimes S^1$.</li>
@@ -101,8 +96,7 @@
         </ul>
       </td>
     </tr>
-    <tr>
-            <td>Thursday</td>
+    <tr><td>Thursday</td>
       <td>
         <ul>
           <li>Tensor product of $\mathbb{R}$ with rotations by a rational multiple of $\pi$: the subgroup $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z}$ of $\mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$</li>
@@ -110,8 +104,8 @@
       </td>
     </tr>
 <!--  ##################  Week 4  ################## -->
-    <tr><th></th><th align=center>Week 4</th></tr><tr>
-      <td>Recorded</td>
+    <tr><th></th><th align=center>Week 4</th></tr>
+    <tr><td>Recorded</td>
       <td>
         <ul>
           <li>Answer to Hilbert's 3rd problem, using Dehn invariant and explicit computations.</li>
@@ -119,8 +113,7 @@
         </ul>
       </td>
     </tr>
-    <tr>
-            <td>Tuesday</td>
+    <tr><td>Tuesday</td>
       <td>
         <ul>
           <li>Overview of Hilbert's 17th problem.</li>
@@ -129,8 +122,7 @@
         </ul>
       </td>
     </tr>
-    <tr>
-            <td>Thursday</td>
+    <tr><td>Thursday</td>
       <td>
         <ul>
           <li>Formally real fields, preorders, orders, initial properties.</li>
@@ -139,16 +131,15 @@
       </td>
     </tr>
 <!--  ##################  Week 5  ################## -->
-    <tr><th></th><th align=center>Week 5</th></tr><tr>
-      <td>Recorded</td>
+    <tr><th></th><th align=center>Week 5</th></tr>
+    <tr><td>Recorded</td>
       <td>
         <ul>
           <li>The Artin-Lang homomorphism theorem (statement only).</li>
         </ul>
       </td>
     </tr>
-    <tr>
-            <td>Tuesday</td>
+    <tr><td>Tuesday</td>
       <td>
         <ul>
           <li>Orders and order relations, totally positive elements.</li>
@@ -157,8 +148,7 @@
         </ul>
       </td>
     </tr>
-    <tr>
-            <td>Thursday</td>
+    <tr><td>Thursday</td>
       <td>
         <ul>
           <li>Orders on $\mathbb{Q}(\sqrt{d})$.</li>
@@ -166,24 +156,22 @@
       </td>
     </tr>
 <!--  ##################  Week 6  ################## -->
-    <tr><th></th><th align=center>Week 6</th></tr><tr>
-      <td>Recorded</td>
+    <tr><th></th><th align=center>Week 6</th></tr>
+    <tr><td>Recorded</td>
       <td>
         <ul>
           <li>TBA</li>
         </ul>
       </td>
     </tr>
-    <tr>
-            <td>Tuesday</td>
+    <tr><td>Tuesday</td>
       <td>
         <ul>
           <li>Complements and Q&A during breather week.</li>
         </ul>
       </td>
     </tr>
-    <tr>
-            <td>Thursday</td>
+    <tr><td>Thursday</td>
       <td>
         <ul>
           <li>Complements and Q&A during breather week.</li>
@@ -191,16 +179,15 @@
       </td>
     </tr>
 <!--  ##################  Week 7  ################## -->
-    <tr><th></th><th align=center>Week 7</th></tr><tr>
-      <td>Recorded</td>
+    <tr><th></th><th align=center>Week 7</th></tr>
+    <tr><td>Recorded</td>
       <td>
         <ul>
           <li>Motzkin's polynomial is not a sum of squares.</li>
         </ul>
       </td>
     </tr>
-    <tr>
-            <td>Tuesday</td>
+    <tr><td>Tuesday</td>
       <td>
         <ul>
           <li>Extending a formally real field by adding a square root of an element in a preorder.</li>
@@ -208,8 +195,7 @@
         </ul>
       </td>
     </tr>
-    <tr>
-            <td>Thursday</td>
+    <tr><td>Thursday</td>
       <td>
         <ul>
           <li>Newton polygons for polynomials in two variables.</li>
@@ -218,16 +204,15 @@
       </td>
     </tr>
 <!--  ##################  Week 8  ################## -->
-    <tr><th></th><th align=center>Week 8</th></tr><tr>
-      <td>Recorded</td>
+    <tr><th></th><th align=center>Week 8</th></tr>
+    <tr><td>Recorded</td>
       <td>
         <ul>
           <li>A listable set with non-listable complement.</li>
         </ul>
       </td>
     </tr>
-    <tr>
-            <td>Tuesday</td>
+    <tr><td>Tuesday</td>
       <td>
         <ul>
           <li>Overview of Hilbert’s 10th problem.</li>
@@ -236,8 +221,7 @@
         </ul>
       </td>
     </tr>
-    <tr>
-            <td>Thursday</td>
+    <tr><td>Thursday</td>
       <td>
         <ul>
           <li>Lagrange's four square theorem (statement only).</li>
@@ -247,8 +231,8 @@
       </td>
     </tr>
 <!--  ##################  Week 9  ################## -->
-    <tr><th></th><th align=center>Week 9</th></tr><tr>
-      <td>Recorded</td>
+    <tr><th></th><th align=center>Week 9</th></tr>
+    <tr><td>Recorded</td>
       <td>
         <ul>
           <li>Putnam's trick.</li>
@@ -257,8 +241,7 @@
         </ul>
       </td>
     </tr>
-    <tr>
-            <td>Tuesday</td>
+    <tr><td>Tuesday</td>
       <td>
         <ul>
           <li>Diophantine equations for <code>and</code>, <code>or</code>, less-than-or-equal, divisibility, min.</li>
@@ -266,8 +249,7 @@
         </ul>
       </td>
     </tr>
-    <tr>
-            <td>Thursday</td>
+    <tr><td>Thursday</td>
       <td>
         <ul>
           <li>Converting an algorithm into a Diophantine equation: statement of the Davis-Putnam-Robinson-Matiyasevich Theorem.</li>
@@ -276,16 +258,15 @@
       </td>
     </tr>
 <!--  ##################  Week 10  ################## -->
-    <tr><th></th><th align=center>Week 10</th></tr><tr>
-      <td>Recorded</td>
+    <tr><th></th><th align=center>Week 10</th></tr>
+    <tr><td>Recorded</td>
       <td>
         <ul>
           <li>TBA</li>
         </ul>
       </td>
     </tr>
-    <tr>
-            <td>Tuesday</td>
+    <tr><td>Tuesday</td>
       <td>
         <ul>
           <li>Hilbert's 10th problem over rings other than $\mathbb{Z}$.</li>
@@ -293,8 +274,7 @@
         </ul>
       </td>
     </tr>
-    <tr>
-            <td>Thursday</td>
+    <tr><td>Thursday</td>
       <td>
         <ul>
           <li>G&ouml;del's Theorem from the perspective of Hilbert's 10th problem, more undecidability.</li>
