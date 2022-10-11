@@ -105,6 +105,7 @@ to_html_from () {
       con=false
       new_week $wk >> $nome
     elif [[ $line =~ ^" "*(pre|mon|tue|wed|thu|fri|sat|sun)$ ]]
+    #" this comment only serves to restore syntax highlighting
     then
       new_day "$line" "$con" >> $nome
       con=true
