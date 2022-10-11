@@ -65,7 +65,7 @@
     <tr><td>Tuesday</td>
       <td>
         <ul>
-          <li>$\mathbb{Z}/2 \otimes \mathbb{Z}/3$ and $\mathbb{Z} \otimes A$ &mdash; examples that can be computed "directly".</li>
+          <li>$\mathbb{Z}/2\mathbb{Z} \otimes \mathbb{Z}/3\mathbb{Z}$ and $\mathbb{Z}/m\mathbb{Z} \otimes \mathbb{Z}/n\mathbb{Z}$ with $m, n$ coprime.</li>
         </ul>
       </td>
     </tr>
