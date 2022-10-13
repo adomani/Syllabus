@@ -12,7 +12,8 @@ thu
 pre
   Rotation group.
 tue
-  $\mathbb{Z}/2\mathbb{Z} \otimes \mathbb{Z}/3\mathbb{Z}$ and $\mathbb{Z}/m\mathbb{Z} \otimes \mathbb{Z}/n\mathbb{Z}$ with $m, n$ coprime.
+  $\mathbb{Z}/2\mathbb{Z} \otimes \mathbb{Z}/3\mathbb{Z} \simeq (0)$
+  $\mathbb{Z}/m\mathbb{Z} \otimes \mathbb{Z}/n\mathbb{Z} \simeq (0)$ with $m, n$ coprime.
 _tentative
 thu
   $\mathbb{Z}/2\mathbb{Z} \otimes \mathbb{Z}/2\mathbb{Z}$ &mdash; an example computed via passage to the quotient.
