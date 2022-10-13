@@ -65,7 +65,7 @@
     <tr><td>Tuesday</td>
       <td>
         <ul>
-          <li>$\mathbb{Z}/2\mathbb{Z} \otimes \mathbb{Z}/3\mathbb{Z} \simeq (0)$</li>
+          <li>$\mathbb{Z}/2\mathbb{Z} \otimes \mathbb{Z}/3\mathbb{Z} \simeq (0)$.</li>
           <li>$\mathbb{Z}/m\mathbb{Z} \otimes \mathbb{Z}/n\mathbb{Z} \simeq (0)$ with $m, n$ coprime.</li>
         </ul>
       </td>

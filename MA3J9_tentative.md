@@ -65,7 +65,7 @@
     <tr><td>Tuesday</td>
       <td>
         <ul>
-          <li>$\mathbb{Z}/2\mathbb{Z} \otimes \mathbb{Z}/3\mathbb{Z} \simeq (0)$</li>
+          <li>$\mathbb{Z}/2\mathbb{Z} \otimes \mathbb{Z}/3\mathbb{Z} \simeq (0)$.</li>
           <li>$\mathbb{Z}/m\mathbb{Z} \otimes \mathbb{Z}/n\mathbb{Z} \simeq (0)$ with $m, n$ coprime.</li>
         </ul>
       </td>
@@ -75,6 +75,7 @@
         <ul>
           <li>$\mathbb{Z}/2\mathbb{Z} \otimes \mathbb{Z}/2\mathbb{Z}$ &mdash; an example computed via passage to the quotient.</li>
           <li>Dihedral angles.</li>
+          <li>Definition of the Dehn invariant.</li>
           <li>Computation of dihedral angles for the cube and for the regular tetrahedron.</li>
         </ul>
       </td>
@@ -93,7 +94,6 @@
         <ul>
           <li>The group $\mathcal{D} = \mathbb{R} \otimes S^1$.</li>
           <li>The torsion subgroup of $\mathcal{D}$ is $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z} \subset \mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$.</li>
-          <li>Definition of the Dehn invariant.</li>
         </ul>
       </td>
     </tr>
