@@ -13,19 +13,19 @@ pre
   Rotation group.
 tue
   $\mathbb{Z}/2\mathbb{Z} \otimes \mathbb{Z}/3\mathbb{Z}$ and $\mathbb{Z}/m\mathbb{Z} \otimes \mathbb{Z}/n\mathbb{Z}$ with $m, n$ coprime.
-_tentative
 thu
   $\mathbb{Z}/2\mathbb{Z} \otimes \mathbb{Z}/2\mathbb{Z}$ &mdash; an example computed via passage to the quotient.
   Dihedral angles.
-  Computation of dihedral angles for the cube and for the regular tetrahedron.
+  Definition of the Dehn invariant.
+_tentative
 
 --  Week 3
 pre
   Proof of invariance of the Dehn invariant under scissor congruence.
 tue
+  Computation of dihedral angles for the cube and for the regular tetrahedron.
   The group $\mathcal{D} = \mathbb{R} \otimes S^1$.
   The torsion subgroup of $\mathcal{D}$ is $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z} \subset \mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$.
-  Definition of the Dehn invariant.
 thu
   Tensor product of $\mathbb{R}$ with rotations by a rational multiple of $\pi$: the subgroup $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z}$ of $\mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$
 (what appears different, may not be different).
