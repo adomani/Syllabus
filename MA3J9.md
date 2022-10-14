@@ -70,9 +70,18 @@
         </ul>
       </td>
     </tr>
+    <tr><td>Thursday</td>
+      <td>
+        <ul>
+          <li>$\mathbb{Z}/2\mathbb{Z} \otimes \mathbb{Z}/2\mathbb{Z}$ &mdash; an example computed via passage to the quotient.</li>
+          <li>Dihedral angles.</li>
+          <li>Definition of the Dehn invariant.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3J9_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Thursday, Oct 13 2022</div>
+<div style="text-align: right">Last modified: Friday, Oct 14 2022</div>
