@@ -13,6 +13,9 @@ mon
 pre
   More on the exterior algebra.
   Interpretation via multilinear, alternating maps.
+fri
+  Definition of a manifold.
+  The tensor product $V \otimes W$.
 _tentative
 
 -- Week 3

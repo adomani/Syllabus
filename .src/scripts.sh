@@ -66,8 +66,13 @@ new_day () {
       </td>
     </tr>"
   fi
-  echo "    <tr><td>$(date -d $1 +%A 2>&- || echo Recorded)</td>
-      <td>
+  if [ $1 == "fri" ]
+  then
+    echo "    <tr><td><p>Friday</p><p>(support class)</p></td>"
+  else
+    echo "    <tr><td>$(date -d $1 +%A 2>&- || echo Recorded)</td>"
+  fi
+  echo "      <td>
         <ul>"
 }
 

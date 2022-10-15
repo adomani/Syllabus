@@ -65,6 +65,14 @@
         </ul>
       </td>
     </tr>
+    <tr><td><p>Friday</p><p>(support class)</p></td>
+      <td>
+        <ul>
+          <li>Definition of a manifold.</li>
+          <li>The tensor product $V \otimes W$.</li>
+        </ul>
+      </td>
+    </tr>
 <!--  ##################  Week 3  ################## -->
     <tr><th></th><th align=center>Week 3</th></tr>
     <tr><td>Monday</td>
@@ -87,4 +95,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Oct 11 2022</div>
+<div style="text-align: right">Last modified: Saturday, Oct 15 2022</div>
