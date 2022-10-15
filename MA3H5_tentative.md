@@ -79,7 +79,7 @@
       <td>
         <ul>
           <li>Quotient manifolds.</li>
-          <li>Tangent spaces, vector fields, one-parameter subgroups\ldots.</li>
+          <li>Tangent spaces, vector fields, one-parameter subgroups&hellip;</li>
           <li>TBC</li>
         </ul>
       </td>
