@@ -12,7 +12,7 @@
 # to use MathJax and reload the page.
 # After that, it adds the user input <mytitle>, for instance `MA3J9`, the date and some html.
 page_head () {
-  cat body_content | grep -v "^  *//" | sed 's=  *//.*==g'
+  grep -v "^  *//" body_content | sed 's=  *//.*==g'
   echo "# $1
 ## Autumn 2022
 
