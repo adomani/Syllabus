@@ -57,7 +57,8 @@ new_week () {
 # with a slight difference in html depending on whether
 # * it is the first entry of the current week -- `<bool> = false`;
 # * it is the not the first entry of the current week -- `<bool> = true`;
-# <day> is parsed as 'mon,..., sun --> Monday,...,Sunday' and 'anything_else --> Recorded'.
+# <day> is parsed as 'mon,..., sun --> Monday,...,Sunday' (except for Friday,
+# which also produces a line with "(support class)") and 'anything_else --> Recorded'.
 # And then, more html.
 new_day () {
   if ($2);
