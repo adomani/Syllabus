@@ -68,7 +68,7 @@ new_day () {
   fi
   if [ $1 == "fri" ]
   then
-    echo "    <tr><td><p>Friday</p><p>(support class)</p></td>"
+    echo '    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>'
   else
     echo "    <tr><td>$(date -d $1 +%A 2>&- || echo Recorded)</td>"
   fi
