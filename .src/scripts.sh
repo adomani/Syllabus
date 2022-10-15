@@ -50,7 +50,7 @@ new_week () {
     </tr>"
   fi
   echo "<!--  ##################  Week $1  ################## -->
-    <tr><th></th><th align="center">Week $1</th></tr>"
+    <tr><th></th><th align=\"center\">Week $1</th></tr>"
 }
 
 # `new_day <day> <bool>` produces the table entries for each <day>,

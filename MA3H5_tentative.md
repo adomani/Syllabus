@@ -29,7 +29,7 @@
 <table>
   <tbody>
 <!--  ##################  Week 1  ################## -->
-    <tr><th></th><th align=center>Week 1</th></tr>
+    <tr><th></th><th align="center">Week 1</th></tr>
     <tr><td>Wednesday</td>
       <td>
         <ul>
@@ -47,7 +47,7 @@
       </td>
     </tr>
 <!--  ##################  Week 2  ################## -->
-    <tr><th></th><th align=center>Week 2</th></tr>
+    <tr><th></th><th align="center">Week 2</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
@@ -74,7 +74,7 @@
       </td>
     </tr>
 <!--  ##################  Week 3  ################## -->
-    <tr><th></th><th align=center>Week 3</th></tr>
+    <tr><th></th><th align="center">Week 3</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
