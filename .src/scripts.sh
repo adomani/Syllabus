@@ -88,9 +88,8 @@ new_day () {
 # * Finally, the remaining lines beginning with `  ` (two spaces) are items in a list that
 #   correspond to the topics covered on the current day.
 to_html_from () {
-  nome="$1.md"
-  modd="${1:0:5}"
-  sou="$modd"_tentative
+  nome="$1.md"           # the name of the file that the program will produce
+  modd="${1:0:5}"        # the module code, as well as the name of the file with the info
   if [[ ${1:6} = "tentative" ]]; then tent=" tentative syllabus"; else tent=""; fi;
   if [[ $modd = "MA3H5" ]];
   then
@@ -118,7 +117,7 @@ to_html_from () {
     then
       echo "          <li>${line:2}</li>" >> $nome
     fi
-  done < <(if [ "$tent" ]; then cat $sou; else sed '/^_tentative/q' $sou; fi)
+  done < <(if [ "$tent" ]; then cat $modd; else sed '/^_tentative/q' $modd; fi)
   page_tail $1 >> $nome
 }
 
