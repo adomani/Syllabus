@@ -80,13 +80,13 @@
         <ul>
           <li>Quotient manifolds.</li>
           <li>Tangent spaces, vector fields, one-parameter subgroups&hellip;</li>
-          <li>TBC</li>
         </ul>
       </td>
     </tr>
     <tr><td>Recorded</td>
       <td>
         <ul>
+          <li>TBC</li>
         </ul>
       </td>
     </tr>
