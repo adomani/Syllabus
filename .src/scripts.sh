@@ -89,29 +89,23 @@ new_day () {
 #   correspond to the topics covered on the current day.
 to_html_from () {
   nome="$1.md"
-  if [[ ${1:6} = "tentative" ]];
+  modd="${1:0:5}"
+  sou="$modd"_tentative
+  if [[ ${1:6} = "tentative" ]]; then tent=" tentative syllabus"; else tent=""; fi;
+  if [[ $modd = "MA3H5" ]];
   then
-    tent=" tentative syllabus"
-    sou=$1
+    page_head "[MA3H5 Manifolds](https://moodle.warwick.ac.uk/course/view.php?id=52238)$tent"
+  elif [[ $modd = "MA3J9" ]];
+  then
+    page_head "[MA3J9 Historical Challenges in Mathematics](https://moodle.warwick.ac.uk/course/view.php?id=52244)$tent"
   else
-    tent=""
-    sou="$1_tentative"
-  fi;
-  if [[ ${1:0:5} = "MA3H5" ]];
-  then
-    titolo="[MA3H5 Manifolds](https://moodle.warwick.ac.uk/course/view.php?id=52238)$tent"
-  elif [[ ${1:0:5} = "MA3J9" ]];
-  then
-    titolo="[MA3J9 Historical Challenges in Mathematics](https://moodle.warwick.ac.uk/course/view.php?id=52244)$tent"
-  else
-    titolo="$1"
-  fi
+    page_head "$1"
+  fi > $nome
   echo $nome
   wk=0
   con=true
-  page_head "$titolo" > $nome
   while IFS= read -r line; do
-    if [[ $line =~ ^[--] ]];
+    if [[ $line =~ ^-- ]];
     then
       ((wk++))
       con=false
@@ -132,9 +126,9 @@ make_md () {
   mypth=$(pwd | sed -E 's=(Syllab[iu][s]?).*=\1/.src/=g')
   cd "$mypth"
   to_html_from $1
-  diffe="$(diff $1.md ../$1.md | grep -vc "(Last modified&&^---$)")"
+  diffe="$(diff $1.md ../$1.md | grep -v "Last modified" | grep -vc "^---$")"
   echo "$diffe different lines"
-  if [ $diffe -gt 0 ]
+  if [ "$diffe" -gt 1 ]
   then
     echo "muovo"
     mv -f "$1.md" ../"$1.md"
