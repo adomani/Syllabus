@@ -153,38 +153,3 @@ hcim () {
   make_md MA3J9
   make_md MA3J9_tentative
 }
-
-mani_old () {
-  mypth=$(pwd | sed -E 's=(Syllab[iu][s]?).*=\1/.src/=g')
-  cd "$mypth"
-  to_html_from MA3H5
-  to_html_from MA3H5_tentative
-  diffe="$(diff MA3H5_tentative.md ../MA3H5_tentative.md | grep -v "Last modified" | grep -v "^---$" | wc -l)"
-  if [[ $diffe != 1 ]]
-  then
-    mv MA3H5_tentative.md ../MA3H5_tentative.md
-  else
-    rm -f MA3H5_tentative.md
-  fi
-}
-
-# `convert_to_md <file>?` takes an option file argument.  If produces the md files
-# for the (tentative) syllabi that have been modified.  If the optional argument <file>
-# is passed, then it produces the md file for that input, regardless of whether the
-# file has been modified or not.
-convert_to_md () {
-  mypth=$(pwd | sed 's=Syllabi.*=Syllabi/.src/=g')
-  cd "$mypth"
-  for fil in MA3H5_tentative MA3J9_tentative
-  do
-    camb=$(git diff --name-only origin/master $fil | wc -w)
-    if [[ $camb != 0 ]] || [[ $1 = $fil ]];
-    then
-      to_html_from "$fil"
-      mv -f "$fil.md" ..
-      nont=${fil:0:5}
-      to_html_from "$nont"
-      mv -f "$nont.md" ..
-    fi
-  done
-}
