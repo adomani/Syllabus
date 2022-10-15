@@ -89,8 +89,14 @@ new_day () {
 #   correspond to the topics covered on the current day.
 to_html_from () {
   nome="$1.md"
-  tent=$(if [[ ${1:6} = "tentative" ]]; then echo " tentative syllabus"; else echo ""; fi);
-  if [ "$tent" ]; then sou=$1; else sou="$1_tentative"; fi;
+  if [[ ${1:6} = "tentative" ]];
+  then
+    tent=" tentative syllabus"
+    sou=$1
+  else
+    tent=""
+    sou="$1_tentative"
+  fi;
   if [[ ${1:0:5} = "MA3H5" ]];
   then
     titolo="[MA3H5 Manifolds](https://moodle.warwick.ac.uk/course/view.php?id=52238)$tent"
@@ -110,8 +116,7 @@ to_html_from () {
       ((wk++))
       con=false
       new_week $wk >> $nome
-    elif [[ $line =~ ^" "*(pre|mon|tue|wed|thu|fri|sat|sun)$ ]]
-    #" this comment only serves to restore syntax highlighting
+    elif [[ $line =~ ^\ *(pre|mon|tue|wed|thu|fri|sat|sun)$ ]]
     then
       new_day "$line" "$con" >> $nome
       con=true
@@ -127,14 +132,14 @@ make_md () {
   mypth=$(pwd | sed -E 's=(Syllab[iu][s]?).*=\1/.src/=g')
   cd "$mypth"
   to_html_from $1
-  diffe="$(diff $1.md ../$1.md | grep -v "Last modified" | grep -v "^---$" | wc -l)"
-  echo "$diffe"
-  if [[ $diffe -gt 1 ]]
+  diffe="$(diff $1.md ../$1.md | grep -vc "(Last modified&&^---$)")"
+  echo "$diffe different lines"
+  if [ $diffe -gt 0 ]
   then
-    echo "no"
+    echo "muovo"
     mv -f "$1.md" ../"$1.md"
   else
-    echo "sì"
+    echo "non muovo"
     rm -f "$1.md"
   fi
 }
