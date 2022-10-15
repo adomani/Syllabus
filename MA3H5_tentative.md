@@ -65,7 +65,7 @@
         </ul>
       </td>
     </tr>
-    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+    <tr><td><p class="line-height: 10em;">Friday</p><p class="line-height: 10em;">(support class)</p></td>
       <td>
         <ul>
           <li>Definition of a manifold.</li>
