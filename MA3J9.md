@@ -79,9 +79,18 @@
         </ul>
       </td>
     </tr>
+<!--  ##################  Week 3  ################## -->
+    <tr><th></th><th align="center">Week 3</th></tr>
+    <tr><td>Recorded</td>
+      <td>
+        <ul>
+          <li>Proof of invariance of the Dehn invariant under scissor congruence.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3J9_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Friday, Oct 14 2022</div>
+<div style="text-align: right">Last modified: Tuesday, Oct 18 2022</div>
