@@ -104,6 +104,7 @@
     <tr><td>Monday</td>
       <td>
         <ul>
+          <li>One-parameter subgroups, more differentiability,&hellip;</li>
         </ul>
       </td>
     </tr>
