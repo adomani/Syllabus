@@ -79,7 +79,7 @@
       <td>
         <ul>
           <li>Quotient manifolds.</li>
-          <li>Tangent spaces, vector fields.</li>
+          <li>Tangent vectors, tangent spaces, vector fields.</li>
         </ul>
       </td>
     </tr>
