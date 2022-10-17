@@ -16,15 +16,19 @@ pre
 fri
   Definition of a manifold.
   The tensor product $V \otimes W$.
-_tentative
 
 -- Week 3
 mon
   Quotient manifolds.
-  Tangent spaces, vector fields, one-parameter subgroups&hellip;
+  Tangent spaces, vector fields.
+_tentative
 pre
   TBC
 fri
   Tensor products (continued).
   Sub-manifolds.
   Question Sheet 1.
+
+-- Week 4
+mon
+  One-parameter subgroups, more differentiability,&hellip;

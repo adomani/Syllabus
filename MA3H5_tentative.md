@@ -79,7 +79,7 @@
       <td>
         <ul>
           <li>Quotient manifolds.</li>
-          <li>Tangent spaces, vector fields, one-parameter subgroups&hellip;</li>
+          <li>Tangent spaces, vector fields.</li>
         </ul>
       </td>
     </tr>
@@ -99,9 +99,17 @@
         </ul>
       </td>
     </tr>
+<!--  ##################  Week 4  ################## -->
+    <tr><th></th><th align="center">Week 4</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Saturday, Oct 15 2022</div>
+<div style="text-align: right">Last modified: Monday, Oct 17 2022</div>

@@ -73,9 +73,19 @@
         </ul>
       </td>
     </tr>
+<!--  ##################  Week 3  ################## -->
+    <tr><th></th><th align="center">Week 3</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>Quotient manifolds.</li>
+          <li>Tangent spaces, vector fields.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3H5_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Saturday, Oct 15 2022</div>
+<div style="text-align: right">Last modified: Monday, Oct 17 2022</div>
