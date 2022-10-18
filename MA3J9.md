@@ -29,7 +29,7 @@
 <table>
   <tbody>
 <!--  ##################  Week 1  ################## -->
-    <tr><th></th><th align="center">Week 1</th></tr>
+    <tr><th></th><th align="center">Week 1 (Oct 03-07)</th></tr>
     <tr><td>Recorded</td>
       <td>
         <ul>
@@ -54,7 +54,7 @@
       </td>
     </tr>
 <!--  ##################  Week 2  ################## -->
-    <tr><th></th><th align="center">Week 2</th></tr>
+    <tr><th></th><th align="center">Week 2 (Oct 10-14)</th></tr>
     <tr><td>Recorded</td>
       <td>
         <ul>
@@ -84,4 +84,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3J9_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Friday, Oct 14 2022</div>
+<div style="text-align: right">Last modified: Tuesday, Oct 18 2022</div>

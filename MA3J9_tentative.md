@@ -29,7 +29,7 @@
 <table>
   <tbody>
 <!--  ##################  Week 1  ################## -->
-    <tr><th></th><th align="center">Week 1</th></tr>
+    <tr><th></th><th align="center">Week 1 (Oct 03-07)</th></tr>
     <tr><td>Recorded</td>
       <td>
         <ul>
@@ -54,7 +54,7 @@
       </td>
     </tr>
 <!--  ##################  Week 2  ################## -->
-    <tr><th></th><th align="center">Week 2</th></tr>
+    <tr><th></th><th align="center">Week 2 (Oct 10-14)</th></tr>
     <tr><td>Recorded</td>
       <td>
         <ul>
@@ -80,7 +80,7 @@
       </td>
     </tr>
 <!--  ##################  Week 3  ################## -->
-    <tr><th></th><th align="center">Week 3</th></tr>
+    <tr><th></th><th align="center">Week 3 (Oct 17-21)</th></tr>
     <tr><td>Recorded</td>
       <td>
         <ul>
@@ -105,7 +105,7 @@
       </td>
     </tr>
 <!--  ##################  Week 4  ################## -->
-    <tr><th></th><th align="center">Week 4</th></tr>
+    <tr><th></th><th align="center">Week 4 (Oct 24-28)</th></tr>
     <tr><td>Recorded</td>
       <td>
         <ul>
@@ -132,7 +132,7 @@
       </td>
     </tr>
 <!--  ##################  Week 5  ################## -->
-    <tr><th></th><th align="center">Week 5</th></tr>
+    <tr><th></th><th align="center">Week 5 (Oct 31-Nov 04)</th></tr>
     <tr><td>Recorded</td>
       <td>
         <ul>
@@ -157,7 +157,7 @@
       </td>
     </tr>
 <!--  ##################  Week 6  ################## -->
-    <tr><th></th><th align="center">Week 6</th></tr>
+    <tr><th></th><th align="center">Week 6 (Nov 07-11)</th></tr>
     <tr><td>Recorded</td>
       <td>
         <ul>
@@ -180,7 +180,7 @@
       </td>
     </tr>
 <!--  ##################  Week 7  ################## -->
-    <tr><th></th><th align="center">Week 7</th></tr>
+    <tr><th></th><th align="center">Week 7 (Nov 14-18)</th></tr>
     <tr><td>Recorded</td>
       <td>
         <ul>
@@ -205,7 +205,7 @@
       </td>
     </tr>
 <!--  ##################  Week 8  ################## -->
-    <tr><th></th><th align="center">Week 8</th></tr>
+    <tr><th></th><th align="center">Week 8 (Nov 21-25)</th></tr>
     <tr><td>Recorded</td>
       <td>
         <ul>
@@ -232,7 +232,7 @@
       </td>
     </tr>
 <!--  ##################  Week 9  ################## -->
-    <tr><th></th><th align="center">Week 9</th></tr>
+    <tr><th></th><th align="center">Week 9 (Nov 28-Dec 02)</th></tr>
     <tr><td>Recorded</td>
       <td>
         <ul>
@@ -259,7 +259,7 @@
       </td>
     </tr>
 <!--  ##################  Week 10  ################## -->
-    <tr><th></th><th align="center">Week 10</th></tr>
+    <tr><th></th><th align="center">Week 10 (Dec 05-09)</th></tr>
     <tr><td>Recorded</td>
       <td>
         <ul>
@@ -287,4 +287,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3J9)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Thursday, Oct 13 2022</div>
+<div style="text-align: right">Last modified: Tuesday, Oct 18 2022</div>

@@ -40,6 +40,16 @@ page_tail () {
 <div style=\"text-align: right\">Last modified: $(date +"%A, %b %d %Y")</div>"
 }
 
+exweek () {
+  ini=($(date -d "Sep 26 2022 +$1 weeks" '+%b %d'))
+  fin=($(date -d "Sep 26 2022 +$1 weeks + 4 days" '+%b %d'))
+  if [ $ini == $fin ]
+  then
+    echo "${ini[0]} ${ini[1]}-${fin[1]}"
+  else
+    echo "${ini[0]} ${ini[1]}-${fin[0]} ${fin[1]}"
+  fi
+}
 # `new_week <num>` produces the header for the table entry for week number <num>.
 # The input is which week it is: the html code depends on whether it is the first week or not.
 new_week () {
@@ -50,7 +60,7 @@ new_week () {
     </tr>"
   fi
   echo "<!--  ##################  Week $1  ################## -->
-    <tr><th></th><th align=\"center\">Week $1</th></tr>"
+    <tr><th></th><th align=\"center\">Week $1 ($(exweek $1))</th></tr>"
 }
 
 # `new_day <day> <bool>` produces the table entries for each <day>,
@@ -109,6 +119,7 @@ to_html_from () {
       ((wk++))
       con=false
       new_week $wk >> $nome
+      exweek $wk
     elif [[ $line =~ ^\ *(pre|mon|tue|wed|thu|fri|sat|sun)$ ]]
     then
       new_day "$line" "$con" >> $nome
