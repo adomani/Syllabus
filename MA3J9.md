@@ -79,6 +79,15 @@
         </ul>
       </td>
     </tr>
+<!--  ##################  Week 3  ################## -->
+    <tr><th></th><th align="center">Week 3</th></tr>
+    <tr><td>Recorded</td>
+      <td>
+        <ul>
+          <li>Proof of invariance of the Dehn invariant under scissor congruence.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>

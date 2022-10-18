@@ -113,7 +113,7 @@ to_html_from () {
   echo $nome
   wk=0
   con=true
-  while IFS= read -r line; do
+  while IFS= read -r line || [ -n "$line" ]; do
     if [[ $line =~ ^-- ]];
     then
       ((wk++))

@@ -79,7 +79,7 @@
       <td>
         <ul>
           <li>Quotient manifolds.</li>
-          <li>Tangent spaces, vector fields.</li>
+          <li>Tangent vectors, tangent spaces, vector fields.</li>
         </ul>
       </td>
     </tr>
@@ -104,6 +104,7 @@
     <tr><td>Monday</td>
       <td>
         <ul>
+          <li>One-parameter subgroups, more differentiability,&hellip;</li>
         </ul>
       </td>
     </tr>
