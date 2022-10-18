@@ -22,12 +22,12 @@ thu
 --  Week 3
 pre
   Proof of invariance of the Dehn invariant under scissor congruence.
-_tentative
 tue
-  Computation of dihedral angles for the cube and for the regular tetrahedron.
+  Computation of Dehn invariants for the cube and for the regular tetrahedron.
+_tentative
+thu
   The group $\mathcal{D} = \mathbb{R} \otimes S^1$.
   The torsion subgroup of $\mathcal{D}$ is $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z} \subset \mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$.
-thu
   Tensor product of $\mathbb{R}$ with rotations by a rational multiple of $\pi$: the subgroup $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z}$ of $\mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$
 (what appears different, may not be different).
 

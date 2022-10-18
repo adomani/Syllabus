@@ -80,11 +80,18 @@
       </td>
     </tr>
 <!--  ##################  Week 3  ################## -->
-    <tr><th></th><th align="center">Week 3</th></tr>
+    <tr><th></th><th align="center">Week 3 (Oct 17-21)</th></tr>
     <tr><td>Recorded</td>
       <td>
         <ul>
           <li>Proof of invariance of the Dehn invariant under scissor congruence.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
+          <li>Computation of Dehn invariants for the cube and for the regular tetrahedron.</li>
         </ul>
       </td>
     </tr>

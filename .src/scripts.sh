@@ -119,7 +119,6 @@ to_html_from () {
       ((wk++))
       con=false
       new_week $wk >> $nome
-      exweek $wk
     elif [[ $line =~ ^\ *(pre|mon|tue|wed|thu|fri|sat|sun)$ ]]
     then
       new_day "$line" "$con" >> $nome

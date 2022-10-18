@@ -91,15 +91,15 @@
     <tr><td>Tuesday</td>
       <td>
         <ul>
-          <li>Computation of dihedral angles for the cube and for the regular tetrahedron.</li>
-          <li>The group $\mathcal{D} = \mathbb{R} \otimes S^1$.</li>
-          <li>The torsion subgroup of $\mathcal{D}$ is $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z} \subset \mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$.</li>
+          <li>Computation of Dehn invariants for the cube and for the regular tetrahedron.</li>
         </ul>
       </td>
     </tr>
     <tr><td>Thursday</td>
       <td>
         <ul>
+          <li>The group $\mathcal{D} = \mathbb{R} \otimes S^1$.</li>
+          <li>The torsion subgroup of $\mathcal{D}$ is $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z} \subset \mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$.</li>
           <li>Tensor product of $\mathbb{R}$ with rotations by a rational multiple of $\pi$: the subgroup $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z}$ of $\mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$</li>
         </ul>
       </td>
