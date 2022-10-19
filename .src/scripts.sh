@@ -72,7 +72,7 @@ new_week () {
 # And then, more html.
 new_day () {
   if ($2);
-  then 
+  then
     echo "        </ul>
       </td>
     </tr>"
@@ -132,6 +132,7 @@ to_html_from () {
 }
 
 make_md () {
+  here=$PWD
   mypth=$(pwd | sed -E 's=(Syllab[iu][s]?).*=\1/.src/=g')
   cd "$mypth"
   to_html_from $1
@@ -145,6 +146,7 @@ make_md () {
     echo "non muovo"
     rm -f "$1.md"
   fi
+  cd "$here"
 }
 
 mani () {

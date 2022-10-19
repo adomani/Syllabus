@@ -86,7 +86,7 @@
     <tr><td>Recorded</td>
       <td>
         <ul>
-          <li>TBC</li>
+          <li>Partitions of unity.</li>
         </ul>
       </td>
     </tr>
@@ -113,4 +113,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Oct 18 2022</div>
+<div style="text-align: right">Last modified: Wednesday, Oct 19 2022</div>
