@@ -27,14 +27,14 @@ tue
 _tentative
 thu
   The group $\mathcal{D} = \mathbb{R} \otimes S^1$.
-  The torsion subgroup of $\mathcal{D}$ is $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z} \subset \mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$.
-  Tensor product of $\mathbb{R}$ with rotations by a rational multiple of $\pi$: the subgroup $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z}$ of $\mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$
-(what appears different, may not be different).
+  The tensor product of $\mathbb{R}$ with rotations by a rational multiple of $\pi$: the subgroup $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z}$ of $\mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$
+  Answer to Hilbert's 3rd problem, using Dehn invariant and explicit computations.
+  Comments on non-vanishing of the Dehn invariant of the regular tetrahedron.
 
 --  Week 4
 pre
-  Answer to Hilbert's 3rd problem, using Dehn invariant and explicit computations.
-  Comments on non-vanishing of the Dehn invariant of the regular tetrahedron.
+  Newton polytopes, in general.
+  Newton polygons, for polynomials in two variables.
 tue
   Overview of Hilbert's 17th problem.
   Motzkin's example.
@@ -45,7 +45,7 @@ thu
 
 --  Week 5
 pre
-  The Artin-Lang homomorphism theorem (statement only).
+  Newton polygons and squares of polynomials.
 tue
   Orders and order relations, totally positive elements.
   Fields of rational functions.
@@ -66,10 +66,9 @@ pre
   Motzkin's polynomial is not a sum of squares.
 tue
   Extending a formally real field by adding a square root of an element in a preorder.
-  Using the Artin-Lang homomorphism theorem to answer Hilbert's 17th problem.
+  The Artin-Lang homomorphism theorem (statement only).
 thu
-  Newton polygons for polynomials in two variables.
-  Newton polygons and squares of polynomials.
+  Using the Artin-Lang homomorphism theorem to answer Hilbert's 17th problem.
 
 --  Week 8
 pre

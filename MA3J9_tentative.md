@@ -100,8 +100,9 @@
       <td>
         <ul>
           <li>The group $\mathcal{D} = \mathbb{R} \otimes S^1$.</li>
-          <li>The torsion subgroup of $\mathcal{D}$ is $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z} \subset \mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$.</li>
-          <li>Tensor product of $\mathbb{R}$ with rotations by a rational multiple of $\pi$: the subgroup $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z}$ of $\mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$</li>
+          <li>The tensor product of $\mathbb{R}$ with rotations by a rational multiple of $\pi$: the subgroup $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z}$ of $\mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$</li>
+          <li>Answer to Hilbert's 3rd problem, using Dehn invariant and explicit computations.</li>
+          <li>Comments on non-vanishing of the Dehn invariant of the regular tetrahedron.</li>
         </ul>
       </td>
     </tr>
@@ -110,8 +111,8 @@
     <tr><td>Recorded</td>
       <td>
         <ul>
-          <li>Answer to Hilbert's 3rd problem, using Dehn invariant and explicit computations.</li>
-          <li>Comments on non-vanishing of the Dehn invariant of the regular tetrahedron.</li>
+          <li>Newton polytopes, in general.</li>
+          <li>Newton polygons, for polynomials in two variables.</li>
         </ul>
       </td>
     </tr>
@@ -137,7 +138,7 @@
     <tr><td>Recorded</td>
       <td>
         <ul>
-          <li>The Artin-Lang homomorphism theorem (statement only).</li>
+          <li>Newton polygons and squares of polynomials.</li>
         </ul>
       </td>
     </tr>
@@ -193,15 +194,14 @@
       <td>
         <ul>
           <li>Extending a formally real field by adding a square root of an element in a preorder.</li>
-          <li>Using the Artin-Lang homomorphism theorem to answer Hilbert's 17th problem.</li>
+          <li>The Artin-Lang homomorphism theorem (statement only).</li>
         </ul>
       </td>
     </tr>
     <tr><td>Thursday</td>
       <td>
         <ul>
-          <li>Newton polygons for polynomials in two variables.</li>
-          <li>Newton polygons and squares of polynomials.</li>
+          <li>Using the Artin-Lang homomorphism theorem to answer Hilbert's 17th problem.</li>
         </ul>
       </td>
     </tr>
