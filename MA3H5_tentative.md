@@ -87,6 +87,7 @@
       <td>
         <ul>
           <li>Partitions of unity.</li>
+          <tr><td class=divider><hr /></td><td class=divider><hr /></td></tr>
         </ul>
       </td>
     </tr>
