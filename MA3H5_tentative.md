@@ -105,7 +105,17 @@
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>One-parameter subgroups, more differentiability,&hellip;</li>
+          <li>Vector fields, bracket</li>
+          <li>Differential, definition of immersion, submersion, embedding.</li>
+          <li>1-parameter subgroups and their local versions.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td>Recorded</td>
+      <td>
+        <ul>
+          <li>Ehresmann Theorem.</li>
+          <li>, more differentiability,&hellip;</li>
         </ul>
       </td>
     </tr>
@@ -114,4 +124,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Wednesday, Oct 19 2022</div>
+<div style="text-align: right">Last modified: Friday, Oct 21 2022</div>
