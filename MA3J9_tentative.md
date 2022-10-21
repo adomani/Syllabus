@@ -99,7 +99,7 @@
       <td>
         <ul>
           <li>The group $\mathcal{D} = \mathbb{R} \otimes S^1$ and the Axiom of Choice.</li>
-          <li>The tensor product of $\mathbb{R}$ with rotations by a rational multiple of $\pi$: the subgroup $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z}$ of $\mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$</li>
+          <li>The tensor product of $\mathbb{R}$ with rotations by a rational multiple of $\pi$: the subgroup $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z}$ of $\mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$.</li>
           <li>Answer to Hilbert's 3rd problem, using Dehn invariant and explicit computations.</li>
           <li>Comments on non-vanishing of the Dehn invariant of the regular tetrahedron.</li>
           <tr><td class=divider><hr /></td><td class=divider><hr /></td></tr>
@@ -288,4 +288,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3J9)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Thursday, Oct 20 2022</div>
+<div style="text-align: right">Last modified: Friday, Oct 21 2022</div>
