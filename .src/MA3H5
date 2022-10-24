@@ -23,18 +23,22 @@ mon
   Tangent vectors, tangent spaces, vector fields.
 pre
   Partitions of unity.
-_tentative
 fri
-  Tensor products (continued).
   Sub-manifolds.
+  Smooth maps.
   Question Sheet 1.
 
 -- Week 4
 mon
-  Vector fields, bracket
+  (Online lecture) Vector fields, bracket.
   Differential, definition of immersion, submersion, embedding.
-  1-parameter subgroups and their local versions.
+_tentative
 pre
   Ehresmann Theorem.
-
-  , more differentiability,&hellip;
+fri
+  Surgery.
+  Tensor products (continued).
+  Tangent spaces.
+  Derivatives.
+mon
+    1-parameter subgroups and their local versions.

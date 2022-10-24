@@ -90,9 +90,28 @@
         </ul>
       </td>
     </tr>
+    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li>Sub-manifolds.</li>
+          <li>Smooth maps.</li>
+          <li>Question Sheet 1.</li>
+        </ul>
+      </td>
+    </tr>
+<!--  ##################  Week 4  ################## -->
+    <tr><th></th><th align="center">Week 4 (Oct 24-28)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>(Online lecture) Vector fields, bracket.</li>
+          <li>Differential, definition of immersion, submersion, embedding.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3H5_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Wednesday, Oct 19 2022</div>
+<div style="text-align: right">Last modified: Monday, Oct 24 2022</div>

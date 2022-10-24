@@ -87,15 +87,14 @@
       <td>
         <ul>
           <li>Partitions of unity.</li>
-          <tr><td class=divider><hr /></td><td class=divider><hr /></td></tr>
         </ul>
       </td>
     </tr>
     <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>Tensor products (continued).</li>
           <li>Sub-manifolds.</li>
+          <li>Smooth maps.</li>
           <li>Question Sheet 1.</li>
         </ul>
       </td>
@@ -105,9 +104,9 @@
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>Vector fields, bracket</li>
+          <li>(Online lecture) Vector fields, bracket.</li>
           <li>Differential, definition of immersion, submersion, embedding.</li>
-          <li>1-parameter subgroups and their local versions.</li>
+          <tr><td class=divider><hr /></td><td class=divider><hr /></td></tr>
         </ul>
       </td>
     </tr>
@@ -115,7 +114,23 @@
       <td>
         <ul>
           <li>Ehresmann Theorem.</li>
-          <li>, more differentiability,&hellip;</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li>Surgery.</li>
+          <li>Tensor products (continued).</li>
+          <li>Tangent spaces.</li>
+          <li>Derivatives.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>  1-parameter subgroups and their local versions.</li>
         </ul>
       </td>
     </tr>
@@ -124,4 +139,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Friday, Oct 21 2022</div>
+<div style="text-align: right">Last modified: Monday, Oct 24 2022</div>
