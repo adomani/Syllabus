@@ -110,7 +110,7 @@
     <tr><td>Recorded</td>
       <td>
         <ul>
-          <li>No recording this week due.</li>
+          <li>No recording this week.</li>
         </ul>
       </td>
     </tr>
