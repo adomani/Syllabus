@@ -127,6 +127,8 @@
         </ul>
       </td>
     </tr>
+<!--  ##################  Week 5  ################## -->
+    <tr><th></th><th align="center">Week 5 (Oct 31-Nov 04)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
