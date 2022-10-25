@@ -120,13 +120,13 @@
           <li>(Online lecture) Overview of Hilbert's 17th problem.</li>
           <li>Motzkin's example.</li>
           <li>Formally real fields.</li>
+          <tr><td class=divider><hr /></td><td class=divider><hr /></td></tr>
         </ul>
       </td>
     </tr>
     <tr><td>Thursday</td>
       <td>
         <ul>
-          <tr><td class=divider><hr /></td><td class=divider><hr /></td></tr>
           <li>Sums of squares, preorders, orders, initial properties.</li>
           <li>Artin-Schreier Theorem.</li>
         </ul>

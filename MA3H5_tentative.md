@@ -106,7 +106,6 @@
         <ul>
           <li>(Online lecture) Vector fields, bracket.</li>
           <li>Differential, definition of immersion, submersion, embedding.</li>
-          <tr><td class=divider><hr /></td><td class=divider><hr /></td></tr>
         </ul>
       </td>
     </tr>
@@ -114,6 +113,7 @@
       <td>
         <ul>
           <li>No recording this week.</li>
+          <tr><td class=divider><hr /></td><td class=divider><hr /></td></tr>
         </ul>
       </td>
     </tr>

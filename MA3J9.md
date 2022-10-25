@@ -123,12 +123,6 @@
         </ul>
       </td>
     </tr>
-    <tr><td>Thursday</td>
-      <td>
-        <ul>
-        </ul>
-      </td>
-    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
