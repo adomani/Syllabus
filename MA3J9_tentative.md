@@ -102,7 +102,6 @@
           <li>The tensor product of $\mathbb{R}$ with rotations by a rational multiple of $\pi$: the subgroup $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z}$ of $\mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$.</li>
           <li>Answer to Hilbert's 3rd problem, using Dehn invariant and explicit computations.</li>
           <li>Comments on non-vanishing of the Dehn invariant of the regular tetrahedron.</li>
-          <tr><td class=divider><hr /></td><td class=divider><hr /></td></tr>
         </ul>
       </td>
     </tr>
@@ -111,24 +110,24 @@
     <tr><td>Recorded</td>
       <td>
         <ul>
-          <li>Newton polytopes, in general.</li>
-          <li>Newton polygons, for polynomials in two variables.</li>
+          <li>No recording this week due.</li>
         </ul>
       </td>
     </tr>
     <tr><td>Tuesday</td>
       <td>
         <ul>
-          <li>Overview of Hilbert's 17th problem.</li>
+          <li>(Online lecture) Overview of Hilbert's 17th problem.</li>
           <li>Motzkin's example.</li>
-          <li>Sums of squares.</li>
+          <li>Formally real fields.</li>
         </ul>
       </td>
     </tr>
     <tr><td>Thursday</td>
       <td>
         <ul>
-          <li>Formally real fields, preorders, orders, initial properties.</li>
+          <tr><td class=divider><hr /></td><td class=divider><hr /></td></tr>
+          <li>Sums of squares, preorders, orders, initial properties.</li>
           <li>Artin-Schreier Theorem.</li>
         </ul>
       </td>
@@ -138,6 +137,8 @@
     <tr><td>Recorded</td>
       <td>
         <ul>
+          <li>Newton polytopes, in general.</li>
+          <li>Newton polygons, for polynomials in two variables.</li>
           <li>Newton polygons and squares of polynomials.</li>
         </ul>
       </td>
@@ -288,4 +289,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3J9)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Friday, Oct 21 2022</div>
+<div style="text-align: right">Last modified: Tuesday, Oct 25 2022</div>

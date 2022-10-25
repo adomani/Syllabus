@@ -113,7 +113,7 @@
     <tr><td>Recorded</td>
       <td>
         <ul>
-          <li>Ehresmann Theorem.</li>
+          <li>No recording this week due.</li>
         </ul>
       </td>
     </tr>
@@ -134,9 +134,16 @@
         </ul>
       </td>
     </tr>
+    <tr><td>Recorded</td>
+      <td>
+        <ul>
+          <li>Ehresmann Theorem.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Monday, Oct 24 2022</div>
+<div style="text-align: right">Last modified: Tuesday, Oct 25 2022</div>

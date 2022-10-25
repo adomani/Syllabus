@@ -30,21 +30,22 @@ thu
   Answer to Hilbert's 3rd problem, using Dehn invariant and explicit computations.
   Comments on non-vanishing of the Dehn invariant of the regular tetrahedron.
 
-_tentative
 --  Week 4
 pre
-  Newton polytopes, in general.
-  Newton polygons, for polynomials in two variables.
+  No recording this week due.
 tue
-  Overview of Hilbert's 17th problem.
+  (Online lecture) Overview of Hilbert's 17th problem.
   Motzkin's example.
-  Sums of squares.
+  Formally real fields.
 thu
-  Formally real fields, preorders, orders, initial properties.
+_tentative
+  Sums of squares, preorders, orders, initial properties.
   Artin-Schreier Theorem.
 
 --  Week 5
 pre
+  Newton polytopes, in general.
+  Newton polygons, for polynomials in two variables.
   Newton polygons and squares of polynomials.
 tue
   Orders and order relations, totally positive elements.
