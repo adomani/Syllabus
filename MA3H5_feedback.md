@@ -1,4 +1,4 @@
-# MA3H5 Manifolds: rRsponse to Initial Feedback
+# MA3H5 Manifolds: Response to Initial Feedback
 
 8 students completed the questionnaire: thank you if you did!
 
