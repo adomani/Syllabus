@@ -37,10 +37,9 @@ tue
   (Online lecture) Overview of Hilbert's 17th problem.
   Motzkin's example.
   Formally real fields.
-_tentative
 thu
-  Sums of squares, preorders, orders, initial properties.
-  Artin-Schreier Theorem.
+  (Online lecture) Sums of squares, preorders, orders, initial properties.
+_tentative
 
 --  Week 5
 pre
@@ -48,6 +47,7 @@ pre
   Newton polygons, for polynomials in two variables.
   Newton polygons and squares of polynomials.
 tue
+  Artin-Schreier Theorem.
   Orders and order relations, totally positive elements.
   Fields of rational functions.
   Quadratic fields.

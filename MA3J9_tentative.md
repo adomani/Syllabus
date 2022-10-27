@@ -120,15 +120,14 @@
           <li>(Online lecture) Overview of Hilbert's 17th problem.</li>
           <li>Motzkin's example.</li>
           <li>Formally real fields.</li>
-          <tr><td class=divider><hr /></td><td class=divider><hr /></td></tr>
         </ul>
       </td>
     </tr>
     <tr><td>Thursday</td>
       <td>
         <ul>
-          <li>Sums of squares, preorders, orders, initial properties.</li>
-          <li>Artin-Schreier Theorem.</li>
+          <li>(Online lecture) Sums of squares, preorders, orders, initial properties.</li>
+          <tr><td class=divider><hr /></td><td class=divider><hr /></td></tr>
         </ul>
       </td>
     </tr>
@@ -146,6 +145,7 @@
     <tr><td>Tuesday</td>
       <td>
         <ul>
+          <li>Artin-Schreier Theorem.</li>
           <li>Orders and order relations, totally positive elements.</li>
           <li>Fields of rational functions.</li>
           <li>Quadratic fields.</li>
@@ -289,4 +289,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3J9)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Oct 25 2022</div>
+<div style="text-align: right">Last modified: Thursday, Oct 27 2022</div>
