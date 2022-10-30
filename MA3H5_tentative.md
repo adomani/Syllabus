@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
 <script type="text/javascript" id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
@@ -22,14 +24,13 @@
       }
   })();
 </script>
-
 # [MA3H5 Manifolds](https://moodle.warwick.ac.uk/course/view.php?id=52238) tentative syllabus
 ## Autumn 2022
 
 <table>
   <tbody>
 <!--  ##################  Week 1  ################## -->
-    <tr><th></th><th align="center">Week 1 (Oct 03-07)</th></tr>
+    <tr><th></th><th style="text-align: center">Week 1 (Oct 03-07)</th></tr>
     <tr><td>Wednesday</td>
       <td>
         <ul>
@@ -47,7 +48,7 @@
       </td>
     </tr>
 <!--  ##################  Week 2  ################## -->
-    <tr><th></th><th align="center">Week 2 (Oct 10-14)</th></tr>
+    <tr><th></th><th style="text-align: center">Week 2 (Oct 10-14)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
@@ -74,7 +75,7 @@
       </td>
     </tr>
 <!--  ##################  Week 3  ################## -->
-    <tr><th></th><th align="center">Week 3 (Oct 17-21)</th></tr>
+    <tr><th></th><th style="text-align: center">Week 3 (Oct 17-21)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
@@ -100,7 +101,7 @@
       </td>
     </tr>
 <!--  ##################  Week 4  ################## -->
-    <tr><th></th><th align="center">Week 4 (Oct 24-28)</th></tr>
+    <tr><th></th><th style="text-align: center">Week 4 (Oct 24-28)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
@@ -128,7 +129,7 @@
       </td>
     </tr>
 <!--  ##################  Week 5  ################## -->
-    <tr><th></th><th align="center">Week 5 (Oct 31-Nov 04)</th></tr>
+    <tr><th></th><th style="text-align: center">Week 5 (Oct 31-Nov 04)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
@@ -148,4 +149,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Oct 25 2022</div>
+<div style="text-align: right">Last modified: Sunday, Oct 30 2022</div>

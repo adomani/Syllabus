@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
 <script type="text/javascript" id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
@@ -22,14 +24,13 @@
       }
   })();
 </script>
-
 # [MA3J9 Historical Challenges in Mathematics](https://moodle.warwick.ac.uk/course/view.php?id=52244)
 ## Autumn 2022
 
 <table>
   <tbody>
 <!--  ##################  Week 1  ################## -->
-    <tr><th></th><th align="center">Week 1 (Oct 03-07)</th></tr>
+    <tr><th></th><th style="text-align: center">Week 1 (Oct 03-07)</th></tr>
     <tr><td>Recorded</td>
       <td>
         <ul>
@@ -54,7 +55,7 @@
       </td>
     </tr>
 <!--  ##################  Week 2  ################## -->
-    <tr><th></th><th align="center">Week 2 (Oct 10-14)</th></tr>
+    <tr><th></th><th style="text-align: center">Week 2 (Oct 10-14)</th></tr>
     <tr><td>Recorded</td>
       <td>
         <ul>
@@ -80,7 +81,7 @@
       </td>
     </tr>
 <!--  ##################  Week 3  ################## -->
-    <tr><th></th><th align="center">Week 3 (Oct 17-21)</th></tr>
+    <tr><th></th><th style="text-align: center">Week 3 (Oct 17-21)</th></tr>
     <tr><td>Recorded</td>
       <td>
         <ul>
@@ -106,7 +107,7 @@
       </td>
     </tr>
 <!--  ##################  Week 4  ################## -->
-    <tr><th></th><th align="center">Week 4 (Oct 24-28)</th></tr>
+    <tr><th></th><th style="text-align: center">Week 4 (Oct 24-28)</th></tr>
     <tr><td>Recorded</td>
       <td>
         <ul>
@@ -135,4 +136,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3J9_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Thursday, Oct 27 2022</div>
+<div style="text-align: right">Last modified: Sunday, Oct 30 2022</div>
