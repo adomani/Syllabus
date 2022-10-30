@@ -53,21 +53,26 @@ exweek () {
   fi
 }
 
-# `new_week <num>` produces the header for the table entry for week number <num>.
+# `new_week <num> <is_tent>` produces the header for the table entry for week number <num>.
 # The input is which week it is: the html code depends on whether it is the first week or not.
 new_week () {
   if [[ $1 != 1 ]];
   then
     close_stuff
   fi
+  if ($2);
+  then
+    echo "          <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>"
+    is_tent=false
+  fi
   echo "<!--  ##################  Week $1  ################## -->
     <tr><th></th><th style=\"text-align: center\">Week $1 ($(exweek $1))</th></tr>"
 }
 
-# `new_day <day> <bool>` produces the table entries for each <day>,
+# `new_day <day> <two_le> <is_tent>` produces the table entries for each <day>,
 # with a slight difference in html depending on whether
-# * it is the first entry of the current week -- `<bool> = false`;
-# * it is the not the first entry of the current week -- `<bool> = true`;
+# * it is the first entry of the current week -- `<two_le> = false`;
+# * it is the not the first entry of the current week -- `<two_le> = true`;
 # <day> is parsed as 'mon,..., sun --> Monday,...,Sunday' (except for Friday,
 # which also produces a line with "(support class)") and 'anything_else --> Recorded'.
 # And then, more html.
@@ -76,6 +81,12 @@ new_day () {
   then
     close_stuff
   fi
+  if ($3);
+  then
+    echo "          <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>"
+    is_tent=false
+  fi
+
   if [ $1 == "fri" ]
   then
     echo '    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>'
@@ -112,22 +123,26 @@ to_html_from () {
   echo $nome
   wk=0
   con=true
+  is_tent=false
   while IFS= read -r line || [ -n "$line" ]; do
     if [[ $line =~ ^-- ]];
     then
       ((wk++))
       con=false
-      new_week $wk >> $nome
+      new_week $wk "$is_tent" >> $nome
     elif [[ $line =~ ^\ *(pre|mon|tue|wed|thu|fri|sat|sun)$ ]]
     then
-      new_day "$line" "$con" >> $nome
+      echo "$is_tent"
+      new_day "$line" "$con" "$is_tent" >> $nome
+      echo "after"
       con=true
     elif [[ $line = "  "* ]]
     then
       echo "          <li>${line:2}</li>" >> $nome
     elif [[ $line = "_tentative" ]]
     then
-      echo "          <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>" >> $nome
+      is_tent=true
+#      echo "          <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>" >> $nome
     fi
   done < <(if [ "$tent" ]; then cat $modd; else sed '/^_tentative/Q' $modd; fi)
   page_tail $1 >> $nome
