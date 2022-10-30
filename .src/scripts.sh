@@ -53,7 +53,10 @@ exweek () {
   fi
 }
 
-# `new_week <num> <is_tent>` produces the header for the table entry for week number <num>.
+# `new_week <num> <is_tent>` produces the header for the table entry for week number <num>,
+# with a slight difference in html depending on whether
+# * it is the entry just after the tentative syllabus begins -- `<is_tent> = true`;
+# * it is not the entry just after the tentative syllabus begins -- `<is_tent> = false`.
 # The input is which week it is: the html code depends on whether it is the first week or not.
 new_week () {
   if [[ $1 != 1 ]];
@@ -62,7 +65,7 @@ new_week () {
   fi
   if ($2);
   then
-    echo "          <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>"
+    echo "   <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>"
     is_tent=false
   fi
   echo "<!--  ##################  Week $1  ################## -->
@@ -73,6 +76,8 @@ new_week () {
 # with a slight difference in html depending on whether
 # * it is the first entry of the current week -- `<two_le> = false`;
 # * it is the not the first entry of the current week -- `<two_le> = true`;
+# * it is the entry just after the tentative syllabus begins -- `<is_tent> = true`;
+# * it is not the entry just after the tentative syllabus begins -- `<is_tent> = false`.
 # <day> is parsed as 'mon,..., sun --> Monday,...,Sunday' (except for Friday,
 # which also produces a line with "(support class)") and 'anything_else --> Recorded'.
 # And then, more html.
@@ -83,7 +88,7 @@ new_day () {
   fi
   if ($3);
   then
-    echo "          <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>"
+    echo "   <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>"
     is_tent=false
   fi
 
@@ -142,12 +147,11 @@ to_html_from () {
     elif [[ $line = "_tentative" ]]
     then
       is_tent=true
-#      echo "          <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>" >> $nome
     fi
   done < <(if [ "$tent" ]; then cat $modd; else sed '/^_tentative/Q' $modd; fi)
   page_tail $1 >> $nome
 }
-#sed 's?^_tentative?          <tr><td class="divider"><hr /></td><td class="divider"><hr /></td></tr>?g'
+
 make_md () {
   here=$PWD
   mypth=$(pwd | sed -E 's=(Syllab[iu][s]?).*=\1/.src/=g')
