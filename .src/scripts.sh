@@ -20,14 +20,16 @@ page_head () {
   <tbody>"
 }
 
+close_stuff () {
+  printf "        </ul>\n      </td>\n    </tr>\n"
+}
+
 # `page_tail <file>` analogous to `page_head` except that it closes all open tags and
 # uses the input file name to make an educated guess of whether to include a link to the
 # tentative syllabus or not.
 page_tail () {
-  echo "        </ul>
-      </td>
-    </tr>
-  </tbody>
+  close_stuff
+  echo "  </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>"
   if [ "${1:6}" ];
@@ -49,10 +51,6 @@ exweek () {
   else
     echo "${ini[0]} ${ini[1]}-${fin[0]} ${fin[1]}"
   fi
-}
-
-close_stuff () {
-  printf "        </ul>\n      </td>\n    </tr>\n"
 }
 
 # `new_week <num>` produces the header for the table entry for week number <num>.
