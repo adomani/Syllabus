@@ -115,17 +115,16 @@
         </ul>
       </td>
     </tr>
-    <tr><td class=divider><hr/></td><td class=divider><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>Surgery.</li>
+          <li>Surgery (Theorem 2.12).</li>
           <li>Tensor products (continued).</li>
-          <li>Tangent spaces.</li>
-          <li>Derivatives.</li>
+          <li>Tangent spaces and derivatives.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class=divider><hr/></td><td class=divider><hr/></td></tr>
 <!--  ##################  Week 5  ################## -->
     <tr><th></th><th style="text-align: center">Week 5 (Oct 31-Nov 04)</th></tr>
     <tr><td>Monday</td>
@@ -139,6 +138,13 @@
       <td>
         <ul>
           <li>Ehresmann Theorem.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li>Tangent spaces and derivatives (continued).</li>
         </ul>
       </td>
     </tr>
