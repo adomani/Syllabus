@@ -65,7 +65,7 @@ new_week () {
   fi
   if ($2);
   then
-    echo "   <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>"
+    echo "    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>"
     is_tent=false
   fi
   echo "<!--  ##################  Week $1  ################## -->
@@ -88,7 +88,7 @@ new_day () {
   fi
   if ($3);
   then
-    echo "   <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>"
+    echo "    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>"
     is_tent=false
   fi
 
@@ -137,9 +137,7 @@ to_html_from () {
       new_week $wk "$is_tent" >> $nome
     elif [[ $line =~ ^\ *(pre|mon|tue|wed|thu|fri|sat|sun)$ ]]
     then
-      echo "$is_tent"
       new_day "$line" "$con" "$is_tent" >> $nome
-      echo "after"
       con=true
     elif [[ $line = "  "* ]]
     then

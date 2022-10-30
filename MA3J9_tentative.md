@@ -129,7 +129,7 @@
         </ul>
       </td>
     </tr>
-          <tr><td class=divider><hr/></td><td class=divider><hr/></td></tr>
+    <tr><td class=divider><hr/></td><td class=divider><hr/></td></tr>
 <!--  ##################  Week 5  ################## -->
     <tr><th></th><th style="text-align: center">Week 5 (Oct 31-Nov 04)</th></tr>
     <tr><td>Recorded</td>
