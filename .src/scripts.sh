@@ -130,7 +130,7 @@ to_html_from () {
     then
       echo "          <tr><td class="divider"><hr /></td><td class="divider"><hr /></td></tr>" >> $nome
     fi
-  done < <(if [ "$tent" ]; then cat $modd; else sed '/^_tentative/Q' $modd; fi)
+  done < <(if [ "$tent" ]; then grep -v "^_tentative" $modd; else sed '/^_tentative/Q' $modd; fi)
   page_tail $1 >> $nome
 }
 
