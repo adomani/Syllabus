@@ -50,14 +50,17 @@ exweek () {
     echo "${ini[0]} ${ini[1]}-${fin[0]} ${fin[1]}"
   fi
 }
+
+close_stuff () {
+  printf "        </ul>\n      </td>\n    </tr>\n"
+}
+
 # `new_week <num>` produces the header for the table entry for week number <num>.
 # The input is which week it is: the html code depends on whether it is the first week or not.
 new_week () {
   if [[ $1 != 1 ]];
   then
-    echo "        </ul>
-      </td>
-    </tr>"
+    close_stuff
   fi
   echo "<!--  ##################  Week $1  ################## -->
     <tr><th></th><th style=\"text-align: center\">Week $1 ($(exweek $1))</th></tr>"
@@ -73,9 +76,7 @@ new_week () {
 new_day () {
   if ($2);
   then
-    echo "        </ul>
-      </td>
-    </tr>"
+    close_stuff
   fi
   if [ $1 == "fri" ]
   then
