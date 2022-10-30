@@ -126,6 +126,7 @@
       <td>
         <ul>
           <li>(Online lecture) Sums of squares, preorders, orders, initial properties.</li>
+          <tr><td class=divider><hr/></td><td class=divider><hr/></td></tr>
         </ul>
       </td>
     </tr>
