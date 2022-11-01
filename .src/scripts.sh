@@ -141,21 +141,15 @@ make_md () {
   echo "$diffe different lines"
   if [ "$diffe" -gt 1 ]
   then
-    echo "muovo"
+    brown "muovo\n"
     mv -f "$1.md" ../"$1.md"
   else
-    echo "non muovo"
+    brown "non muovo\n"
     rm -f "$1.md"
   fi
   cd "$here"
 }
 
-mani () {
-  make_md MA3H5
-  make_md MA3H5_tentative
-}
-
-hcim () {
-  make_md MA3J9
-  make_md MA3J9_tentative
-}
+alias mani='make_md MA3H5; make_md MA3H5_tentative'
+alias hcim='make_md MA3J9; make_md MA3J9_tentative'
+alias both='lblue "Manifolds\n"; mani; lblue "\nHCiM\n"; hcim'
