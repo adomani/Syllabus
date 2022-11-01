@@ -38,11 +38,15 @@ fri
   Surgery (Theorem 2.12).
   Tensor products (continued).
   Tangent spaces and derivatives.
-_tentative
 
 -- Week 5
 mon
-    1-parameter subgroups and their local versions.
+  (Local) 1-parameter subgroups of (local) diffeomorphisms.
+  Flows.
+  Complete vector fields.
+  Cotangent space (definition).
+
+_tentative
 pre
   Ehresmann Theorem.
 fri
