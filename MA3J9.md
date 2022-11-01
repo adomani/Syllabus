@@ -129,9 +129,28 @@
         </ul>
       </td>
     </tr>
+<!--  ##################  Week 5  ################## -->
+    <tr><th></th><th style="text-align: center">Week 5 (Oct 31-Nov 04)</th></tr>
+    <tr><td>Recorded</td>
+      <td>
+        <ul>
+          <li>Newton polytopes, in general.</li>
+          <li>Newton polygons, for polynomials in two variables.</li>
+          <li>Newton polygons and squares of polynomials.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
+          <li>Artin-Schreier Theorem.</li>
+          <li>Orders and order relations, totally positive elements.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3J9_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Sunday, Oct 30 2022</div>
+<div style="text-align: right">Last modified: Tuesday, Nov 01 2022</div>

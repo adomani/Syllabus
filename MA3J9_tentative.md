@@ -129,7 +129,6 @@
         </ul>
       </td>
     </tr>
-    <tr><td class=divider><hr/></td><td class=divider><hr/></td></tr>
 <!--  ##################  Week 5  ################## -->
     <tr><th></th><th style="text-align: center">Week 5 (Oct 31-Nov 04)</th></tr>
     <tr><td>Recorded</td>
@@ -146,14 +145,14 @@
         <ul>
           <li>Artin-Schreier Theorem.</li>
           <li>Orders and order relations, totally positive elements.</li>
-          <li>Fields of rational functions.</li>
-          <li>Quadratic fields.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class=divider><hr/></td><td class=divider><hr/></td></tr>
     <tr><td>Thursday</td>
       <td>
         <ul>
+          <li>Quadratic fields.</li>
           <li>Orders on $\mathbb{Q}(\sqrt{d})$.</li>
         </ul>
       </td>
@@ -288,4 +287,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3J9)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Sunday, Oct 30 2022</div>
+<div style="text-align: right">Last modified: Tuesday, Nov 01 2022</div>

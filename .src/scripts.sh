@@ -13,25 +13,17 @@
 # After that, it adds the user input <mytitle>, for instance `MA3J9`, the date and some html.
 page_head () {
   grep -v "^  *//" body_content | sed 's=  *//.*==g'
-  echo "# $1
-## Autumn 2022
-
-<table>
-  <tbody>"
+  printf "# $1\n## Autumn 2022\n\n<table>\n  <tbody>\n"
 }
 
-close_stuff () {
-  printf "        </ul>\n      </td>\n    </tr>\n"
-}
+alias close_stuff='printf "        </ul>\n      </td>\n    </tr>\n"'
 
 # `page_tail <file>` analogous to `page_head` except that it closes all open tags and
 # uses the input file name to make an educated guess of whether to include a link to the
 # tentative syllabus or not.
 page_tail () {
   close_stuff
-  echo "  </tbody>
-</table>
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>"
+  printf "  </tbody>\n</table>\n<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>\n"
   if [ "${1:6}" ];
   then
     echo "What we have done so far: [current syllabus](${1:0:5})"
@@ -45,12 +37,8 @@ page_tail () {
 exweek () {
   ini=($(date -d "Sep 26 2022 +$1 weeks" '+%b %d'))
   fin=($(date -d "Sep 26 2022 +$1 weeks + 4 days" '+%b %d'))
-  if [ $ini == $fin ]
-  then
-    echo "${ini[0]} ${ini[1]}-${fin[1]}"
-  else
-    echo "${ini[0]} ${ini[1]}-${fin[0]} ${fin[1]}"
-  fi
+  if [ $ini == $fin ]; then mid=""; else mid="${fin[0]} "; fi
+  echo "${ini[0]} ${ini[1]}-$mid${fin[1]}"
 }
 
 # `new_week <num> <is_tent>` produces the header for the table entry for week number <num>,
@@ -59,10 +47,7 @@ exweek () {
 # * it is not the entry just after the tentative syllabus begins -- `<is_tent> = false`.
 # The input is which week it is: the html code depends on whether it is the first week or not.
 new_week () {
-  if [[ $1 != 1 ]];
-  then
-    close_stuff
-  fi
+  if [[ $1 != 1 ]]; then close_stuff; fi
   if ($2);
   then
     echo "    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>"
@@ -82,10 +67,7 @@ new_week () {
 # which also produces a line with "(support class)") and 'anything_else --> Recorded'.
 # And then, more html.
 new_day () {
-  if ($2);
-  then
-    close_stuff
-  fi
+  if ($2); then close_stuff; fi
   if ($3);
   then
     echo "    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>"
