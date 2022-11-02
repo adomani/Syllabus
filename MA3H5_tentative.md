@@ -151,9 +151,32 @@
         </ul>
       </td>
     </tr>
+<!--  ##################  Week 6  ################## -->
+    <tr><th></th><th style="text-align: center">Week 6 (Nov 07-11)</th></tr>
+    <tr><td>Recorded</td>
+      <td>
+        <ul>
+          <li>TBA</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
+          <li>Complements and Q&A during breather week.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td>Thursday</td>
+      <td>
+        <ul>
+          <li>Complements and Q&A during breather week.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Nov 01 2022</div>
+<div style="text-align: right">Last modified: Wednesday, Nov 02 2022</div>
