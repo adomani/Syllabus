@@ -139,7 +139,7 @@
     <tr><td>Recorded</td>
       <td>
         <ul>
-          <li>Ehresmann Theorem.</li>
+          <li>Ehresmann's Theorem.</li>
         </ul>
       </td>
     </tr>
