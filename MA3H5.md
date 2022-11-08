@@ -147,7 +147,7 @@
       <td>
         <ul>
           <li>Derivatives (continued) in charts and abstractly.</li>
-          <li>Exercise Sheet 2, Q1-4.</li>
+          <li>Problem Sheet 2.</li>
         </ul>
       </td>
     </tr>
