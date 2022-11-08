@@ -162,7 +162,7 @@
       <td>
         <ul>
           <li>Orders on $\mathbb{Q}(\sqrt{d})$ (conclusion).</li>
-          <li>Complements and Q&A during breather week:<ul><li>$\mathbb{Q} \otimes \mathbb{Z}/6\mathbb{Z} \simeq 0$</li><li>$\mathbb{Z} \otimes A \simeq A$</li><li>Any rectangle is scissor congruent to a rectangle with an edge of length 1</li><li>Order relations<li>Sums of squares in $\mathbb{Q}\left(\sqrt{d}\right)$</li></li></ul>.</li>
+          <li>Complements and Q&A during breather week:<ul><li>$\mathbb{Q} \otimes \mathbb{Z}/6\mathbb{Z} \simeq 0$,</li><li>$\mathbb{Z} \otimes A \simeq A$,</li><li>Any rectangle is scissor congruent to a rectangle with an edge of length 1,</li><li>Order relations<li>Sums of squares in $\mathbb{Q}\left(\sqrt{d}\right)$.</li></ul></li>
         </ul>
       </td>
     </tr>
