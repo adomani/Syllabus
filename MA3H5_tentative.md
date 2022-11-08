@@ -143,34 +143,35 @@
         </ul>
       </td>
     </tr>
-    <tr><td class=divider><hr/></td><td class=divider><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>Tangent spaces and derivatives (continued).</li>
+          <li>Derivatives (continued) in charts and abstractly.</li>
+          <li>Exercise Sheet 2, Q1-4.</li>
         </ul>
       </td>
     </tr>
 <!--  ##################  Week 6  ################## -->
     <tr><th></th><th style="text-align: center">Week 6 (Nov 07-11)</th></tr>
-    <tr><td>Recorded</td>
-      <td>
-        <ul>
-          <li>TBA</li>
-        </ul>
-      </td>
-    </tr>
     <tr><td>Tuesday</td>
       <td>
         <ul>
-          <li>Complements and Q&A during breather week.</li>
+          <li>Complements and Q&A during breather week: derivatives in coordinates, Ehresmann's Theorem and extending integral curves, $U \otimes V$ and ${\textrm{Hom} (U^*, V)}$, digression on [Whitney's Embedding Theorem](https://en.wikipedia.org/wiki/Whitney_embedding_theorem), Whitney's trick and dimension 4.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class=divider><hr/></td><td class=divider><hr/></td></tr>
     <tr><td>Thursday</td>
       <td>
         <ul>
           <li>Complements and Q&A during breather week.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td>Recorded</td>
+      <td>
+        <ul>
+          <li>TBA</li>
         </ul>
       </td>
     </tr>
@@ -179,4 +180,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Friday, Nov 04 2022</div>
+<div style="text-align: right">Last modified: Tuesday, Nov 08 2022</div>
