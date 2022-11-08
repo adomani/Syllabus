@@ -156,11 +156,7 @@
     <tr><td>Tuesday</td>
       <td>
         <ul>
-<<<<<<< HEAD
-          <li>Complements and Q&A during breather week: derivatives in coordinates, Ehresmann's Theorem and extending integral curves, $U \otimes V$ and ${\textrm{Hom} (U^*, V)}$, digression on <a href="https://en.wikipedia.org/wiki/Whitney_embedding_theorem">Whitney's Embedding Theorem</a>, Whitney's trick and dimension 4.</li>
-=======
-          <li>Complements and Q&A during breather week: derivatives in coordinates, Ehresmann's Theorem and extending integral curves, $U \otimes V$ and ${\textrm{Hom} (U^*, V)}$, digression on [Whitney's Embedding Theorem](https://en.wikipedia.org/wiki/Whitney_embedding_theorem), Whitney's trick and dimension 4.</li>
->>>>>>> 9088e31ae271c7e71aa05453d7197a4676d0fdaa
+          <li>Complements and Q&A during breather week:<ul><li>derivatives in coordinates,</li><li>Ehresmann's Theorem and extending integral curves,</li><li>$U \otimes V$ and ${\textrm{Hom} (U^*, V)}$,</li><li>digression on <a href="https://en.wikipedia.org/wiki/Whitney_embedding_theorem">Whitney's Embedding Theorem</a> and Whitney's trick,</li><li>the sofa problem, and</li><li>dimension 4</li></ul>.</li>
         </ul>
       </td>
     </tr>
