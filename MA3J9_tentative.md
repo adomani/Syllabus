@@ -156,28 +156,28 @@
         </ul>
       </td>
     </tr>
-    <tr><td class=divider><hr/></td><td class=divider><hr/></td></tr>
 <!--  ##################  Week 6  ################## -->
     <tr><th></th><th style="text-align: center">Week 6 (Nov 07-11)</th></tr>
-    <tr><td>Recorded</td>
-      <td>
-        <ul>
-          <li>TBA</li>
-        </ul>
-      </td>
-    </tr>
     <tr><td>Tuesday</td>
       <td>
         <ul>
           <li>Orders on $\mathbb{Q}(\sqrt{d})$ (conclusion).</li>
-          <li>Complements and Q&A during breather week.</li>
+          <li>Complements and Q&A during breather week:<ul><li>$\mathbb{Q} \otimes \mathbb{Z}/6\mathbb{Z} \simeq 0$</li><li>$\mathbb{Z} \otimes A \simeq A$</li><li>Any rectangle is scissor congruent to a rectangle with an edge of length 1</li><li>Order relations<li>Sums of squares in $\mathbb{Q}\left(\sqrt{d}\right)$</li></li></ul>.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class=divider><hr/></td><td class=divider><hr/></td></tr>
     <tr><td>Thursday</td>
       <td>
         <ul>
           <li>Complements and Q&A during breather week.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td>Recorded</td>
+      <td>
+        <ul>
+          <li>TBA</li>
         </ul>
       </td>
     </tr>
@@ -288,4 +288,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3J9)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Friday, Nov 04 2022</div>
+<div style="text-align: right">Last modified: Tuesday, Nov 08 2022</div>
