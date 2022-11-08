@@ -48,14 +48,15 @@ mon
 
 pre
   Ehresmann's Theorem.
-_tentative
 fri
-  Tangent spaces and derivatives (continued).
+  Derivatives (continued) in charts and abstractly.
+  Exercise Sheet 2, Q1-4.
 
 --  Week 6
-pre
-  TBA
 tue
-  Complements and Q&A during breather week.
+  Complements and Q&A during breather week: derivatives in coordinates, Ehresmann's Theorem and extending integral curves, $U \otimes V$ and ${\textrm{Hom} (U^*, V)}$, digression on <a href="https://en.wikipedia.org/wiki/Whitney_embedding_theorem">Whitney's Embedding Theorem</a>, Whitney's trick and dimension 4.
+_tentative
 thu
   Complements and Q&A during breather week.
+pre
+  TBA
