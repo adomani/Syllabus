@@ -177,7 +177,7 @@
     <tr><td>Recorded</td>
       <td>
         <ul>
-          <li>TBA</li>
+          <li>Eisenstein's Criterion and Newton Polygons</li>
         </ul>
       </td>
     </tr>
@@ -288,4 +288,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3J9)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Nov 08 2022</div>
+<div style="text-align: right">Last modified: Wednesday, Nov 09 2022</div>
