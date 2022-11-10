@@ -58,15 +58,17 @@ pre
 tue
   Orders on $\mathbb{Q}(\sqrt{d})$ (conclusion).
   Complements and Q&A during breather week:<ul><li>$\mathbb{Q} \otimes \mathbb{Z}/6\mathbb{Z} \simeq 0$,</li><li>$\mathbb{Z} \otimes A \simeq A$,</li><li>any rectangle is scissor congruent to a rectangle with an edge of length 1,</li><li>order relations, and</li><li>sums of squares in $\mathbb{Q}\left(\sqrt{d}\right)$.</li></ul>
-_tentative
 thu
-  Complements and Q&A during breather week.
+  Quadratic fields.
+  Extending a formally real field by adding a square root of an element in a preorder.
+  Definition of an $\mathbb{R}$-algebra.
 
+_tentative
 --  Week 7
 pre
   Motzkin's polynomial is not a sum of squares.
 tue
-  Extending a formally real field by adding a square root of an element in a preorder.
+
   The Artin-Lang homomorphism theorem (statement only).
 thu
   Using the Artin-Lang homomorphism theorem to answer Hilbert's 17th problem.

@@ -173,6 +173,15 @@
         </ul>
       </td>
     </tr>
+    <tr><td>Thursday</td>
+      <td>
+        <ul>
+          <li>Quadratic fields.</li>
+          <li>Extending a formally real field by adding a square root of an element in a preorder.</li>
+          <li>Definition of an $\mathbb{R}$-algebra.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>

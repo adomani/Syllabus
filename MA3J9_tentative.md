@@ -173,14 +173,16 @@
         </ul>
       </td>
     </tr>
-    <tr><td class=divider><hr/></td><td class=divider><hr/></td></tr>
     <tr><td>Thursday</td>
       <td>
         <ul>
-          <li>Complements and Q&A during breather week.</li>
+          <li>Quadratic fields.</li>
+          <li>Extending a formally real field by adding a square root of an element in a preorder.</li>
+          <li>Definition of an $\mathbb{R}$-algebra.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class=divider><hr/></td><td class=divider><hr/></td></tr>
 <!--  ##################  Week 7  ################## -->
     <tr><th></th><th style="text-align: center">Week 7 (Nov 14-18)</th></tr>
     <tr><td>Recorded</td>
@@ -193,7 +195,6 @@
     <tr><td>Tuesday</td>
       <td>
         <ul>
-          <li>Extending a formally real field by adding a square root of an element in a preorder.</li>
           <li>The Artin-Lang homomorphism theorem (statement only).</li>
         </ul>
       </td>
