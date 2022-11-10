@@ -153,7 +153,7 @@
     </tr>
 <!--  ##################  Week 6  ################## -->
     <tr><th></th><th style="text-align: center">Week 6 (Nov 07-11)</th></tr>
-    <tr><td>Tuesday</td>
+    <tr><td>Monday</td>
       <td>
         <ul>
           <li>Complements and Q&A during breather week:<ul><li>derivatives in coordinates,</li><li>Ehresmann's Theorem and extending integral curves,</li><li>$U \otimes V$ and ${\textrm{Hom} (U^*, V)}$,</li><li>digression on <a href="https://en.wikipedia.org/wiki/Whitney_embedding_theorem">Whitney's Embedding Theorem</a> and Whitney's trick,</li><li>the sofa problem, and</li><li>dimension 4.</li></ul></li>
@@ -161,13 +161,6 @@
       </td>
     </tr>
     <tr><td class=divider><hr/></td><td class=divider><hr/></td></tr>
-    <tr><td>Thursday</td>
-      <td>
-        <ul>
-          <li>Complements and Q&A during breather week.</li>
-        </ul>
-      </td>
-    </tr>
     <tr><td>Recorded</td>
       <td>
         <ul>
@@ -180,4 +173,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Nov 08 2022</div>
+<div style="text-align: right">Last modified: Thursday, Nov 10 2022</div>
