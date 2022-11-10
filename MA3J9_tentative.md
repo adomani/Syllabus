@@ -158,6 +158,13 @@
     </tr>
 <!--  ##################  Week 6  ################## -->
     <tr><th></th><th style="text-align: center">Week 6 (Nov 07-11)</th></tr>
+    <tr><td>Recorded</td>
+      <td>
+        <ul>
+          <li>Eisenstein's Criterion and Newton Polygons</li>
+        </ul>
+      </td>
+    </tr>
     <tr><td>Tuesday</td>
       <td>
         <ul>
@@ -171,13 +178,6 @@
       <td>
         <ul>
           <li>Complements and Q&A during breather week.</li>
-        </ul>
-      </td>
-    </tr>
-    <tr><td>Recorded</td>
-      <td>
-        <ul>
-          <li>Eisenstein's Criterion and Newton Polygons</li>
         </ul>
       </td>
     </tr>
@@ -288,4 +288,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3J9)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Wednesday, Nov 09 2022</div>
+<div style="text-align: right">Last modified: Thursday, Nov 10 2022</div>
