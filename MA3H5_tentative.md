@@ -153,6 +153,13 @@
     </tr>
 <!--  ##################  Week 6  ################## -->
     <tr><th></th><th style="text-align: center">Week 6 (Nov 07-11)</th></tr>
+    <tr><td>Recorded</td>
+      <td>
+        <ul>
+          <li>There is no pre-recorded video for Week 6</li>
+        </ul>
+      </td>
+    </tr>
     <tr><td>Monday</td>
       <td>
         <ul>
@@ -160,11 +167,17 @@
         </ul>
       </td>
     </tr>
-    <tr><td class=divider><hr/></td><td class=divider><hr/></td></tr>
-    <tr><td>Recorded</td>
+    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>TBA</li>
+          <li>Associativity of tensor products.</li>
+          <li>Wedge products and dimension of $\Lambda^k U$.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td class=divider><hr/></td><td class=divider><hr/></td></tr>
+<!--  ##################  Week 7  ################## -->
+    <tr><th></th><th style="text-align: center">Week 7 (Nov 14-18)</th></tr>
         </ul>
       </td>
     </tr>
@@ -173,4 +186,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Thursday, Nov 10 2022</div>
+<div style="text-align: right">Last modified: Monday, Nov 14 2022</div>

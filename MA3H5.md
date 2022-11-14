@@ -153,10 +153,25 @@
     </tr>
 <!--  ##################  Week 6  ################## -->
     <tr><th></th><th style="text-align: center">Week 6 (Nov 07-11)</th></tr>
+    <tr><td>Recorded</td>
+      <td>
+        <ul>
+          <li>There is no pre-recorded video for Week 6</li>
+        </ul>
+      </td>
+    </tr>
     <tr><td>Monday</td>
       <td>
         <ul>
           <li>Complements and Q&A during breather week:<ul><li>derivatives in coordinates,</li><li>Ehresmann's Theorem and extending integral curves,</li><li>$U \otimes V$ and ${\textrm{Hom} (U^*, V)}$,</li><li>digression on <a href="https://en.wikipedia.org/wiki/Whitney_embedding_theorem">Whitney's Embedding Theorem</a> and Whitney's trick,</li><li>the sofa problem, and</li><li>dimension 4.</li></ul></li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li>Associativity of tensor products.</li>
+          <li>Wedge products and dimension of $\Lambda^k U$.</li>
         </ul>
       </td>
     </tr>
@@ -165,4 +180,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3H5_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Thursday, Nov 10 2022</div>
+<div style="text-align: right">Last modified: Monday, Nov 14 2022</div>
