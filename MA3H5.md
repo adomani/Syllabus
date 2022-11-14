@@ -175,6 +175,17 @@
         </ul>
       </td>
     </tr>
+<!--  ##################  Week 7  ################## -->
+    <tr><th></th><th style="text-align: center">Week 7 (Nov 14-18)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>Smooth 1-forms, total differential, cotangent bundle.</li>
+          <li>Vector bundles.</li>
+          <li>Differential $r$-forms and pull-backs.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
