@@ -63,21 +63,22 @@ thu
   Extending a formally real field by adding a square root of an element in a preorder.
   Definition of an $\mathbb{R}$-algebra.
 
-_tentative
 --  Week 7
+tue
+  Revise some questions from Quiz 2.
+  The Artin-Lang homomorphism theorem (statement only).
+  Using the Artin-Lang homomorphism theorem to answer Hilbert's 17th problem.
+_tentative
+thu
+  Overview of Hilbert’s 10th problem.
+  Existence of non'listable sets.
 pre
   Motzkin's polynomial is not a sum of squares.
-tue
-
-  The Artin-Lang homomorphism theorem (statement only).
-thu
-  Using the Artin-Lang homomorphism theorem to answer Hilbert's 17th problem.
 
 --  Week 8
 pre
   A listable set with non-listable complement.
 tue
-  Overview of Hilbert’s 10th problem.
   Diophantine equations, Diophantine sets, algorithms, listable sets.
   First examples: unions, intersections,\ldots
 thu

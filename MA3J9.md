@@ -182,9 +182,20 @@
         </ul>
       </td>
     </tr>
+<!--  ##################  Week 7  ################## -->
+    <tr><th></th><th style="text-align: center">Week 7 (Nov 14-18)</th></tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
+          <li>Revise some questions from Quiz 2.</li>
+          <li>The Artin-Lang homomorphism theorem (statement only).</li>
+          <li>Using the Artin-Lang homomorphism theorem to answer Hilbert's 17th problem.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3J9_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Thursday, Nov 10 2022</div>
+<div style="text-align: right">Last modified: Tuesday, Nov 15 2022</div>
