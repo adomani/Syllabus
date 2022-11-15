@@ -62,8 +62,15 @@ fri
   Wedge products and dimension of $\Lambda^k U$.
 
 --  Week 7
+pre
+  Integrals and Orientability.
 mon
   Smooth 1-forms, total differential, cotangent bundle.
   Vector bundles.
   Differential $r$-forms and pull-backs.
+
 _tentative
+--  Week 8
+mon
+  Exterior differentiation.
+  Preliminaries for Stokes' Theorem.
