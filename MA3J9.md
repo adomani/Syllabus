@@ -184,6 +184,13 @@
     </tr>
 <!--  ##################  Week 7  ################## -->
     <tr><th></th><th style="text-align: center">Week 7 (Nov 14-18)</th></tr>
+    <tr><td>Recorded</td>
+      <td>
+        <ul>
+          <li>Motzkin's polynomial is not a sum of squares.</li>
+        </ul>
+      </td>
+    </tr>
     <tr><td>Tuesday</td>
       <td>
         <ul>
