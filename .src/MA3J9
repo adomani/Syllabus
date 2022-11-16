@@ -80,7 +80,7 @@ thu
 pre
   A listable set with non-listable complement.
 tue
-  First examples: unions, intersections,\ldots
+  First examples: unions, intersections,$\ldots$
   More examples: $a \le b, a \equiv b \pmod{c}$, squares,$\ldots$
 thu
   Lagrange’s four square theorem (statement only).

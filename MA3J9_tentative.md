@@ -222,7 +222,7 @@
     <tr><td>Tuesday</td>
       <td>
         <ul>
-          <li>First examples: unions, intersections,\ldots</li>
+          <li>First examples: unions, intersections,$\ldots$</li>
           <li>More examples: $a \le b, a \equiv b \pmod{c}$, squares,$\ldots$</li>
         </ul>
       </td>
