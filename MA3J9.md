@@ -39,8 +39,8 @@
     <tr><td>Tuesday</td>
       <td>
         <ul>
-          <li>Overview of Hilbert's problems.</li>
-          <li>Hilbert's 3rd problem.</li>
+          <li>Overview of Hilbert’s problems.</li>
+          <li>Hilbert’s 3rd problem.</li>
           <li>Initial introduction to free abelian groups and tensor products.</li>
         </ul>
       </td>
@@ -99,7 +99,7 @@
         <ul>
           <li>The group $\mathcal{D} = \mathbb{R} \otimes S^1$ and the Axiom of Choice.</li>
           <li>The tensor product of $\mathbb{R}$ with rotations by a rational multiple of $\pi$: the subgroup $\mathbb{R} \otimes 2\pi \mathbb{Q}/2\pi\mathbb{Z}$ of $\mathbb{R} \otimes \mathbb{R}/2\pi\mathbb{Z}$.</li>
-          <li>Answer to Hilbert's 3rd problem, using Dehn invariant and explicit computations.</li>
+          <li>Answer to Hilbert’s 3rd problem, using Dehn invariant and explicit computations.</li>
           <li>Comments on non-vanishing of the Dehn invariant of the regular tetrahedron.</li>
         </ul>
       </td>
@@ -116,8 +116,8 @@
     <tr><td>Tuesday</td>
       <td>
         <ul>
-          <li>(Online lecture) Overview of Hilbert's 17th problem.</li>
-          <li>Motzkin's example.</li>
+          <li>(Online lecture) Overview of Hilbert’s 17th problem.</li>
+          <li>Motzkin’s example.</li>
           <li>Formally real fields.</li>
         </ul>
       </td>
@@ -161,7 +161,7 @@
     <tr><td>Recorded</td>
       <td>
         <ul>
-          <li>Eisenstein's Criterion and Newton Polygons</li>
+          <li>Eisenstein’s Criterion and Newton Polygons</li>
         </ul>
       </td>
     </tr>
@@ -187,7 +187,7 @@
     <tr><td>Recorded</td>
       <td>
         <ul>
-          <li>Motzkin's polynomial is not a sum of squares.</li>
+          <li>Motzkin’s polynomial is not a sum of squares.</li>
         </ul>
       </td>
     </tr>
@@ -196,7 +196,7 @@
         <ul>
           <li>Revise some questions from Quiz 2.</li>
           <li>The Artin-Lang homomorphism theorem (statement only).</li>
-          <li>Using the Artin-Lang homomorphism theorem to answer Hilbert's 17th problem.</li>
+          <li>Using the Artin-Lang homomorphism theorem to answer Hilbert’s 17th problem.</li>
         </ul>
       </td>
     </tr>
@@ -205,4 +205,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3J9_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Nov 15 2022</div>
+<div style="text-align: right">Last modified: Wednesday, Nov 16 2022</div>
