@@ -205,6 +205,7 @@
       <td>
         <ul>
           <li>Overview of Hilbert’s 10th problem.</li>
+          <li>Diophantine equations, Diophantine sets, algorithms, listable sets.</li>
           <li>Existence of non-listable sets.</li>
         </ul>
       </td>
@@ -221,8 +222,8 @@
     <tr><td>Tuesday</td>
       <td>
         <ul>
-          <li>Diophantine equations, Diophantine sets, algorithms, listable sets.</li>
           <li>First examples: unions, intersections,\ldots</li>
+          <li>More examples: $a \le b, a \equiv b \pmod{c}$, squares,$\ldots$</li>
         </ul>
       </td>
     </tr>
