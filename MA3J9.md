@@ -200,9 +200,26 @@
         </ul>
       </td>
     </tr>
+    <tr><td>Thursday</td>
+      <td>
+        <ul>
+          <li>Overview of Hilbert’s 10th problem.</li>
+          <li>Diophantine equations, Diophantine sets, algorithms, listable sets.</li>
+        </ul>
+      </td>
+    </tr>
+<!--  ##################  Week 8  ################## -->
+    <tr><th></th><th style="text-align: center">Week 8 (Nov 21-25)</th></tr>
+    <tr><td>Recorded</td>
+      <td>
+        <ul>
+          <li>A listable set with non-listable complement.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3J9_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Wednesday, Nov 16 2022</div>
+<div style="text-align: right">Last modified: Thursday, Nov 17 2022</div>

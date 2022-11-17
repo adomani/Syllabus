@@ -200,13 +200,11 @@
         </ul>
       </td>
     </tr>
-    <tr><td class=divider><hr/></td><td class=divider><hr/></td></tr>
     <tr><td>Thursday</td>
       <td>
         <ul>
           <li>Overview of Hilbert’s 10th problem.</li>
           <li>Diophantine equations, Diophantine sets, algorithms, listable sets.</li>
-          <li>Existence of non-listable sets.</li>
         </ul>
       </td>
     </tr>
@@ -219,10 +217,12 @@
         </ul>
       </td>
     </tr>
+    <tr><td class=divider><hr/></td><td class=divider><hr/></td></tr>
     <tr><td>Tuesday</td>
       <td>
         <ul>
-          <li>First examples: unions, intersections,$\ldots$</li>
+          <li>Existence of non-listable sets.</li>
+          <li>Examples of listable/Diophantine sets: unions, intersections,$\ldots$</li>
           <li>More examples: $a \le b, a \equiv b \pmod{c}$, squares,$\ldots$</li>
         </ul>
       </td>
@@ -292,4 +292,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3J9)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Wednesday, Nov 16 2022</div>
+<div style="text-align: right">Last modified: Thursday, Nov 17 2022</div>
