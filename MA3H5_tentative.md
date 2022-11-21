@@ -201,14 +201,23 @@
         </ul>
       </td>
     </tr>
-    <tr><td class=divider><hr/></td><td class=divider><hr/></td></tr>
 <!--  ##################  Week 8  ################## -->
     <tr><th></th><th style="text-align: center">Week 8 (Nov 21-25)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
           <li>Exterior differentiation.</li>
-          <li>Preliminaries for Stokes' Theorem.</li>
+          <li>Examples in $\mathbb{R}^3$.</li>
+          <li>Stokes' Theorem for manifolds without boundary.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td class=divider><hr/></td><td class=divider><hr/></td></tr>
+    <tr><td>Recorded</td>
+      <td>
+        <ul>
+          <li>Manifolds with boundary.</li>
+          <li>Stokes' Theorem.</li>
         </ul>
       </td>
     </tr>

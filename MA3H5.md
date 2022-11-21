@@ -201,6 +201,17 @@
         </ul>
       </td>
     </tr>
+<!--  ##################  Week 8  ################## -->
+    <tr><th></th><th style="text-align: center">Week 8 (Nov 21-25)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>Exterior differentiation.</li>
+          <li>Examples in $\mathbb{R}^3$.</li>
+          <li>Stokes' Theorem for manifolds without boundary.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
