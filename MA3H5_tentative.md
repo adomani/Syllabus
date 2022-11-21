@@ -193,6 +193,14 @@
         </ul>
       </td>
     </tr>
+    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li>Orientability and examples.</li>
+          <li>Pull-back and differentials.</li>
+        </ul>
+      </td>
+    </tr>
     <tr><td class=divider><hr/></td><td class=divider><hr/></td></tr>
 <!--  ##################  Week 8  ################## -->
     <tr><th></th><th style="text-align: center">Week 8 (Nov 21-25)</th></tr>
@@ -204,9 +212,16 @@
         </ul>
       </td>
     </tr>
+    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li>Strike?</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Monday, Nov 14 2022</div>
+<div style="text-align: right">Last modified: Monday, Nov 21 2022</div>
