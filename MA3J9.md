@@ -217,9 +217,18 @@
         </ul>
       </td>
     </tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
+          <li>Existence of non-listable sets.</li>
+          <li>Diophantine sets are listable.</li>
+          <li>Beginning of Diophantine encoding of listable sets.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3J9_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Thursday, Nov 17 2022</div>
+<div style="text-align: right">Last modified: Tuesday, Nov 22 2022</div>

@@ -217,22 +217,23 @@
         </ul>
       </td>
     </tr>
-    <tr><td class=divider><hr/></td><td class=divider><hr/></td></tr>
     <tr><td>Tuesday</td>
       <td>
         <ul>
           <li>Existence of non-listable sets.</li>
-          <li>Examples of listable/Diophantine sets: unions, intersections,$\ldots$</li>
-          <li>More examples: $a \le b, a \equiv b \pmod{c}$, squares,$\ldots$</li>
+          <li>Diophantine sets are listable.</li>
+          <li>Beginning of Diophantine encoding of listable sets.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class=divider><hr/></td><td class=divider><hr/></td></tr>
     <tr><td>Thursday</td>
       <td>
         <ul>
+          <li>Examples: $a \le b, a \equiv b \pmod{c}$, squares,$\ldots$</li>
+          <li>More examples of listable/Diophantine sets: unions, intersections,$\ldots$</li>
           <li>Lagrange’s four square theorem (statement only).</li>
           <li>Algorithmic equivalence of solving Diophantine equations over $\mathbb{Z}$ or over $\mathbb{N}$.</li>
-          <li>More on Diophantine equations, converting a Diophantine equation into an algorithm.</li>
         </ul>
       </td>
     </tr>
@@ -241,6 +242,7 @@
     <tr><td>Recorded</td>
       <td>
         <ul>
+          <li>More on Diophantine equations, converting a Diophantine equation into an algorithm.</li>
           <li>Putnam’s trick.</li>
           <li>Composite numbers and non-powers of two are Diophantine sets.</li>
           <li>Discussion about their complements being Diophantine.</li>
@@ -292,4 +294,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3J9)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Thursday, Nov 17 2022</div>
+<div style="text-align: right">Last modified: Tuesday, Nov 22 2022</div>
