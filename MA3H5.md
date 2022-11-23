@@ -203,6 +203,14 @@
     </tr>
 <!--  ##################  Week 8  ################## -->
     <tr><th></th><th style="text-align: center">Week 8 (Nov 21-25)</th></tr>
+    <tr><td>Recorded</td>
+      <td>
+        <ul>
+          <li>Manifolds with boundary.</li>
+          <li>Stokes' Theorem.</li>
+        </ul>
+      </td>
+    </tr>
     <tr><td>Monday</td>
       <td>
         <ul>
@@ -217,4 +225,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3H5_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Monday, Nov 21 2022</div>
+<div style="text-align: right">Last modified: Wednesday, Nov 23 2022</div>
