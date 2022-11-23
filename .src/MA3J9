@@ -79,6 +79,7 @@ pre
   A listable set with non-listable complement.
 tue
   Existence of non-listable sets.
+  More on Diophantine equations, converting a Diophantine equation into an algorithm.
   Diophantine sets are listable.
   Beginning of Diophantine encoding of listable sets.
 _tentative
@@ -90,7 +91,6 @@ thu
 
 --  Week 9
 pre
-  More on Diophantine equations, converting a Diophantine equation into an algorithm.
   Putnam’s trick.
   Composite numbers and non-powers of two are Diophantine sets.
   Discussion about their complements being Diophantine.
