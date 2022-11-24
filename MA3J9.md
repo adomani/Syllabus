@@ -227,9 +227,19 @@
         </ul>
       </td>
     </tr>
+    <tr><td>Thursday</td>
+      <td>
+        <ul>
+          <li>Examples: $a \le b, a \equiv b \pmod{c}$.</li>
+          <li>More examples of listable/Diophantine sets: unions and intersections.</li>
+          <li>A Diophantine equation for the primes.</li>
+          <li>Lagrange’s four square theorem (statement only).</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3J9_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Wednesday, Nov 23 2022</div>
+<div style="text-align: right">Last modified: Thursday, Nov 24 2022</div>

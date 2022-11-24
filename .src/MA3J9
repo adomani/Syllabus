@@ -82,21 +82,21 @@ tue
   More on Diophantine equations, converting a Diophantine equation into an algorithm.
   Diophantine sets are listable.
   Beginning of Diophantine encoding of listable sets.
-_tentative
 thu
-  Examples: $a \le b, a \equiv b \pmod{c}$, squares,$\ldots$
-  More examples of listable/Diophantine sets: unions, intersections,$\ldots$
+  Examples: $a \le b, a \equiv b \pmod{c}$.
+  More examples of listable/Diophantine sets: unions and intersections.
+  A Diophantine equation for the primes.
   Lagrange’s four square theorem (statement only).
-  Algorithmic equivalence of solving Diophantine equations over $\mathbb{Z}$ or over $\mathbb{N}$.
 
+_tentative
 --  Week 9
 pre
   Putnam’s trick.
   Composite numbers and non-powers of two are Diophantine sets.
   Discussion about their complements being Diophantine.
 tue
-  Diophantine equations for <code>and</code>, <code>or</code>, less-than-or-equal, divisibility, min.
-  A Diophantine equation for the primes.
+  Diophantine equations for <code>and</code>, <code>or</code>, divisibility, min, squares.
+  Algorithmic equivalence of solving Diophantine equations over $\mathbb{Z}$ or over $\mathbb{N}$.
 thu
   Converting an algorithm into a Diophantine equation: statement of the Davis-Putnam-Robinson-Matiyasevich Theorem.
   Using equivalence of Diophantine and listable to resolve Hilbert’s 10th problem.

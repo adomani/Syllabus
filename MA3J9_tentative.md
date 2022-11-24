@@ -227,17 +227,17 @@
         </ul>
       </td>
     </tr>
-    <tr><td class=divider><hr/></td><td class=divider><hr/></td></tr>
     <tr><td>Thursday</td>
       <td>
         <ul>
-          <li>Examples: $a \le b, a \equiv b \pmod{c}$, squares,$\ldots$</li>
-          <li>More examples of listable/Diophantine sets: unions, intersections,$\ldots$</li>
+          <li>Examples: $a \le b, a \equiv b \pmod{c}$.</li>
+          <li>More examples of listable/Diophantine sets: unions and intersections.</li>
+          <li>A Diophantine equation for the primes.</li>
           <li>Lagrange’s four square theorem (statement only).</li>
-          <li>Algorithmic equivalence of solving Diophantine equations over $\mathbb{Z}$ or over $\mathbb{N}$.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class=divider><hr/></td><td class=divider><hr/></td></tr>
 <!--  ##################  Week 9  ################## -->
     <tr><th></th><th style="text-align: center">Week 9 (Nov 28-Dec 02)</th></tr>
     <tr><td>Recorded</td>
@@ -252,8 +252,8 @@
     <tr><td>Tuesday</td>
       <td>
         <ul>
-          <li>Diophantine equations for <code>and</code>, <code>or</code>, less-than-or-equal, divisibility, min.</li>
-          <li>A Diophantine equation for the primes.</li>
+          <li>Diophantine equations for <code>and</code>, <code>or</code>, divisibility, min, squares.</li>
+          <li>Algorithmic equivalence of solving Diophantine equations over $\mathbb{Z}$ or over $\mathbb{N}$.</li>
         </ul>
       </td>
     </tr>
@@ -294,4 +294,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3J9)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Wednesday, Nov 23 2022</div>
+<div style="text-align: right">Last modified: Thursday, Nov 24 2022</div>
