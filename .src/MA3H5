@@ -45,7 +45,6 @@ mon
   Flows.
   Complete vector fields.
   Cotangent space (definition).
-
 pre
   Ehresmann's Theorem.
 fri
@@ -62,38 +61,38 @@ fri
   Wedge products and dimension of $\Lambda^k U$.
 
 --  Week 7
-pre
-  Integrals and Orientability.
 mon
   Smooth 1-forms, total differential, cotangent bundle.
   Vector bundles.
   Differential $r$-forms and pull-backs.
+pre
+  Integrals and Orientability.
 fri
   Orientability and examples.
   Pull-back and differentials.
 
 --  Week 8
-pre
-  Manifolds with boundary.
-  Stokes' Theorem.
 mon
   Exterior differentiation.
   Examples in $\mathbb{R}^3$.
   Stokes' Theorem for manifolds without boundary.
+pre
+  Manifolds with boundary.
+  Stokes' Theorem.
 _tentative
 fri
   Strike?
 
 --  Week 9
-pre
-  de Rham cohomology, formal properties (Theorem 6.2).
 mon
   Brouwer’s fixed point theorem.
   Closed and exact forms, beginning of de Rham cohomology.
+pre
+  de Rham cohomology, formal properties (Theorem 6.2).
 
 --  Week 10
-pre
-  de Rham cohomology of $S^n$.
 mon
   de Rham cohomology of $\mathbb{R}^n$.
   Q&A.
+pre
+  de Rham cohomology of $S^n$.

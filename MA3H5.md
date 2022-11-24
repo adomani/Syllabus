@@ -177,19 +177,19 @@
     </tr>
 <!--  ##################  Week 7  ################## -->
     <tr><th></th><th style="text-align: center">Week 7 (Nov 14-18)</th></tr>
-    <tr><td>Recorded</td>
-      <td>
-        <ul>
-          <li>Integrals and Orientability.</li>
-        </ul>
-      </td>
-    </tr>
     <tr><td>Monday</td>
       <td>
         <ul>
           <li>Smooth 1-forms, total differential, cotangent bundle.</li>
           <li>Vector bundles.</li>
           <li>Differential $r$-forms and pull-backs.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td>Recorded</td>
+      <td>
+        <ul>
+          <li>Integrals and Orientability.</li>
         </ul>
       </td>
     </tr>
@@ -203,14 +203,6 @@
     </tr>
 <!--  ##################  Week 8  ################## -->
     <tr><th></th><th style="text-align: center">Week 8 (Nov 21-25)</th></tr>
-    <tr><td>Recorded</td>
-      <td>
-        <ul>
-          <li>Manifolds with boundary.</li>
-          <li>Stokes' Theorem.</li>
-        </ul>
-      </td>
-    </tr>
     <tr><td>Monday</td>
       <td>
         <ul>
@@ -220,9 +212,17 @@
         </ul>
       </td>
     </tr>
+    <tr><td>Recorded</td>
+      <td>
+        <ul>
+          <li>Manifolds with boundary.</li>
+          <li>Stokes' Theorem.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3H5_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Wednesday, Nov 23 2022</div>
+<div style="text-align: right">Last modified: Thursday, Nov 24 2022</div>

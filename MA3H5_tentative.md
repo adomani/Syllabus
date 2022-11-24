@@ -177,19 +177,19 @@
     </tr>
 <!--  ##################  Week 7  ################## -->
     <tr><th></th><th style="text-align: center">Week 7 (Nov 14-18)</th></tr>
-    <tr><td>Recorded</td>
-      <td>
-        <ul>
-          <li>Integrals and Orientability.</li>
-        </ul>
-      </td>
-    </tr>
     <tr><td>Monday</td>
       <td>
         <ul>
           <li>Smooth 1-forms, total differential, cotangent bundle.</li>
           <li>Vector bundles.</li>
           <li>Differential $r$-forms and pull-backs.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td>Recorded</td>
+      <td>
+        <ul>
+          <li>Integrals and Orientability.</li>
         </ul>
       </td>
     </tr>
@@ -203,20 +203,20 @@
     </tr>
 <!--  ##################  Week 8  ################## -->
     <tr><th></th><th style="text-align: center">Week 8 (Nov 21-25)</th></tr>
-    <tr><td>Recorded</td>
-      <td>
-        <ul>
-          <li>Manifolds with boundary.</li>
-          <li>Stokes' Theorem.</li>
-        </ul>
-      </td>
-    </tr>
     <tr><td>Monday</td>
       <td>
         <ul>
           <li>Exterior differentiation.</li>
           <li>Examples in $\mathbb{R}^3$.</li>
           <li>Stokes' Theorem for manifolds without boundary.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td>Recorded</td>
+      <td>
+        <ul>
+          <li>Manifolds with boundary.</li>
+          <li>Stokes' Theorem.</li>
         </ul>
       </td>
     </tr>
@@ -230,13 +230,6 @@
     </tr>
 <!--  ##################  Week 9  ################## -->
     <tr><th></th><th style="text-align: center">Week 9 (Nov 28-Dec 02)</th></tr>
-    <tr><td>Recorded</td>
-      <td>
-        <ul>
-          <li>de Rham cohomology, formal properties (Theorem 6.2).</li>
-        </ul>
-      </td>
-    </tr>
     <tr><td>Monday</td>
       <td>
         <ul>
@@ -245,20 +238,27 @@
         </ul>
       </td>
     </tr>
-<!--  ##################  Week 10  ################## -->
-    <tr><th></th><th style="text-align: center">Week 10 (Dec 05-09)</th></tr>
     <tr><td>Recorded</td>
       <td>
         <ul>
-          <li>de Rham cohomology of $S^n$.</li>
+          <li>de Rham cohomology, formal properties (Theorem 6.2).</li>
         </ul>
       </td>
     </tr>
+<!--  ##################  Week 10  ################## -->
+    <tr><th></th><th style="text-align: center">Week 10 (Dec 05-09)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
           <li>de Rham cohomology of $\mathbb{R}^n$.</li>
           <li>Q&A.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td>Recorded</td>
+      <td>
+        <ul>
+          <li>de Rham cohomology of $S^n$.</li>
         </ul>
       </td>
     </tr>
