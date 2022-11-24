@@ -83,3 +83,17 @@ mon
 _tentative
 fri
   Strike?
+
+--  Week 9
+pre
+  de Rham cohomology, formal properties (Theorem 6.2).
+mon
+  Brouwer’s fixed point theorem.
+  Closed and exact forms, beginning of de Rham cohomology.
+
+--  Week 10
+pre
+  de Rham cohomology of $S^n$.
+mon
+  de Rham cohomology of $\mathbb{R}^n$.
+  Q&A.
