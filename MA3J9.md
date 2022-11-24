@@ -237,6 +237,17 @@
         </ul>
       </td>
     </tr>
+<!--  ##################  Week 9  ################## -->
+    <tr><th></th><th style="text-align: center">Week 9 (Nov 28-Dec 02)</th></tr>
+    <tr><td>Recorded</td>
+      <td>
+        <ul>
+          <li>Composite numbers and non-powers of two are Diophantine sets.</li>
+          <li>Putnam’s trick.</li>
+          <li>Discussion about the complements of composite numbers and non-powers of two being Diophantine.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>

@@ -88,12 +88,12 @@ thu
   A Diophantine equation for the primes.
   Lagrange’s four square theorem (statement only).
 
-_tentative
 --  Week 9
 pre
-  Putnam’s trick.
   Composite numbers and non-powers of two are Diophantine sets.
-  Discussion about their complements being Diophantine.
+  Putnam’s trick.
+  Discussion about the complements of composite numbers and non-powers of two being Diophantine.
+_tentative
 tue
   Diophantine equations for <code>and</code>, <code>or</code>, divisibility, min, squares.
   Algorithmic equivalence of solving Diophantine equations over $\mathbb{Z}$ or over $\mathbb{N}$.
