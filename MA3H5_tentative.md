@@ -220,7 +220,6 @@
         </ul>
       </td>
     </tr>
-    <tr><td class=divider><hr/></td><td class=divider><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
@@ -234,14 +233,16 @@
       <td>
         <ul>
           <li>Brouwer’s fixed point theorem.</li>
-          <li>Closed and exact forms, beginning of de Rham cohomology.</li>
+          <li>Closed and exact forms, de Rham cohomology, formal properties (Theorem 6.2).</li>
+          <li>de Rham cohomology of $\mathbb{R}^n$.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class=divider><hr/></td><td class=divider><hr/></td></tr>
     <tr><td>Recorded</td>
       <td>
         <ul>
-          <li>de Rham cohomology, formal properties (Theorem 6.2).</li>
+          <li>de Rham cohomology of $S^n$.</li>
         </ul>
       </td>
     </tr>
@@ -250,7 +251,6 @@
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>de Rham cohomology of $\mathbb{R}^n$.</li>
           <li>Q&A.</li>
         </ul>
       </td>
@@ -258,7 +258,7 @@
     <tr><td>Recorded</td>
       <td>
         <ul>
-          <li>de Rham cohomology of $S^n$.</li>
+          <li>TBA</li>
         </ul>
       </td>
     </tr>
@@ -267,4 +267,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Thursday, Nov 24 2022</div>
+<div style="text-align: right">Last modified: Monday, Nov 28 2022</div>

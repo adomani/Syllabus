@@ -79,20 +79,20 @@ mon
 pre
   Manifolds with boundary.
   Stokes' Theorem.
-_tentative
 fri
   Strike?
 
 --  Week 9
 mon
   Brouwer’s fixed point theorem.
-  Closed and exact forms, beginning of de Rham cohomology.
+  Closed and exact forms, de Rham cohomology, formal properties (Theorem 6.2).
+  de Rham cohomology of $\mathbb{R}^n$.
+_tentative
 pre
-  de Rham cohomology, formal properties (Theorem 6.2).
+  de Rham cohomology of $S^n$.
 
 --  Week 10
 mon
-  de Rham cohomology of $\mathbb{R}^n$.
   Q&A.
 pre
-  de Rham cohomology of $S^n$.
+  TBA

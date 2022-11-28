@@ -220,9 +220,27 @@
         </ul>
       </td>
     </tr>
+    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li>Strike?</li>
+        </ul>
+      </td>
+    </tr>
+<!--  ##################  Week 9  ################## -->
+    <tr><th></th><th style="text-align: center">Week 9 (Nov 28-Dec 02)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>Brouwer’s fixed point theorem.</li>
+          <li>Closed and exact forms, de Rham cohomology, formal properties (Theorem 6.2).</li>
+          <li>de Rham cohomology of $\mathbb{R}^n$.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3H5_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Thursday, Nov 24 2022</div>
+<div style="text-align: right">Last modified: Monday, Nov 28 2022</div>
