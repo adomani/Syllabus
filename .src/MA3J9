@@ -93,19 +93,19 @@ pre
   Composite numbers and non-powers of two are Diophantine sets.
   Putnam’s trick.
   Discussion about the complements of composite numbers and non-powers of two being Diophantine.
-_tentative
 tue
-  Diophantine equations for <code>and</code>, <code>or</code>, divisibility, min, squares.
   Algorithmic equivalence of solving Diophantine equations over $\mathbb{Z}$ or over $\mathbb{N}$.
+  Hilbert’s 10th problem over rings other than $\mathbb{Z}$.
+  Diophantine equations for <code>and</code>, <code>or</code>.
+_tentative
 thu
+  Exponential Diophantine equations.
   Converting an algorithm into a Diophantine equation: statement of the Davis-Putnam-Robinson-Matiyasevich Theorem.
   Using equivalence of Diophantine and listable to resolve Hilbert’s 10th problem.
-
 --  Week 10
 pre
   TBA
 tue
-  Hilbert’s 10th problem over rings other than $\mathbb{Z}$.
   Rule 110 and cellular automata.
 thu
   G&ouml;del’s Theorem from the perspective of Hilbert’s 10th problem, more undecidability.

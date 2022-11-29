@@ -248,9 +248,18 @@
         </ul>
       </td>
     </tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
+          <li>Algorithmic equivalence of solving Diophantine equations over $\mathbb{Z}$ or over $\mathbb{N}$.</li>
+          <li>Hilbert’s 10th problem over rings other than $\mathbb{Z}$.</li>
+          <li>Diophantine equations for <code>and</code>, <code>or</code>.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3J9_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Thursday, Nov 24 2022</div>
+<div style="text-align: right">Last modified: Tuesday, Nov 29 2022</div>
