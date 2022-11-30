@@ -238,7 +238,6 @@
         </ul>
       </td>
     </tr>
-    <tr><td class=divider><hr/></td><td class=divider><hr/></td></tr>
     <tr><td>Recorded</td>
       <td>
         <ul>
@@ -246,6 +245,7 @@
         </ul>
       </td>
     </tr>
+    <tr><td class=divider><hr/></td><td class=divider><hr/></td></tr>
 <!--  ##################  Week 10  ################## -->
     <tr><th></th><th style="text-align: center">Week 10 (Dec 05-09)</th></tr>
     <tr><td>Monday</td>
@@ -267,4 +267,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Monday, Nov 28 2022</div>
+<div style="text-align: right">Last modified: Wednesday, Nov 30 2022</div>
