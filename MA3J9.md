@@ -261,7 +261,7 @@
       <td>
         <ul>
           <li>Diophantine equations for <code>min</code>, squares and non-squares.</li>
-          <li>Davis paper (Pell's equation, exponentials, recursive functions -- not examinable).</li>
+          <li>Davis paper (Pell's equation, exponentials, recursive functions) -- not examinable.</li>
         </ul>
       </td>
     </tr>
