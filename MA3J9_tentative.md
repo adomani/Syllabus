@@ -260,12 +260,12 @@
     <tr><td>Thursday</td>
       <td>
         <ul>
-          <li>Diophantine equations for <code>and</code>, <code>or</code>, <code>min</code>, non-squares.</li>
+          <li>Diophantine equations for <code>min</code>, squares and non-squares.</li>
           <li>Davis paper (Pell's equation, exponentials, recursive functions -- not examinable).</li>
-          <li>_tentative</li>
         </ul>
       </td>
     </tr>
+    <tr><td class=divider><hr/></td><td class=divider><hr/></td></tr>
 <!--  ##################  Week 10  ################## -->
     <tr><th></th><th style="text-align: center">Week 10 (Dec 05-09)</th></tr>
     <tr><td>Recorded</td>

@@ -98,10 +98,10 @@ tue
   Hilbert’s 10th problem over rings other than $\mathbb{Z}$.
   Diophantine equations for <code>and</code>, <code>or</code>.
 thu
-  Diophantine equations for <code>and</code>, <code>or</code>, <code>min</code>, non-squares.
+  Diophantine equations for <code>min</code>, squares and non-squares.
   Davis paper (Pell's equation, exponentials, recursive functions -- not examinable).
 
-  _tentative
+_tentative
 --  Week 10
 pre
   TBA

@@ -260,35 +260,8 @@
     <tr><td>Thursday</td>
       <td>
         <ul>
-          <li>Diophantine equations for <code>and</code>, <code>or</code>, <code>min</code>, non-squares.</li>
+          <li>Diophantine equations for <code>min</code>, squares and non-squares.</li>
           <li>Davis paper (Pell's equation, exponentials, recursive functions -- not examinable).</li>
-          <li>_tentative</li>
-        </ul>
-      </td>
-    </tr>
-<!--  ##################  Week 10  ################## -->
-    <tr><th></th><th style="text-align: center">Week 10 (Dec 05-09)</th></tr>
-    <tr><td>Recorded</td>
-      <td>
-        <ul>
-          <li>TBA</li>
-        </ul>
-      </td>
-    </tr>
-    <tr><td>Tuesday</td>
-      <td>
-        <ul>
-          <li>Converting an algorithm into a Diophantine equation: statement of the Davis-Putnam-Robinson-Matiyasevich Theorem.</li>
-          <li>Exponential Diophantine equations.</li>
-          <li>Using equivalence of Diophantine and listable to resolve Hilbert’s 10th problem.</li>
-          <li>Rule 110 and cellular automata.</li>
-        </ul>
-      </td>
-    </tr>
-    <tr><td>Thursday</td>
-      <td>
-        <ul>
-          <li>G&ouml;del’s Theorem from the perspective of Hilbert’s 10th problem, more undecidability.</li>
         </ul>
       </td>
     </tr>
