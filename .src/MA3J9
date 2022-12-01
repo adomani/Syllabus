@@ -97,15 +97,18 @@ tue
   Algorithmic equivalence of solving Diophantine equations over $\mathbb{Z}$ or over $\mathbb{N}$.
   Hilbert’s 10th problem over rings other than $\mathbb{Z}$.
   Diophantine equations for <code>and</code>, <code>or</code>.
-_tentative
 thu
-  Exponential Diophantine equations.
-  Converting an algorithm into a Diophantine equation: statement of the Davis-Putnam-Robinson-Matiyasevich Theorem.
-  Using equivalence of Diophantine and listable to resolve Hilbert’s 10th problem.
+  Diophantine equations for <code>and</code>, <code>or</code>, <code>min</code>, non-squares.
+  Davis paper (Pell's equation, exponentials, recursive functions -- not examinable).
+
+  _tentative
 --  Week 10
 pre
   TBA
 tue
+  Converting an algorithm into a Diophantine equation: statement of the Davis-Putnam-Robinson-Matiyasevich Theorem.
+  Exponential Diophantine equations.
+  Using equivalence of Diophantine and listable to resolve Hilbert’s 10th problem.
   Rule 110 and cellular automata.
 thu
   G&ouml;del’s Theorem from the perspective of Hilbert’s 10th problem, more undecidability.

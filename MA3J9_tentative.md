@@ -257,13 +257,12 @@
         </ul>
       </td>
     </tr>
-    <tr><td class=divider><hr/></td><td class=divider><hr/></td></tr>
     <tr><td>Thursday</td>
       <td>
         <ul>
-          <li>Exponential Diophantine equations.</li>
-          <li>Converting an algorithm into a Diophantine equation: statement of the Davis-Putnam-Robinson-Matiyasevich Theorem.</li>
-          <li>Using equivalence of Diophantine and listable to resolve Hilbert’s 10th problem.</li>
+          <li>Diophantine equations for <code>and</code>, <code>or</code>, <code>min</code>, non-squares.</li>
+          <li>Davis paper (Pell's equation, exponentials, recursive functions -- not examinable).</li>
+          <li>_tentative</li>
         </ul>
       </td>
     </tr>
@@ -279,6 +278,9 @@
     <tr><td>Tuesday</td>
       <td>
         <ul>
+          <li>Converting an algorithm into a Diophantine equation: statement of the Davis-Putnam-Robinson-Matiyasevich Theorem.</li>
+          <li>Exponential Diophantine equations.</li>
+          <li>Using equivalence of Diophantine and listable to resolve Hilbert’s 10th problem.</li>
           <li>Rule 110 and cellular automata.</li>
         </ul>
       </td>
@@ -295,4 +297,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3J9)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Nov 29 2022</div>
+<div style="text-align: right">Last modified: Thursday, Dec 01 2022</div>
