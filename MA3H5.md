@@ -245,9 +245,28 @@
         </ul>
       </td>
     </tr>
+    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li>Problem Sheet 4, Questions 1-2.</li>
+          <li>Classical notation for integrals.</li>
+          <li>Interior product.</li>
+        </ul>
+      </td>
+    </tr>
+<!--  ##################  Week 10  ################## -->
+    <tr><th></th><th style="text-align: center">Week 10 (Dec 05-09)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>Top cohomology of compact, connected orientable manifolds is nonzero.</li>
+          <li>Q&A: M&ouml;bius band, connected sums, cohomology, hyperbolic plane, surfaces,...</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3H5_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Wednesday, Nov 30 2022</div>
+<div style="text-align: right">Last modified: Tuesday, Dec 06 2022</div>

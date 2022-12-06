@@ -245,20 +245,30 @@
         </ul>
       </td>
     </tr>
-    <tr><td class=divider><hr/></td><td class=divider><hr/></td></tr>
+    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li>Problem Sheet 4, Questions 1-2.</li>
+          <li>Classical notation for integrals.</li>
+          <li>Interior product.</li>
+        </ul>
+      </td>
+    </tr>
 <!--  ##################  Week 10  ################## -->
     <tr><th></th><th style="text-align: center">Week 10 (Dec 05-09)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>Q&A.</li>
+          <li>Top cohomology of compact, connected orientable manifolds is nonzero.</li>
+          <li>Q&A: M&ouml;bius band, connected sums, cohomology, hyperbolic plane, surfaces,...</li>
         </ul>
       </td>
     </tr>
+    <tr><td class=divider><hr/></td><td class=divider><hr/></td></tr>
     <tr><td>Recorded</td>
       <td>
         <ul>
-          <li>TBA</li>
+          <li>TBA (Surgery?  Non-existence of nowhere vanishing vector fields on even-dimensional spheres?)</li>
         </ul>
       </td>
     </tr>
@@ -267,4 +277,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Wednesday, Nov 30 2022</div>
+<div style="text-align: right">Last modified: Tuesday, Dec 06 2022</div>

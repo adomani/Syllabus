@@ -89,10 +89,15 @@ mon
   de Rham cohomology of $\mathbb{R}^n$.
 pre
   de Rham cohomology of $S^n$.
+fri
+  Problem Sheet 4, Questions 1-2.
+  Classical notation for integrals.
+  Interior product.
 
-_tentative
 --  Week 10
 mon
-  Q&A.
+  Top cohomology of compact, connected orientable manifolds is nonzero.
+  Q&A: M&ouml;bius band, connected sums, cohomology, hyperbolic plane, surfaces,...
+_tentative
 pre
-  TBA
+  TBA (Surgery?  Non-existence of nowhere vanishing vector fields on even-dimensional spheres?)
