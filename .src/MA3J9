@@ -101,14 +101,15 @@ thu
   Diophantine equations for <code>min</code>, squares and non-squares.
   Davis paper (Pell's equation, exponentials, recursive functions) -- not examinable.
 
-_tentative
 --  Week 10
-pre
-  TBA
 tue
   Converting an algorithm into a Diophantine equation: statement of the Davis-Putnam-Robinson-Matiyasevich Theorem.
-  Exponential Diophantine equations.
   Using equivalence of Diophantine and listable to resolve Hilbert’s 10th problem.
-  Rule 110 and cellular automata.
+  Rule 110.
+  [Hercules and the Hydra](https://en.wikipedia.org/wiki/Hydra_game).
+  [Goodstein's Theorem](https://en.wikipedia.org/wiki/Goodstein%27s_theorem).
+_tentative
+pre
+  TBA
 thu
-  G&ouml;del’s Theorem from the perspective of Hilbert’s 10th problem, more undecidability.
+  Q&A.

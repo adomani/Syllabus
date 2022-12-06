@@ -265,9 +265,22 @@
         </ul>
       </td>
     </tr>
+<!--  ##################  Week 10  ################## -->
+    <tr><th></th><th style="text-align: center">Week 10 (Dec 05-09)</th></tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
+          <li>Converting an algorithm into a Diophantine equation: statement of the Davis-Putnam-Robinson-Matiyasevich Theorem.</li>
+          <li>Using equivalence of Diophantine and listable to resolve Hilbert’s 10th problem.</li>
+          <li>Rule 110.</li>
+          <li>[Hercules and the Hydra](https://en.wikipedia.org/wiki/Hydra_game).</li>
+          <li>[Goodstein's Theorem](https://en.wikipedia.org/wiki/Goodstein%27s_theorem).</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3J9_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Thursday, Dec 01 2022</div>
+<div style="text-align: right">Last modified: Tuesday, Dec 06 2022</div>
