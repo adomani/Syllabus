@@ -264,11 +264,10 @@
         </ul>
       </td>
     </tr>
-    <tr><td class=divider><hr/></td><td class=divider><hr/></td></tr>
     <tr><td>Recorded</td>
       <td>
         <ul>
-          <li>TBA (Surgery?  Non-existence of nowhere vanishing vector fields on even-dimensional spheres?)</li>
+          <li>Examples of surgeries (non-examinable).</li>
         </ul>
       </td>
     </tr>
@@ -277,4 +276,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Dec 06 2022</div>
+<div style="text-align: right">Last modified: Wednesday, Dec 07 2022</div>
