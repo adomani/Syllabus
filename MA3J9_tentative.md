@@ -273,8 +273,8 @@
           <li>Converting an algorithm into a Diophantine equation: statement of the Davis-Putnam-Robinson-Matiyasevich Theorem.</li>
           <li>Using equivalence of Diophantine and listable to resolve Hilbert’s 10th problem.</li>
           <li>Rule 110.</li>
-          <li>[Hercules and the Hydra](https://en.wikipedia.org/wiki/Hydra_game).</li>
-          <li>[Goodstein's Theorem](https://en.wikipedia.org/wiki/Goodstein%27s_theorem).</li>
+          <li><a href="https://en.wikipedia.org/wiki/Hydra_game">Hercules and the Hydra</a>.</li>
+          <li><a href="https://en.wikipedia.org/wiki/Goodstein%27s_theorem">Goodstein's Theorem</a>.</li>
         </ul>
       </td>
     </tr>
@@ -298,4 +298,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3J9)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Dec 06 2022</div>
+<div style="text-align: right">Last modified: Wednesday, Dec 07 2022</div>
