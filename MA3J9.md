@@ -278,9 +278,18 @@
         </ul>
       </td>
     </tr>
+    <tr><td>Thursday</td>
+      <td>
+        <ul>
+          <li>Q&A: Overview of Hilbert's 10th problem.</li>
+          <li>Number of elements of $\mathbb{Q} \otimes \mathbb{Z}/$n\mathbb{Z}$.</li>
+          <li>Newtown polygons and proof that Motkin's polynomial is not a sum of squares.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3J9_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Wednesday, Dec 07 2022</div>
+<div style="text-align: right">Last modified: Thursday, Dec 08 2022</div>
