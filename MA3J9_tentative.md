@@ -283,7 +283,7 @@
         <ul>
           <li>Q&A: Overview of Hilbert's 10th problem.</li>
           <li>Number of elements of $\mathbb{Q} \otimes \mathbb{Z}/n\mathbb{Z}$.</li>
-          <li>Newtown polygons and proof that Motkin's polynomial is not a sum of squares.</li>
+          <li>Newton polygons and proof that Motkin's polynomial is not a sum of squares.</li>
         </ul>
       </td>
     </tr>
