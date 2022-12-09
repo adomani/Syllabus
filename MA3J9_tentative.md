@@ -287,11 +287,10 @@
         </ul>
       </td>
     </tr>
-    <tr><td class=divider><hr/></td><td class=divider><hr/></td></tr>
     <tr><td>Recorded</td>
       <td>
         <ul>
-          <li>TBA</li>
+          <li>Conclusions: relations among the three Hilbert problems that we studied and undecidability more in general.</li>
         </ul>
       </td>
     </tr>
@@ -300,4 +299,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3J9)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Thursday, Dec 08 2022</div>
+<div style="text-align: right">Last modified: Friday, Dec 09 2022</div>
