@@ -90,14 +90,6 @@ def myFn <inputs> : <target> := <whatTheFunctionDoes>
   ```
 * `set_option profiler true` instructing Lean4 to provide some further information, usually in the form of evaluation time of declarations, `#eval`s,...
 
-<pre><code class="language-lean">theorem test (p q : Prop) (hp : p) (hq : q) : p ∧ q ∧ p :=
-  by apply And.intro
-     exact hp
-     apply And.intro
-     exact hq
-     exact hp
-</code></pre>
-
 ## Dot-notation
 
 As we have seen, namespaces allow us to "repeat" names of declarations.
