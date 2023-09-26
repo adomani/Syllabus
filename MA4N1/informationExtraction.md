@@ -257,6 +257,6 @@ Hello
 -/
 ```
 
-[Back to the `Theorem Proving with Lean` webpage](https://github.com/adomani/Syllabus/tree/master/MA4N1)
+[Back to the `Theorem Proving with Lean` webpage](https://adomani.github.io/Syllabus/tree/master/MA4N1)
 
 [Back to Moodle](https://moodle.warwick.ac.uk/course/view.php?id=58287#section-0)

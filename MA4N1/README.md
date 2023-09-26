@@ -4,11 +4,11 @@
 
 ## Available pages
 
-* [Current syllabus](https://github.com/adomani/Syllabus/blob/master/MA4N1.md)
-* [Basic Lean4 syntax](https://github.com/adomani/Syllabus/blob/master/MA4N1/basicSyntax.md)
-* [What tools do I have to tease information out of Lean4?](https://github.com/adomani/Syllabus/blob/master/MA4N1/informationExtraction.md)
-* [Stubs of ideas and projects](https://github.com/adomani/Syllabus/blob/master/MA4N1/ideas_to_develop.md)
-* [Possible weekly topics &ndash; very unstable](https://github.com/adomani/Syllabus/blob/master/MA4N1/weekly_topics_tbc.md)
+* [Current syllabus](https://adomani.github.io/Syllabus/MA4N1)
+* [Basic Lean4 syntax](https://adomani.github.io/Syllabus/MA4N1/basicSyntax)
+* [What tools do I have to tease information out of Lean4?](https://adomani.github.io/Syllabus/MA4N1/informationExtraction)
+* [Stubs of ideas and projects](https://adomani.github.io/Syllabus/MA4N1/ideas_to_develop)
+* [Possible weekly topics &ndash; very unstable](https://adomani.github.io/Syllabus/MA4N1/weekly_topics_tbc)
 
 ---
 
@@ -34,7 +34,7 @@ The module is going to be project-based, in small groups (exact sizes to be dete
 The lectures will help with getting started and provide tools for making progress with proving theorems with a computer.
 Each group will decide on a result to formalize and will work towards producing their definitions and proving lemmas.
 
-[This link](ideas_to_develop.md) contains some sample ideas that could turn into projects.
+[This link](https://adomani.github.io/Syllabus/ideas_to_develop) contains some sample ideas that could turn into projects.
 
 For more examples, Freek Wiedijk's webpage [Formalizing 100 Theorems](https://www.cs.ru.nl/~freek/100/) has a list of theorems of varying difficulty.
 
