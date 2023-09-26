@@ -102,8 +102,8 @@ new_day () {
 # * Finally, the remaining lines beginning with `  ` (two spaces) are items in a list that
 #   correspond to the topics covered on the current day.
 to_html_from () {
-  nome="${1}.md"           # the name of the file that the program will produce
-  modd="${1:0:5}"        # the module code, as well as the name of the file with the info
+  nome="${1}.md"     # the name of the file that the program will produce
+  modd="${1:0:5}"    # the module code, as well as the name of the file with the info
   if [[ "${1:6}" = "tentative" ]]; then tent=" tentative syllabus"; else tent=""; fi;
   case "${modd}" in
     MA3H5)
@@ -116,8 +116,8 @@ to_html_from () {
       page_head "[MA4N1 Theorem Proving with Lean](https://moodle.warwick.ac.uk/course/view.php?id=58287)$tent"
       ;;
     *)
-    page_head "${1}"
-    ;;
+      page_head "${1}"
+      ;;
   esac > "${nome}"
   echo $nome
   wk=0
