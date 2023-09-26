@@ -32,17 +32,12 @@
     <tr><td>TBD</td>
       <td>
         <ul>
-          <li>Intro to Lean: syntax, infoview, tactic, structuring proofs.</li>
+          <li>Introduction to formalization and to Lean</li>
+          <li>Syntax, infoview, tactics, structuring proofs.</li>
         </ul>
       </td>
     </tr>
     <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
-    <tr><td>Tuesday</td>
-      <td>
-        <ul>
-        </ul>
-      </td>
-    </tr>
 <!--  ##################  Week 2  ################## -->
     <tr><th></th><th style="text-align: center">Week 2 (Oct 09-13)</th></tr>
     <tr><td>TBD</td>

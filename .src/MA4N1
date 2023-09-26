@@ -1,8 +1,8 @@
 -- Week 1
 week
-  Intro to Lean: syntax, infoview, tactic, structuring proofs.
+  Introduction to formalization and to Lean
+  Syntax, infoview, tactics, structuring proofs.
 _tentative
-tue
 
 -- Week 2
 week

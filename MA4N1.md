@@ -32,7 +32,8 @@
     <tr><td>TBD</td>
       <td>
         <ul>
-          <li>Intro to Lean: syntax, infoview, tactic, structuring proofs.</li>
+          <li>Introduction to formalization and to Lean</li>
+          <li>Syntax, infoview, tactics, structuring proofs.</li>
         </ul>
       </td>
     </tr>
