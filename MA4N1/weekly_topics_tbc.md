@@ -1,8 +1,6 @@
-# [MA4N1 Theorem Proving with Lean](https://github.com/adomani/Syllabus/tree/master/MA4N1)
+#  Possible weekly topics &ndash; very unstable
 
-##  Possible weekly topics &ndash; very unstable
-
-This is a week-by-week breakdown of possible topics for the MA4N1 Theorem Proving with Lean.
+This is a week-by-week breakdown of possible topics for the [MA4N1 Theorem Proving with Lean](https://github.com/adomani/Syllabus/tree/master/MA4N1).
 It is a highly susceptible to changes!
 
 A more stable, periodically updated, syllabus is [here](https://adomani.github.io/Syllabus/MA4N1).
