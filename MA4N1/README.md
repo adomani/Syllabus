@@ -37,3 +37,5 @@ To get a flavour of what the module entails, you can take a look at the [Natural
 The link takes you to the Lean 4 version.
 The original [Natural Numbers Game (Lean 3)](https://www.ma.imperial.ac.uk/~buzzard/xena/natural_number_game/) was developed by Kevin Buzzard and Mohammad Pedramfar.
 In fact, you are encouraged to play with it to see if this module might be a good choice for you!
+
+[Back to Moodle](https://moodle.warwick.ac.uk/course/view.php?id=58287#section-0)

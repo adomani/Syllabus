@@ -22,3 +22,7 @@
   * write a tactic to compute degrees of multivariate polynomials
   * write a tactic to split and progress on `Nat.sub`
 * Come up with your meta-programming goal!
+
+[Back to the `Theorem Proving with Lean` webpage](https://github.com/adomani/Syllabus/tree/master/MA4N1)
+
+[Back to Moodle](https://moodle.warwick.ac.uk/course/view.php?id=58287#section-0)

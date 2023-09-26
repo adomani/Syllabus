@@ -1,9 +1,11 @@
-# MA4N1 Theorem Proving with Lean
+# [MA4N1 Theorem Proving with Lean](https://github.com/adomani/Syllabus/tree/master/MA4N1)
 
 ##  Possible weekly topics &ndash; very unstable
 
 This is a week-by-week breakdown of possible topics for the MA4N1 Theorem Proving with Lean.
 It is a highly susceptible to changes!
+
+A more stable, periodically updated, syllabus is [here](https://adomani.github.io/Syllabus/MA4N1).
 
 ###  Week 1 &mdash; Introduction to Lean
 
@@ -89,3 +91,7 @@ It is a highly susceptible to changes!
 Addressing specific issues arising from working on the projects.
 
 ---
+
+[Back to the `Theorem Proving with Lean` webpage](https://github.com/adomani/Syllabus/tree/master/MA4N1)
+
+[Back to Moodle](https://moodle.warwick.ac.uk/course/view.php?id=58287#section-0)

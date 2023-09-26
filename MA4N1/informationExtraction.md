@@ -234,7 +234,7 @@ Hello
   for i in [0:5] do
     IO.print f!"{i} "
 /-
-0 1 2 3 4 
+0 1 2 3 4
 -/
 ```
 ```lean
@@ -247,13 +247,16 @@ Hello
   let shifted := first ++ "\n" ++ second ++ "\n"
   IO.println (shifted ++ shifted ++ shifted)
 /-
-0 1 2 3 4 
+0 1 2 3 4
  4 3 2 1 0
-0 1 2 3 4 
+0 1 2 3 4
  4 3 2 1 0
-0 1 2 3 4 
+0 1 2 3 4
  4 3 2 1 0
 
 -/
 ```
 
+[Back to the `Theorem Proving with Lean` webpage](https://github.com/adomani/Syllabus/tree/master/MA4N1)
+
+[Back to Moodle](https://moodle.warwick.ac.uk/course/view.php?id=58287#section-0)

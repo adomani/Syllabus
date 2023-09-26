@@ -137,3 +137,7 @@ Thus, if we want to apply `List.twice` to `"abc".toList`, we can again take adva
 we can compress it to `"abc".toList.twice`.
 
 You can find a more extended example [here](stringProcessing.lean)
+
+[Back to the `Theorem Proving with Lean` webpage](https://github.com/adomani/Syllabus/tree/master/MA4N1)
+
+[Back to Moodle](https://moodle.warwick.ac.uk/course/view.php?id=58287#section-0)
