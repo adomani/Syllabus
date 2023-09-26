@@ -56,6 +56,7 @@ def myFn <inputs> : <target> := <whatTheFunctionDoes>
 
   Thus, in the following code, the second `def fn` defines `fn`.
   Note that, if the first `fn` had not been inside a namespace, then there would have been a clash of names and Lean4 would have complained.
+
 ```lean
 namespace myName
 
