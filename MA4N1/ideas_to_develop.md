@@ -15,7 +15,7 @@
 
 ###  More computer science-oriented
 
-* Automating proofs
+* Automating proofs:
   * write a tactic to dispatch "junk values"
   * write a tactic to compute degrees of multivariate polynomials
   * write a tactic to split and progress on `Nat.sub`
