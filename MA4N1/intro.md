@@ -1,7 +1,5 @@
 # Introduction to formalizing mathematics using Lean
 
-##  Lectures:
-
 | Lectures | | Room |
 | :- | :-: | - |
 | Mondays | 5pm-6pm | MS.05 |
