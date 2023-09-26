@@ -43,9 +43,9 @@ I do not appear on hover and I am essentially indistinguishable from a comment i
 
 * The bulk of each file consists of definitions.
 
-```lean
-def myFn <inputs> : <target> := <whatTheFunctionDoes>
-```
+  ```lean
+  def myFn <inputs> : <target> := <whatTheFunctionDoes>
+  ```
 
 * Usually once per file, you will find `namespace <name>` (and `<name>` is often `Day<number>`, though `List`, `String` and `Array` are also common).
   This indicates that if the remaining code defines a function `myFn`, then its actual full name is `Day<number>.myFn`.
