@@ -1,5 +1,17 @@
 # Introduction to formalizing mathematics using Lean
 
+---
+
+## Available pages
+
+* [Current syllabus](https://github.com/adomani/Syllabus/blob/master/MA4N1.md)
+* [Basic Lean4 syntax](https://github.com/adomani/Syllabus/blob/master/MA4N1/basicSyntax.md)
+* [What tools do I have to tease information out of Lean4?](https://github.com/adomani/Syllabus/blob/master/MA4N1/informationExtraction.md)
+* [Stubs of ideas and projects](https://github.com/adomani/Syllabus/blob/master/MA4N1/ideas_to_develop.md)
+* [Possible weekly topics &ndash; very unstable](https://github.com/adomani/Syllabus/blob/master/MA4N1/weekly_topics_tbc.md)
+
+---
+
 Since their invention, computers have been used as an aid to performing long and tedious calculations.
 Besides basic arithmetic, computers have also been useful in theoretical and applied situations, giving the possibility of "running experiments" to gather evidence (or disprove) conjectures.
 More recently, with the rapid development of machine learning and artificial intelligence, they have been used in more abstract contexts as well, such as recognizing handwriting, playing games, driving cars,...
