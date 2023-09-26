@@ -23,20 +23,22 @@
   })();
 </script>
 # [MA3H5 Manifolds](https://moodle.warwick.ac.uk/course/view.php?id=52238) tentative syllabus
-## Autumn 2022
+## Autumn 2023
 
 <table>
   <tbody>
 <!--  ##################  Week 1  ################## -->
-    <tr><th></th><th style="text-align: center">Week 1 (Oct 03-07)</th></tr>
-    <tr><td>Wednesday</td>
+    <tr><th></th><th style="text-align: center">Week 1 (Oct 02-06)</th></tr>
+    <tr><td>Monday</td>
       <td>
         <ul>
+          <li>Example: projective space.</li>
           <li>Definition of pseudo-group of transformations.</li>
         </ul>
       </td>
     </tr>
-    <tr><td>Recorded</td>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
+    <tr><td>Wednesday</td>
       <td>
         <ul>
           <li>Tensor products.</li>
@@ -46,7 +48,7 @@
       </td>
     </tr>
 <!--  ##################  Week 2  ################## -->
-    <tr><th></th><th style="text-align: center">Week 2 (Oct 10-14)</th></tr>
+    <tr><th></th><th style="text-align: center">Week 2 (Oct 09-13)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
@@ -56,7 +58,7 @@
         </ul>
       </td>
     </tr>
-    <tr><td>Recorded</td>
+    <tr><td>Wednesday</td>
       <td>
         <ul>
           <li>More on the exterior algebra.</li>
@@ -64,7 +66,7 @@
         </ul>
       </td>
     </tr>
-    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+    <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
           <li>Definition of a manifold.</li>
@@ -73,7 +75,7 @@
       </td>
     </tr>
 <!--  ##################  Week 3  ################## -->
-    <tr><th></th><th style="text-align: center">Week 3 (Oct 17-21)</th></tr>
+    <tr><th></th><th style="text-align: center">Week 3 (Oct 16-20)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
@@ -82,14 +84,14 @@
         </ul>
       </td>
     </tr>
-    <tr><td>Recorded</td>
+    <tr><td>Wednesday</td>
       <td>
         <ul>
           <li>Partitions of unity.</li>
         </ul>
       </td>
     </tr>
-    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+    <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
           <li>Sub-manifolds.</li>
@@ -99,23 +101,24 @@
       </td>
     </tr>
 <!--  ##################  Week 4  ################## -->
-    <tr><th></th><th style="text-align: center">Week 4 (Oct 24-28)</th></tr>
+    <tr><th></th><th style="text-align: center">Week 4 (Oct 23-27)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>(Online lecture) Vector fields, bracket.</li>
+          <li>Vector fields, bracket.</li>
           <li>Differential, definition of immersion, submersion, embedding.</li>
         </ul>
       </td>
     </tr>
-    <tr><td>Recorded</td>
+    <tr><td>Wednesday</td>
       <td>
         <ul>
-          <li>No recording this week.</li>
+          <li>End of partitions of unity.</li>
+          <li>Beginning of Ehresmann's Theorem.</li>
         </ul>
       </td>
     </tr>
-    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+    <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
           <li>Surgery (Theorem 2.12).</li>
@@ -125,7 +128,7 @@
       </td>
     </tr>
 <!--  ##################  Week 5  ################## -->
-    <tr><th></th><th style="text-align: center">Week 5 (Oct 31-Nov 04)</th></tr>
+    <tr><th></th><th style="text-align: center">Week 5 (Oct 30-Nov 03)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
@@ -136,14 +139,14 @@
         </ul>
       </td>
     </tr>
-    <tr><td>Recorded</td>
+    <tr><td>Wednesday</td>
       <td>
         <ul>
           <li>Ehresmann's Theorem.</li>
         </ul>
       </td>
     </tr>
-    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+    <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
           <li>Derivatives (continued) in charts and abstractly.</li>
@@ -152,22 +155,22 @@
       </td>
     </tr>
 <!--  ##################  Week 6  ################## -->
-    <tr><th></th><th style="text-align: center">Week 6 (Nov 07-11)</th></tr>
+    <tr><th></th><th style="text-align: center">Week 6 (Nov 06-10)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>Complements and Q&A during breather week:<ul><li>derivatives in coordinates,</li><li>Ehresmann's Theorem and extending integral curves,</li><li>$U \otimes V$ and ${\textrm{Hom} (U^*, V)}$,</li><li>digression on <a href="https://en.wikipedia.org/wiki/Whitney_embedding_theorem">Whitney's Embedding Theorem</a> and Whitney's trick,</li><li>the sofa problem, and</li><li>dimension 4.</li></ul></li>
+          <li>Complements and Q&A during breather week.</li>
         </ul>
       </td>
     </tr>
-    <tr><td>Recorded</td>
+    <tr><td>Wednesday</td>
       <td>
         <ul>
-          <li>There is no pre-recorded video for Week 6</li>
+          <li>Complements and Q&A during breather week.</li>
         </ul>
       </td>
     </tr>
-    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+    <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
           <li>Associativity of tensor products.</li>
@@ -176,7 +179,7 @@
       </td>
     </tr>
 <!--  ##################  Week 7  ################## -->
-    <tr><th></th><th style="text-align: center">Week 7 (Nov 14-18)</th></tr>
+    <tr><th></th><th style="text-align: center">Week 7 (Nov 13-17)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
@@ -186,14 +189,14 @@
         </ul>
       </td>
     </tr>
-    <tr><td>Recorded</td>
+    <tr><td>Wednesday</td>
       <td>
         <ul>
           <li>Integrals and Orientability.</li>
         </ul>
       </td>
     </tr>
-    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+    <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
           <li>Orientability and examples.</li>
@@ -202,7 +205,7 @@
       </td>
     </tr>
 <!--  ##################  Week 8  ################## -->
-    <tr><th></th><th style="text-align: center">Week 8 (Nov 21-25)</th></tr>
+    <tr><th></th><th style="text-align: center">Week 8 (Nov 20-24)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
@@ -212,7 +215,7 @@
         </ul>
       </td>
     </tr>
-    <tr><td>Recorded</td>
+    <tr><td>Wednesday</td>
       <td>
         <ul>
           <li>Manifolds with boundary.</li>
@@ -220,15 +223,15 @@
         </ul>
       </td>
     </tr>
-    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+    <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>Strike?</li>
+          <li>TBA</li>
         </ul>
       </td>
     </tr>
 <!--  ##################  Week 9  ################## -->
-    <tr><th></th><th style="text-align: center">Week 9 (Nov 28-Dec 02)</th></tr>
+    <tr><th></th><th style="text-align: center">Week 9 (Nov 27-Dec 01)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
@@ -238,14 +241,14 @@
         </ul>
       </td>
     </tr>
-    <tr><td>Recorded</td>
+    <tr><td>Wednesday</td>
       <td>
         <ul>
           <li>de Rham cohomology of $S^n$.</li>
         </ul>
       </td>
     </tr>
-    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+    <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
           <li>Problem Sheet 4, Questions 1-2.</li>
@@ -255,7 +258,7 @@
       </td>
     </tr>
 <!--  ##################  Week 10  ################## -->
-    <tr><th></th><th style="text-align: center">Week 10 (Dec 05-09)</th></tr>
+    <tr><th></th><th style="text-align: center">Week 10 (Dec 04-08)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
@@ -264,15 +267,14 @@
         </ul>
       </td>
     </tr>
-    <tr><td>Recorded</td>
+    <tr><td>Wednesday</td>
       <td>
         <ul>
           <li>Examples of surgeries (non-examinable).</li>
         </ul>
       </td>
     </tr>
-    <tr><td class=divider><hr/></td><td class=divider><hr/></td></tr>
-    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+    <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
           <li>TBA</li>
@@ -284,4 +286,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Wednesday, Dec 07 2022</div>
+<div style="text-align: right">Last modified: Tuesday, Sep 26 2023</div>

@@ -22,24 +22,23 @@
       }
   })();
 </script>
-# [MA3H5 Manifolds](https://moodle.warwick.ac.uk/course/view.php?id=52238)
+# [MA4N1 Theorem Proving with Lean](https://moodle.warwick.ac.uk/course/view.php?id=58287)
 ## Autumn 2023
 
 <table>
   <tbody>
 <!--  ##################  Week 1  ################## -->
     <tr><th></th><th style="text-align: center">Week 1 (Oct 02-06)</th></tr>
-    <tr><td>Monday</td>
+    <tr><td>TBD</td>
       <td>
         <ul>
-          <li>Example: projective space.</li>
-          <li>Definition of pseudo-group of transformations.</li>
+          <li>Intro to Lean: syntax, infoview, tactic, structuring proofs.</li>
         </ul>
       </td>
     </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-What we may be doing in the coming lectures: [tentative syllabus](MA3H5_tentative)
+What we may be doing in the coming lectures: [tentative syllabus](MA4N1_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 <div style="text-align: right">Last modified: Tuesday, Sep 26 2023</div>

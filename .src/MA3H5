@@ -1,7 +1,9 @@
 -- Week 1
-wed
+mon
+  Example: projective space.
   Definition of pseudo-group of transformations.
-pre
+_tentative
+wed
   Tensor products.
   Tensor algebra.
   Exterior algebra.
@@ -10,10 +12,10 @@ mon
   Definition of a manifold and examples.
   Product manifolds, submanifolds, manifolds defined by equations in another manifold (independent reading).
   Projective space.
-pre
+wed
   More on the exterior algebra.
   Interpretation via multilinear, alternating maps.
-fri
+sup
   Definition of a manifold.
   The tensor product $V \otimes W$.
 
@@ -21,20 +23,21 @@ fri
 mon
   Quotient manifolds.
   Tangent vectors, tangent spaces, vector fields.
-pre
+wed
   Partitions of unity.
-fri
+sup
   Sub-manifolds.
   Smooth maps.
   Question Sheet 1.
 
 -- Week 4
 mon
-  (Online lecture) Vector fields, bracket.
+  Vector fields, bracket.
   Differential, definition of immersion, submersion, embedding.
-pre
-  No recording this week.
-fri
+wed
+  End of partitions of unity.
+  Beginning of Ehresmann's Theorem.
+sup
   Surgery (Theorem 2.12).
   Tensor products (continued).
   Tangent spaces and derivatives.
@@ -45,18 +48,18 @@ mon
   Flows.
   Complete vector fields.
   Cotangent space (definition).
-pre
+wed
   Ehresmann's Theorem.
-fri
+sup
   Derivatives (continued) in charts and abstractly.
   Problem Sheet 2.
 
 --  Week 6
 mon
-  Complements and Q&A during breather week:<ul><li>derivatives in coordinates,</li><li>Ehresmann's Theorem and extending integral curves,</li><li>$U \otimes V$ and ${\textrm{Hom} (U^*, V)}$,</li><li>digression on <a href="https://en.wikipedia.org/wiki/Whitney_embedding_theorem">Whitney's Embedding Theorem</a> and Whitney's trick,</li><li>the sofa problem, and</li><li>dimension 4.</li></ul>
-pre
-  There is no pre-recorded video for Week 6
-fri
+  Complements and Q&A during breather week.
+wed
+  Complements and Q&A during breather week.
+sup
   Associativity of tensor products.
   Wedge products and dimension of $\Lambda^k U$.
 
@@ -65,9 +68,9 @@ mon
   Smooth 1-forms, total differential, cotangent bundle.
   Vector bundles.
   Differential $r$-forms and pull-backs.
-pre
+wed
   Integrals and Orientability.
-fri
+sup
   Orientability and examples.
   Pull-back and differentials.
 
@@ -76,20 +79,20 @@ mon
   Exterior differentiation.
   Examples in $\mathbb{R}^3$.
   Stokes' Theorem for manifolds without boundary.
-pre
+wed
   Manifolds with boundary.
   Stokes' Theorem.
-fri
-  Strike?
+sup
+  TBA
 
 --  Week 9
 mon
   Brouwer’s fixed point theorem.
   Closed and exact forms, de Rham cohomology, formal properties (Theorem 6.2).
   de Rham cohomology of $\mathbb{R}^n$.
-pre
+wed
   de Rham cohomology of $S^n$.
-fri
+sup
   Problem Sheet 4, Questions 1-2.
   Classical notation for integrals.
   Interior product.
@@ -98,8 +101,7 @@ fri
 mon
   Top cohomology of compact, connected orientable manifolds is nonzero.
   Q&A: M&ouml;bius band, connected sums, cohomology, hyperbolic plane, surfaces,...
-pre
+wed
   Examples of surgeries (non-examinable).
-_tentative
-fri
+sup
   TBA
