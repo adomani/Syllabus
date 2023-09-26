@@ -25,6 +25,6 @@
   * finishing tactics (frequency distribution of the last tactic in a proof)
 * Come up with your meta-programming goal!
 
-[Back to the `Theorem Proving with Lean` webpage](https://adomani.github.io/Syllabus/tree/master/MA4N1)
+[Back to the `Theorem Proving with Lean` webpage](https://adomani.github.io/Syllabus/MA4N1/intro)
 
 [Back to Moodle](https://moodle.warwick.ac.uk/course/view.php?id=58287#section-0)
