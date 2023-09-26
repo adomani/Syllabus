@@ -14,11 +14,11 @@
 ###  More computer science-oriented
 
 * Tooling for statistical analysis of Mathlib:
-* * proof lengths (extract the number of lines of the proofs of all declarations)
-* * tactic usage (frequency distribution of tactics)
-* * finishing tactics (frequency distribution of the last tactic in a proof)
+  * proof lengths (extract the number of lines of the proofs of all declarations)
+  * tactic usage (frequency distribution of tactics)
+  * finishing tactics (frequency distribution of the last tactic in a proof)
 * Automating proofs
-* * write a tactic to dispatch "junk values"
-* * write a tactic to compute degrees of multivariate polynomials
-* * write a tactic to split and progress on `Nat.sub`
+  * write a tactic to dispatch "junk values"
+  * write a tactic to compute degrees of multivariate polynomials
+  * write a tactic to split and progress on `Nat.sub`
 * Come up with your meta-programming goal!
