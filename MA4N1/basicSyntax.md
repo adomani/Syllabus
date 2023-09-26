@@ -57,36 +57,36 @@ def myFn <inputs> : <target> := <whatTheFunctionDoes>
   Thus, in the following code, the second `def fn` defines `fn`.
   Note that, if the first `fn` had not been inside a namespace, then there would have been a clash of names and Lean4 would have complained.
 
-```lean
-namespace myName
+  ```lean
+  namespace myName
 
-/-- I describe `myName.fn`. -/
-def fn := 0
--- this definition really created `myName.fn`
+  /-- I describe `myName.fn`. -/
+  def fn := 0
+  -- this definition really created `myName.fn`
 
-end myName
+  end myName
 
-/-- I describe `fn`. -/
-def fn := 1
--- this definition created `fn`, without namespace
+  /-- I describe `fn`. -/
+  def fn := 1
+  -- this definition created `fn`, without namespace
 
-#eval fn  -- 1
+  #eval fn  -- 1
 
-open myName
+  open myName
 
-/-
-#eval fn
-causes an error, since Lean4 cannot know whether we mean `myName.fn` or `fn` with no namespace.
-We disambiguate this as follows.
--/
+  /-
+  #eval fn
+  causes an error, since Lean4 cannot know whether we mean `myName.fn` or `fn` with no namespace.
+  We disambiguate this as follows.
+  -/
 
--- if you hover over `myName.fn`, you will see "I describe `myName.fn`."
-#eval myName.fn -- 0
+  -- if you hover over `myName.fn`, you will see "I describe `myName.fn`."
+  #eval myName.fn -- 0
 
--- if you hover over `_root_.fn`, you will see "I describe `fn`."
-#eval _root_.fn -- 1
-/- `_root_.` is a way of letting Lean4 know that what follows is the full name, even if we are inside a `namespace`-block. -/
-```
+  -- if you hover over `_root_.fn`, you will see "I describe `fn`."
+  #eval _root_.fn -- 1
+  /- `_root_.` is a way of letting Lean4 know that what follows is the full name, even if we are inside a `namespace`-block. -/
+  ```
 * `set_option profiler true` instructing Lean4 to provide some further information, usually in the form of evaluation time of declarations, `#eval`s,...
 
 ## Dot-notation
