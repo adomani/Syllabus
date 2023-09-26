@@ -22,7 +22,7 @@
       }
   })();
 </script>
-# [MA4N1 Theorem Proving with Lean](https://moodle.warwick.ac.uk/course/view.php?id=58287)
+# [MA4N1 Theorem Proving with Lean](https://adomani.github.io/Syllabus/MA4N1/intro)
 ## Autumn 2023
 
 <table>
