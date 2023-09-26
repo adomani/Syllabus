@@ -85,7 +85,8 @@ def myFn <inputs> : <target> := <whatTheFunctionDoes>
 
   -- if you hover over `_root_.fn`, you will see "I describe `fn`."
   #eval _root_.fn -- 1
-  /- `_root_.` is a way of letting Lean4 know that what follows is the full name, even if we are inside a `namespace`-block. -/
+  /- `_root_.` is a way of letting Lean4 know that what follows is the full name,
+  even if we are inside a `namespace`-block. -/
   ```
 * `set_option profiler true` instructing Lean4 to provide some further information, usually in the form of evaluation time of declarations, `#eval`s,...
 
