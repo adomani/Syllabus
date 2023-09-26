@@ -14,7 +14,7 @@
 ## Available pages
 
 * [Current syllabus](https://adomani.github.io/Syllabus/MA4N1)
-* [Basic Lean4 syntax](https://adomani.github.io/Syllabus/MA4N1/basicSyntax)
+* [Basic Lean4 syntax](MA4N1/basicSyntax)
 * [What tools do I have to tease information out of Lean4?](https://adomani.github.io/Syllabus/MA4N1/informationExtraction)
 * [Stubs of ideas and projects](https://adomani.github.io/Syllabus/MA4N1/ideas_to_develop)
 * [Possible weekly topics &ndash; very unstable](https://adomani.github.io/Syllabus/MA4N1/weekly_topics_tbc)
