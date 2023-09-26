@@ -1,3 +1,5 @@
+#  Stubs of ideas and projects
+
 ###  More mathematics-oriented
 
 * Sums of squares of a field are a group with zero
@@ -13,14 +15,14 @@
 
 ###  More computer science-oriented
 
-* Tooling for statistical analysis of Mathlib:
-  * proof lengths (extract the number of lines of the proofs of all declarations)
-  * tactic usage (frequency distribution of tactics)
-  * finishing tactics (frequency distribution of the last tactic in a proof)
 * Automating proofs
   * write a tactic to dispatch "junk values"
   * write a tactic to compute degrees of multivariate polynomials
   * write a tactic to split and progress on `Nat.sub`
+* Tooling for statistical analysis of Mathlib:
+  * proof lengths (extract the number of lines of the proofs of all declarations)
+  * tactic usage (frequency distribution of tactics)
+  * finishing tactics (frequency distribution of the last tactic in a proof)
 * Come up with your meta-programming goal!
 
 [Back to the `Theorem Proving with Lean` webpage](https://github.com/adomani/Syllabus/tree/master/MA4N1)
