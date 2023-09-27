@@ -13,3 +13,9 @@ The more you can isolate what your issue is and the more you provide all the sur
 Please, take [#mwe](https://leanprover-community.github.io/mwe.html)s seriously!
 
 Also, feel free to use the [Zulip chat](https://leanprover.zulipchat.com/) mentioned above.
+
+---
+
+[Back to the `Theorem Proving with Lean` webpage](https://adomani.github.io/Syllabus/MA4N1/intro)
+
+[Back to Moodle](https://moodle.warwick.ac.uk/course/view.php?id=58287#section-0)
