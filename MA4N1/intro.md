@@ -1,4 +1,4 @@
-# Introduction to formalizing mathematics using Lean
+# Introduction to `Formalizing Mathematics with Lean`
 
 | Lectures |           | Room  |-|Support classes |     | Room|
 | :-       | :-:       | -     |-| :-             | :-: | -   |
