@@ -1,6 +1,6 @@
 #  Stubs of ideas and projects
 
-###  More mathematics-oriented
+###  Mathematically oriented projects
 
 * Sums of squares of a field are a group with zero
 * The non-zero sums of squares of a field form a multiplicative group
@@ -13,7 +13,12 @@
 * Find infinite subsets of the natural numbers containing no 3-term arithmetic progression
 * Your favourite theorem!
 
-###  More computer science-oriented
+Besides using Lean to prove theorems, you can also use it to verify counterexamples!
+Two books that contain lots of inspiration are
+* [Counterexamples in Topology](https://link.springer.com/book/10.1007/978-1-4612-6290-9),
+* [Counterexamples in Analysis](https://faculty.ksu.edu.sa/sites/default/files/_olmsted_1.pdf).
+
+###  Computer science oriented projects
 
 * Automating proofs:
   * write a tactic to dispatch "junk values"
