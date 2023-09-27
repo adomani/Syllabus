@@ -1,13 +1,11 @@
 # Introduction to formalizing mathematics using Lean
 
-| Lectures | | Room |
-| :- | :-: | - |
-| Mondays | 5pm-6pm | MS.05 |
-| Tuesdays | 11am-noon | MS.03 |
+| Lectures |           | Room  |-|Support classes |     | Room|
+| :-       | :-:       | -     |-| :-             | :-: | -   |
+| Mondays  | 5pm-6pm   | MS.05 |-| TBA            |     | TBA |
+| Tuesdays | 11am-noon | MS.03 | |                |     |     |
 
-|Support classes | | Room|
-| :- | :-: | - |
-| TBA | | TBA |
+<!-- `echo 'markdown table' | column -s'|' -o'|' -t` -->
 
 ---
 
