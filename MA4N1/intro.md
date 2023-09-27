@@ -26,8 +26,8 @@ Since their invention, computers have been used as an aid to performing long and
 Besides basic arithmetic, computers have also been useful in theoretical and applied situations, giving the possibility of "running experiments" to gather evidence (or disprove) conjectures.
 More recently, with the rapid development of machine learning and artificial intelligence, they have been used in more abstract contexts as well, such as recognizing handwriting, playing games, driving cars,...
 
-This module will focus on using computers to help mathematicians prove theorems.
-The way this is achieved is via a computer program (Lean 3, for this specific module) that has a systematic framework for formalizing the foundational rules of mathematics.
+This module focuses on using computers to help mathematicians prove theorems.
+The way this is achieved is via a computer program (Lean4, for this specific module) that has a systematic framework for formalizing the foundational rules of mathematics.
 Thus, Lean "knows" the basic logical inference rules and has a version of the foundations of mathematics, based on (dependent) Type theory, rather than the more familiar Zermelo-Fraenkel theory.
 
 This is the starting point.
@@ -56,7 +56,7 @@ The program can be freely installed on your own computer, following [these instr
 There are also web-based versions that can be used.
 
 To get a flavour of what the module entails, you can take a look at the [Natural Numbers Game](https://adam.math.hhu.de/#/g/hhu-adam/NNG4).
-The link takes you to the Lean 4 version.
+The link takes you to the Lean4 version.
 The original [Natural Numbers Game (Lean 3)](https://www.ma.imperial.ac.uk/~buzzard/xena/natural_number_game/) was developed by Kevin Buzzard and Mohammad Pedramfar.
 In fact, you are encouraged to play with it to see if this module might be a good choice for you!
 
