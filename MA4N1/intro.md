@@ -22,10 +22,31 @@
 
 ---
 
+### Introduction
 Since their invention, computers have been used as an aid to performing long and tedious calculations.
 Besides basic arithmetic, computers have also been useful in theoretical and applied situations, giving the possibility of "running experiments" to gather evidence (or disprove) conjectures.
 More recently, with the rapid development of machine learning and artificial intelligence, they have been used in more abstract contexts as well, such as recognizing handwriting, playing games, driving cars,...
 
+Using computers to help mathematicians prove theorems is older than computers themselves!
+The mechanization of thought in general and of mathematics in particular has always attracted a lot of interest.
+
+In this area, it is important to introduce two different but interrelated tools:
+* *interactive* theorem provers;
+* *automated* theorem provers.
+
+*Interactive* theorem provers provide a mean to verify that a proof is correct, with a substantial amount of human intervention.
+The interactive part is represented by the constant guidance that the human provides to the computer.
+This is what we will be doing in this module.
+
+*Automated* theorem provers simply take a statement and try to come up with a proof, with no further human interaction.
+Even more, you might even hope that they come up with the statement on their own!
+This is *not* what this module is about!
+
+Currently, there are very sophisticated and well-developed *interactive* theorem provers.
+To some extent, each one of them implements some internal mechanism to take care automatically of trivialities, making them a "hybrid" between an interactive and an automated theorem prover.
+However, my personal opinion is that currently proof automation is still in its infancy and still has a lot of room to grow.
+
+### MA4N1
 This module focuses on using computers to help mathematicians prove theorems.
 The way this is achieved is via a computer program (Lean4, for this specific module) that has a systematic framework for formalizing the foundational rules of mathematics.
 Thus, Lean "knows" the basic logical inference rules and has a version of the foundations of mathematics, based on (dependent) Type theory, rather than the more familiar Zermelo-Fraenkel theory.
