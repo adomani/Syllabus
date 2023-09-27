@@ -1,4 +1,4 @@
-# Introduction to `Formalizing Mathematics with Lean`
+# Introduction to `Theorem Proving with Lean`
 
 | Lectures |           | Room  |-|Support classes |     | Room|
 | :-       | :-:       | -     |-| :-             | :-: | -   |
