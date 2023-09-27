@@ -4,9 +4,11 @@
 
 Assessment: 100% coursework
 
-* Each group submits a plan of how they intend to formalize their project (deadline: during Term 1).
-* Each student uploads individually a short video presentation (up to 4 minutes), describing their contribution to the project (deadline: around the end of Term 1).
-* Each group submits the final version of their formalization effort (deadline: around end of January).
+| Assessment | Submission type | Deadline (TBC) |
+| - | :- | - |
+| Outline of formalization | Group | Week 4? |
+| Video presentation (up to 4 minutes) of contribution to the project | Individual | Week 8? |
+| Final formalization | Group | Term 2, Week 3? |
 
 ##  Asking questions
 
