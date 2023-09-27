@@ -1,4 +1,14 @@
-#  Asking questions
+#  FAQ
+
+##  Assessment
+
+Assessment: 100% coursework
+
+* Each group submits a plan of how they intend to formalize their project (deadline: during Term 1).
+* Each student uploads individually a short video presentation (up to 4 minutes), describing their contribution to the project (deadline: around the end of Term 1).
+* Each group submits the final version of their formalization effort (deadline: around end of January).
+
+##  Asking questions
 
 The [Mathlib Zulip chat](https://leanprover.zulipchat.com/) is an excellent place to ask questions about formalization of mathematics in Lean.
 There is a very clear explanation of what constitutes a "good question".
