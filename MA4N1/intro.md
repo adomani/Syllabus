@@ -44,7 +44,7 @@ Currently, there are very sophisticated and well-developed *interactive* theorem
 To some extent, each one of them implements some internal mechanism to take care automatically of trivialities, making them a "hybrid" between an interactive and an automated theorem prover.
 However, my personal opinion is that currently proof automation is still in its infancy and still has a lot of room to grow.
 
-### MA4N1
+### MA4N1 Theorem Proving with Lean
 This module focuses on using computers to help mathematicians prove theorems.
 The way this is achieved is via a computer program (Lean4, for this specific module) that has a systematic framework for formalizing the foundational rules of mathematics.
 Thus, Lean "knows" the basic logical inference rules and has a version of the foundations of mathematics, based on (dependent) Type theory, rather than the more familiar Zermelo-Fraenkel theory.
