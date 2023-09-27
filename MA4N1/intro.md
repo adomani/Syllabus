@@ -1,9 +1,9 @@
 # Introduction to `Theorem Proving with Lean`
 
-| Lectures |           | Room  |-|Support classes |     | Room|
-| :-       | :-:       | -     |-| :-             | :-: | -   |
-| Mondays  | 5pm-6pm   | MS.05 |-| TBA            |     | TBA |
-| Tuesdays | 11am-noon | MS.03 | |                |     |     |
+| Lectures |           | Room  |-| Support classes |     | Room |
+| :-       | :-:       | -     |-| :-              | :-: | -    |
+| Mondays  | 5pm-6pm   | MS.05 |-| TBA             |     | TBA  |
+| Tuesdays | 11am-noon | MS.03 | |                 |     |      |
 
 <!-- `echo 'markdown table' | column -s'|' -o'|' -t` -->
 
