@@ -5,19 +5,21 @@ echo 'Name | Symbol
 - | :-:
 `and` `∧`
 `or` `∨`
+`not` `¬`
 `iff` `↔`
 `implies` `→`
 `for all` `∀`
 `there exists` `∃`
 `goal` `⊢`' |
   sed 's=` `=` | `= ; s=^=| =; s=$= |=' |
-  column -s'|' -o'|' -t
+  column -s'|' -o'|' -t | copy
 -->
 
 | Name           | Symbol |
 | -              | :-:    |
 | `and`          | `∧`    |
 | `or`           | `∨`    |
+| `not`          | `¬`    |
 | `iff`          | `↔`    |
 | `implies`      | `→`    |
 | `for all`      | `∀`    |
