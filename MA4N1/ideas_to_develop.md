@@ -26,6 +26,7 @@ Two books that contain lots of inspiration are
   * write a tactic to split and progress on `Nat.sub`
 * Tooling for statistical analysis of Mathlib:
   * proof lengths (extract the number of lines of the proofs of all declarations)
+  * tactic in a declaration (find which tactics are used in a given declaration)
   * tactic usage (frequency distribution of tactics)
   * finishing tactics (frequency distribution of the last tactic in a proof)
 * Come up with your meta-programming goal!
