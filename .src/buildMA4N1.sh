@@ -9,7 +9,7 @@ mergeFiles () {
   done > source.md
 }
 
-awk -v home="${HOME}/${matONo}/Warwick/Syllabus/MA4N1/" 'BEGIN{
+awk -v home="${HOME}/${matONo}/Warwick/Syllabus/MA4N1/" 'BEGIN {
   curr="intro.md"
   ghurl="https://adomani.github.io/Syllabus/MA4N1/intro"
   moodleurl="https://moodle.warwick.ac.uk/course/view.php?id=58287#section-0"
@@ -23,7 +23,7 @@ awk -v home="${HOME}/${matONo}/Warwick/Syllabus/MA4N1/" 'BEGIN{
     print fil
     path=home fil
     printf("%s\n---%s%s\n", content[fil], (fil == "intro.md") ? "" : tpwlink, moodlink) > path
-    close(home fil)
+    close(path)
   }
 }' ~/Matematica/Warwick/Syllabus/MA4N1/source.md
 
