@@ -495,6 +495,7 @@ Hello
 -/
 ```
 <!-- newFile sample_lean_file.md -->
+#  Sample Lean file
 ```lean
 import Mathlib.Tactic
 

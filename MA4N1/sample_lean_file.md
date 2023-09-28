@@ -1,3 +1,4 @@
+#  Sample Lean file
 ```lean
 import Mathlib.Tactic
 

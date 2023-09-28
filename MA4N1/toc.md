@@ -41,6 +41,7 @@ In this module, we will only work with Lean 4.
 * [Introduction to `Theorem Proving with Lean`](https://adomani.github.io/Syllabus/MA4N1/intro)
 * [Basic Lean4 syntax](https://adomani.github.io/Syllabus/MA4N1/basicSyntax)
 * [What tools do I have to tease information out of Lean4?](https://adomani.github.io/Syllabus/MA4N1/informationExtraction)
+* [Sample Lean file](https://adomani.github.io/Syllabus/MA4N1/sample_lean_file)
 * [Stubs of ideas and projects](https://adomani.github.io/Syllabus/MA4N1/ideas_to_develop)
 * [Possible weekly topics &ndash; very preliminary](https://adomani.github.io/Syllabus/MA4N1/weekly_topics_tbc)
 * [Commonly used symbols](https://adomani.github.io/Syllabus/MA4N1/common_symbols)
