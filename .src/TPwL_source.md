@@ -7,6 +7,11 @@
 | Tuesdays | 11am-noon | MS.03 | |                 |     |      |
 
 <!-- `echo 'markdown table' | column -s'|' -o'|' -t` -->
+
+The module is based on the proof assistant [Lean 4](https://lean-lang.org/).
+We will use [Mathlib](https://leanprover-community.github.io/), the mathematical library of Lean 4.
+
+You can find ways to interact with Lean and Mathlib on the [Mathlib webpage](https://leanprover-community.github.io/).
 <!-- newFile intro.md -->
 # Introduction to `Theorem Proving with Lean`
 
