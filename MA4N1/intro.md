@@ -1,28 +1,5 @@
 # Introduction to `Theorem Proving with Lean`
 
-| Lectures |           | Room  |-| Support classes |     | Room |
-| :-       | :-:       | -     |-| :-              | :-: | -    |
-| Mondays  | 5pm-6pm   | MS.05 |-| TBA             |     | TBA  |
-| Tuesdays | 11am-noon | MS.03 | |                 |     |      |
-
-<!-- `echo 'markdown table' | column -s'|' -o'|' -t` -->
-
----
-
-## Available pages
-
-* [Current syllabus](https://adomani.github.io/Syllabus/MA4N1)
-* [Basic Lean4 syntax](https://adomani.github.io/Syllabus/MA4N1/basicSyntax)
-* [What tools do I have to tease information out of Lean4?](https://adomani.github.io/Syllabus/MA4N1/informationExtraction)
-* [Stubs of ideas and projects](https://adomani.github.io/Syllabus/MA4N1/ideas_to_develop)
-* [Possible weekly topics &ndash; very preliminary](https://adomani.github.io/Syllabus/MA4N1/weekly_topics_tbc)
-* [Commonly used symbols](https://adomani.github.io/Syllabus/MA4N1/common_symbols)
-* [FAQ](https://adomani.github.io/Syllabus/MA4N1/faq)
-
----
-
-### Introduction
-
 Since their invention, computers have been used as an aid to performing long and tedious calculations.
 Besides basic arithmetic, computers have also been useful in theoretical and applied situations, giving the possibility of "running experiments" to gather evidence (or disprove) conjectures.
 More recently, with the rapid development of machine learning and artificial intelligence, they have been used in more "human-like" contexts, such as recognizing handwriting, playing games, driving cars,...
@@ -83,5 +60,7 @@ The original [Natural Numbers Game (Lean 3)](https://www.ma.imperial.ac.uk/~buzz
 In fact, you are encouraged to play with it to see if this module might be a good choice for you!
 
 ---
+
+[Back to the `Theorem Proving with Lean` webpage](https://adomani.github.io/Syllabus/MA4N1/toc)
 
 [Back to Moodle](https://moodle.warwick.ac.uk/course/view.php?id=58287#section-0)
