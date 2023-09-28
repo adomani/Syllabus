@@ -10,8 +10,9 @@ mergeFiles () {
 }
 
 awk -v home="${HOME}/${matONo}/Warwick/Syllabus/MA4N1/" 'BEGIN {
-  mainFile="intro.md"
-  ghurl="https://adomani.github.io/Syllabus/MA4N1/intro"
+  mainFileNoExt="intro"
+  mainFile=mainFileNoExt".md"
+  ghurl="https://adomani.github.io/Syllabus/MA4N1/" mainFileNoExt
   moodleurl="https://moodle.warwick.ac.uk/course/view.php?id=58287#section-0"
   tpwlink="\n\n[Back to the `Theorem Proving with Lean` webpage](" ghurl ")"
   moodlink="\n\n[Back to Moodle](" moodleurl ")"
