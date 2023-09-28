@@ -22,7 +22,7 @@ The final submission is at the end of January, in Term 2.
 
 <!-- `echo 'markdown table' | column -s'|' -o'|' -t` -->
 
-You can find some ideas for what might constitute a "toy project" [here](MA4N1/ideas_to_develop).
+You can find some ideas for what might constitute a "toy project" [here](ideas_to_develop).
 
 The module is based on the proof assistant [Lean 4](https://lean-lang.org/).
 We will use [Mathlib](https://leanprover-community.github.io/), the mathematical library of Lean 4.
