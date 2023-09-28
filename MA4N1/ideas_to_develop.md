@@ -31,6 +31,8 @@ Two books that contain lots of inspiration are
   * finishing tactics (frequency distribution of the last tactic in a proof)
 * Come up with your meta-programming goal!
 
+For instructions on how to create a project depending on Mathlib, look at [this page](instructions_for_new_project)
+
 ---
 
 [Back to the `Theorem Proving with Lean` webpage](https://adomani.github.io/Syllabus/MA4N1/toc)

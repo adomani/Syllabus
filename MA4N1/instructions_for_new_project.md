@@ -1,4 +1,4 @@
-#  Create a new project depending on `Mathlib`
+#  Creating a new project depending on `Mathlib`
 
 [Source URL](https://leanprover-community.github.io/install/project.html#creating-a-lean-project)
 
@@ -69,3 +69,9 @@ lake exe cache get
 mkdir "${proj}"
 code .
 ```
+
+---
+
+[Back to the `Theorem Proving with Lean` webpage](https://adomani.github.io/Syllabus/MA4N1/toc)
+
+[Back to Moodle](https://moodle.warwick.ac.uk/course/view.php?id=58287#section-0)
