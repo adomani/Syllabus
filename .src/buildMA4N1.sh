@@ -16,12 +16,14 @@ awk -v home="${HOME}/${matONo}/Warwick/Syllabus/MA4N1/" 'BEGIN{
   tpwlink="\n\n[Back to the `Theorem Proving with Lean` webpage](" ghurl ")"
   moodlink="\n\n[Back to Moodle](" moodleurl ")"
 }
-  /^<!-- newFile [^ ]* -->/ { curr=$3 }
+  /^<!-- newFile [^ ]* -->/  { curr=$3; content[curr]=""; }
   !/^<!-- newFile [^ ]* -->/ { content[curr]=content[curr] $0"\n" }
  END {
   for (fil in content) {  ## fil is the name of the file, content[fil] is its content
     print fil
-    printf("%s\n---%s%s\n", content[fil], (fil == "intro.md") ? "" : tpwlink, moodlink) > home fil
+    path=home fil
+    printf("%s\n---%s%s\n", content[fil], (fil == "intro.md") ? "" : tpwlink, moodlink) > path
+    close(home fil)
   }
 }' ~/Matematica/Warwick/Syllabus/MA4N1/source.md
 
