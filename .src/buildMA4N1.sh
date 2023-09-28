@@ -10,7 +10,7 @@ mergeFiles () {
 }
 
 awk -v home="${HOME}/${matONo}/Warwick/Syllabus/MA4N1/" 'BEGIN {
-  curr="intro.md"
+  mainFile="intro.md"
   ghurl="https://adomani.github.io/Syllabus/MA4N1/intro"
   moodleurl="https://moodle.warwick.ac.uk/course/view.php?id=58287#section-0"
   tpwlink="\n\n[Back to the `Theorem Proving with Lean` webpage](" ghurl ")"
@@ -19,12 +19,15 @@ awk -v home="${HOME}/${matONo}/Warwick/Syllabus/MA4N1/" 'BEGIN {
   /^<!-- newFile [^ ]* -->/  { curr=$3; content[curr]=""; }
   !/^<!-- newFile [^ ]* -->/ { content[curr]=content[curr] $0"\n" }
  END {
+  mainFound=0
   for (fil in content) {  ## fil is the name of the file, content[fil] is its content
-    print fil
+    if (fil == mainFile) mainFound++
+    printf("%s %s\n", fil == mainFile ? "*" : " ", fil)
     path=home fil
-    printf("%s\n---%s%s\n", content[fil], (fil == "intro.md") ? "" : tpwlink, moodlink) > path
+    printf("%s\n---%s%s\n", content[fil], (fil == mainFile) ? "" : tpwlink, moodlink) > path
     close(path)
   }
+  if (mainFound != 1) printf("\n** The main file `%s` was not declared! **\n", mainFile)
 }' ~/Matematica/Warwick/Syllabus/MA4N1/source.md
 
 
