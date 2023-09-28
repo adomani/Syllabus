@@ -56,7 +56,6 @@ proj --|-- Proj -- | <your_files_here>
        |-- lean-toolchain
        |
        |-- proj.lean
-
 ```
 
 
