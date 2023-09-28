@@ -22,6 +22,7 @@
 ---
 
 ### Introduction
+
 Since their invention, computers have been used as an aid to performing long and tedious calculations.
 Besides basic arithmetic, computers have also been useful in theoretical and applied situations, giving the possibility of "running experiments" to gather evidence (or disprove) conjectures.
 More recently, with the rapid development of machine learning and artificial intelligence, they have been used in more "human-like" contexts, such as recognizing handwriting, playing games, driving cars,...
@@ -46,6 +47,7 @@ To some extent, each one of them implements some internal mechanism to take care
 However, my personal opinion is that currently proof automation is still in its infancy and still has a lot of room to grow.
 
 ### MA4N1 Theorem Proving with Lean
+
 This module focuses on using computers to help mathematicians prove theorems.
 The way this is achieved is via a computer program (Lean4, for this specific module) that has a systematic framework for formalizing the foundational rules of mathematics.
 Thus, Lean "knows" the basic logical inference rules and has a version of the foundations of mathematics, based on (dependent) Type theory, rather than the more familiar Zermelo-Fraenkel theory.
