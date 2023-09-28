@@ -24,9 +24,9 @@ The final submission is at the end of January, in Term 2.
 
 You can find some ideas for what might constitute a "toy project" [here](ideas_to_develop).
 
----
-
 The Lean 4 project containing the Lean files for the lectures is [here](https://github.com/adomani/MA4N1_2023).
+
+---
 
 The module is based on the proof assistant [Lean 4](https://lean-lang.org/).
 We will use [Mathlib](https://leanprover-community.github.io/), the mathematical library of Lean 4.
