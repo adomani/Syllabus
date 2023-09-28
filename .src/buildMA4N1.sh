@@ -17,7 +17,7 @@ awk -v home="${HOME}/${matONo}/Warwick/Syllabus/MA4N1/" 'BEGIN {
   tpwlink="\n\n[Back to the `Theorem Proving with Lean` webpage](" ghurl ")"
   moodlink="\n\n[Back to Moodle](" moodleurl ")"
 }
-  /^<!-- newFile [^ ]* -->/  { curr=$3; content[curr]=""; }
+  /^<!-- newFile [^ ]* -->/  { curr=$3; content[curr]=""; fileNames[$3]++; }
   !/^<!-- newFile [^ ]* -->/ { content[curr]=content[curr] $0"\n" }
  END {
   mainFound=0
@@ -28,8 +28,9 @@ awk -v home="${HOME}/${matONo}/Warwick/Syllabus/MA4N1/" 'BEGIN {
     printf("%s\n---%s%s\n", content[fil], lk, moodlink) > path
     close(path)
   }
-  if (mainFound == 0) printf("\n** The main file `%s` was not declared! **\n", mainFile)
-  if (mainFound >= 2) printf("\n** The main file `%s` was declared %s times! **\n", mainFile, mainFound)
+  if (mainFound != 1) printf("\n** The main file `%s` was not declared! **\n", mainFile)
+  for (name in fileNames)
+    if (fileNames[name] >= 2) printf("\n** The file `%s` was declared %s times! **\n", name, fileNames[name])
 }' ~/Matematica/Warwick/Syllabus/MA4N1/source.md
 
 
