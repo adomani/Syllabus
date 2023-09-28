@@ -15,18 +15,17 @@ scatterTPwL () {
     mainFile=mainFileNoExt".md"
     genericGHurl="https://adomani.github.io/Syllabus/MA4N1/"
     ghurl=genericGHurl mainFileNoExt
-    toc="\n\n## Available pages\n\n* [Current syllabus](https://adomani.github.io/Syllabus/MA4N1)\n"
+    toc="\n\n## Available pages\n\n* [Current syllabus](https://adomani.github.io/Syllabus/MA4N1)"
     moodleurl="https://moodle.warwick.ac.uk/course/view.php?id=58287#section-0"
     tpwlink="\n\n[Back to the `Theorem Proving with Lean` webpage](" ghurl ")"
     moodlink="\n\n[Back to Moodle](" moodleurl ")"
   }
     /^<!-- newFile [^ ]* -->/  { curr=$3; content[curr]=""; fileNames[$3]++; con=1; }
-    con == 1 && /^##* / { toc=toc sprintf("* [%s](%s%s)\n", $0, genericGHurl, curr) }
+    con == 1 && /^##* / { toc=toc sprintf("\n* [%s](%s%s)", $0, genericGHurl, curr) }
     !/^<!-- newFile [^ ]* -->/ { con=0; content[curr]=content[curr] $0"\n" }
    END {
     gsub(/\[##*  */, "[", toc)
     gsub(/\.md)/, ")", toc)
-#    print toc
     mainFound=0
     for (fil in content) {  ## fil is the name of the file, content[fil] is its content
       if (fil == mainFile) { mainFound++; lk=toc; printf("* "); } else { lk=tpwlink; printf "  "}
