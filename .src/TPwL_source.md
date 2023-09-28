@@ -712,7 +712,7 @@ not the one that was automatically created when you initialized your project
 
 You folder structure should look more or less like this:
 ```
-proj --|-- Proj -- | <your_files_here>
+proj --|-- Proj -------------- | <your_files_here>
        |
        |-- lakefile.lean
        |
