@@ -22,13 +22,14 @@ awk -v home="${HOME}/${matONo}/Warwick/Syllabus/MA4N1/" 'BEGIN {
  END {
   mainFound=0
   for (fil in content) {  ## fil is the name of the file, content[fil] is its content
-    if (fil == mainFile) mainFound++
-    printf("%s %s\n", fil == mainFile ? "*" : " ", fil)
+    if (fil == mainFile) { mainFound++; lk=""; printf("* "); } else { lk=tpwlink; printf "  "}
+    print fil
     path=home fil
-    printf("%s\n---%s%s\n", content[fil], (fil == mainFile) ? "" : tpwlink, moodlink) > path
+    printf("%s\n---%s%s\n", content[fil], lk, moodlink) > path
     close(path)
   }
-  if (mainFound != 1) printf("\n** The main file `%s` was not declared! **\n", mainFile)
+  if (mainFound == 0) printf("\n** The main file `%s` was not declared! **\n", mainFile)
+  if (mainFound >= 2) printf("\n** The main file `%s` was declared %s times! **\n", mainFile, mainFound)
 }' ~/Matematica/Warwick/Syllabus/MA4N1/source.md
 
 
