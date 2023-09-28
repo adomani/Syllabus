@@ -80,7 +80,7 @@ The module is going to be project-based, in small groups (exact sizes to be dete
 The lectures will help with getting started and provide tools for making progress with proving theorems with a computer.
 Each group will decide on a result to formalize and will work towards producing their definitions and proving lemmas.
 
-[This link](https://adomani.github.io/Syllabus/MA4N1/ideas_to_develop) contains some sample ideas that could turn into projects.
+[This link](ideas_to_develop) contains some sample ideas that could turn into projects.
 
 For more examples, Freek Wiedijk's webpage [Formalizing 100 Theorems](https://www.cs.ru.nl/~freek/100/) has a list of theorems of varying difficulty.
 
