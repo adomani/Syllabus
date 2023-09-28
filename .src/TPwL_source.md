@@ -8,7 +8,11 @@
 
 ##  Assessment
 
-The assessment for the module is 100% coursework.  Two submissions are during Term 1.  The final submission is at the end of January, in Term 2.
+The assessment for the module is 100% coursework.
+
+Two submissions are during Term 1.
+
+The final submission is at the end of January, in Term 2.
 
 | Assessment                                        | Submission type | Deadline       |
 | -                                                 | :-              | -              |
