@@ -30,6 +30,6 @@ You can find a cheat-sheet with commonly used symbols and tactic [here](https://
 
 ---
 
-[Back to the `Theorem Proving with Lean` webpage](https://adomani.github.io/Syllabus/MA4N1/intro)
+[Back to the `Theorem Proving with Lean` webpage](https://adomani.github.io/Syllabus/MA4N1/toc)
 
 [Back to Moodle](https://moodle.warwick.ac.uk/course/view.php?id=58287#section-0)

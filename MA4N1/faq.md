@@ -2,13 +2,13 @@
 
 ##  Assessment
 
-Assessment: 100% coursework
+The assessment for the module is 100% coursework.  Two submissions are during Term 1.  The final submission is at the end of January, in Term 2.
 
-| Assessment | Submission type | Deadline (TBC) |
-| - | :- | - |
-| Outline of formalization | Group | Week 4? |
-| Video presentation (up to 4 minutes) of contribution to the project | Individual | Week 8? |
-| Final formalization | Group | Term 2, Week 3? |
+| Assessment                                        | Submission type | Deadline       |
+| -                                                 | :-              | -              |
+| Outline of formalization                          | Group           | Week 4         |
+| Video of personal contribution (up to 4 minutes)  | Individual      | Week 8         |
+| Final formalization                               | Group           | Term 2, Week 3 |
 
 ##  Asking questions
 
@@ -28,6 +28,6 @@ Also, feel free to use the [Zulip chat](https://leanprover.zulipchat.com/) menti
 
 ---
 
-[Back to the `Theorem Proving with Lean` webpage](https://adomani.github.io/Syllabus/MA4N1/intro)
+[Back to the `Theorem Proving with Lean` webpage](https://adomani.github.io/Syllabus/MA4N1/toc)
 
 [Back to Moodle](https://moodle.warwick.ac.uk/course/view.php?id=58287#section-0)
