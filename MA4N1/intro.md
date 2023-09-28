@@ -24,7 +24,7 @@
 ### Introduction
 Since their invention, computers have been used as an aid to performing long and tedious calculations.
 Besides basic arithmetic, computers have also been useful in theoretical and applied situations, giving the possibility of "running experiments" to gather evidence (or disprove) conjectures.
-More recently, with the rapid development of machine learning and artificial intelligence, they have been used in more abstract contexts as well, such as recognizing handwriting, playing games, driving cars,...
+More recently, with the rapid development of machine learning and artificial intelligence, they have been used in more "human-like" contexts, such as recognizing handwriting, playing games, driving cars,...
 
 Using computers to help mathematicians prove theorems is older than computers themselves!
 The mechanization of thought in general and of mathematics in particular has always attracted a lot of interest.
