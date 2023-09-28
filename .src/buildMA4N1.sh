@@ -39,14 +39,3 @@ scatterTPwL () {
       if (fileNames[name] >= 2) printf("\n** The file `%s` was declared %s times! **\n", name, fileNames[name])
   }' ~/Matematica/Warwick/Syllabus/.src/TPwL_source.md
 }
-
-
-
-
-# * [Current syllabus](https://adomani.github.io/Syllabus/MA4N1)
-# * [Basic Lean4 syntax](https://adomani.github.io/Syllabus/MA4N1/basicSyntax)
-# * [What tools do I have to tease information out of Lean4?](https://adomani.github.io/Syllabus/MA4N1/informationExtraction)
-# * [Stubs of ideas and projects](https://adomani.github.io/Syllabus/MA4N1/ideas_to_develop)
-# * [Possible weekly topics &ndash; very preliminary](https://adomani.github.io/Syllabus/MA4N1/weekly_topics_tbc)
-# * [Commonly used symbols](https://adomani.github.io/Syllabus/MA4N1/common_symbols)
-# * [FAQ](https://adomani.github.io/Syllabus/MA4N1/faq)
