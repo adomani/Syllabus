@@ -8,7 +8,7 @@
 
 ##  Assessment
 
-The assessment for the module is 100% coursework.
+The assessment for the module is 100% coursework, based on group projects.
 
 Two submissions are during Term 1.
 
@@ -22,6 +22,8 @@ The final submission is at the end of January, in Term 2.
 
 <!-- `echo 'markdown table' | column -s'|' -o'|' -t` -->
 
+You can find some ideas for what might constitute a "toy project" [here](MA4N1/ideas_to_develop.md).
+
 The module is based on the proof assistant [Lean 4](https://lean-lang.org/).
 We will use [Mathlib](https://leanprover-community.github.io/), the mathematical library of Lean 4.
 
@@ -29,7 +31,7 @@ You can find ways to interact with Lean and Mathlib on the [Mathlib webpage](htt
 
 #### Note: `Lean 3` vs `Lean 4`
 Lean 4 is the latest version of Lean.
-Switching from Lean 3 to Lean 4 means rewriting all the code and the supporting information and webpages.
+Switching from Lean 3 to Lean 4 means rewriting all the code, all the supporting information and all the webpages.
 This process is completed for `Mathlib`, however there are still online resources that talk about Lean and mean Lean 3.
 In this module, we will only work with Lean 4.
 <!-- newFile intro.md -->
