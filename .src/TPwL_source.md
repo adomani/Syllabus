@@ -6,6 +6,16 @@
 | Mondays  | 5pm-6pm   | MS.05 |-| TBA             |     | TBA  |
 | Tuesdays | 11am-noon | MS.03 | |                 |     |      |
 
+##  Assessment
+
+The assessment for the module is 100% coursework.  Two submissions are during Term 1.  The final submission is at the end of January, in Term 2.
+
+| Assessment                                        | Submission type | Deadline       |
+| -                                                 | :-              | -              |
+| Outline of formalization                          | Group           | Week 4         |
+| Video of personal contribution (up to 4 minutes)  | Individual      | Week 8         |
+| Final formalization                               | Group           | Term 2, Week 3 |
+
 <!-- `echo 'markdown table' | column -s'|' -o'|' -t` -->
 
 The module is based on the proof assistant [Lean 4](https://lean-lang.org/).
@@ -629,16 +639,6 @@ echo 'Name | Symbol
 You can find a cheat-sheet with commonly used symbols and tactic [here](https://github.com/madvorak/lean4-cheatsheet/blob/main/lean-tactics.pdf) (this page is externally maintained -- let me know if it stops working).
 <!-- newFile faq.md -->
 #  FAQ
-
-##  Assessment
-
-The assessment for the module is 100% coursework.  Two submissions are during Term 1.  The final submission is at the end of January, in Term 2.
-
-| Assessment                                        | Submission type | Deadline       |
-| -                                                 | :-              | -              |
-| Outline of formalization                          | Group           | Week 4         |
-| Video of personal contribution (up to 4 minutes)  | Individual      | Week 8         |
-| Final formalization                               | Group           | Term 2, Week 3 |
 
 ##  Asking questions
 

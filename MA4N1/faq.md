@@ -1,15 +1,5 @@
 #  FAQ
 
-##  Assessment
-
-The assessment for the module is 100% coursework.  Two submissions are during Term 1.  The final submission is at the end of January, in Term 2.
-
-| Assessment                                        | Submission type | Deadline       |
-| -                                                 | :-              | -              |
-| Outline of formalization                          | Group           | Week 4         |
-| Video of personal contribution (up to 4 minutes)  | Individual      | Week 8         |
-| Final formalization                               | Group           | Term 2, Week 3 |
-
 ##  Asking questions
 
 The [Mathlib Zulip chat](https://leanprover.zulipchat.com/) is an excellent place to ask questions about formalization of mathematics in Lean.
