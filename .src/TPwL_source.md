@@ -662,6 +662,8 @@ Two books that contain lots of inspiration are
   * tactic usage (frequency distribution of tactics)
   * finishing tactics (frequency distribution of the last tactic in a proof)
 * Come up with your meta-programming goal!
+
+For instructions on how to create a project depending on Mathlib, look at [this page](instructions_for_new_project)
 <!-- newFile weekly_topics_tbc.md -->
 #  Possible weekly topics &ndash; very preliminary
 
