@@ -29,6 +29,8 @@ We will use [Mathlib](https://leanprover-community.github.io/), the mathematical
 
 You can find ways to interact with Lean and Mathlib on the [Mathlib webpage](https://leanprover-community.github.io/).
 
+<hr style="border:2px solid gray">
+
 #### Note: `Lean 3` vs `Lean 4`
 Lean 4 is the latest version of Lean.
 Switching from Lean 3 to Lean 4 means rewriting all the code, all the supporting information and all the webpages.
