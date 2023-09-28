@@ -22,7 +22,7 @@
       }
   })();
 </script>
-# [MA4N1 Theorem Proving with Lean](https://adomani.github.io/Syllabus/MA4N1/intro) tentative syllabus
+# [MA4N1 Theorem Proving with Lean](https://adomani.github.io/Syllabus/MA4N1/toc) tentative syllabus
 ## Autumn 2023
 
 <table>
@@ -124,4 +124,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA4N1)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Sep 26 2023</div>
+<div style="text-align: right">Last modified: Thursday, Sep 28 2023</div>

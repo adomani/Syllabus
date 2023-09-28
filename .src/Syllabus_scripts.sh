@@ -113,7 +113,7 @@ to_html_from () {
       page_head "[MA3J9 Historical Challenges in Mathematics](https://moodle.warwick.ac.uk/course/view.php?id=52244)$tent"
       ;;
     MA4N1)
-      page_head "[MA4N1 Theorem Proving with Lean](https://adomani.github.io/Syllabus/MA4N1/intro)$tent"
+      page_head "[MA4N1 Theorem Proving with Lean](https://adomani.github.io/Syllabus/MA4N1/toc)$tent"
       ;;
     *)
       page_head "${1}"
