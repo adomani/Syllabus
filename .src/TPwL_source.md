@@ -500,7 +500,7 @@ Hello
 #  Sample Lean file
 
 This is a sample Lean file, using `Mathlib`.
-You can copy it into the [online Lean4 server](https://lean.math.hhu.de/) or in your own computer, if you have installed Lean 4 and downloaded a copy of `Mathlib`.
+You can copy it into the [online Lean 4 server](https://lean.math.hhu.de/) or in your own computer, if you have installed Lean 4 and downloaded a copy of `Mathlib`.
 
 We will also go over this file during the first lectures.
 
