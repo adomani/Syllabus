@@ -1,6 +1,6 @@
 #  Possible weekly topics &ndash; very preliminary
 
-This is a week-by-week breakdown of possible topics for the [MA4N1 Theorem Proving with Lean](https://adomani.github.io/Syllabus/MA4N1/intro).
+This is a week-by-week breakdown of possible topics for the [MA4N1 Theorem Proving with Lean](toc).
 It is a highly susceptible to changes!
 
 A more stable, periodically updated, syllabus is [here](https://adomani.github.io/Syllabus/MA4N1).
