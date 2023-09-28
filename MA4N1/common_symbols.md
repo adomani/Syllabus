@@ -26,6 +26,8 @@ echo 'Name | Symbol
 | `there exists` | `∃`    |
 | `goal`         | `⊢`    |
 
+You can find a cheat-sheet with commonly used symbols and tactic [here](https://github.com/madvorak/lean4-cheatsheet/blob/main/lean-tactics.pdf) (this page is externally maintained -- let me know if it stops working).
+
 ---
 
 [Back to the `Theorem Proving with Lean` webpage](https://adomani.github.io/Syllabus/MA4N1/intro)
