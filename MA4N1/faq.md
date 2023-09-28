@@ -4,11 +4,11 @@
 
 Assessment: 100% coursework
 
-| Assessment | Submission type | Deadline (TBC) |
-| - | :- | - |
-| Outline of formalization | Group | Week 4? |
-| Video presentation (up to 4 minutes) of contribution to the project | Individual | Week 8? |
-| Final formalization | Group | Term 2, Week 3? |
+| Assessment                                        | Submission type | Deadline       |
+| -                                                 | :-              | -              |
+| Outline of formalization                          | Group           | Week 4         |
+| Video of personal contribution (up to 4 minutes)  | Individual      | Week 8         |
+| Final formalization                               | Group           | Term 2, Week 3 |
 
 ##  Asking questions
 
