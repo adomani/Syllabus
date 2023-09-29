@@ -20,7 +20,7 @@ scatterTPwL () {
     toc="\n\n## Available pages\n\n* [Current syllabus](https://adomani.github.io/Syllabus/MA4N1)"
     moodleurl="https://moodle.warwick.ac.uk/course/view.php?id=58287#section-0"
     tpwlink="\n\n[Back to the `Theorem Proving with Lean` webpage](" ghurl ")"
-    moodlink="\n\n[Back to Moodle](" moodleurl ")"
+    moodlink="\n\n[Back to the Mathlib project for the module](https://github.com/adomani/MA4N1_2023)\n\n[Back to Moodle](" moodleurl ")"
   }
     /^<!-- newFile [^ ]* -->/  { curr=$3; content[curr]=""; fileNames[$3]++; con=1; }
     con == 1 && /^##* / { toc=toc sprintf("\n* [%s](%s%s)", $0, genericGHurl, curr) }
