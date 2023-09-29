@@ -1,6 +1,9 @@
 #  Creating a new project depending on `Mathlib`
 
-[Source URL](https://leanprover-community.github.io/install/project.html#creating-a-lean-project)
+[Source: Mathlib](https://leanprover-community.github.io/install/project.html#creating-a-lean-project)
+
+These instructions should work on Unix-based systems, assuming that you have already installed successfully `Lean` and `lake`.
+These instructions *might* also work on MacOs/Windows, when typed in a terminal.
 
 `proj` is the name of the project
 ```bash
