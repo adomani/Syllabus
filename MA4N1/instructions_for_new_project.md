@@ -7,7 +7,7 @@ These instructions *might* also work on MacOs/Windows, when typed in a terminal.
 
 `proj` is the name of the project
 ```bash
-proj=MA4N1_2023
+proj='MA4N1_2023'
 ```
 
 Initialize the new project &ndash; takes some time
