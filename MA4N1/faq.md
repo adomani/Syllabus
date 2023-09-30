@@ -41,7 +41,7 @@ A project is a target theorem that you want to formalise &ndash; most of the tim
 The theorem could be some result from your lectures, from your second/third year essay, some fact that you like.
 In some cases, even simply reaching the stage where you can *state* a formal version of a theorem is a great achievement!
 Alternatives to theorems are possible: for instance, formalising a counterexample,
-or writing a tactic (i.e. some meta-programming), are options.
+or writing a tactic (i.e. some meta-programming), are options as well.
 
 Also, formalisation of a target theorem may certainly fall short of an actual full formalisation!
 When formalising, it is *very* easy to over-estimate what you can achieve.
