@@ -18,7 +18,7 @@ Also, feel free to use the [Zulip chat](https://leanprover.zulipchat.com/) menti
 
 ##  What should I expect during the lectures
 
-I am planning to do is to use the 2 hours of lecture each week to
+I am planning to use the 2 hours of lecture each week to
 * show some interactive coding,
 * highlight a variety of areas of maths,
 * give some details of their current formalization in `Mathlib` (the mathematical library of `Lean`).
@@ -64,7 +64,7 @@ but will try to coordinate discussions, focus problems and also report back to m
 I will try to be virtually reachable during the support classes, though this depends on their actual timing.
 
 Depending on how the lectures and projects proceed, I may suggest some targeted exercises for the support classes,
-but I expect this to be less and less relevant, once you focus on your project.
+but I expect this to be less and less relevant, once the term progresses and you focus on your project.
 
 I view the support classes as group learning and brainstorming sessions.
 

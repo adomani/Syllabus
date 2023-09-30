@@ -886,7 +886,7 @@ Also, feel free to use the [Zulip chat](https://leanprover.zulipchat.com/) menti
 
 ##  What should I expect during the lectures
 
-I am planning to do is to use the 2 hours of lecture each week to
+I am planning to use the 2 hours of lecture each week to
 * show some interactive coding,
 * highlight a variety of areas of maths,
 * give some details of their current formalization in `Mathlib` (the mathematical library of `Lean`).
