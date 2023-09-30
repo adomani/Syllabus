@@ -30,7 +30,7 @@ scatterTPwL () {
     gsub(/\.md)/, ")", toc)
     mainFound=0
     for (fil in content) {  ## fil is the name of the file, content[fil] is its content
-      if (fil == mainFile) { mainFound++; lk=toc; printf("* "); } else { lk=tpwlink; printf "  "}
+      if (fil == mainFile) { mainFound++; lk=toc "\n\n---"; printf("* "); } else { lk=tpwlink; printf "  "}
       print fil
       path=home fil
       printf("%s\n---%s%s\n", content[fil], lk, moodlink) > path

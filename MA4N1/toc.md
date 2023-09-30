@@ -56,6 +56,8 @@ In this module, we will only work with Lean 4.
 * [Commonly used symbols](https://adomani.github.io/Syllabus/MA4N1/common_symbols)
 * [FAQ](https://adomani.github.io/Syllabus/MA4N1/faq)
 
+---
+
 [Back to the Mathlib project for the module](https://github.com/adomani/MA4N1_2023)
 
 [Back to Moodle](https://moodle.warwick.ac.uk/course/view.php?id=58287#section-0)
