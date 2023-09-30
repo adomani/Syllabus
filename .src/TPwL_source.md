@@ -883,3 +883,55 @@ The more you can isolate what your issue is and the more you provide all the sur
 Please, take [#mwe](https://leanprover-community.github.io/mwe.html)s seriously!
 
 Also, feel free to use the [Zulip chat](https://leanprover.zulipchat.com/) mentioned above.
+
+##  What should I expect during the lectures
+
+I am planning to do is to use the 2 hours of lecture each week to
+* show some interactive coding,
+* highlight a variety of areas of maths,
+* give some details of their current formalization in `Mathlib` (the mathematical library of `Lean`).
+
+I am also planning to go over some project ideas and, based on the chosen project, adapt the content of the subsequent lectures.
+This will make the content of the lectures more relevant to the actual projects.
+
+##  Groups
+
+I will try to have as little say as possible in the formation of groups.
+I think that it is important that students who want to formalize the same result will naturally merge in a group.
+What I am going to try to limit is the size of each group.
+Ideally, groups should not contain more than 4-5 students.
+At the same time, I can realistically support up to roughly 10 groups.
+Of course, these two constraints may not be realisable simultaneously, but we will see how to adapt, if the need arises!
+
+##  What is a "project"
+
+A project is a target theorem that you want to formalise &ndash; most of the times!
+The theorem could be some result from your lectures, from your second/third year essay, some fact that you like.
+In some cases, even simply reaching the stage where you can *state* a formal version of a theorem is a great achievement!
+Alternatives to theorems are possible: for instance, formalising a counterexample,
+or writing a tactic (i.e. some meta-programming), are options.
+
+Also, formalisation of a target theorem may certainly fall short of an actual full formalisation!
+When formalising, it is *very* easy to over-estimate what you can achieve.
+There is no problem in being ambitious in your choice, but do not stress out if you end up taking just a small step
+towards your goal!
+
+##  When should I figure out what my project is
+
+Ideally, most students to be part of a group with a specific project relatively early, by Week 2 or 3.
+The initial project may change scope, becoming more specific, if the initial plan was too ambitious,
+or expand if the initial idea was easily achieved.
+
+##  What happens in support classes
+
+The support classes are probably going to be "coding sessions".
+You should all interact and try to solve problems together.
+The TA may not have expertise in Lean or formalisation (almost no one in the department currently has formalisation experience),
+but will try to coordinate discussions, focus problems and also report back to me unanswered issues.
+
+I will try to be virtually reachable during the support classes, though this depends on their actual timing.
+
+Depending on how the lectures and projects proceed, I may suggest some targeted exercises for the support classes,
+but I expect this to be less and less relevant, once the term progresses and you focus on your project.
+
+I view the support classes as group learning and brainstorming sessions.
