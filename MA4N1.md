@@ -32,7 +32,7 @@
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>Overview of assignments.</li>
+          <li>Overview of assessment.</li>
           <li>Introduction to formalization and to Lean.</li>
         </ul>
       </td>
