@@ -29,11 +29,11 @@
   <tbody>
 <!--  ##################  Week 1  ################## -->
     <tr><th></th><th style="text-align: center">Week 1 (Oct 02-06)</th></tr>
-    <tr><td>TBD</td>
+    <tr><td>Monday</td>
       <td>
         <ul>
-          <li>Introduction to formalization and to Lean</li>
-          <li>Syntax, infoview, tactics, structuring proofs.</li>
+          <li>Overview of assignments.</li>
+          <li>Introduction to formalization and to Lean.</li>
         </ul>
       </td>
     </tr>
@@ -42,4 +42,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA4N1_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Thursday, Sep 28 2023</div>
+<div style="text-align: right">Last modified: Monday, Oct 02 2023</div>

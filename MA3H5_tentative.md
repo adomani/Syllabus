@@ -34,6 +34,7 @@
         <ul>
           <li>Example: projective space.</li>
           <li>Definition of pseudo-group of transformations.</li>
+          <li>Definition of a manifold.</li>
         </ul>
       </td>
     </tr>
@@ -52,9 +53,8 @@
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>Definition of a manifold and examples.</li>
+          <li>Examples.</li>
           <li>Product manifolds, submanifolds, manifolds defined by equations in another manifold (independent reading).</li>
-          <li>Projective space.</li>
         </ul>
       </td>
     </tr>
@@ -286,4 +286,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Sep 26 2023</div>
+<div style="text-align: right">Last modified: Monday, Oct 02 2023</div>

@@ -2,6 +2,7 @@
 mon
   Example: projective space.
   Definition of pseudo-group of transformations.
+  Definition of a manifold.
 _tentative
 wed
   Tensor products.
@@ -9,9 +10,8 @@ wed
   Exterior algebra.
 -- Week 2
 mon
-  Definition of a manifold and examples.
+  Examples.
   Product manifolds, submanifolds, manifolds defined by equations in another manifold (independent reading).
-  Projective space.
 wed
   More on the exterior algebra.
   Interpretation via multilinear, alternating maps.
