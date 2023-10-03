@@ -155,7 +155,9 @@ Lean *waits* to fill in the left-over strict implicit and thus tells that we sti
 -/
 #check fs 0  -- fs 0 : ⦃n : ℕ⦄ → ℕ
 ```
-Summarising, Lean will try to fill in implicit arguments as quickly as it can, while Lean will wait to fill in strict implicit arguments longer.
+Summarising, Lean
+* tries to fill in implicit arguments as quickly as it can, while
+* it waits to fill in strict implicit arguments longer.
 
 In fact, if our function has further arguments beyond a strict implicit,
 Lean will try to fill in the strict implicit only after we pass the next explicit argument.
