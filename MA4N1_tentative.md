@@ -37,14 +37,14 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Tuesday</td>
       <td>
         <ul>
-          <li>Syntax, infoview, tactics, structuring proofs.</li>
+          <li>Syntax, infoview, tactics, structuring proofs ([Lecture0.lean](https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/Lecture0.lean)).</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
 <!--  ##################  Week 2  ################## -->
     <tr><th></th><th style="text-align: center">Week 2 (Oct 09-13)</th></tr>
     <tr><td>TBD</td>
@@ -131,4 +131,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA4N1)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Monday, Oct 02 2023</div>
+<div style="text-align: right">Last modified: Tuesday, Oct 03 2023</div>
