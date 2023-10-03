@@ -102,7 +102,6 @@ The link takes you to the Lean4 version.
 The original [Natural Numbers Game (Lean 3)](https://www.ma.imperial.ac.uk/~buzzard/xena/natural_number_game/) was developed by Kevin Buzzard and Mohammad Pedramfar.
 In fact, you are encouraged to play with it to see if this module might be a good choice for you!
 <!-- newFile syntaxSummary.md -->
-
 ##  Some tactics
 
 * `constructor`, splits a goal such as `a ∧ b` into two separate goals.
