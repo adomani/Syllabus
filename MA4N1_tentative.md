@@ -40,7 +40,7 @@
     <tr><td>Tuesday</td>
       <td>
         <ul>
-          <li>Syntax, infoview, tactics, structuring proofs (based on [Lecture0.lean](https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/Lecture0.lean)).</li>
+          <li>Syntax, infoview, tactics, structuring proofs (based on [Lecture0](https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/Lecture0.lean) ).</li>
         </ul>
       </td>
     </tr>
