@@ -125,13 +125,15 @@ There are four kinds of brackets for arguments of functions/assumptions of theor
 ```lean
 --  `fe` takes two explicit natural numbers
 def fe (m : ℕ) (n : ℕ) := m + n
+
 --  `fi` takes an explicit natural number and an implicit one
 def fi (m : ℕ) {n : ℕ} := m + n
+
 --  `fs` takes an explicit natural number and a strict implicit one
 def fs (m : ℕ) ⦃n : ℕ⦄ := m + n
 
 /-
-When we supply to `fi` or `fs` its first implicit argument, there is a potential ambiguity:
+When we supply to `fi` or `fs` its first (explicit) argument, there is a potential ambiguity:
 are we left with a function of the remaining (strict or not implicit) argument,
 or does Lean expect to have filled that argument already?
 
