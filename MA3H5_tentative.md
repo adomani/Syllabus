@@ -41,9 +41,10 @@
     <tr><td>Wednesday</td>
       <td>
         <ul>
-          <li>Tensor products.</li>
+          <li>Symmetric algebra.</li>
           <li>Tensor algebra.</li>
-          <li>Exterior algebra.</li>
+          <li>Introduction to tensor products.</li>
+          <li>Introduction to exterior algebra.</li>
         </ul>
       </td>
     </tr>
