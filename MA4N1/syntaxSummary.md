@@ -10,7 +10,6 @@
 
 There are four kinds of brackets for arguments of functions/assumptions of theorems.
 
-
 * `(a b : ℕ)`: round brackets introduce *explicit* arguments -- Lean expects you to provide these arguments.
 * `{a b : ℕ}`: braces introduce *implicit* arguments -- Lean expects to fill these arguments automatically.
 * `⦃a b : ℕ⦄`: braces introduce *strict implicit* arguments -- Lean expects to fill these arguments automatically
@@ -58,6 +57,39 @@ Summarising, Lean
 In fact, if our function has further arguments beyond a strict implicit,
 Lean will try to fill in the strict implicit only after we pass the next explicit argument.
 The distinction between implicit and strict implicit arguments is not too important and you can safely ignore it!
+
+#  Commonly used symbols
+
+<!--
+echo 'Name | Symbol
+- | :-:
+`and` `∧`
+`or` `∨`
+`not` `¬`
+`iff` `↔`
+`implies` `→`
+`for all` `∀`
+`there exists` `∃`
+`goal` `⊢`' |
+  sed 's=` `=` | `= ; s=^=| =; s=$= |=' |
+  column -s'|' -o'|' -t | copy
+-->
+
+| Name           | Symbol |
+| -              | :-:    |
+| `and`          | `∧`    |
+| `or`           | `∨`    |
+| `not`          | `¬`    |
+| `iff`          | `↔`    |
+| `implies`      | `→`    |
+| `for all`      | `∀`    |
+| `there exists` | `∃`    |
+| `goal`         | `⊢`    |
+
+You can find a cheat-sheet with commonly used symbols and tactics
+[here](https://github.com/madvorak/lean4-cheatsheet/blob/main/lean-tactics.pdf) and also
+[here](https://github.com/madvorak/lean4-tactics)
+(these page are externally maintained -- let me know if it stops working).
 
 ---
 

@@ -54,7 +54,6 @@ In this module, we will only work with Lean 4.
 * [Stubs of ideas and projects](https://adomani.github.io/Syllabus/MA4N1/ideas_to_develop)
 * [Creating a new project depending on `Mathlib`](https://adomani.github.io/Syllabus/MA4N1/instructions_for_new_project)
 * [Possible weekly topics &ndash; very preliminary](https://adomani.github.io/Syllabus/MA4N1/weekly_topics_tbc)
-* [Commonly used symbols](https://adomani.github.io/Syllabus/MA4N1/common_symbols)
 * [FAQ](https://adomani.github.io/Syllabus/MA4N1/faq)
 
 ---
