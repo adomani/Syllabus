@@ -38,9 +38,18 @@
         </ul>
       </td>
     </tr>
+    <tr><td>Wednesday</td>
+      <td>
+        <ul>
+          <li>Tensor products.</li>
+          <li>Tensor algebra.</li>
+          <li>Exterior algebra.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3H5_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Monday, Oct 02 2023</div>
+<div style="text-align: right">Last modified: Wednesday, Oct 04 2023</div>
