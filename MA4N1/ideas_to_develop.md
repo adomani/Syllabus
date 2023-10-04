@@ -35,6 +35,14 @@ For instructions on how to create a project depending on Mathlib, look at [this 
 
 ---
 
+###  Projects and areas that have been proposed
+
+* Graph Theory
+* Probability theory and game theory
+* Matrix analysis and QR decompositions
+
+---
+
 [Back to the `Theorem Proving with Lean` webpage](https://adomani.github.io/Syllabus/MA4N1/toc)
 
 [Back to the Mathlib project for the module](https://github.com/adomani/MA4N1_2023)

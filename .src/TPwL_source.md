@@ -763,6 +763,14 @@ Two books that contain lots of inspiration are
 * Come up with your meta-programming goal!
 
 For instructions on how to create a project depending on Mathlib, look at [this page](instructions_for_new_project)
+
+---
+
+###  Projects and areas that have been proposed
+
+* Graph Theory
+* Probability theory and game theory
+* Matrix analysis and QR decompositions
 <!-- newFile instructions_for_new_project.md -->
 #  Creating a new project depending on `Mathlib`
 
