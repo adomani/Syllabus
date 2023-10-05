@@ -1,10 +1,10 @@
 <!-- newFile toc.md -->
 # MA4N1 Theorem Proving with Lean
 
-| Lectures |           | Room  |-| Support classes |     | Room |
-| :-       | :-:       | -     |-| :-              | :-: | -    |
-| Mondays  | 5pm-6pm   | MS.05 |-| TBA             |     | TBA  |
-| Tuesdays | 11am-noon | MS.03 | |                 |     |      |
+| Lectures |           | Room  |-| Support classes |          | Room  |
+| :-       | :-:       | -     |-| :-              | :-:      | -     |
+| Mondays  | 5pm-6pm   | MS.05 |-| Fridays         | noon-1pm | MS.05 |
+| Tuesdays | 11am-noon | MS.03 |-|                 |          |       |
 
 ##  Assessment
 
