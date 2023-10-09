@@ -49,7 +49,7 @@
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>Begin `Polynomials`</li>
+          <li>Begin `Polynomials`.</li>
         </ul>
       </td>
     </tr>

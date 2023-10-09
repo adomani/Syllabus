@@ -49,7 +49,7 @@
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>Begin `Polynomials`</li>
+          <li>Begin `Polynomials`.</li>
         </ul>
       </td>
     </tr>
@@ -58,7 +58,7 @@
       <td>
         <ul>
           <li>Coordinate projects.</li>
-          <li>More on `Polynomials`</li>
+          <li>More on `Polynomials`.</li>
         </ul>
       </td>
     </tr>
