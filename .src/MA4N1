@@ -5,14 +5,17 @@ mon
 tue
   Syntax, infoview, tactics, structuring proofs (<a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/Lecture0.lean">Lecture0.lean</a>).
 
-_tentative
 -- Week 2
-week
-  Logic in Lean
+mon
+  Begin `Polynomials`
+_tentative
+tue
+  Coordinate projects.
+  More on `Polynomials`
 
 -- Week 3
 week
-  Polynomials
+  Logic in Lean
 
 -- Week 4
 week
