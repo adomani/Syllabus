@@ -49,7 +49,7 @@
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>Begin `Polynomials`.</li>
+          <li>Begin <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/Polynomials.lean">Polynomials.lean</a>.</li>
         </ul>
       </td>
     </tr>
