@@ -48,9 +48,20 @@
         </ul>
       </td>
     </tr>
+<!--  ##################  Week 2  ################## -->
+    <tr><th></th><th style="text-align: center">Week 2 (Oct 09-13)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>Examples.</li>
+          <li>Product manifolds, submanifolds, manifolds defined by equations in another manifold.</li>
+          <li>Quotient manifolds.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3H5_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Wednesday, Oct 04 2023</div>
+<div style="text-align: right">Last modified: Monday, Oct 09 2023</div>

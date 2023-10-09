@@ -48,17 +48,18 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
 <!--  ##################  Week 2  ################## -->
     <tr><th></th><th style="text-align: center">Week 2 (Oct 09-13)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
           <li>Examples.</li>
-          <li>Product manifolds, submanifolds, manifolds defined by equations in another manifold (independent reading).</li>
+          <li>Product manifolds, submanifolds, manifolds defined by equations in another manifold.</li>
+          <li>Quotient manifolds.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Wednesday</td>
       <td>
         <ul>
@@ -80,7 +81,6 @@
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>Quotient manifolds.</li>
           <li>Tangent vectors, tangent spaces, vector fields.</li>
         </ul>
       </td>
@@ -287,4 +287,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Wednesday, Oct 04 2023</div>
+<div style="text-align: right">Last modified: Monday, Oct 09 2023</div>

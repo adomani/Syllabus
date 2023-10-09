@@ -9,11 +9,12 @@ wed
   Introduction to tensor products.
   Introduction to exterior algebra.
 
-_tentative
 -- Week 2
 mon
   Examples.
-  Product manifolds, submanifolds, manifolds defined by equations in another manifold (independent reading).
+  Product manifolds, submanifolds, manifolds defined by equations in another manifold.
+  Quotient manifolds.
+_tentative
 wed
   More on the exterior algebra.
   Interpretation via multilinear, alternating maps.
@@ -23,7 +24,6 @@ sup
 
 -- Week 3
 mon
-  Quotient manifolds.
   Tangent vectors, tangent spaces, vector fields.
 wed
   Partitions of unity.
