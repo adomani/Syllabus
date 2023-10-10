@@ -48,7 +48,11 @@ Each group will decide on a result to formalize and will work towards producing 
 For more examples, Freek Wiedijk's webpage [Formalizing 100 Theorems](https://www.cs.ru.nl/~freek/100/) has a list of theorems of varying difficulty.
 
 An indispensable prerequisite is the willingness to work using the computer program Lean.
-You can use the [online version](https://lean.math.hhu.de/) (or [here](https://leanprover-community.github.io/lean-web-editor/)),
+You can use one of the online versions at
+* [live.lean-lang.org](https://live.lean-lang.org/),
+* [lean.math.hhu.de](https://lean.math.hhu.de/),
+* [leanprover-community](https://leanprover-community.github.io/lean-web-editor/),
+
 directly from a browser -- no installation required.
 While this is possible, it may be hard to develop a long-term project with this version.
 The program can be freely installed on your own computer, following [these instructions](https://leanprover-community.github.io/get_started.html).
