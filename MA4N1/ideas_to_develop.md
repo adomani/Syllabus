@@ -11,7 +11,7 @@
 * [Sylow's Theorems](https://en.wikipedia.org/wiki/Sylow_theorems)
 * [Cantor's Theorem](https://en.wikipedia.org/wiki/Cantor%27s_theorem)
 * [Group cohomology](https://en.wikipedia.org/wiki/Group_cohomology)
-* [Transcendence of $\pi$](https://en.wikipedia.org/wiki/Lindemann%E2%80%93Weierstrass_theorem)
+* [Transcendence of &pi;](https://en.wikipedia.org/wiki/Lindemann%E2%80%93Weierstrass_theorem)
 * [Ramsey Theory](https://en.wikipedia.org/wiki/Ramsey_theory)
 * Probability theory and game theory
 * Matrix analysis and QR decompositions
