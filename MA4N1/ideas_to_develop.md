@@ -1,5 +1,23 @@
 #  Stubs of ideas and projects
 
+###  Proposed projects
+
+* [Lagrange's Theorem](https://en.wikipedia.org/wiki/Lagrange%27s_theorem_(group_theory)) leading to Fermat's Little Theorem and Euler's Theorem
+* [Ostrowski's Theorem](https://en.wikipedia.org/wiki/Ostrowski%27s_theorem)
+* [The Basel problem](https://en.wikipedia.org/wiki/Basel_problem)
+* [Hall subgroups](https://en.wikipedia.org/wiki/Hall_subgroup) and their existence in soluble groups
+* [Perfect graphs](https://en.wikipedia.org/wiki/Perfect_graph) and examples
+* [Cap set problem](https://en.wikipedia.org/wiki/Cap_set)
+* [Sylow's Theorems](https://en.wikipedia.org/wiki/Sylow_theorems)
+* [Cantor's Theorem](https://en.wikipedia.org/wiki/Cantor%27s_theorem)
+* [Group cohomology](https://en.wikipedia.org/wiki/Group_cohomology)
+* [Transcendence of $\pi$](https://en.wikipedia.org/wiki/Lindemann%E2%80%93Weierstrass_theorem)
+* [Ramsey Theory](https://en.wikipedia.org/wiki/Ramsey_theory)
+* Probability theory and game theory
+* Matrix analysis and QR decompositions
+
+---
+
 ###  Mathematically oriented projects
 
 * Sums of squares of a field are a group with zero
@@ -32,14 +50,6 @@ Two books that contain lots of inspiration are
 * Come up with your meta-programming goal!
 
 For instructions on how to create a project depending on Mathlib, look at [this page](instructions_for_new_project)
-
----
-
-###  Projects and areas that have been proposed
-
-* Graph Theory
-* Probability theory and game theory
-* Matrix analysis and QR decompositions
 
 ---
 
