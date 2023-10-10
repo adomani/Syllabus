@@ -53,21 +53,28 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Tuesday</td>
       <td>
         <ul>
           <li>Coordinate projects.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
+<!--  ##################  Week 3  ################## -->
+    <tr><th></th><th style="text-align: center">Week 3 (Oct 16-20)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
           <li>More on <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/Polynomials.lean">Polynomials.lean</a>.</li>
         </ul>
       </td>
     </tr>
-<!--  ##################  Week 3  ################## -->
-    <tr><th></th><th style="text-align: center">Week 3 (Oct 16-20)</th></tr>
-    <tr><td>TBD</td>
+    <tr><td>Tuesday</td>
       <td>
         <ul>
-          <li>Logic in Lean</li>
+          <li>Matrices?</li>
+          <li>Graphs?</li>
         </ul>
       </td>
     </tr>
@@ -139,4 +146,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA4N1)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Monday, Oct 09 2023</div>
+<div style="text-align: right">Last modified: Tuesday, Oct 10 2023</div>
