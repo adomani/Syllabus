@@ -67,7 +67,7 @@
       </td>
     </tr>
     <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
-    <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+    <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
           <li>Definition of a manifold.</li>
@@ -92,7 +92,7 @@
         </ul>
       </td>
     </tr>
-    <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+    <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
           <li>Sub-manifolds.</li>
@@ -119,7 +119,7 @@
         </ul>
       </td>
     </tr>
-    <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+    <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
           <li>Surgery (Theorem 2.12).</li>
@@ -147,7 +147,7 @@
         </ul>
       </td>
     </tr>
-    <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+    <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
           <li>Derivatives (continued) in charts and abstractly.</li>
@@ -171,7 +171,7 @@
         </ul>
       </td>
     </tr>
-    <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+    <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
           <li>Associativity of tensor products.</li>
@@ -197,7 +197,7 @@
         </ul>
       </td>
     </tr>
-    <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+    <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
           <li>Orientability and examples.</li>
@@ -224,7 +224,7 @@
         </ul>
       </td>
     </tr>
-    <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+    <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
           <li>TBA</li>
@@ -249,7 +249,7 @@
         </ul>
       </td>
     </tr>
-    <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+    <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
           <li>Problem Sheet 4, Questions 1-2.</li>
@@ -275,7 +275,7 @@
         </ul>
       </td>
     </tr>
-    <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+    <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
           <li>TBA</li>

@@ -58,7 +58,7 @@ new_week () {
     <tr><th></th><th style=\"text-align: center\">Week %s (%s)</th></tr>\n' "${1}" "${1}" "$( exweek "${1}" )"
 }
 
-# `new_day <day> <two_le> <is_tent>` produces the table entries for each <day>,
+# `new_day <day> <two_le> <is_tent> <file>` produces the table entries for each <day>,
 # with a slight difference in html depending on whether
 # * it is the first entry of the current week -- `<two_le> = false`;
 # * it is the not the first entry of the current week -- `<two_le> = true`;
@@ -80,7 +80,10 @@ new_day () {
 
   if [ "${1}" == "sup" ]
   then
-    printf $'    <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>\n'
+    local suppDay=TBA
+    if [ "${4}" == "MA3H5" ]; then suppDay=Thursday; fi
+    if [ "${4}" == "MA4N1" ]; then suppDay=Friday; fi
+    printf $'    <tr><td><p style="margin-bottom:0;">%s</p><p style="margin : 0; padding-top:0;">(support class)</p></td>\n' "${suppDay}"
   elif [ "${1}" == "week" ]
   then
     printf $'    <tr><td>TBD</td>\n'
@@ -131,7 +134,7 @@ to_html_from () {
       new_week $wk "$is_tent" >> $nome
     elif [[ $line =~ ^\ *(pre|mon|tue|wed|thu|fri|sat|sun|sup|week)$ ]]
     then
-      new_day "$line" "$con" "$is_tent" >> $nome
+      new_day "$line" "$con" "$is_tent" "${modd}" >> $nome
       con=true
     elif [[ $line = "  "* ]]
     then
