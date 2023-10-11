@@ -14,13 +14,13 @@ mon
   Examples.
   Product manifolds, submanifolds, manifolds defined by equations in another manifold.
   Quotient manifolds.
-_tentative
 wed
-  More on the exterior algebra.
-  Interpretation via multilinear, alternating maps.
+  More on the tensor and exterior algebra.
+_tentative
 sup
   Definition of a manifold.
   The tensor product $V \otimes W$.
+  Interpretation via multilinear, alternating maps.
 
 -- Week 3
 mon

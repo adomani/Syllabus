@@ -59,20 +59,20 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Wednesday</td>
       <td>
         <ul>
-          <li>More on the exterior algebra.</li>
-          <li>Interpretation via multilinear, alternating maps.</li>
+          <li>More on the tensor and exterior algebra.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
           <li>Definition of a manifold.</li>
           <li>The tensor product $V \otimes W$.</li>
+          <li>Interpretation via multilinear, alternating maps.</li>
         </ul>
       </td>
     </tr>
@@ -287,4 +287,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Monday, Oct 09 2023</div>
+<div style="text-align: right">Last modified: Wednesday, Oct 11 2023</div>
