@@ -51,7 +51,9 @@ Also, the `.pdf`s in Keith Conrad's [blurbs page](https://kconrad.math.uconn.edu
   * finishing tactics (frequency distribution of the last tactic in a proof)
 * Come up with your meta-programming goal!
 
-For instructions on how to create a project depending on Mathlib, look at [this page](instructions_for_new_project)
+For instructions on how to create a project depending on Mathlib, look at [this page](instructions_for_new_project).
+
+For browsing the documentation for Mathlib, go to the excellent [documentation pages](https://leanprover-community.github.io/mathlib4_docs/).
 
 ---
 
