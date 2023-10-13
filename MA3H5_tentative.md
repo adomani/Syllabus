@@ -69,8 +69,8 @@
     <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>Definition of a manifold, smooth maps and diffeomorphisms</li>
-          <li>Problems 1 and 4</li>
+          <li>Definition of a manifold, smooth maps and diffeomorphisms.</li>
+          <li>Problems 1 and 4.</li>
         </ul>
       </td>
     </tr>
