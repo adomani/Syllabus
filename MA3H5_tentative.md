@@ -66,16 +66,15 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>Definition of a manifold.</li>
-          <li>The tensor product $V \otimes W$.</li>
-          <li>Interpretation via multilinear, alternating maps.</li>
+          <li>Definition of a manifold, smooth maps and diffeomorphisms</li>
+          <li>Problems 1 and 4</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
 <!--  ##################  Week 3  ################## -->
     <tr><th></th><th style="text-align: center">Week 3 (Oct 16-20)</th></tr>
     <tr><td>Monday</td>
@@ -88,6 +87,7 @@
     <tr><td>Wednesday</td>
       <td>
         <ul>
+          <li>Interpretation via multilinear, alternating maps.</li>
           <li>Partitions of unity.</li>
         </ul>
       </td>
@@ -287,4 +287,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Wednesday, Oct 11 2023</div>
+<div style="text-align: right">Last modified: Friday, Oct 13 2023</div>

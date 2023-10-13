@@ -16,16 +16,16 @@ mon
   Quotient manifolds.
 wed
   More on the tensor and exterior algebra.
-_tentative
 sup
-  Definition of a manifold.
-  The tensor product $V \otimes W$.
-  Interpretation via multilinear, alternating maps.
+  Definition of a manifold, smooth maps and diffeomorphisms
+  Problems 1 and 4
 
+_tentative
 -- Week 3
 mon
   Tangent vectors, tangent spaces, vector fields.
 wed
+  Interpretation via multilinear, alternating maps.
   Partitions of unity.
 sup
   Sub-manifolds.
