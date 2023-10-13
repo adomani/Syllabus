@@ -36,6 +36,8 @@ Two books that contain lots of inspiration are
 * [Counterexamples in Topology](https://link.springer.com/book/10.1007/978-1-4612-6290-9),
 * [Counterexamples in Analysis](https://faculty.ksu.edu.sa/sites/default/files/_olmsted_1.pdf).
 
+Also, the `.pdf`s in Keith Conrad's [blurbs page](https://kconrad.math.uconn.edu/blurbs/) contain plenty of ideas.
+
 ###  Computer science oriented projects
 
 * Automating proofs:
