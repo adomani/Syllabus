@@ -60,9 +60,19 @@
         </ul>
       </td>
     </tr>
+<!--  ##################  Week 3  ################## -->
+    <tr><th></th><th style="text-align: center">Week 3 (Oct 16-20)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>More on <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/Polynomials.lean">Polynomials.lean</a>.</li>
+          <li>Go over beginning of <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/Generalizations.lean">Generalizations.lean</a>.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA4N1_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Oct 10 2023</div>
+<div style="text-align: right">Last modified: Monday, Oct 16 2023</div>

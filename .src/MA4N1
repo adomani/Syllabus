@@ -11,10 +11,11 @@ mon
 tue
   Coordinate projects.
 
-_tentative
 -- Week 3
 mon
   More on <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/Polynomials.lean">Polynomials.lean</a>.
+  Go over beginning of <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/Generalizations.lean">Generalizations.lean</a>.
+_tentative
 tue
   Matrices?
   Graphs?
