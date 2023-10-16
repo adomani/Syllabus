@@ -74,7 +74,6 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
 <!--  ##################  Week 3  ################## -->
     <tr><th></th><th style="text-align: center">Week 3 (Oct 16-20)</th></tr>
     <tr><td>Monday</td>
@@ -84,10 +83,11 @@
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Wednesday</td>
       <td>
         <ul>
-          <li>Interpretation via multilinear, alternating maps.</li>
+          <li>Interpretation of exterior algebra via multilinear, alternating maps.</li>
           <li>Partitions of unity.</li>
         </ul>
       </td>
@@ -287,4 +287,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Friday, Oct 13 2023</div>
+<div style="text-align: right">Last modified: Monday, Oct 16 2023</div>

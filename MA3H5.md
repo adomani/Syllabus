@@ -74,9 +74,18 @@
         </ul>
       </td>
     </tr>
+<!--  ##################  Week 3  ################## -->
+    <tr><th></th><th style="text-align: center">Week 3 (Oct 16-20)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>Tangent vectors, tangent spaces, vector fields.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3H5_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Friday, Oct 13 2023</div>
+<div style="text-align: right">Last modified: Monday, Oct 16 2023</div>
