@@ -63,8 +63,8 @@
     <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>Solve `Polynomial_questions.lean`.</li>
-          <li>The `<;>` tactic combinator.</li>
+          <li>Solve <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/Polynomial_questions.lean">Polynomial_questions.lean</a>.</li>
+          <li>The <pre><code><;></code></pre> tactic combinator.</li>
         </ul>
       </td>
     </tr>
