@@ -106,27 +106,27 @@ new_day () {
 #   correspond to the topics covered on the current day.
 to_html_from () {
   nome="${1}.md"     # the name of the file that the program will produce
-  modd="${1:0:5}"    # the module code, as well as the name of the file with the info
-  if [[ "${1:6}" = "tentative" ]]; then tent=" tentative syllabus"; else tent=""; fi;
-  case "${modd}" in
-    MA3H5)
-      page_head "[MA3H5 Manifolds](https://moodle.warwick.ac.uk/course/view.php?id=60813)$tent"
-      ;;
-    MA3J9)
-      page_head "[MA3J9 Historical Challenges in Mathematics](https://moodle.warwick.ac.uk/course/view.php?id=52244)$tent"
-      ;;
-    MA4N1)
-      page_head "[MA4N1 Theorem Proving with Lean](https://adomani.github.io/Syllabus/MA4N1/toc)$tent"
-      ;;
-    *)
-      page_head "${1}"
-      ;;
-  esac > "${nome}"
   echo $nome
-  wk=0
-  con=true
-  is_tent=false
-  { while IFS= read -r line || [ -n "$line" ]; do
+  modd="${1:0:5}"    # the module code, as well as the name of the file with the info
+  { if [[ "${1:6}" = "tentative" ]]; then tent=" tentative syllabus"; else tent=""; fi;
+    case "${modd}" in
+      MA3H5)
+        page_head "[MA3H5 Manifolds](https://moodle.warwick.ac.uk/course/view.php?id=60813)$tent"
+        ;;
+      MA3J9)
+        page_head "[MA3J9 Historical Challenges in Mathematics](https://moodle.warwick.ac.uk/course/view.php?id=52244)$tent"
+        ;;
+      MA4N1)
+        page_head "[MA4N1 Theorem Proving with Lean](https://adomani.github.io/Syllabus/MA4N1/toc)$tent"
+        ;;
+      *)
+        page_head "${1}"
+        ;;
+    esac
+    wk=0
+    con=true
+    is_tent=false
+    while IFS= read -r line || [ -n "$line" ]; do
       if [[ $line =~ ^-- ]];
       then
         ((wk++))
@@ -144,7 +144,7 @@ to_html_from () {
         is_tent=true
       fi
     done < <(if [ "$tent" ]; then cat $modd; else sed '/^_tentative/Q' $modd; fi)
-    page_tail "${1}" ; } >> $nome
+    page_tail "${1}" ; } > $nome
 }
 
 make_md () {
