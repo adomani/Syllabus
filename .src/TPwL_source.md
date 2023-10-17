@@ -737,6 +737,7 @@ lemma zero_ne_one : 0 ≠ 1 := by
 
 ##  Groups
 
+table
 | Group members | Comments and possible Mathlib reference |
 |-|-|
 | Josh R, Ed W, Jaime, Juan | <ul><li>[The Basel problem](https://en.wikipedia.org/wiki/Basel_problem) in [Mathlib](https://leanprover-community.github.io/mathlib4_docs/find/?pattern=hasSum_zeta_two#doc)</li><li>[Cauchy's Integral Formula](https://en.wikipedia.org/wiki/Cauchy%27s_integral_formula) in [Mathlib](https://leanprover-community.github.io/mathlib4_docs/find/?pattern=Complex.two_pi_I_inv_smul_circleIntegral_sub_inv_smul_of_differentiable_on_off_countable#doc)</li></ul> |
@@ -747,7 +748,7 @@ lemma zero_ne_one : 0 ≠ 1 := by
 | Florence, Michael C | Number Theory/Group Theory <ul><li>[Lagrange's Theorem](https://en.wikipedia.org/wiki/Lagrange%27s_theorem_(group_theory)) in [Mathlib](https://leanprover-community.github.io/mathlib4_docs/find/?pattern=Subgroup.card_subgroup_dvd_card#doc)</li><li>[Fermat's Little Theorem](https://en.wikipedia.org/wiki/Fermat%27s_little_theorem) in [Mathlib](https://leanprover-community.github.io/mathlib4_docs/find/?pattern=ZMod.pow_card#doc)</li><li>[Euler's Theorem](https://en.wikipedia.org/wiki/Euler%27s_theorem) in [Mathlib](https://leanprover-community.github.io/mathlib4_docs/find/?pattern=FiniteField.pow_card_sub_one_eq_one#doc)</li></ul> |
 | Gareth M | Combinatorics/Analytic Number Theory? |
 | Musab, Kit L, (mystery person) | Combinatorial Problems? |
-
+/table
 
 ###  Orphaned projects
 
