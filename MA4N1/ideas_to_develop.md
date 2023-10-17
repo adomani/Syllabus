@@ -1,6 +1,6 @@
 #  Stubs of ideas and projects
 
-##
+##  Groups
 
 | Group members | Comments and possible Mathlib reference |
 |-|-|
