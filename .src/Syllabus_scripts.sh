@@ -99,9 +99,9 @@ new_day () {
 # * Weeks are separated by a line beginning with `--`
 #     Note that writing `-- Week i` actually ignores `i`: the number is simply the count of
 #     how many `^--` have appeared so far in the file.
-# * Lines consisting of exactly one of `mon, tue, .., sun, pre`, preceded by any number
+# * Lines consisting of exactly one of `pre, mon, tue, .., sun, sup, week`, preceded by any number
 #   of spaces, inform the converter of the day in which the lecture took place, or whether
-#   the lecture is "Recorded".
+#   the lecture is `pre`-Recorded, a `sup`port class or just a generic `week` entry.
 # * Finally, the remaining lines beginning with `  ` (two spaces) are items in a list that
 #   correspond to the topics covered on the current day.
 to_html_from () {
