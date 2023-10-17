@@ -64,7 +64,7 @@
       <td>
         <ul>
           <li>Solve <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/Polynomial_questions.lean">Polynomial_questions.lean</a>.</li>
-          <li>The <pre><code><;></code></pre> tactic combinator.</li>
+          <li>The <code><;></code> tactic combinator.</li>
         </ul>
       </td>
     </tr>
