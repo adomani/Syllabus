@@ -9,32 +9,32 @@
 </tr>
 
 <tr>
-  <td> <ul><li>Josh R,</li><li>Ed W,</li><li>Jaime,</li><li>Juan</li></ul> </td>
+  <td> <ul><li>Josh R</li><li>Ed W</li><li>Jaime</li><li>Juan</li></ul> </td>
   <td> <ul><li><a href="https://en.wikipedia.org/wiki/Basel_problem">The Basel problem</a> in <a href="https://leanprover-community.github.io/mathlib4_docs/find/?pattern=hasSum_zeta_two#doc">Mathlib</a></li><li><a href="https://en.wikipedia.org/wiki/Cauchy%27s_integral_formula">Cauchy's Integral Formula</a> in <a href="https://leanprover-community.github.io/mathlib4_docs/find/?pattern=Complex.two_pi_I_inv_smul_circleIntegral_sub_inv_smul_of_differentiable_on_off_countable#doc">Mathlib</a></li></ul> </td>
 </tr>
 
 <tr>
-  <td> <ul><li>Antonina,</li><li>Tom C,</li><li>Roshan</li></ul> </td>
+  <td> <ul><li>Antonina</li><li>Tom C</li><li>Roshan</li></ul> </td>
   <td> <a href="https://en.wikipedia.org/wiki/Sylow_theorems">Sylow's Theorems</a> in <a href="https://leanprover-community.github.io/mathlib4_docs/find/?pattern=Sylow.exists_subgroup_card_pow_prime_le#doc">Mathlib</a>.<br />Most of the file `Mathlib/GroupTheory/Sylow.lean` is relevant.  </td>
 </tr>
 
 <tr>
-  <td> <ul><li>Susie G,</li><li>Alex C,</li><li>Tom D,</li><li>Dan S</li></ul> </td>
+  <td> <ul><li>Susie G</li><li>Alex C</li><li>Tom D</li><li>Dan S</li></ul> </td>
   <td> <a href="https://en.wikipedia.org/wiki/Perfect_graph">Perfect graphs</a> and examples.<br />There is a folder `Mathlib/Combinatorics/SimpleGraph/`, but I do not think that perfect graphs are in Mathlib. </td>
 </tr>
 
 <tr>
-  <td> <ul><li>Ameer S,</li><li>Aadam H,</li><li>Louis G,</li><li>Giovanni C</li></ul> </td>
+  <td> <ul><li>Ameer S</li><li>Aadam H</li><li>Louis G</li><li>Giovanni C</li></ul> </td>
   <td> Measure Theory folder `Mathlib/MeasureTheory/` </td>
 </tr>
 
 <tr>
-  <td> <ul><li>Tommaso F,</li><li>Mayo</li></ul> </td>
+  <td> <ul><li>Tommaso F</li><li>Mayo</li></ul> </td>
   <td> <a href="https://en.wikipedia.org/wiki/Ostrowski%27s_theorem">Ostrowski's Theorem</a>.<br />As far as I can tell, it is not in Mathlib, but there are some (possible) formalizations.<br />Relevant Zulip chats: <a href="https://leanprover.zulipchat.com/#narrow/stream/116395-maths/topic/Seminar.20--.20London.20Learning.20Lean/near/362025148">Link to LLL</a> and <a href="https://leanprover.zulipchat.com/#narrow/stream/217875-Is-there-code-for-X.3F/topic/Ostrowski's.20theorem">Ostrowski's Theorem thread</a> </td>
 </tr>
 
 <tr>
-  <td> <ul><li>Florence,</li><li>Michael C</li></ul> </td>
+  <td> <ul><li>Florence</li><li>Michael C</li></ul> </td>
   <td> Number Theory/Group Theory <ul><li><a href="https://en.wikipedia.org/wiki/Lagrange%27s_theorem_(group_theory)">Lagrange's Theorem</a> in <a href="https://leanprover-community.github.io/mathlib4_docs/find/?pattern=Subgroup.card_subgroup_dvd_card#doc">Mathlib</a></li><li><a href="https://en.wikipedia.org/wiki/Fermat%27s_little_theorem">Fermat's Little Theorem</a> in <a href="https://leanprover-community.github.io/mathlib4_docs/find/?pattern=ZMod.pow_card#doc">Mathlib</a></li><li><a href="https://en.wikipedia.org/wiki/Euler%27s_theorem">Euler's Theorem</a> in <a href="https://leanprover-community.github.io/mathlib4_docs/find/?pattern=FiniteField.pow_card_sub_one_eq_one#doc">Mathlib</a></li></ul> </td>
 </tr>
 
@@ -44,7 +44,7 @@
 </tr>
 
 <tr>
-  <td> <ul><li>Musab,</li><li>Kit L,</li><li>(mystery person)</li></ul> </td>
+  <td> <ul><li>Musab</li><li>Kit L</li><li>(mystery person)</li></ul> </td>
   <td> Combinatorial Problems? </td>
 </tr>
 
