@@ -1,14 +1,25 @@
 #  Stubs of ideas and projects
 
-###  Proposed projects
+##
 
-* [Lagrange's Theorem](https://en.wikipedia.org/wiki/Lagrange%27s_theorem_(group_theory)) leading to Fermat's Little Theorem and Euler's Theorem
-* [Ostrowski's Theorem](https://en.wikipedia.org/wiki/Ostrowski%27s_theorem)
-* [The Basel problem](https://en.wikipedia.org/wiki/Basel_problem)
+| Group members | Comments and possible Mathlib reference |
+|-|-|
+| Josh R, Ed W, Jaime, Juan | <li> [The Basel problem](https://en.wikipedia.org/wiki/Basel_problem) in [Mathlib](https://leanprover-community.github.io/mathlib4_docs/find/?pattern=hasSum_zeta_two#doc)</li><li> [Cauchy's Integral Formula](https://en.wikipedia.org/wiki/Cauchy%27s_integral_formula) in [Mathlib](https://leanprover-community.github.io/mathlib4_docs/find/?pattern=Complex.two_pi_I_inv_smul_circleIntegral_sub_inv_smul_of_differentiable_on_off_countable#doc)</li> |
+| Antonina, Tom C, Roshan | [Sylow's Theorems](https://en.wikipedia.org/wiki/Sylow_theorems) in [Mathlib]([Sylow](https://leanprover-community.github.io/mathlib4_docs/find/?pattern=Sylow.exists_subgroup_card_pow_prime_le#doc)). Most of the file `Mathlib/GroupTheory/Sylow.lean` is relevant.  |
+| Susie G, Alex C, Tom D, Dan S | [Perfect graphs](https://en.wikipedia.org/wiki/Perfect_graph) and examples. There is a folder `Mathlib/Combinatorics/SimpleGraph/`, but I do not think that perfect graphs are in Mathlib. |
+| Ameer S, Aadam H, Louis G, Giovanni C | Measure Theory folder `Mathlib/MeasureTheory/` |
+| Tommaso F, Mayo | [Ostrowski's Theorem](https://en.wikipedia.org/wiki/Ostrowski%27s_theorem). As far as I can tell, it is not in Mathlib, but there are some (possible) formalizations. Relevant Zulip chats: [Link to LLL](https://leanprover.zulipchat.com/#narrow/stream/116395-maths/topic/Seminar.20--.20London.20Learning.20Lean/near/362025148) and [Ostrowski's Theorem thread](https://leanprover.zulipchat.com/#narrow/stream/217875-Is-there-code-for-X.3F/topic/Ostrowski's.20theorem) |
+| Florence, Michael C | Number Theory/Group Theory <li>[Lagrange's Theorem](https://en.wikipedia.org/wiki/Lagrange%27s_theorem_(group_theory)) in [Mathlib](https://leanprover-community.github.io/mathlib4_docs/find/?pattern=Subgroup.card_subgroup_dvd_card#doc)</li><li>[Fermat's Little Theorem](https://en.wikipedia.org/wiki/Fermat%27s_little_theorem) in [Mathlib](https://leanprover-community.github.io/mathlib4_docs/find/?pattern=ZMod.pow_card#doc)</li><li>[Euler's Theorem](https://en.wikipedia.org/wiki/Euler%27s_theorem) in [Mathlib](https://leanprover-community.github.io/mathlib4_docs/find/?pattern=FiniteField.pow_card_sub_one_eq_one#doc)</li> |
+| Gareth M | Combinatorics/Analytic Number Theory? |
+| Musab, Kit L, (mystery person) | Combinatorial Problems? |
+
+
+###  Orphaned projects
+
 * [Hall subgroups](https://en.wikipedia.org/wiki/Hall_subgroup) and their existence in soluble groups
-* [Perfect graphs](https://en.wikipedia.org/wiki/Perfect_graph) and examples
+
+  I could not find Hall's theorem in Mathlib, the file on Sylow's Theorems is relevant.
 * [Cap set problem](https://en.wikipedia.org/wiki/Cap_set)
-* [Sylow's Theorems](https://en.wikipedia.org/wiki/Sylow_theorems)
 * [Cantor's Theorem](https://en.wikipedia.org/wiki/Cantor%27s_theorem)
 * [Group cohomology](https://en.wikipedia.org/wiki/Group_cohomology)
 * [Transcendence of &pi;](https://en.wikipedia.org/wiki/Lindemann%E2%80%93Weierstrass_theorem)
