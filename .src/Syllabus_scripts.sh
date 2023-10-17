@@ -126,25 +126,25 @@ to_html_from () {
   wk=0
   con=true
   is_tent=false
-  while IFS= read -r line || [ -n "$line" ]; do
-    if [[ $line =~ ^-- ]];
-    then
-      ((wk++))
-      con=false
-      new_week $wk "$is_tent" >> $nome
-    elif [[ $line =~ ^\ *(pre|mon|tue|wed|thu|fri|sat|sun|sup|week)$ ]]
-    then
-      new_day "$line" "$con" "$is_tent" "${modd}" >> $nome
-      con=true
-    elif [[ $line = "  "* ]]
-    then
-      echo "          <li>${line:2}</li>" >> $nome
-    elif [[ $line = "_tentative" ]]
-    then
-      is_tent=true
-    fi
-  done < <(if [ "$tent" ]; then cat $modd; else sed '/^_tentative/Q' $modd; fi)
-  page_tail "${1}" >> $nome
+  { while IFS= read -r line || [ -n "$line" ]; do
+      if [[ $line =~ ^-- ]];
+      then
+        ((wk++))
+        con=false
+        new_week $wk "$is_tent"
+      elif [[ $line =~ ^\ *(pre|mon|tue|wed|thu|fri|sat|sun|sup|week)$ ]]
+      then
+        new_day "$line" "$con" "$is_tent" "${modd}"
+        con=true
+      elif [[ $line = "  "* ]]
+      then
+        echo "          <li>${line:2}</li>"
+      elif [[ $line = "_tentative" ]]
+      then
+        is_tent=true
+      fi
+    done < <(if [ "$tent" ]; then cat $modd; else sed '/^_tentative/Q' $modd; fi)
+    page_tail "${1}" ; } >> $nome
 }
 
 make_md () {
