@@ -15,12 +15,12 @@
 
 <tr>
   <td> <ul><li>Antonina,</li><li>Tom C,</li><li>Roshan</li></ul> </td>
-  <td> <a href="https://en.wikipedia.org/wiki/Sylow_theorems">Sylow's Theorems</a> in <a href="https://leanprover-community.github.io/mathlib4_docs/find/?pattern=Sylow.exists_subgroup_card_pow_prime_le#doc">Mathlib</a>. Most of the file `Mathlib/GroupTheory/Sylow.lean` is relevant.  </td>
+  <td> <a href="https://en.wikipedia.org/wiki/Sylow_theorems">Sylow's Theorems</a> in <a href="https://leanprover-community.github.io/mathlib4_docs/find/?pattern=Sylow.exists_subgroup_card_pow_prime_le#doc">Mathlib</a>.<br />Most of the file `Mathlib/GroupTheory/Sylow.lean` is relevant.  </td>
 </tr>
 
 <tr>
   <td> <ul><li>Susie G,</li><li>Alex C,</li><li>Tom D,</li><li>Dan S</li></ul> </td>
-  <td> <a href="https://en.wikipedia.org/wiki/Perfect_graph">Perfect graphs</a> and examples. There is a folder `Mathlib/Combinatorics/SimpleGraph/`, but I do not think that perfect graphs are in Mathlib. </td>
+  <td> <a href="https://en.wikipedia.org/wiki/Perfect_graph">Perfect graphs</a> and examples.<br />There is a folder `Mathlib/Combinatorics/SimpleGraph/`, but I do not think that perfect graphs are in Mathlib. </td>
 </tr>
 
 <tr>
@@ -30,7 +30,7 @@
 
 <tr>
   <td> <ul><li>Tommaso F,</li><li>Mayo</li></ul> </td>
-  <td> <a href="https://en.wikipedia.org/wiki/Ostrowski%27s_theorem">Ostrowski's Theorem</a>. As far as I can tell, it is not in Mathlib, but there are some (possible) formalizations. Relevant Zulip chats: <a href="https://leanprover.zulipchat.com/#narrow/stream/116395-maths/topic/Seminar.20--.20London.20Learning.20Lean/near/362025148">Link to LLL</a> and <a href="https://leanprover.zulipchat.com/#narrow/stream/217875-Is-there-code-for-X.3F/topic/Ostrowski's.20theorem">Ostrowski's Theorem thread</a> </td>
+  <td> <a href="https://en.wikipedia.org/wiki/Ostrowski%27s_theorem">Ostrowski's Theorem</a>.<br />As far as I can tell, it is not in Mathlib, but there are some (possible) formalizations.<br />Relevant Zulip chats: <a href="https://leanprover.zulipchat.com/#narrow/stream/116395-maths/topic/Seminar.20--.20London.20Learning.20Lean/near/362025148">Link to LLL</a> and <a href="https://leanprover.zulipchat.com/#narrow/stream/217875-Is-there-code-for-X.3F/topic/Ostrowski's.20theorem">Ostrowski's Theorem thread</a> </td>
 </tr>
 
 <tr>
