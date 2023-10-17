@@ -60,6 +60,14 @@
         </ul>
       </td>
     </tr>
+    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li>Solve `Polynomial_questions.lean`.</li>
+          <li>The `<;>` tactic combinator.</li>
+        </ul>
+      </td>
+    </tr>
 <!--  ##################  Week 3  ################## -->
     <tr><th></th><th style="text-align: center">Week 3 (Oct 16-20)</th></tr>
     <tr><td>Monday</td>
@@ -147,4 +155,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA4N1)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Monday, Oct 16 2023</div>
+<div style="text-align: right">Last modified: Tuesday, Oct 17 2023</div>
