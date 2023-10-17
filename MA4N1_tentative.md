@@ -60,24 +60,17 @@
         </ul>
       </td>
     </tr>
-    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
-      <td>
-        <ul>
-          <li>Solve `Polynomial_questions.lean`.</li>
-          <li>The `<;>` tactic combinator.</li>
-        </ul>
-      </td>
-    </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
 <!--  ##################  Week 3  ################## -->
     <tr><th></th><th style="text-align: center">Week 3 (Oct 16-20)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
           <li>More on <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/Polynomials.lean">Polynomials.lean</a>.</li>
+          <li>Go over beginning of <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/Generalizations.lean">Generalizations.lean</a>.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Tuesday</td>
       <td>
         <ul>
