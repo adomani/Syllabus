@@ -10,15 +10,15 @@
 
 <tr>
   <td> Josh R, Ed W, Jaime, Juan </td>
-  <td> <ul><li>[The Basel problem](https://en.wikipedia.org/wiki/Basel_problem) in [Mathlib](https://leanprover-community.github.io/mathlib4_docs/find/?pattern=hasSum_zeta_two#doc)</li><li>[Cauchy's Integral Formula](https://en.wikipedia.org/wiki/Cauchy%27s_integral_formula) in [Mathlib](https://leanprover-community.github.io/mathlib4_docs/find/?pattern=Complex.two_pi_I_inv_smul_circleIntegral_sub_inv_smul_of_differentiable_on_off_countable#doc)</li></ul> </td>
+  <td> <ul><li><a href="https://en.wikipedia.org/wiki/Basel_problem">The Basel problem</a> in <a href="https://leanprover-community.github.io/mathlib4_docs/find/?pattern=hasSum_zeta_two#doc">Mathlib</a></li><li><a href="https://en.wikipedia.org/wiki/Cauchy%27s_integral_formula">Cauchy's Integral Formula</a> in <a href="https://leanprover-community.github.io/mathlib4_docs/find/?pattern=Complex.two_pi_I_inv_smul_circleIntegral_sub_inv_smul_of_differentiable_on_off_countable#doc">Mathlib</a></li></ul> </td>
 </tr>
 <tr>
   <td> Antonina, Tom C, Roshan </td>
-  <td> [Sylow's Theorems](https://en.wikipedia.org/wiki/Sylow_theorems) in [Mathlib]([Sylow](https://leanprover-community.github.io/mathlib4_docs/find/?pattern=Sylow.exists_subgroup_card_pow_prime_le#doc)). Most of the file `Mathlib/GroupTheory/Sylow.lean` is relevant.  </td>
+  <td> <a href="https://en.wikipedia.org/wiki/Sylow_theorems">Sylow's Theorems</a> in <a href="[Sylow](https://leanprover-community.github.io/mathlib4_docs/find/?pattern=Sylow.exists_subgroup_card_pow_prime_le#doc">Mathlib</a>). Most of the file `Mathlib/GroupTheory/Sylow.lean` is relevant.  </td>
 </tr>
 <tr>
   <td> Susie G, Alex C, Tom D, Dan S </td>
-  <td> [Perfect graphs](https://en.wikipedia.org/wiki/Perfect_graph) and examples. There is a folder `Mathlib/Combinatorics/SimpleGraph/`, but I do not think that perfect graphs are in Mathlib. </td>
+  <td> <a href="https://en.wikipedia.org/wiki/Perfect_graph">Perfect graphs</a> and examples. There is a folder `Mathlib/Combinatorics/SimpleGraph/`, but I do not think that perfect graphs are in Mathlib. </td>
 </tr>
 <tr>
   <td> Ameer S, Aadam H, Louis G, Giovanni C </td>
@@ -26,11 +26,11 @@
 </tr>
 <tr>
   <td> Tommaso F, Mayo </td>
-  <td> [Ostrowski's Theorem](https://en.wikipedia.org/wiki/Ostrowski%27s_theorem). As far as I can tell, it is not in Mathlib, but there are some (possible) formalizations. Relevant Zulip chats: [Link to LLL](https://leanprover.zulipchat.com/#narrow/stream/116395-maths/topic/Seminar.20--.20London.20Learning.20Lean/near/362025148) and [Ostrowski's Theorem thread](https://leanprover.zulipchat.com/#narrow/stream/217875-Is-there-code-for-X.3F/topic/Ostrowski's.20theorem) </td>
+  <td> <a href="https://en.wikipedia.org/wiki/Ostrowski%27s_theorem">Ostrowski's Theorem</a>. As far as I can tell, it is not in Mathlib, but there are some (possible) formalizations. Relevant Zulip chats: <a href="https://leanprover.zulipchat.com/#narrow/stream/116395-maths/topic/Seminar.20--.20London.20Learning.20Lean/near/362025148">Link to LLL</a> and <a href="https://leanprover.zulipchat.com/#narrow/stream/217875-Is-there-code-for-X.3F/topic/Ostrowski's.20theorem">Ostrowski's Theorem thread</a> </td>
 </tr>
 <tr>
   <td> Florence, Michael C </td>
-  <td> Number Theory/Group Theory <ul><li>[Lagrange's Theorem](https://en.wikipedia.org/wiki/Lagrange%27s_theorem_(group_theory)) in [Mathlib](https://leanprover-community.github.io/mathlib4_docs/find/?pattern=Subgroup.card_subgroup_dvd_card#doc)</li><li>[Fermat's Little Theorem](https://en.wikipedia.org/wiki/Fermat%27s_little_theorem) in [Mathlib](https://leanprover-community.github.io/mathlib4_docs/find/?pattern=ZMod.pow_card#doc)</li><li>[Euler's Theorem](https://en.wikipedia.org/wiki/Euler%27s_theorem) in [Mathlib](https://leanprover-community.github.io/mathlib4_docs/find/?pattern=FiniteField.pow_card_sub_one_eq_one#doc)</li></ul> </td>
+  <td> Number Theory/Group Theory <ul><li><a href="https://en.wikipedia.org/wiki/Lagrange%27s_theorem_(group_theory)">Lagrange's Theorem</a> in <a href="https://leanprover-community.github.io/mathlib4_docs/find/?pattern=Subgroup.card_subgroup_dvd_card#doc">Mathlib</a></li><li><a href="https://en.wikipedia.org/wiki/Fermat%27s_little_theorem">Fermat's Little Theorem</a> in <a href="https://leanprover-community.github.io/mathlib4_docs/find/?pattern=ZMod.pow_card#doc">Mathlib</a></li><li><a href="https://en.wikipedia.org/wiki/Euler%27s_theorem">Euler's Theorem</a> in <a href="https://leanprover-community.github.io/mathlib4_docs/find/?pattern=FiniteField.pow_card_sub_one_eq_one#doc">Mathlib</a></li></ul> </td>
 </tr>
 <tr>
   <td> Gareth M </td>
