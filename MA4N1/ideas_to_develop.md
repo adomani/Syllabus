@@ -2,7 +2,6 @@
 
 ##  Groups
 
-table
 <table><tbody>
 <tr>
   <th> Group members </th>
@@ -49,7 +48,6 @@ table
   <td> Combinatorial Problems? </td>
 </tr>
 
-/table
 </tbody></table>
 
 ###  Orphaned projects

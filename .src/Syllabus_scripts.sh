@@ -149,6 +149,8 @@ to_html_from () {
 
 ptable () {
   awk 'BEGIN{ con=0 }
+    /^table$/   { con++; thd="th"; gsub(/.*/, "<table><tbody>"); }
+    /^\/table$/ { con=0;           gsub(/.*/, "</tbody></table>"); }
     con == "0" { print }
     con != "0" && $0 !~ /^\|[| -]*$/ {
       gsub(/^\|/, "<tr>\n  <" thd ">")
@@ -156,13 +158,8 @@ ptable () {
       gsub(/\|/, "</" thd ">\n  <" thd ">")
       print
     }
-    /^table$/ {
-      con++; thd="th"
-      print("<table><tbody>")
-    }
     /^\|[| -]*$/ { con++; thd="td"; }
-    /^\/table$/ { con=0; print("</tbody></table>");
- }' "${1}" |
+  ' "${1}" |
     sed '/<table><tbody>/, /<\/tbody><\/table>/ { s,\[\([^]]*\)\](\([^)]*\)),<a href="\2">\1</a>,g }'
 }
 
