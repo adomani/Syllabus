@@ -12,6 +12,7 @@ mergeFiles () {
 ##  `scatterTPwL` reads information from `~/Matematica/Warwick/Syllabus/.src/TPwL_source.md`
 ##  splits it into files, creates the table of contents and puts them in the `MA4N1/` dir.
 scatterTPwL () {
+  ptable ~/Matematica/Warwick/Syllabus/.src/TPwL_source.md |
   awk -v home="${HOME}/${matONo}/Warwick/Syllabus/MA4N1/" 'BEGIN {
     mainFileNoExt="toc"
     mainFile=mainFileNoExt".md"
@@ -39,5 +40,5 @@ scatterTPwL () {
     if (mainFound != 1) printf("\n** The main file `%s` was not declared! **\n", mainFile)
     for (name in fileNames)
       if (fileNames[name] >= 2) printf("\n** The file `%s` was declared %s times! **\n", name, fileNames[name])
-  }' ~/Matematica/Warwick/Syllabus/.src/TPwL_source.md
+  }'
 }

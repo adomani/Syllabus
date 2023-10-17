@@ -147,6 +147,25 @@ to_html_from () {
     page_tail "${1}" ; } > $nome
 }
 
+ptable () {
+  awk 'BEGIN{ con=0 }
+    con == "0" { print }
+    con != "0" && $0 !~ /^\|[| -]*$/ {
+      gsub(/^\|/, "<tr>\n  <" thd ">")
+      gsub(/\|$/, "</" thd ">\n</tr>\n")
+      gsub(/\|/, "</" thd ">\n  <" thd ">")
+      print
+    }
+    /^table$/ {
+      con++; thd="th"
+      print("<table><tbody>")
+    }
+    /^\|[| -]*$/ { con++; thd="td"; }
+    /^\/table$/ { con=0; print("</tbody></table>");
+ }' "${1}" |
+    sed '/<table><tbody>/, /<\/tbody><\/table>/ { s,\[\([^]]*\)\](\([^)]*\)),<a href="\2">\1</a>,g }'
+}
+
 make_md () {
   here=$PWD
   mypth=$(pwd | sed -E 's=(Syllab[iu][s]?).*=\1/.src/=g')
