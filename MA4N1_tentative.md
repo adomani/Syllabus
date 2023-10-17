@@ -78,12 +78,21 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Tuesday</td>
       <td>
         <ul>
+          <li>Assign (most) groups.</li>
+          <li>Continue with <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/Generalizations.lean">Generalizations.lean</a>.</li>
           <li>Matrices?</li>
           <li>Graphs?</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
+    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li>TBA</li>
         </ul>
       </td>
     </tr>

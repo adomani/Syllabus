@@ -78,6 +78,16 @@
         </ul>
       </td>
     </tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
+          <li>Assign (most) groups.</li>
+          <li>Continue with <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/Generalizations.lean">Generalizations.lean</a>.</li>
+          <li>Matrices?</li>
+          <li>Graphs?</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
