@@ -4,7 +4,7 @@
 
 | Group members | Comments and possible Mathlib reference |
 |-|-|
-| Josh R, Ed W, Jaime, Juan | <ul> <li> [The Basel problem](https://en.wikipedia.org/wiki/Basel_problem) in [Mathlib](https://leanprover-community.github.io/mathlib4_docs/find/?pattern=hasSum_zeta_two#doc) </li> <li> [Cauchy's Integral Formula](https://en.wikipedia.org/wiki/Cauchy%27s_integral_formula) in [Mathlib](https://leanprover-community.github.io/mathlib4_docs/find/?pattern=Complex.two_pi_I_inv_smul_circleIntegral_sub_inv_smul_of_differentiable_on_off_countable#doc) </li> </ul> |
+| Josh R, Ed W, Jaime, Juan | <ul><li>[The Basel problem](https://en.wikipedia.org/wiki/Basel_problem) in [Mathlib](https://leanprover-community.github.io/mathlib4_docs/find/?pattern=hasSum_zeta_two#doc)</li><li>[Cauchy's Integral Formula](https://en.wikipedia.org/wiki/Cauchy%27s_integral_formula) in [Mathlib](https://leanprover-community.github.io/mathlib4_docs/find/?pattern=Complex.two_pi_I_inv_smul_circleIntegral_sub_inv_smul_of_differentiable_on_off_countable#doc)</li></ul> |
 | Antonina, Tom C, Roshan | [Sylow's Theorems](https://en.wikipedia.org/wiki/Sylow_theorems) in [Mathlib]([Sylow](https://leanprover-community.github.io/mathlib4_docs/find/?pattern=Sylow.exists_subgroup_card_pow_prime_le#doc)). Most of the file `Mathlib/GroupTheory/Sylow.lean` is relevant.  |
 | Susie G, Alex C, Tom D, Dan S | [Perfect graphs](https://en.wikipedia.org/wiki/Perfect_graph) and examples. There is a folder `Mathlib/Combinatorics/SimpleGraph/`, but I do not think that perfect graphs are in Mathlib. |
 | Ameer S, Aadam H, Louis G, Giovanni C | Measure Theory folder `Mathlib/MeasureTheory/` |
