@@ -23,10 +23,9 @@ sup
 -- Week 3
 mon
   Tangent vectors, tangent spaces, vector fields.
-_tentative
 wed
   Interpretation of exterior algebra via multilinear, alternating maps.
-  Partitions of unity.
+_tentative
 sup
   Sub-manifolds.
   Smooth maps.
@@ -37,7 +36,7 @@ mon
   Vector fields, bracket.
   Differential, definition of immersion, submersion, embedding.
 wed
-  End of partitions of unity.
+  Partitions of unity.
   Beginning of Ehresmann's Theorem.
 sup
   Surgery (Theorem 2.12).

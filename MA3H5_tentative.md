@@ -83,15 +83,14 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Wednesday</td>
       <td>
         <ul>
           <li>Interpretation of exterior algebra via multilinear, alternating maps.</li>
-          <li>Partitions of unity.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
@@ -114,7 +113,7 @@
     <tr><td>Wednesday</td>
       <td>
         <ul>
-          <li>End of partitions of unity.</li>
+          <li>Partitions of unity.</li>
           <li>Beginning of Ehresmann's Theorem.</li>
         </ul>
       </td>
@@ -287,4 +286,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Monday, Oct 16 2023</div>
+<div style="text-align: right">Last modified: Wednesday, Oct 18 2023</div>
