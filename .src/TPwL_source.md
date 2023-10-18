@@ -749,16 +749,16 @@ Comments and possible Mathlib reference
 * Jaime
 * Juan
 ·|·
-* [The Basel problem](https://en.wikipedia.org/wiki/Basel_problem) in [Mathlib](docs#hasSum_zeta_two)
-* [Cauchy's Integral Formula](https://en.wikipedia.org/wiki/Cauchy%27s_integral_formula) in [Mathlib](docs#Complex.two_pi_I_inv_smul_circleIntegral_sub_inv_smul_of_differentiable_on_off_countable)
+* [The Basel problem](wiki#Basel_problem) in [Mathlib](docs#hasSum_zeta_two)
+* [Cauchy's Integral Formula](wiki#Cauchy%27s_integral_formula) in [Mathlib](docs#Complex.two_pi_I_inv_smul_circleIntegral_sub_inv_smul_of_differentiable_on_off_countable)
 ·|
 |·
 * Antonina
 * Tom C
 * Roshan
 ·|·
-* [Sylow's Theorems](https://en.wikipedia.org/wiki/Sylow_theorems) in [Mathlib](docs#Sylow.exists_subgroup_card_pow_prime_le).<br />
-Most of the file [Sylow](https://leanprover-community.github.io/mathlib4_docs/Mathlib/GroupTheory/Sylow.html) is relevant.
+* [Sylow's Theorems](wiki#Sylow_theorems) in [Mathlib](docs#Sylow.exists_subgroup_card_pow_prime_le).<br />
+Most of the file [Sylow](mlfile#GroupTheory/Sylow.html) is relevant.
 ·|
 |·
 * Susie G
@@ -766,7 +766,7 @@ Most of the file [Sylow](https://leanprover-community.github.io/mathlib4_docs/Ma
 * Tom D
 * Dan S
 ·|·
-[Perfect graphs](https://en.wikipedia.org/wiki/Perfect_graph) and examples.<br />
+[Perfect graphs](wiki#Perfect_graph) and examples.<br />
 There is a folder `Mathlib/Combinatorics/SimpleGraph/`,
 but I do not think that perfect graphs are in Mathlib.
 ·|
@@ -782,11 +782,11 @@ Measure Theory folder `Mathlib/MeasureTheory/`
 * Tommaso F
 * Mayo
 ·|·
-[Ostrowski's Theorem](https://en.wikipedia.org/wiki/Ostrowski%27s_theorem).<br />
+[Ostrowski's Theorem](wiki#Ostrowski%27s_theorem).<br />
 As far as I can tell, it is not in Mathlib, but there are some (possible) formalizations.<br />
 Relevant Zulip chats:
-[Link to LLL](https://leanprover.zulipchat.com/#narrow/stream/116395-maths/topic/Seminar.20--.20London.20Learning.20Lean/near/362025148) and
-[Ostrowski's Theorem thread](https://leanprover.zulipchat.com/#narrow/stream/217875-Is-there-code-for-X.3F/topic/Ostrowski's.20theorem)
+[Link to LLL](zulip#116395-maths/topic/Seminar.20--.20London.20Learning.20Lean/near/362025148) and
+[Ostrowski's Theorem thread](zulip#217875-Is-there-code-for-X.3F/topic/Ostrowski's.20theorem)
 ·|
 |·
 * Hugo Pottinger
@@ -794,7 +794,7 @@ Relevant Zulip chats:
 * Leon Chipchase
 * James Harvey
 ·|·
-Special case of the [Dirichlet's Theorem](https://en.wikipedia.org/wiki/Dirichlet%27s_theorem_on_arithmetic_progressions).<br />
+Special case of [Dirichlet's Theorem on arithmetic progressions](wiki#Dirichlet%27s_theorem_on_arithmetic_progressions).<br />
 As far as I can tell, there is no explicit result in Mathlib in this direction.
 ·|
 |·
@@ -804,16 +804,16 @@ As far as I can tell, there is no explicit result in Mathlib in this direction.
 * Edward Gilbert
 ·|·
 Group Theory
-* <a href="https://en.wikipedia.org/wiki/Lagrange%27s_theorem_(group_theory)">Lagrange's Theorem</a> in [Mathlib](docs#Subgroup.card_subgroup_dvd_card)
-* [Fermat's Little Theorem](https://en.wikipedia.org/wiki/Fermat%27s_little_theorem) in [Mathlib](docs#ZMod.pow_card)
-* [Euler's Theorem](https://en.wikipedia.org/wiki/Euler%27s_theorem) in [Mathlib](docs#FiniteField.pow_card_sub_one_eq_one)
+* [Lagrange's Theorem](wiki#Lagrange%27s_theorem_(group_theory)) in [Mathlib](docs#Subgroup.card_subgroup_dvd_card)
+* [Fermat's Little Theorem](wiki#Fermat%27s_little_theorem) in [Mathlib](docs#ZMod.pow_card)
+* [Euler's Theorem](wiki#Euler%27s_theorem) in [Mathlib](docs#FiniteField.pow_card_sub_one_eq_one)
 ·|
 |·
 * Florence
 * Michael C
 ·|·
 Number Theory/Group Theory<br />
-For material on sums of two squares, look at [SumTwoSquares](https://leanprover-community.github.io/mathlib4_docs/Mathlib/NumberTheory/SumTwoSquares.html).
+For material on sums of two squares, look at [SumTwoSquares](mlfile#NumberTheory/SumTwoSquares.html).
 ·|
 |·
 * Gareth M

@@ -101,7 +101,7 @@ Relevant Zulip chats:
     </ul>
   </td>
   <td>
-Special case of the <a href="https://en.wikipedia.org/wiki/Dirichlet%27s_theorem_on_arithmetic_progressions">Dirichlet's Theorem</a>.<br />
+Special case of <a href="https://en.wikipedia.org/wiki/Dirichlet%27s_theorem_on_arithmetic_progressions">Dirichlet's Theorem on arithmetic progressions</a>.<br />
 As far as I can tell, there is no explicit result in Mathlib in this direction.
   </td>
 </tr>

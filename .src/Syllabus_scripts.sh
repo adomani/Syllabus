@@ -162,9 +162,12 @@ ptable () {
       print
     }' "${1}" |
     sed '/<table><tbody>/, /<\/tbody><\/table>/ {         # within the created tables, replace md to html
-      s,\[\([^]]*\)\](\([^)]*\)),<a href="\2">\1</a>,g    # process the links
+      s,\[\([^]]*\)\](\([^)]*)*\)),<a href="\2">\1</a>,g  # process the links -- it should match a final `)`
       s=`\([^`]*\)`=<code>\1</code>=g                     # process code
       s|"docs#\([^"]*\)"|"https://leanprover-community.github.io/mathlib4_docs/find/?pattern=\1#doc"|g
+      s|"wiki#\([^"]*\)"|"https://en.wikipedia.org/wiki/\1"|g
+      s|"zulip#\([^"]*\)"|"https://leanprover.zulipchat.com/#narrow/stream/\1"|g
+      s|"mlfile#\([^"]*\)"|"https://leanprover-community.github.io/mathlib4_docs/Mathlib/\1"|g
       s=^\* \(.*\)=    <ul>\n      <li>\1</li>\n    </ul>=
     }' |
     sed -z 's=\n    </ul>\n    <ul>\n=\n=g'
