@@ -78,12 +78,14 @@
 * Find infinite subsets of the natural numbers containing no 3-term arithmetic progression
 * Your favourite theorem!
 
+###  External repositories and books for inspiration
+
+The `.pdf`s in Keith Conrad's [blurbs page](https://kconrad.math.uconn.edu/blurbs/) contain plenty of ideas.
+
 Besides using Lean to prove theorems, you can also use it to verify counterexamples!
 Two books that contain lots of inspiration are
 * [Counterexamples in Topology](https://link.springer.com/book/10.1007/978-1-4612-6290-9),
 * [Counterexamples in Analysis](https://faculty.ksu.edu.sa/sites/default/files/_olmsted_1.pdf).
-
-Also, the `.pdf`s in Keith Conrad's [blurbs page](https://kconrad.math.uconn.edu/blurbs/) contain plenty of ideas.
 
 ###  Computer science oriented projects
 
