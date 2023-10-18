@@ -35,7 +35,7 @@
 
 <tr>
   <td> <ul><li>Hugo Pottinger</li><li>Jack Atfield</li><li>Leon Chipchase</li><li>James Harvey</li></ul> </td>
-  <td> special case of the <a href="https://en.wikipedia.org/wiki/Dirichlet%27s_theorem_on_arithmetic_progressions">Dirichlet's Theorem</a>.<br />As far as I can tell, there is no explicit result in Mathlib in this direction. </td>
+  <td> Special case of the <a href="https://en.wikipedia.org/wiki/Dirichlet%27s_theorem_on_arithmetic_progressions">Dirichlet's Theorem</a>.<br />As far as I can tell, there is no explicit result in Mathlib in this direction. </td>
 </tr>
 
 <tr>
