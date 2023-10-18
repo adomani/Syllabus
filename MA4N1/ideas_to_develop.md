@@ -162,9 +162,8 @@ Combinatorial IMO Problems.<br />
 Some IMO problems have been formalised: they should all be in <code>Archive/Imo</code>
 (*not* inside the <code>Mathlib</code> folder!)
   </td>
-  </tr>
-</tbody>
-</table>
+</tr>
+</tbody></table>
 
 ###  Orphaned projects
 

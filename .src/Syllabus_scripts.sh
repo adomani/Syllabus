@@ -152,7 +152,7 @@ to_html_from () {
 ptable () {
   awk 'BEGIN{ con=0 }
     /^table$/   { con++; thd="th"; gsub(/.*/, "<table><tbody>"); }
-    /^\/table$/ { con=0;           gsub(/.*/, "</tbody></table>"); }
+    /^\/table$/ { con=0;           gsub(/.*/, "  </td>\n</tr>\n</tbody></table>"); }
     con == "0" { print }
     con != "0" {
       gsub(/·\|·/, "  </" thd ">\n  <" thd ">")
