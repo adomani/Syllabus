@@ -34,6 +34,11 @@
 </tr>
 
 <tr>
+  <td> <ul><li>Hugo Pottinger</li><li>Jack Atfield</li><li>Leon Chipchase</li><li>James Harvey</li></ul> </td>
+  <td> special case of the <a href="https://en.wikipedia.org/wiki/Dirichlet%27s_theorem_on_arithmetic_progressions">Dirichlet's Theorem</a>.<br />As far as I can tell, there is no explicit result in Mathlib in this direction. </td>
+</tr>
+
+<tr>
   <td> <ul><li>Florence</li><li>Michael C</li></ul> </td>
   <td> Number Theory/Group Theory <ul><li><a href="https://en.wikipedia.org/wiki/Lagrange%27s_theorem_(group_theory)">Lagrange's Theorem</a> in <a href="https://leanprover-community.github.io/mathlib4_docs/find/?pattern=Subgroup.card_subgroup_dvd_card#doc">Mathlib</a></li><li><a href="https://en.wikipedia.org/wiki/Fermat%27s_little_theorem">Fermat's Little Theorem</a> in <a href="https://leanprover-community.github.io/mathlib4_docs/find/?pattern=ZMod.pow_card#doc">Mathlib</a></li><li><a href="https://en.wikipedia.org/wiki/Euler%27s_theorem">Euler's Theorem</a> in <a href="https://leanprover-community.github.io/mathlib4_docs/find/?pattern=FiniteField.pow_card_sub_one_eq_one#doc">Mathlib</a></li><li>For material on sums of two squares, look at <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/NumberTheory/SumTwoSquares.html">SumTwoSquares</a>.</li></ul> </td>
 </tr>
