@@ -165,6 +165,7 @@ ptable () {
     sed '/<table><tbody>/, /<\/tbody><\/table>/ {         # within the created tables, replace md to html
       s,\[\([^]]*\)\](\([^)]*\)),<a href="\2">\1</a>,g    # process the links
       s=`\([^`]*\)`=<code>\1</code>=g                     # process code
+      s|"docs#\([^"]*\)"|"https://leanprover-community.github.io/mathlib4_docs/find/?pattern=\1#doc"|g
     }'
 }
 
