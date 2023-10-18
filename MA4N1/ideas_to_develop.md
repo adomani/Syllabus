@@ -49,8 +49,8 @@
 </tr>
 
 <tr>
-  <td> <ul><li>Musab</li><li>Kit L</li><li>(mystery person)</li></ul> </td>
-  <td> Combinatorial Problems? </td>
+  <td> <ul><li>Musab</li><li>Kit L</li><li>Dogukan</li></ul> </td>
+  <td> Combinatorial IMO Problems.<br />Some IMO problems have been formalised: they should all be in <code>Archive/Imo</code> (*not* inside the <code>Mathlib</code> folder!) </td>
 </tr>
 
 </tbody></table>

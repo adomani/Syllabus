@@ -748,7 +748,7 @@ table
 | <ul><li>Hugo Pottinger</li><li>Jack Atfield</li><li>Leon Chipchase</li><li>James Harvey</li></ul> | Special case of the [Dirichlet's Theorem](https://en.wikipedia.org/wiki/Dirichlet%27s_theorem_on_arithmetic_progressions).<br />As far as I can tell, there is no explicit result in Mathlib in this direction. |
 | <ul><li>Florence</li><li>Michael C</li></ul> | Number Theory/Group Theory <ul><li><a href="https://en.wikipedia.org/wiki/Lagrange%27s_theorem_(group_theory)">Lagrange's Theorem</a> in [Mathlib](docs#Subgroup.card_subgroup_dvd_card)</li><li>[Fermat's Little Theorem](https://en.wikipedia.org/wiki/Fermat%27s_little_theorem) in [Mathlib](docs#ZMod.pow_card)</li><li>[Euler's Theorem](https://en.wikipedia.org/wiki/Euler%27s_theorem) in [Mathlib](docs#FiniteField.pow_card_sub_one_eq_one)</li><li>For material on sums of two squares, look at [SumTwoSquares](https://leanprover-community.github.io/mathlib4_docs/Mathlib/NumberTheory/SumTwoSquares.html).</li></ul> |
 | <ul><li>Gareth M</li></ul> | Combinatorics/Analytic Number Theory? |
-| <ul><li>Musab</li><li>Kit L</li><li>(mystery person)</li></ul> | Combinatorial Problems? |
+| <ul><li>Musab</li><li>Kit L</li><li>Dogukan</li></ul> | Combinatorial IMO Problems.<br />Some IMO problems have been formalised: they should all be in `Archive/Imo` (*not* inside the `Mathlib` folder!) |
 /table
 
 ###  Orphaned projects
