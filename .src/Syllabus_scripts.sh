@@ -147,6 +147,8 @@ to_html_from () {
     page_tail "${1}" ; } > $nome
 }
 
+##  `ptable <file>` parses a file and converts to an HTML table each block beginning with
+##  `table` and ending with `/table`.
 ptable () {
   awk 'BEGIN{ con=0 }
     /^table$/   { con++; thd="th"; gsub(/.*/, "<table><tbody>"); }
@@ -160,7 +162,10 @@ ptable () {
     }
     /^\|[| -]*$/ { con++; thd="td"; }
   ' "${1}" |
-    sed '/<table><tbody>/, /<\/tbody><\/table>/ { s,\[\([^]]*\)\](\([^)]*\)),<a href="\2">\1</a>,g }'
+    sed '/<table><tbody>/, /<\/tbody><\/table>/ {         # within the created tables, replace md to html
+      s,\[\([^]]*\)\](\([^)]*\)),<a href="\2">\1</a>,g    # process the links
+      s=`\([^`]*\)`=<code>\1</code>=g                     # process code
+    }'
 }
 
 make_md () {
