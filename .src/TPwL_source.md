@@ -738,18 +738,96 @@ lemma zero_ne_one : 0 ≠ 1 := by
 ##  Groups
 
 table
-| Group members | Comments and possible Mathlib reference |
-|-|-|
-| <ul><li>Josh R</li><li>Ed W</li><li>Jaime</li><li>Juan</li></ul> | <ul><li>[The Basel problem](https://en.wikipedia.org/wiki/Basel_problem) in [Mathlib](docs#hasSum_zeta_two)</li><li>[Cauchy's Integral Formula](https://en.wikipedia.org/wiki/Cauchy%27s_integral_formula) in [Mathlib](docs#Complex.two_pi_I_inv_smul_circleIntegral_sub_inv_smul_of_differentiable_on_off_countable)</li></ul> |
-| <ul><li>Antonina</li><li>Tom C</li><li>Roshan</li></ul> | [Sylow's Theorems](https://en.wikipedia.org/wiki/Sylow_theorems) in [Mathlib](docs#Sylow.exists_subgroup_card_pow_prime_le).<br />Most of the file [Sylow](https://leanprover-community.github.io/mathlib4_docs/Mathlib/GroupTheory/Sylow.html) is relevant.  |
-| <ul><li>Susie G</li><li>Alex C</li><li>Tom D</li><li>Dan S</li></ul> | [Perfect graphs](https://en.wikipedia.org/wiki/Perfect_graph) and examples.<br />There is a folder `Mathlib/Combinatorics/SimpleGraph/`, but I do not think that perfect graphs are in Mathlib. |
-| <ul><li>Ameer S</li><li>Aadam H</li><li>Louis G</li><li>Giovanni C</li></ul> | Measure Theory folder `Mathlib/MeasureTheory/` |
-| <ul><li>Tommaso F</li><li>Mayo</li></ul> | [Ostrowski's Theorem](https://en.wikipedia.org/wiki/Ostrowski%27s_theorem).<br />As far as I can tell, it is not in Mathlib, but there are some (possible) formalizations.<br />Relevant Zulip chats: [Link to LLL](https://leanprover.zulipchat.com/#narrow/stream/116395-maths/topic/Seminar.20--.20London.20Learning.20Lean/near/362025148) and [Ostrowski's Theorem thread](https://leanprover.zulipchat.com/#narrow/stream/217875-Is-there-code-for-X.3F/topic/Ostrowski's.20theorem) |
-| <ul><li>Hugo Pottinger</li><li>Jack Atfield</li><li>Leon Chipchase</li><li>James Harvey</li></ul> | Special case of the [Dirichlet's Theorem](https://en.wikipedia.org/wiki/Dirichlet%27s_theorem_on_arithmetic_progressions).<br />As far as I can tell, there is no explicit result in Mathlib in this direction. |
-| <ul><li>Jakub Tucker</li><li>Katie Scarisbrick</li><li>Rose Bedell</li><li>Edward Gilbert</li></ul> | Group Theory <ul><li><a href="https://en.wikipedia.org/wiki/Lagrange%27s_theorem_(group_theory)">Lagrange's Theorem</a> in [Mathlib](docs#Subgroup.card_subgroup_dvd_card)</li><li>[Fermat's Little Theorem](https://en.wikipedia.org/wiki/Fermat%27s_little_theorem) in [Mathlib](docs#ZMod.pow_card)</li><li>[Euler's Theorem](https://en.wikipedia.org/wiki/Euler%27s_theorem) in [Mathlib](docs#FiniteField.pow_card_sub_one_eq_one)</li></ul> |
-| <ul><li>Florence</li><li>Michael C</li></ul> | Number Theory/Group Theory<br />For material on sums of two squares, look at [SumTwoSquares](https://leanprover-community.github.io/mathlib4_docs/Mathlib/NumberTheory/SumTwoSquares.html). |
-| <ul><li>Gareth M</li></ul> | Combinatorics/Analytic Number Theory? |
-| <ul><li>Musab</li><li>Kit L</li><li>Dogukan</li></ul> | Combinatorial IMO Problems.<br />Some IMO problems have been formalised: they should all be in `Archive/Imo` (*not* inside the `Mathlib` folder!) |
+|·
+Group members
+·|·
+Comments and possible Mathlib reference
+·|
+|·
+* Josh R
+* Ed W
+* Jaime
+* Juan
+·|·
+* [The Basel problem](wiki#Basel_problem) in [Mathlib](docs#hasSum_zeta_two)
+* [Cauchy's Integral Formula](wiki#Cauchy%27s_integral_formula) in [Mathlib](docs#Complex.two_pi_I_inv_smul_circleIntegral_sub_inv_smul_of_differentiable_on_off_countable)
+·|
+|·
+* Antonina
+* Tom C
+* Roshan
+·|·
+* [Sylow's Theorems](wiki#Sylow_theorems) in [Mathlib](docs#Sylow.exists_subgroup_card_pow_prime_le).<br />
+Most of the file [Sylow](mlfile#GroupTheory/Sylow.html) is relevant.
+·|
+|·
+* Susie G
+* Alex C
+* Tom D
+* Dan S
+·|·
+[Perfect graphs](wiki#Perfect_graph) and examples.<br />
+There is a folder `Mathlib/Combinatorics/SimpleGraph/`,
+but I do not think that perfect graphs are in Mathlib.
+·|
+|·
+* Ameer S
+* Aadam H
+* Louis G
+* Giovanni C
+·|·
+Measure Theory folder `Mathlib/MeasureTheory/`
+·|
+|·
+* Tommaso F
+* Mayo
+·|·
+[Ostrowski's Theorem](wiki#Ostrowski%27s_theorem).<br />
+As far as I can tell, it is not in Mathlib, but there are some (possible) formalizations.<br />
+Relevant Zulip chats:
+[Link to LLL](zulip#116395-maths/topic/Seminar.20--.20London.20Learning.20Lean/near/362025148) and
+[Ostrowski's Theorem thread](zulip#217875-Is-there-code-for-X.3F/topic/Ostrowski's.20theorem)
+·|
+|·
+* Hugo Pottinger
+* Jack Atfield
+* Leon Chipchase
+* James Harvey
+·|·
+Special case of [Dirichlet's Theorem on arithmetic progressions](wiki#Dirichlet%27s_theorem_on_arithmetic_progressions).<br />
+As far as I can tell, there is no explicit result in Mathlib in this direction.
+·|
+|·
+* Jakub Tucker
+* Katie Scarisbrick
+* Rose Bedell
+* Edward Gilbert
+·|·
+Group Theory
+* [Lagrange's Theorem](wiki#Lagrange%27s_theorem_(group_theory)) in [Mathlib](docs#Subgroup.card_subgroup_dvd_card)
+* [Fermat's Little Theorem](wiki#Fermat%27s_little_theorem) in [Mathlib](docs#ZMod.pow_card)
+* [Euler's Theorem](wiki#Euler%27s_theorem) in [Mathlib](docs#FiniteField.pow_card_sub_one_eq_one)
+·|
+|·
+* Florence
+* Michael C
+·|·
+Number Theory/Group Theory<br />
+For material on sums of two squares, look at [SumTwoSquares](mlfile#NumberTheory/SumTwoSquares.html).
+·|
+|·
+* Gareth M
+·|·
+Combinatorics/Analytic Number Theory?
+·|
+|·
+* Musab
+* Kit L
+* Dogukan
+·|·
+Combinatorial IMO Problems.<br />
+Some IMO problems have been formalised: they should all be in `Archive/Imo`
+(*not* inside the `Mathlib` folder!)
 /table
 
 ###  Orphaned projects
