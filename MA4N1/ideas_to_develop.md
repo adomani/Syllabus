@@ -4,60 +4,163 @@
 
 <table><tbody>
 <tr>
-  <th> Group members </th>
-  <th> Comments and possible Mathlib reference </th>
+  <th>
+Group members
+  </th>
+  <th>
+Comments and possible Mathlib reference
+  </th>
 </tr>
 
 <tr>
-  <td> <ul><li>Josh R</li><li>Ed W</li><li>Jaime</li><li>Juan</li></ul> </td>
-  <td> <ul><li><a href="https://en.wikipedia.org/wiki/Basel_problem">The Basel problem</a> in <a href="https://leanprover-community.github.io/mathlib4_docs/find/?pattern=hasSum_zeta_two#doc">Mathlib</a></li><li><a href="https://en.wikipedia.org/wiki/Cauchy%27s_integral_formula">Cauchy's Integral Formula</a> in <a href="https://leanprover-community.github.io/mathlib4_docs/find/?pattern=Complex.two_pi_I_inv_smul_circleIntegral_sub_inv_smul_of_differentiable_on_off_countable#doc">Mathlib</a></li></ul> </td>
+  <td>
+    <ul>
+      <li>Josh R</li>
+      <li>Ed W</li>
+      <li>Jaime</li>
+      <li>Juan</li>
+    </ul>
+  </td>
+  <td>
+    <ul>
+      <li><a href="https://en.wikipedia.org/wiki/Basel_problem">The Basel problem</a> in <a href="https://leanprover-community.github.io/mathlib4_docs/find/?pattern=hasSum_zeta_two#doc">Mathlib</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Cauchy%27s_integral_formula">Cauchy's Integral Formula</a> in <a href="https://leanprover-community.github.io/mathlib4_docs/find/?pattern=Complex.two_pi_I_inv_smul_circleIntegral_sub_inv_smul_of_differentiable_on_off_countable#doc">Mathlib</a></li>
+    </ul>
+  </td>
 </tr>
 
 <tr>
-  <td> <ul><li>Antonina</li><li>Tom C</li><li>Roshan</li></ul> </td>
-  <td> <a href="https://en.wikipedia.org/wiki/Sylow_theorems">Sylow's Theorems</a> in <a href="https://leanprover-community.github.io/mathlib4_docs/find/?pattern=Sylow.exists_subgroup_card_pow_prime_le#doc">Mathlib</a>.<br />Most of the file <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/GroupTheory/Sylow.html">Sylow</a> is relevant.  </td>
+  <td>
+    <ul>
+      <li>Antonina</li>
+      <li>Tom C</li>
+      <li>Roshan</li>
+    </ul>
+  </td>
+  <td>
+    <ul>
+      <li><a href="https://en.wikipedia.org/wiki/Sylow_theorems">Sylow's Theorems</a> in <a href="https://leanprover-community.github.io/mathlib4_docs/find/?pattern=Sylow.exists_subgroup_card_pow_prime_le#doc">Mathlib</a>.<br /></li>
+    </ul>
+Most of the file <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/GroupTheory/Sylow.html">Sylow</a> is relevant.
+  </td>
 </tr>
 
 <tr>
-  <td> <ul><li>Susie G</li><li>Alex C</li><li>Tom D</li><li>Dan S</li></ul> </td>
-  <td> <a href="https://en.wikipedia.org/wiki/Perfect_graph">Perfect graphs</a> and examples.<br />There is a folder <code>Mathlib/Combinatorics/SimpleGraph/</code>, but I do not think that perfect graphs are in Mathlib. </td>
+  <td>
+    <ul>
+      <li>Susie G</li>
+      <li>Alex C</li>
+      <li>Tom D</li>
+      <li>Dan S</li>
+    </ul>
+  </td>
+  <td>
+<a href="https://en.wikipedia.org/wiki/Perfect_graph">Perfect graphs</a> and examples.<br />
+There is a folder <code>Mathlib/Combinatorics/SimpleGraph/</code>,
+but I do not think that perfect graphs are in Mathlib.
+  </td>
 </tr>
 
 <tr>
-  <td> <ul><li>Ameer S</li><li>Aadam H</li><li>Louis G</li><li>Giovanni C</li></ul> </td>
-  <td> Measure Theory folder <code>Mathlib/MeasureTheory/</code> </td>
+  <td>
+    <ul>
+      <li>Ameer S</li>
+      <li>Aadam H</li>
+      <li>Louis G</li>
+      <li>Giovanni C</li>
+    </ul>
+  </td>
+  <td>
+Measure Theory folder <code>Mathlib/MeasureTheory/</code>
+  </td>
 </tr>
 
 <tr>
-  <td> <ul><li>Tommaso F</li><li>Mayo</li></ul> </td>
-  <td> <a href="https://en.wikipedia.org/wiki/Ostrowski%27s_theorem">Ostrowski's Theorem</a>.<br />As far as I can tell, it is not in Mathlib, but there are some (possible) formalizations.<br />Relevant Zulip chats: <a href="https://leanprover.zulipchat.com/#narrow/stream/116395-maths/topic/Seminar.20--.20London.20Learning.20Lean/near/362025148">Link to LLL</a> and <a href="https://leanprover.zulipchat.com/#narrow/stream/217875-Is-there-code-for-X.3F/topic/Ostrowski's.20theorem">Ostrowski's Theorem thread</a> </td>
+  <td>
+    <ul>
+      <li>Tommaso F</li>
+      <li>Mayo</li>
+    </ul>
+  </td>
+  <td>
+<a href="https://en.wikipedia.org/wiki/Ostrowski%27s_theorem">Ostrowski's Theorem</a>.<br />
+As far as I can tell, it is not in Mathlib, but there are some (possible) formalizations.<br />
+Relevant Zulip chats:
+<a href="https://leanprover.zulipchat.com/#narrow/stream/116395-maths/topic/Seminar.20--.20London.20Learning.20Lean/near/362025148">Link to LLL</a> and
+<a href="https://leanprover.zulipchat.com/#narrow/stream/217875-Is-there-code-for-X.3F/topic/Ostrowski's.20theorem">Ostrowski's Theorem thread</a>
+  </td>
 </tr>
 
 <tr>
-  <td> <ul><li>Hugo Pottinger</li><li>Jack Atfield</li><li>Leon Chipchase</li><li>James Harvey</li></ul> </td>
-  <td> Special case of the <a href="https://en.wikipedia.org/wiki/Dirichlet%27s_theorem_on_arithmetic_progressions">Dirichlet's Theorem</a>.<br />As far as I can tell, there is no explicit result in Mathlib in this direction. </td>
+  <td>
+    <ul>
+      <li>Hugo Pottinger</li>
+      <li>Jack Atfield</li>
+      <li>Leon Chipchase</li>
+      <li>James Harvey</li>
+    </ul>
+  </td>
+  <td>
+Special case of the <a href="https://en.wikipedia.org/wiki/Dirichlet%27s_theorem_on_arithmetic_progressions">Dirichlet's Theorem</a>.<br />
+As far as I can tell, there is no explicit result in Mathlib in this direction.
+  </td>
 </tr>
 
 <tr>
-  <td> <ul><li>Jakub Tucker</li><li>Katie Scarisbrick</li><li>Rose Bedell</li><li>Edward Gilbert</li></ul> </td>
-  <td> Group Theory <ul><li><a href="https://en.wikipedia.org/wiki/Lagrange%27s_theorem_(group_theory)">Lagrange's Theorem</a> in <a href="https://leanprover-community.github.io/mathlib4_docs/find/?pattern=Subgroup.card_subgroup_dvd_card#doc">Mathlib</a></li><li><a href="https://en.wikipedia.org/wiki/Fermat%27s_little_theorem">Fermat's Little Theorem</a> in <a href="https://leanprover-community.github.io/mathlib4_docs/find/?pattern=ZMod.pow_card#doc">Mathlib</a></li><li><a href="https://en.wikipedia.org/wiki/Euler%27s_theorem">Euler's Theorem</a> in <a href="https://leanprover-community.github.io/mathlib4_docs/find/?pattern=FiniteField.pow_card_sub_one_eq_one#doc">Mathlib</a></li></ul> </td>
+  <td>
+    <ul>
+      <li>Jakub Tucker</li>
+      <li>Katie Scarisbrick</li>
+      <li>Rose Bedell</li>
+      <li>Edward Gilbert</li>
+    </ul>
+  </td>
+  <td>
+Group Theory
+    <ul>
+      <li><a href="https://en.wikipedia.org/wiki/Lagrange%27s_theorem_(group_theory)">Lagrange's Theorem</a> in <a href="https://leanprover-community.github.io/mathlib4_docs/find/?pattern=Subgroup.card_subgroup_dvd_card#doc">Mathlib</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Fermat%27s_little_theorem">Fermat's Little Theorem</a> in <a href="https://leanprover-community.github.io/mathlib4_docs/find/?pattern=ZMod.pow_card#doc">Mathlib</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Euler%27s_theorem">Euler's Theorem</a> in <a href="https://leanprover-community.github.io/mathlib4_docs/find/?pattern=FiniteField.pow_card_sub_one_eq_one#doc">Mathlib</a></li>
+    </ul>
+  </td>
 </tr>
 
 <tr>
-  <td> <ul><li>Florence</li><li>Michael C</li></ul> </td>
-  <td> Number Theory/Group Theory<br />For material on sums of two squares, look at <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/NumberTheory/SumTwoSquares.html">SumTwoSquares</a>. </td>
+  <td>
+    <ul>
+      <li>Florence</li>
+      <li>Michael C</li>
+    </ul>
+  </td>
+  <td>
+Number Theory/Group Theory<br />
+For material on sums of two squares, look at <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/NumberTheory/SumTwoSquares.html">SumTwoSquares</a>.
+  </td>
 </tr>
 
 <tr>
-  <td> <ul><li>Gareth M</li></ul> </td>
-  <td> Combinatorics/Analytic Number Theory? </td>
+  <td>
+    <ul>
+      <li>Gareth M</li>
+    </ul>
+  </td>
+  <td>
+Combinatorics/Analytic Number Theory?
+  </td>
 </tr>
 
 <tr>
-  <td> <ul><li>Musab</li><li>Kit L</li><li>Dogukan</li></ul> </td>
-  <td> Combinatorial IMO Problems.<br />Some IMO problems have been formalised: they should all be in <code>Archive/Imo</code> (*not* inside the <code>Mathlib</code> folder!) </td>
-</tr>
-
+  <td>
+    <ul>
+      <li>Musab</li>
+      <li>Kit L</li>
+      <li>Dogukan</li>
+    </ul>
+  </td>
+  <td>
+Combinatorial IMO Problems.<br />
+Some IMO problems have been formalised: they should all be in <code>Archive/Imo</code>
+(*not* inside the <code>Mathlib</code> folder!)
 </tbody></table>
 
 ###  Orphaned projects

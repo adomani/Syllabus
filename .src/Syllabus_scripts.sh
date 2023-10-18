@@ -154,19 +154,20 @@ ptable () {
     /^table$/   { con++; thd="th"; gsub(/.*/, "<table><tbody>"); }
     /^\/table$/ { con=0;           gsub(/.*/, "</tbody></table>"); }
     con == "0" { print }
-    con != "0" && $0 !~ /^\|[| -]*$/ {
-      gsub(/^\|/, "<tr>\n  <" thd ">")
-      gsub(/\|$/, "</" thd ">\n</tr>\n")
-      gsub(/\|/, "</" thd ">\n  <" thd ">")
+    con != "0" {
+      gsub(/·\|·/, "  </" thd ">\n  <" thd ">")
+      gsub(/^\|·/, "<tr>\n  <" thd ">")
+      n=gsub(/·\|$/, "  </" thd ">\n</tr>\n")
+      if (n != 0) { thd="td" }
       print
-    }
-    /^\|[| -]*$/ { con++; thd="td"; }
-  ' "${1}" |
+    }' "${1}" |
     sed '/<table><tbody>/, /<\/tbody><\/table>/ {         # within the created tables, replace md to html
       s,\[\([^]]*\)\](\([^)]*\)),<a href="\2">\1</a>,g    # process the links
       s=`\([^`]*\)`=<code>\1</code>=g                     # process code
       s|"docs#\([^"]*\)"|"https://leanprover-community.github.io/mathlib4_docs/find/?pattern=\1#doc"|g
-    }'
+      s=^\* \(.*\)=    <ul>\n      <li>\1</li>\n    </ul>=
+    }' |
+    sed -z 's=\n    </ul>\n    <ul>\n=\n=g'
 }
 
 make_md () {
