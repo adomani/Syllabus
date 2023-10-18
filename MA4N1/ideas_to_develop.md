@@ -15,17 +15,17 @@
 
 <tr>
   <td> <ul><li>Antonina</li><li>Tom C</li><li>Roshan</li></ul> </td>
-  <td> <a href="https://en.wikipedia.org/wiki/Sylow_theorems">Sylow's Theorems</a> in <a href="https://leanprover-community.github.io/mathlib4_docs/find/?pattern=Sylow.exists_subgroup_card_pow_prime_le#doc">Mathlib</a>.<br />Most of the file `Mathlib/GroupTheory/Sylow.lean` is relevant.  </td>
+  <td> <a href="https://en.wikipedia.org/wiki/Sylow_theorems">Sylow's Theorems</a> in <a href="https://leanprover-community.github.io/mathlib4_docs/find/?pattern=Sylow.exists_subgroup_card_pow_prime_le#doc">Mathlib</a>.<br />Most of the file <code>Mathlib/GroupTheory/Sylow.lean</code> is relevant.  </td>
 </tr>
 
 <tr>
   <td> <ul><li>Susie G</li><li>Alex C</li><li>Tom D</li><li>Dan S</li></ul> </td>
-  <td> <a href="https://en.wikipedia.org/wiki/Perfect_graph">Perfect graphs</a> and examples.<br />There is a folder `Mathlib/Combinatorics/SimpleGraph/`, but I do not think that perfect graphs are in Mathlib. </td>
+  <td> <a href="https://en.wikipedia.org/wiki/Perfect_graph">Perfect graphs</a> and examples.<br />There is a folder <code>Mathlib/Combinatorics/SimpleGraph/</code>, but I do not think that perfect graphs are in Mathlib. </td>
 </tr>
 
 <tr>
   <td> <ul><li>Ameer S</li><li>Aadam H</li><li>Louis G</li><li>Giovanni C</li></ul> </td>
-  <td> Measure Theory folder `Mathlib/MeasureTheory/` </td>
+  <td> Measure Theory folder <code>Mathlib/MeasureTheory/</code> </td>
 </tr>
 
 <tr>
