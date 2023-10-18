@@ -15,7 +15,7 @@
 
 <tr>
   <td> <ul><li>Antonina</li><li>Tom C</li><li>Roshan</li></ul> </td>
-  <td> <a href="https://en.wikipedia.org/wiki/Sylow_theorems">Sylow's Theorems</a> in <a href="https://leanprover-community.github.io/mathlib4_docs/find/?pattern=Sylow.exists_subgroup_card_pow_prime_le#doc">Mathlib</a>.<br />Most of the file <code>Mathlib/GroupTheory/Sylow.lean</code> is relevant.  </td>
+  <td> <a href="https://en.wikipedia.org/wiki/Sylow_theorems">Sylow's Theorems</a> in <a href="https://leanprover-community.github.io/mathlib4_docs/find/?pattern=Sylow.exists_subgroup_card_pow_prime_le#doc">Mathlib</a>.<br />Most of the file <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/GroupTheory/Sylow.html">Sylow</a> is relevant.  </td>
 </tr>
 
 <tr>
