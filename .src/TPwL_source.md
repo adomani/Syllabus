@@ -733,7 +733,7 @@ lemma zero_ne_one : 0 ≠ 1 := by
   done
 ```
 <!-- newFile ideas_to_develop.md -->
-#  Stubs of ideas and projects
+#  Projects and stubs of ideas
 
 ##  Groups
 

@@ -51,7 +51,7 @@ In this module, we will only work with Lean 4.
 * [Basic Lean4 syntax](https://adomani.github.io/Syllabus/MA4N1/basicSyntax)
 * [What tools do I have to tease information out of Lean4?](https://adomani.github.io/Syllabus/MA4N1/informationExtraction)
 * [Sample Lean file](https://adomani.github.io/Syllabus/MA4N1/sample_lean_file)
-* [Stubs of ideas and projects](https://adomani.github.io/Syllabus/MA4N1/ideas_to_develop)
+* [Projects and stubs of ideas](https://adomani.github.io/Syllabus/MA4N1/ideas_to_develop)
 * [Creating a new project depending on `Mathlib`](https://adomani.github.io/Syllabus/MA4N1/instructions_for_new_project)
 * [Possible weekly topics &ndash; very preliminary](https://adomani.github.io/Syllabus/MA4N1/weekly_topics_tbc)
 * [FAQ](https://adomani.github.io/Syllabus/MA4N1/faq)

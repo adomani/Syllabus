@@ -1,4 +1,4 @@
-#  Stubs of ideas and projects
+#  Projects and stubs of ideas
 
 ##  Groups
 
