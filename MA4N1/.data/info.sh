@@ -20,22 +20,18 @@ and import the file from
 Docs
 
 ##  Read the main module file and extract group names/membership from it.
+##  Output looks like `project,Name L`
 extractProjNames () {
-  sed -n '/^table$/, /^\/table$/ {   # process only the lines contained inside `table`-`/table`
-    s=^|.\(..*\)=\1,=p       #\n\(.*\)=\1=p
-  #  s=^[^* ].*==p                    # print a blank line on lines that do not begin with a space or a `*`
-    s= *\* *\([A-Z].*\)=\1=p         # print `text` on lines beginning with `* text` (some allowed whitespace)
+  sed -n '/^table$/, /^\/table$/ {  # process only the lines contained inside `table`-`/table`
+    s=^|.\(..*\)=\1,=p              # extract group name
+    s= *\* *\([A-Z].*\)=\1=p        # extract members from md lists (some allowed whitespace)
   }' ~/Matematica/Warwick/Syllabus/.src/TPwL_source.md |
     awk -F, '2 <= NF { lab=$1 }
-      NF == 1 { print lab "," $0 }'
-# |
-#  sed -z '
-#    s=^[\n]*==          ## trim beginning line-breaks
-#    s=[\n]*$=\n=        ## trim ending line-breaks
-#    s=\n\n[\n]*=\n\n=g  ## trim multiple line-breaks into simple separations
-#  '
+             NF == 1 { print lab "," $0 }'
 }
 
+##  `testUniqueNames` may be fully contained in `exportGroups`.
+##  It checks that the names mentioned in the Projects page uniquely identify the students and that they exist.
 testUniqueNames () {
   local na count err=0
   while read -r na; do
@@ -44,10 +40,13 @@ testUniqueNames () {
       ( brown "$na " ; printf $'occurs %s times\n' "${count}" ; ) >&2
       err=$((err + 1))
     fi
-  done < <( extractProjNames | sed 's=^[^,]*,== ; s= =[^,]*,=' ; echo "Ed" ; echo "Anfi" )
+  done < <( extractProjNames | sed 's=^[^,]*,== ; s= =[^,]*,=' ; )
   return "${err}"
 }
 
+##  `exportGroups` outputs `email,project` -- the format wanted by Moodle,
+##  for the students that are part of a group.
+##  `extractUngrouped` deals with the students in the module that are not yet part of a group.
 exportGroups () {
   local proj na count err=0
   while IFS="," read -r proj na; do
@@ -57,13 +56,15 @@ exportGroups () {
       err=$((err + 1))
     fi
     printf '%s,%s\n' "$( grep "$na" end.csv | awk -F, '{ print $5 }')" "${proj}"
-  done < <( extractProjNames | sed 's= =[^,]*,=' ; ) #echo "pr1,Ed" ; echo "pr2,Anfi" )
+  done < <( extractProjNames | sed 's= =[^,]*,=' ; )
   return "${err}"
 }
 
-exclusions=',I.Capdeboscq@warwick.ac.uk,D.Testa@warwick.ac.uk,Marc.Truter@Warwick.Ac.Uk,Marc.T.Truter@warwick.ac.uk'
-
+##  `extractUngrouped` complements `exportGroups` by assigning the project `TBD` to all students
+##  that are not already in some group.
+##  It allows to exclude some non-students who are signed up.
 extractUngrouped () {
+  local exclusions=',I.Capdeboscq@warwick.ac.uk,D.Testa@warwick.ac.uk,Marc.Truter@Warwick.Ac.Uk,Marc.T.Truter@warwick.ac.uk'
   awk -F, -v emails="$(
     awk -F, 'NR != 1 { printf"," } { printf($1) }' MA4N1_2023_groups.csv
     printf "${exclusions}"
