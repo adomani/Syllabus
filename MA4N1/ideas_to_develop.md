@@ -5,6 +5,9 @@
 <table><tbody>
 <tr>
   <th>
+Group name
+  </th>
+  <th>
 Group members
   </th>
   <th>
@@ -13,6 +16,9 @@ Comments and possible Mathlib reference
 </tr>
 
 <tr>
+  <td>
+Cauchy
+  </td>
   <td>
     <ul>
       <li>Josh R</li>
@@ -31,6 +37,9 @@ Comments and possible Mathlib reference
 
 <tr>
   <td>
+Sylow
+  </td>
+  <td>
     <ul>
       <li>Antonina</li>
       <li>Tom C</li>
@@ -46,6 +55,9 @@ Most of the file <a href="https://leanprover-community.github.io/mathlib4_docs/M
 </tr>
 
 <tr>
+  <td>
+PerfectGraphs
+  </td>
   <td>
     <ul>
       <li>Susie G</li>
@@ -63,6 +75,9 @@ but I do not think that perfect graphs are in Mathlib.
 
 <tr>
   <td>
+MeasureTheory
+  </td>
+  <td>
     <ul>
       <li>Ameer S</li>
       <li>Aadam H</li>
@@ -76,6 +91,9 @@ Measure Theory folder <code>Mathlib/MeasureTheory/</code>
 </tr>
 
 <tr>
+  <td>
+Ostrowski
+  </td>
   <td>
     <ul>
       <li>Tommaso F</li>
@@ -93,6 +111,9 @@ Relevant Zulip chats:
 
 <tr>
   <td>
+Dirichlet
+  </td>
+  <td>
     <ul>
       <li>Hugo Pottinger</li>
       <li>Jack Atfield</li>
@@ -107,6 +128,9 @@ As far as I can tell, there is no explicit result in Mathlib in this direction.
 </tr>
 
 <tr>
+  <td>
+Lagrange
+  </td>
   <td>
     <ul>
       <li>Jakub Tucker</li>
@@ -127,6 +151,9 @@ Group Theory
 
 <tr>
   <td>
+Gaussian
+  </td>
+  <td>
     <ul>
       <li>Florence</li>
       <li>Michael C</li>
@@ -140,6 +167,9 @@ For material on sums of two squares, look at <a href="https://leanprover-communi
 
 <tr>
   <td>
+TBD
+  </td>
+  <td>
     <ul>
       <li>Gareth M</li>
     </ul>
@@ -150,6 +180,9 @@ Combinatorics/Analytic Number Theory?
 </tr>
 
 <tr>
+  <td>
+CombinatorialIMO
+  </td>
   <td>
     <ul>
       <li>Musab</li>
