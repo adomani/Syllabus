@@ -156,7 +156,7 @@ ptable () {
     con == "0" { print }
     con != "0" {
       gsub(/·\|·/, "  </" thd ">\n  <" thd ">")
-      gsub(/^\|·/, "<tr>\n  <" thd ">")
+      gsub(/^\|·/, "<tr>\n  <" thd " align=\"center\">")
       n=gsub(/·\|$/, "  </" thd ">\n</tr>\n")
       if (n != 0) { thd="td" }
       print
