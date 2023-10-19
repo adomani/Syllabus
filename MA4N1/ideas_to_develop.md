@@ -16,8 +16,7 @@ Comments and possible Mathlib reference
 </tr>
 
 <tr>
-  <td align="center">
-Cauchy
+  <td align="center">Cauchy
   </td>
   <td>
     <ul>
@@ -36,8 +35,7 @@ Cauchy
 </tr>
 
 <tr>
-  <td align="center">
-Sylow
+  <td align="center">Sylow
   </td>
   <td>
     <ul>
@@ -55,8 +53,7 @@ Most of the file <a href="https://leanprover-community.github.io/mathlib4_docs/M
 </tr>
 
 <tr>
-  <td align="center">
-PerfectGraphs
+  <td align="center">PerfectGraphs
   </td>
   <td>
     <ul>
@@ -74,8 +71,7 @@ but I do not think that perfect graphs are in Mathlib.
 </tr>
 
 <tr>
-  <td align="center">
-MeasureTheory
+  <td align="center">MeasureTheory
   </td>
   <td>
     <ul>
@@ -91,8 +87,7 @@ Measure Theory folder <code>Mathlib/MeasureTheory/</code>
 </tr>
 
 <tr>
-  <td align="center">
-Ostrowski
+  <td align="center">Ostrowski
   </td>
   <td>
     <ul>
@@ -110,8 +105,7 @@ Relevant Zulip chats:
 </tr>
 
 <tr>
-  <td align="center">
-Dirichlet
+  <td align="center">Dirichlet
   </td>
   <td>
     <ul>
@@ -128,8 +122,7 @@ As far as I can tell, there is no explicit result in Mathlib in this direction.
 </tr>
 
 <tr>
-  <td align="center">
-Lagrange
+  <td align="center">Lagrange
   </td>
   <td>
     <ul>
@@ -150,8 +143,7 @@ Group Theory
 </tr>
 
 <tr>
-  <td align="center">
-Gaussian
+  <td align="center">Gaussian
   </td>
   <td>
     <ul>
@@ -166,8 +158,7 @@ For material on sums of two squares, look at <a href="https://leanprover-communi
 </tr>
 
 <tr>
-  <td align="center">
-TBD
+  <td align="center">TBD
   </td>
   <td>
     <ul>
@@ -180,8 +171,7 @@ Combinatorics/Analytic Number Theory?
 </tr>
 
 <tr>
-  <td align="center">
-CombinatorialIMO
+  <td align="center">CombinatorialIMO
   </td>
   <td>
     <ul>
