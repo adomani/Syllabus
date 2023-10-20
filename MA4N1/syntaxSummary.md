@@ -1,3 +1,5 @@
+# Initial tactic, brackets and basic logic symbols
+
 ##  Some tactics
 
 * `constructor`, splits a goal such as `a ∧ b` into two separate goals.
