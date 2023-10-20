@@ -35,20 +35,6 @@ extractProjNames () {
              NF == 1 { print lab "," $0 }'
 }
 
-##  `testUniqueNames` may be fully contained in `exportGroups`.
-##  It checks that the names mentioned in the Projects page uniquely identify the students and that they exist.
-testUniqueNames () {
-  local na count err=0
-  while read -r na; do
-    count="$( grep -c "$na" "${dataFile}" )"
-    if [ "${count}" -ne 1 ]; then
-      ( brown "$na " ; printf $'occurs %s times\n' "${count}" ; ) >&2
-      err=$((err + 1))
-    fi
-  done < <( extractProjNames | sed 's=^[^,]*,== ; s= =[^,]*,=' ; )
-  return "${err}"
-}
-
 ##  `exportGroups` outputs `email,project` -- the format wanted by Moodle,
 ##  for the students that are part of a group.
 ##  `extractUngrouped` deals with the students in the module that are not yet part of a group.
@@ -81,3 +67,17 @@ extractUngrouped () {
 ##  it produces the groups that have already formed, and
 ##  a single extra group with all the non-assigned students.
 generateMoodleGroups () { exportGroups | tee >( extractUngrouped - ) ; }
+
+##  `testUniqueNames` may be fully contained in `exportGroups`.
+##  It checks that the names mentioned in the Projects page uniquely identify the students and that they exist.
+testUniqueNames () {
+  local na count err=0
+  while read -r na; do
+    count="$( grep -c "$na" "${dataFile}" )"
+    if [ "${count}" -ne 1 ]; then
+      ( brown "$na " ; printf $'occurs %s times\n' "${count}" ; ) >&2
+      err=$((err + 1))
+    fi
+  done < <( extractProjNames | sed 's=^[^,]*,== ; s= =[^,]*,=' ; )
+  return "${err}"
+}
