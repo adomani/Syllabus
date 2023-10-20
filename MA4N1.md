@@ -40,7 +40,7 @@
     <tr><td>Tuesday</td>
       <td>
         <ul>
-          <li>Syntax, infoview, tactics, structuring proofs (<a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/Lecture0.lean">Lecture0.lean</a>).</li>
+          <li>Syntax, infoview, tactics, structuring proofs (<a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L00_intro.lean">L00_intro.lean</a>).</li>
         </ul>
       </td>
     </tr>
@@ -49,7 +49,7 @@
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>Begin <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/Polynomials.lean">Polynomials.lean</a>.</li>
+          <li>Begin <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L01_polynomials.lean">L01_polynomials.lean</a>.</li>
         </ul>
       </td>
     </tr>
@@ -63,7 +63,7 @@
     <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>Solve <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/Polynomial_questions.lean">Polynomial_questions.lean</a>.</li>
+          <li>Solve <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L01_polynomial_questions.lean">L01_polynomial_questions.lean</a>.</li>
           <li>The <code><;></code> tactic combinator.</li>
         </ul>
       </td>
@@ -73,8 +73,8 @@
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>More on <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/Polynomials.lean">Polynomials.lean</a>.</li>
-          <li>Go over beginning of <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/Generalizations.lean">Generalizations.lean</a>.</li>
+          <li>More on <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L01_polynomials.lean">L01_polynomials.lean</a>.</li>
+          <li>Go over beginning of <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L02_generalizations.lean">L02_generalizations.lean</a>.</li>
         </ul>
       </td>
     </tr>
@@ -82,7 +82,7 @@
       <td>
         <ul>
           <li>Assign (most) groups.</li>
-          <li>Continue with <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/Generalizations.lean">Generalizations.lean</a>.</li>
+          <li>Continue with <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L02_generalizations.lean">L02_generalizations.lean</a>.</li>
         </ul>
       </td>
     </tr>
@@ -91,4 +91,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA4N1_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Wednesday, Oct 18 2023</div>
+<div style="text-align: right">Last modified: Friday, Oct 20 2023</div>
