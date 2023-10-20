@@ -28,7 +28,8 @@ scatterTPwL () {
     /^##* / {
       linkAnchor=$0
       hashes=0; indents=""
-      for (i=1; i<=3; i++) { new=gsub(/^#/, "", linkAnchor); hashes+=new ; if (new == 1) indents=indents "* "; }
+      for (i=1; i<=3; i++) { new=gsub(/^#/, "", linkAnchor); hashes+=new ; if (new == 1) indents=indents "  "; }
+      gsub(/  $/, "* ", indents)
       gsub(/"/, "", linkAnchor)
       gsub(/\?/, "", linkAnchor)
       gsub(/`/, "", linkAnchor)
