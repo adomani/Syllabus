@@ -68,6 +68,9 @@ extractUngrouped () {
 ##  a single extra group with all the non-assigned students.
 generateMoodleGroups () { exportGroups | tee >( extractUngrouped - ) ; }
 
+##  on-screen printing of the output of `generateMoodleGroups`
+viewGroups () { generateMoodleGroups | sort -t, -k2 | column -s, -t ; }
+
 ##  `testUniqueNames` may be fully contained in `exportGroups`.
 ##  It checks that the names mentioned in the Projects page uniquely identify the students and that they exist.
 testUniqueNames () {
