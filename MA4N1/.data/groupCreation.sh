@@ -19,10 +19,30 @@ and import the file from
 
 Docs
 
+##  Use `extractHeaders` from `awkStuff.sh`
+. ~/Setup/awkStuff.sh
+
+brown $'From the participants list on Moodle ('
+  printf '%s' 'https://moodle.warwick.ac.uk/user/index.php?id=58287'
+brown $')
+* select them all
+* download to'
+  printf ' %s' "${dataFile}"
+brown $'
+* make sure that
+  * there are consecutive `First,Last name` fields
+  * the 5th field contains the email addresses
+'
+
 ##  This is the file downloaded from Moodle with all the enrolled students.
 ##  Its 5th entry is the email address.
 ##  First name and Last name appear consecutively and separated by a comma `,`.
 dataFile=end.csv
+extractHeaders 'First,Last,Email' "${dataFile}" > /dev/null
+if [ "$( awk -F, '(2 <= NR) && !($5 ~ /@/) { print }' "${dataFile}" )" != "" ]; then
+  lcyan $'Does the 5th column of the file' ; printf ' %s ' "${dataFile}"
+  lcyan $'contain the email address?\n'
+fi
 
 ##  Read the main module file and extract group names/membership from it.
 ##  Output looks like `project,Name L`
