@@ -97,7 +97,7 @@ Here is an itemised list of some questions that you may want to address in the o
   so you may want to use smaller imports for your project.
 * A rough splitting of the formalisation effort among group members.
   In particular, try to explain what are subproblems that you can work on independently,
-  so that all group members can, potentially, be work on the project simultaneously
+  so that all group members can, potentially, be working on the project simultaneously
   without duplicating effort.
 
 Finally, the outline is meant to be a plan of what you think that the project will look like **at the time of writing**.
