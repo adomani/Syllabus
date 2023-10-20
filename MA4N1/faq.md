@@ -70,7 +70,7 @@ I view the support classes as group learning and brainstorming sessions.
 
 ##  What should I write in the outline for the project
 
-The outline is a written text that you upload to Moodle.
+The outline is a written text that you upload to Moodle as a group (i.e. one submission per group).
 I expect its length to be roughly 1-2 pages.
 You can choose which format you prefer,
 but producing a .pdf file using LaTeX is probably what is more flexible for writing formulas.
