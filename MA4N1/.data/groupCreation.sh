@@ -66,10 +66,10 @@ extractUngrouped () {
 ##  `generateMoodleGroups` combines the above commands, producing a Moodle-uploadable list:
 ##  it produces the groups that have already formed, and
 ##  a single extra group with all the non-assigned students.
-generateMoodleGroups () { exportGroups | tee >( extractUngrouped - ) ; }
+generateMoodleGroups () { exportGroups | tee >( extractUngrouped - ) | sort -t, -k2 ; }
 
 ##  on-screen printing of the output of `generateMoodleGroups`
-viewGroups () { generateMoodleGroups | sort -t, -k2 | column -s, -t ; }
+viewGroups () { generateMoodleGroups | column -s, -t ; }
 
 ##  `testUniqueNames` may be fully contained in `exportGroups`.
 ##  It checks that the names mentioned in the Projects page uniquely identify the students and that they exist.
