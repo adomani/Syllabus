@@ -188,7 +188,7 @@ Some IMO problems have been formalised: they should all be in <code>Archive/Imo<
 </tr>
 </tbody></table>
 
-###  Orphaned projects
+##  Orphaned projects
 
 * [Hall subgroups](https://en.wikipedia.org/wiki/Hall_subgroup) and their existence in soluble groups
 
@@ -203,7 +203,7 @@ Some IMO problems have been formalised: they should all be in <code>Archive/Imo<
 
 ---
 
-###  Mathematically oriented projects
+##  Mathematically oriented projects
 
 * Sums of squares of a field are a group with zero
 * The non-zero sums of squares of a field form a multiplicative group
@@ -216,7 +216,7 @@ Some IMO problems have been formalised: they should all be in <code>Archive/Imo<
 * Find infinite subsets of the natural numbers containing no 3-term arithmetic progression
 * Your favourite theorem!
 
-###  External repositories and books for inspiration
+##  External repositories and books for inspiration
 
 The `.pdf`s in Keith Conrad's [blurbs page](https://kconrad.math.uconn.edu/blurbs/) contain plenty of ideas.
 
@@ -225,7 +225,7 @@ Two books that contain lots of inspiration are
 * [Counterexamples in Topology](https://link.springer.com/book/10.1007/978-1-4612-6290-9),
 * [Counterexamples in Analysis](https://faculty.ksu.edu.sa/sites/default/files/_olmsted_1.pdf).
 
-###  Computer science oriented projects
+##  Computer science oriented projects
 
 * Automating proofs:
   * write a tactic to dispatch "junk values"
