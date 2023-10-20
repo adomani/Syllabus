@@ -68,6 +68,31 @@ but I expect this to be less and less relevant, once the term progresses and you
 
 I view the support classes as group learning and brainstorming sessions.
 
+##  What should I write in the outline for the project
+
+There are no set rules.
+The outline should give me an idea of what the project is about,
+how you intend to formalise it,
+how you imagine that you will distribute the work among group members.
+Possibly you may also want to comment on how much of what is already in `Mathlib` you expect to use.
+
+Here is an itemised list of some questions that you may want to address in the outline.
+
+* Explain what result you want to formalize.
+  If it is a theorem, explain what proof you intend to formalise,
+  either by writing it down or by referring to a resource that contains a detailed proof.
+* If you have already tried something and it failed or worked, mention successes/failures!
+* If your result is already contained in `Mathlib` (I try to help with this, so do ask!),
+  then think about where you want your formalisation to start.
+  A good way of making this concrete is to give an estimate of what `Mathlib` files you want to import for your project.
+
+  Keep in mind that `import Mathlib.Tactic` is already a fairly "large" import,
+  so you may want to use smaller imports for your project.
+* A rough splitting of the formalisation effort among group members.
+  In particular, try to explain what are subproblems that you can work on independently,
+  so that all group members can, potentially, be work on the project simultaneously
+  without duplicating effort.
+
 ---
 
 [Back to the `Theorem Proving with Lean` webpage](https://adomani.github.io/Syllabus/MA4N1/toc)
