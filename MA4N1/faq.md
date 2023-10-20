@@ -70,10 +70,17 @@ I view the support classes as group learning and brainstorming sessions.
 
 ##  What should I write in the outline for the project
 
-There are no set rules.
-The outline should give me an idea of what the project is about,
-how you intend to formalise it,
-how you imagine that you will distribute the work among group members.
+The outline is a written text that you upload to Moodle.
+I expect its length to be roughly 1-2 pages.
+You can choose which format you prefer,
+but producing a .pdf file using LaTeX is probably what is more flexible for writing formulas.
+
+There are no set rules on the content,
+but the outline should give me a clear idea of
+* what the project is about,
+* how you intend to formalise it,
+* how you imagine that you will distribute the work among group members.
+
 Possibly you may also want to comment on how much of what is already in `Mathlib` you expect to use.
 
 Here is an itemised list of some questions that you may want to address in the outline.
@@ -92,6 +99,10 @@ Here is an itemised list of some questions that you may want to address in the o
   In particular, try to explain what are subproblems that you can work on independently,
   so that all group members can, potentially, be work on the project simultaneously
   without duplicating effort.
+
+Finally, the outline is meant to be a plan of what you think that the project will look like **at the time of writing**.
+If the actual development of the project requires major revisions of the outline,
+that is neither a problem, nor something that will affect your final evaluation!
 
 ---
 
