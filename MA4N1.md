@@ -94,6 +94,15 @@
         </ul>
       </td>
     </tr>
+<!--  ##################  Week 4  ################## -->
+    <tr><th></th><th style="text-align: center">Week 4 (Oct 23-27)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>Definitions in Mathlib <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L04_definitions.lean">L04_definitions.lean</a>.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>

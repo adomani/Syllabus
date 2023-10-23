@@ -94,13 +94,20 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
 <!--  ##################  Week 4  ################## -->
     <tr><th></th><th style="text-align: center">Week 4 (Oct 23-27)</th></tr>
-    <tr><td>TBD</td>
+    <tr><td>Monday</td>
       <td>
         <ul>
-          <li>Real Numbers</li>
+          <li>Definitions in Mathlib <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L04_definitions.lean">L04_definitions.lean</a>.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
+          <li>Instances.</li>
         </ul>
       </td>
     </tr>
