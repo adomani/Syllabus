@@ -16,12 +16,15 @@ scatterTPwL () {
   awk -v home="${HOME}/${matONo}/Warwick/Syllabus/MA4N1/" 'BEGIN {
     mainFileNoExt="toc"
     mainFile=mainFileNoExt".md"
-    genericGHurl="https://adomani.github.io/Syllabus/MA4N1/"
+    genericGHurlNS="https://adomani.github.io/Syllabus/MA4N1"
+    genericGHurl=genericGHurlNS "/"
     ghurl=genericGHurl mainFileNoExt
-    toc="\n\n## Available pages\n\n* [Current syllabus](https://adomani.github.io/Syllabus/MA4N1)"
+    moduleurl="https://github.com/adomani/MA4N1_2023"
+    toc="\n\n## Available pages\n\n* [Current syllabus](" genericGHurlNS ")"
     moodleurl="https://moodle.warwick.ac.uk/course/view.php?id=58287#section-0"
+    gitpodurl="[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#" moduleurl ")"
     tpwlink="\n\n[Back to the `Theorem Proving with Lean` webpage](" ghurl ")"
-    moodlink="\n\n[Back to the Mathlib project for the module](https://github.com/adomani/MA4N1_2023)\n\n[Back to Moodle](" moodleurl ")"
+    moodlink="\n\n[Back to the Mathlib project for the module](" moduleurl ")\n\n" gitpodurl "\n\n[Back to Moodle](" moodleurl ")"
   }
     /^<!-- newFile [^ ]* -->/  { curr=$3; content[curr]=""; fileNames[$3]++; con=1; }
     con == 1 && /^##* / { toc=toc sprintf("\n* [%s](%s%s)", $0, genericGHurl, curr) }

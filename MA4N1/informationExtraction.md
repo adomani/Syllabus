@@ -263,4 +263,6 @@ Hello
 
 [Back to the Mathlib project for the module](https://github.com/adomani/MA4N1_2023)
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/adomani/MA4N1_2023)
+
 [Back to Moodle](https://moodle.warwick.ac.uk/course/view.php?id=58287#section-0)
