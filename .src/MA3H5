@@ -30,11 +30,11 @@ sup
   Smooth maps.
   Question Sheet 2.
 
-_tentative
 -- Week 4
 mon
   Vector fields, bracket.
-  Differential, definition of immersion, submersion, embedding.
+  Differential, beginning of definition of immersion, submersion, embedding.
+_tentative
 wed
   Partitions of unity.
   Beginning of Ehresmann's Theorem.
@@ -45,6 +45,7 @@ sup
 
 -- Week 5
 mon
+  Immersions, submersions, embeddings.
   (Local) 1-parameter subgroups of (local) diffeomorphisms.
   Flows.
   Complete vector fields.

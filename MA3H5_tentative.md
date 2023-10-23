@@ -99,17 +99,17 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
 <!--  ##################  Week 4  ################## -->
     <tr><th></th><th style="text-align: center">Week 4 (Oct 23-27)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
           <li>Vector fields, bracket.</li>
-          <li>Differential, definition of immersion, submersion, embedding.</li>
+          <li>Differential, beginning of definition of immersion, submersion, embedding.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Wednesday</td>
       <td>
         <ul>
@@ -132,6 +132,7 @@
     <tr><td>Monday</td>
       <td>
         <ul>
+          <li>Immersions, submersions, embeddings.</li>
           <li>(Local) 1-parameter subgroups of (local) diffeomorphisms.</li>
           <li>Flows.</li>
           <li>Complete vector fields.</li>
