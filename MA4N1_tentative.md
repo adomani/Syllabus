@@ -90,7 +90,7 @@
     <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>TBA</li>
+          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L03_groups_questions.lean">L03_groups_questions.lean</a></li>
           <li>Groups?</li>
         </ul>
       </td>
@@ -163,4 +163,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA4N1)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Friday, Oct 20 2023</div>
+<div style="text-align: right">Last modified: Monday, Oct 23 2023</div>

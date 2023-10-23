@@ -90,16 +90,16 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
           <li>Sub-manifolds.</li>
           <li>Smooth maps.</li>
-          <li>Question Sheet 1.</li>
+          <li>Question Sheet 2.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
 <!--  ##################  Week 4  ################## -->
     <tr><th></th><th style="text-align: center">Week 4 (Oct 23-27)</th></tr>
     <tr><td>Monday</td>
@@ -286,4 +286,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Wednesday, Oct 18 2023</div>
+<div style="text-align: right">Last modified: Monday, Oct 23 2023</div>

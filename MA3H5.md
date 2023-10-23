@@ -90,9 +90,18 @@
         </ul>
       </td>
     </tr>
+    <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li>Sub-manifolds.</li>
+          <li>Smooth maps.</li>
+          <li>Question Sheet 2.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3H5_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Wednesday, Oct 18 2023</div>
+<div style="text-align: right">Last modified: Monday, Oct 23 2023</div>
