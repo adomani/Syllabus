@@ -103,19 +103,21 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Tuesday</td>
       <td>
         <ul>
-          <li>Instances.</li>
+          <li>Suggestions of topics.</li>
+          <li>Definitions and inductives in Mathlib <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L04_definitions.lean">L04_definitions.lean</a>.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
 <!--  ##################  Week 5  ################## -->
     <tr><th></th><th style="text-align: center">Week 5 (Oct 30-Nov 03)</th></tr>
     <tr><td>TBD</td>
       <td>
         <ul>
+          <li>Instances.</li>
           <li>Inequalities and absolute values</li>
         </ul>
       </td>
@@ -170,4 +172,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA4N1)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Monday, Oct 23 2023</div>
+<div style="text-align: right">Last modified: Tuesday, Oct 24 2023</div>

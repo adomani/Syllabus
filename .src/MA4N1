@@ -28,12 +28,14 @@ sup
 -- Week 4
 mon
   Definitions in Mathlib <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L04_definitions.lean">L04_definitions.lean</a>.
-_tentative
 tue
-  Instances.
+  Suggestions of topics.
+  Definitions and inductives in Mathlib <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L04_definitions.lean">L04_definitions.lean</a>.
 
+_tentative
 -- Week 5
 week
+  Instances.
   Inequalities and absolute values
 
 --  Week 6
