@@ -159,7 +159,7 @@ For material on sums of two squares, look at <a href="https://leanprover-communi
 </tr>
 
 <tr>
-  <td align="center">AnalyticNumberTheory
+  <td align="center">AnalyticNT
   </td>
   <td>
     <ul>

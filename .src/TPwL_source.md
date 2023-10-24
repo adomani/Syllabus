@@ -828,7 +828,7 @@ Group Theory
 Number Theory/Group Theory<br />
 For material on sums of two squares, look at [SumTwoSquares](mlfile#NumberTheory/SumTwoSquares.html).
 ·|
-|·AnalyticNumberTheory
+|·AnalyticNT
 ·|·
 * Gareth Ma
 * Neil Mukerji
