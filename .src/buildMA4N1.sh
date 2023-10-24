@@ -27,11 +27,25 @@ scatterTPwL () {
     moodlink="\n\n[Back to the Mathlib project for the module](" moduleurl ")\n\n" gitpodurl "\n\n[Back to Moodle](" moodleurl ")"
   }
     /^<!-- newFile [^ ]* -->/  { curr=$3; content[curr]=""; fileNames[$3]++; con=1; }
-    con == 1 && /^##* / { toc=toc sprintf("\n* [%s](%s%s)", $0, genericGHurl, curr) }
+    #con == 1 &&
+    /^##* / {
+      linkAnchor=$0
+      hashes=0; indents=""
+      for (i=1; i<=3; i++) { new=gsub(/^#/, "", linkAnchor); hashes+=new ; if (new == 1) indents=indents "  "; }
+      gsub(/  $/, "* ", indents)
+      gsub(/"/, "", linkAnchor)
+      gsub(/\?/, "", linkAnchor)
+      gsub(/`/, "", linkAnchor)
+      gsub(/  */, "-", linkAnchor)
+      gsub(/##*/, "", linkAnchor)
+#      gsub(/\.md$/, ")", linkAnchor)
+      if (hashes <= 2) toc=toc sprintf("\n%s[%s](%s%s#%s)", indents, $0, genericGHurl, curr, tolower(linkAnchor))
+    }
     !/^<!-- newFile [^ ]* -->/ { con=0; content[curr]=content[curr] $0"\n" }
    END {
     gsub(/\[##*  */, "[", toc)
     gsub(/\.md)/, ")", toc)
+    gsub(/\.md#-*/, "#", toc)
     mainFound=0
     for (fil in content) {  ## fil is the name of the file, content[fil] is its content
       if (fil == mainFile) { mainFound++; lk=toc "\n\n---"; printf("* "); } else { lk=tpwlink; printf "  "}
