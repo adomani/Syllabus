@@ -828,12 +828,12 @@ Group Theory
 Number Theory/Group Theory<br />
 For material on sums of two squares, look at [SumTwoSquares](mlfile#NumberTheory/SumTwoSquares.html).
 ·|
-|·Analytic Number Theory
+|·AnalyticNumberTheory
 ·|·
 * Gareth Ma
 * Neil Mukerji
 ·|·
-Combinatorics/Analytic Number Theory?
+Analytic Number Theory
 ·|
 |·CombinatorialIMO
 ·|·

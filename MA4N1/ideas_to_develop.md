@@ -159,7 +159,7 @@ For material on sums of two squares, look at <a href="https://leanprover-communi
 </tr>
 
 <tr>
-  <td align="center">Analytic Number Theory
+  <td align="center">AnalyticNumberTheory
   </td>
   <td>
     <ul>
@@ -168,7 +168,7 @@ For material on sums of two squares, look at <a href="https://leanprover-communi
     </ul>
   </td>
   <td>
-Combinatorics/Analytic Number Theory?
+Analytic Number Theory
   </td>
 </tr>
 
