@@ -159,11 +159,12 @@ For material on sums of two squares, look at <a href="https://leanprover-communi
 </tr>
 
 <tr>
-  <td align="center">TBD
+  <td align="center">Analytic Number Theory
   </td>
   <td>
     <ul>
-      <li>Gareth M</li>
+      <li>Gareth Ma</li>
+      <li>Neil Mukerji</li>
     </ul>
   </td>
   <td>
