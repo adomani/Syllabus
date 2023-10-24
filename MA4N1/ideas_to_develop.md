@@ -42,6 +42,7 @@ Comments and possible Mathlib reference
       <li>Antonina</li>
       <li>Tom C</li>
       <li>Roshan</li>
+      <li>Ben Nichols</li>
     </ul>
   </td>
   <td>

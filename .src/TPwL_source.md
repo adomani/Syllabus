@@ -762,6 +762,7 @@ Comments and possible Mathlib reference
 * Antonina
 * Tom C
 * Roshan
+* Ben Nichols
 ·|·
 * [Sylow's Theorems](wiki#Sylow_theorems) in [Mathlib](docs#Sylow.exists_subgroup_card_pow_prime_le).<br />
 Most of the file [Sylow](mlfile#GroupTheory/Sylow.html) is relevant.
