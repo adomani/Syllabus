@@ -1156,6 +1156,10 @@ Here is an itemised list of some questions that you may want to address in the o
 * Explain what result you want to formalize.
   If it is a theorem, explain what proof you intend to formalise,
   either by writing it down or by referring to a resource that contains a detailed proof.
+* Be fairly explicit about the first steps.
+  Being more explicit, means committing in writing to what you intend to do,
+  but does *not* mean that you will be expected to follow these steps literally.
+  What you mention in the outline can be changed as you make progress and realise what is realistic and what is not.
 * If you have already tried something and it failed or worked, mention successes/failures!
 * If your result is already contained in `Mathlib` (I try to help with this, so do ask!),
   then think about where you want your formalisation to start.
