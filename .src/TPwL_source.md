@@ -1173,5 +1173,6 @@ Here is an itemised list of some questions that you may want to address in the o
   without duplicating effort.
 
 Finally, the outline is meant to be a plan of what you think that the project will look like **at the time of writing**.
+In fact, the outline is marked shortly after you hand it in, and definitely *much earlier* than when you submit your final project.
 If the actual development of the project requires major revisions of the outline,
 that is neither a problem, nor something that will affect your final evaluation!
