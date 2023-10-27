@@ -824,6 +824,8 @@ Group Theory
 ·|·
 * Florence
 * Michael C
+* Costas
+* Henry G
 ·|·
 Number Theory/Group Theory<br />
 For material on sums of two squares, look at [SumTwoSquares](mlfile#NumberTheory/SumTwoSquares.html).

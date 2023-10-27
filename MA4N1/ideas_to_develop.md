@@ -150,6 +150,8 @@ Group Theory
     <ul>
       <li>Florence</li>
       <li>Michael C</li>
+      <li>Costas</li>
+      <li>Henry</li>
     </ul>
   </td>
   <td>
