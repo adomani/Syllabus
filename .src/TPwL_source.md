@@ -904,6 +904,22 @@ For browsing the documentation for Mathlib, go to the excellent [documentation p
 <!-- newFile instructions_for_new_project.md -->
 #  Creating a new project depending on `Mathlib`
 
+Below are instructions on creating a new project using the command-line on Unix-based systems.
+They may also work for MacOS or Windows, assuming that you have access to a terminal.
+
+However, as of very recently (late October 2023), the Lean4 VSCode extension may take care of most of the steps below for you!
+
+* Install VSCode.
+* Within VSCode, install the [`Lean4` extension](https://marketplace.visualstudio.com/items?itemName=leanprover.lean4).
+* (Possibly opening a new file called `<someName>.lean` or simply assigning it `lean` as language): you should see a `∀`` on the top right corner of an open Lean-tab.
+* Clicking on the `∀`, should open a menu, that will allow you to perform several actions:
+  * install lean/lake;
+  * create a new project using Mathlib as a dependency;
+  * download the Mathlib build cache;
+  * ...
+
+As I said, the functionality of the `∀` menu is very new, so the information above is subject to change and may be buggy!
+
 [Source: Mathlib](https://leanprover-community.github.io/install/project.html#creating-a-lean-project)
 
 These instructions should work on Unix-based systems, assuming that you have already installed successfully `Lean` and `lake`.

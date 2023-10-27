@@ -151,7 +151,7 @@ Group Theory
       <li>Florence</li>
       <li>Michael C</li>
       <li>Costas</li>
-      <li>Henry</li>
+      <li>Henry G</li>
     </ul>
   </td>
   <td>
