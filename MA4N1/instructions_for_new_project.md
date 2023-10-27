@@ -1,9 +1,8 @@
 #  Creating a new project depending on `Mathlib`
 
-Below are instructions on creating a new project using the command-line on Unix-based systems.
-They may also work for MacOS or Windows, assuming that you have access to a terminal.
+##  Using the new VSCode `Lean 4` extension
 
-However, as of very recently (late October 2023), the Lean4 VSCode extension may take care of most of the steps below for you!
+As of very recently (late October 2023), the Lean4 VSCode extension may take care of most of the steps below for you!
 
 * Install VSCode.
 * Within VSCode, install the [`Lean4` extension](https://marketplace.visualstudio.com/items?itemName=leanprover.lean4).
@@ -15,6 +14,11 @@ However, as of very recently (late October 2023), the Lean4 VSCode extension may
   * ...
 
 As I said, the functionality of the `∀` menu is very new, so the information above is subject to change and may be buggy!
+
+##  Unix-based installation from the command-line
+
+Below are instructions on creating a new project using the command-line on Unix-based systems.
+They may also work for MacOS or Windows, assuming that you have access to a terminal.
 
 [Source: Mathlib](https://leanprover-community.github.io/install/project.html#creating-a-lean-project)
 

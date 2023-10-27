@@ -71,6 +71,8 @@ In this module, we will only work with Lean 4.
   * [External repositories and books for inspiration](https://adomani.github.io/Syllabus/MA4N1/ideas_to_develop#external-repositories-and-books-for-inspiration)
   * [Computer science oriented projects](https://adomani.github.io/Syllabus/MA4N1/ideas_to_develop#computer-science-oriented-projects)
 * [Creating a new project depending on `Mathlib`](https://adomani.github.io/Syllabus/MA4N1/instructions_for_new_project#creating-a-new-project-depending-on-mathlib)
+  * [Using the new VSCode `Lean 4` extension](https://adomani.github.io/Syllabus/MA4N1/instructions_for_new_project#using-the-new-vscode-lean-4-extension)
+  * [Unix-based installation from the command-line](https://adomani.github.io/Syllabus/MA4N1/instructions_for_new_project#unix-based-installation-from-the-command-line)
 * [Possible weekly topics &ndash; very preliminary](https://adomani.github.io/Syllabus/MA4N1/weekly_topics_tbc#possible-weekly-topics-&ndash;-very-preliminary)
 * [FAQ](https://adomani.github.io/Syllabus/MA4N1/faq#faq)
   * [Asking questions](https://adomani.github.io/Syllabus/MA4N1/faq#asking-questions)
