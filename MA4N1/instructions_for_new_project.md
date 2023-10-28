@@ -2,7 +2,7 @@
 
 ##  Using the new VSCode `Lean 4` extension
 
-As of very recently (late October 2023), the Lean4 VSCode extension may take care of most of the steps that would require using the command-lne!
+As of very recently (late October 2023), the Lean4 VSCode extension may take care of most of the steps that would require using the command-line!
 Here is a sequence of steps that might get Lean installed on your computer and
 a project depending on `Mathlib` running.
 
