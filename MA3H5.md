@@ -116,9 +116,17 @@
         </ul>
       </td>
     </tr>
+    <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li>Review of tangent vectors and vector fields.</li>
+          <li>Example.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3H5_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Thursday, Oct 26 2023</div>
+<div style="text-align: right">Last modified: Saturday, Oct 28 2023</div>

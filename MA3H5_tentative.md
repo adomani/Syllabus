@@ -116,16 +116,15 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>Surgery (Theorem 2.12).</li>
-          <li>Tensor products (continued).</li>
-          <li>Tangent spaces and derivatives.</li>
+          <li>Review of tangent vectors and vector fields.</li>
+          <li>Example.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
 <!--  ##################  Week 5  ################## -->
     <tr><th></th><th style="text-align: center">Week 5 (Oct 30-Nov 03)</th></tr>
     <tr><td>Monday</td>
@@ -286,4 +285,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Thursday, Oct 26 2023</div>
+<div style="text-align: right">Last modified: Saturday, Oct 28 2023</div>
