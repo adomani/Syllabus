@@ -2,11 +2,13 @@
 
 ##  Using the new VSCode `Lean 4` extension
 
-As of very recently (late October 2023), the Lean4 VSCode extension may take care of most of the steps below for you!
+As of very recently (late October 2023), the Lean4 VSCode extension may take care of most of the steps that would require using the command-lne!
+Here is a sequence of steps that might get Lean installed on your computer and
+a project depending on `Mathlib` running.
 
-* Install VSCode.
+* Install [VSCode](https://code.visualstudio.com/).
 * Within VSCode, install the [`Lean4` extension](https://marketplace.visualstudio.com/items?itemName=leanprover.lean4).
-* (Possibly opening a new file called `<someName>.lean` or simply assigning it `lean` as language): you should see a `∀`` on the top right corner of an open Lean-tab.
+* (Possibly opening a new file called `<someName>.lean` or simply assigning it `lean` as language): you should see a `∀` on the top right corner of an open Lean-tab.
 * Clicking on the `∀`, should open a menu, that will allow you to perform several actions:
   * install lean/lake;
   * create a new project using Mathlib as a dependency;
@@ -14,6 +16,8 @@ As of very recently (late October 2023), the Lean4 VSCode extension may take car
   * ...
 
 As I said, the functionality of the `∀` menu is very new, so the information above is subject to change and may be buggy!
+
+If the previous steps did not work for you, continue reading!
 
 ##  Unix-based installation from the command-line
 
