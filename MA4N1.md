@@ -49,7 +49,7 @@
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>Begin <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L01_polynomials.lean">L01_polynomials.lean</a>.</li>
+          <li>Begin <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L01_polynomials.lean">polynomials</a>.</li>
         </ul>
       </td>
     </tr>
@@ -63,7 +63,7 @@
     <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>Solve <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L01_polynomial_questions.lean">L01_polynomial_questions.lean</a>.</li>
+          <li>Solve <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L01_polynomial_questions.lean">polynomial questions</a>.</li>
           <li>The <code><;></code> tactic combinator.</li>
         </ul>
       </td>
@@ -73,8 +73,8 @@
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>More on <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L01_polynomials.lean">L01_polynomials.lean</a>.</li>
-          <li>Go over beginning of <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L02_generalizations.lean">L02_generalizations.lean</a>.</li>
+          <li>More on <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L01_polynomials.lean">polynomials</a>.</li>
+          <li>Go over beginning of <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L02_generalizations.lean">generalizations</a>.</li>
         </ul>
       </td>
     </tr>
@@ -82,15 +82,14 @@
       <td>
         <ul>
           <li>Assign (most) groups.</li>
-          <li>Continue with <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L02_generalizations.lean">L02_generalizations.lean</a>.</li>
+          <li>Continue with <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L02_generalizations.lean">generalizations</a>.</li>
         </ul>
       </td>
     </tr>
     <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L03_groups_questions.lean">L03_groups_questions.lean</a></li>
-          <li>Groups?</li>
+          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L03_groups_questions.lean">groups questions</a>.</li>
         </ul>
       </td>
     </tr>
@@ -99,7 +98,7 @@
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>Definitions in Mathlib <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L04_definitions.lean">L04_definitions.lean</a>.</li>
+          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L04_definitions.lean">Definitions</a> in Mathlib.</li>
         </ul>
       </td>
     </tr>
@@ -107,7 +106,17 @@
       <td>
         <ul>
           <li>Suggestions of topics.</li>
-          <li>Definitions and inductives in Mathlib <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L04_definitions.lean">L04_definitions.lean</a>.</li>
+          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L04_definitions.lean">Definitions</a> and inductives in Mathlib.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li>Two sets of exercises, covering</li>
+          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L05_graphs_questions.lean">graphs questions</a></li>
+          <li>and</li>
+          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L05_limits_questions.lean">limits questions</a></li>
         </ul>
       </td>
     </tr>
@@ -116,4 +125,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA4N1_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Oct 24 2023</div>
+<div style="text-align: right">Last modified: Saturday, Oct 28 2023</div>
