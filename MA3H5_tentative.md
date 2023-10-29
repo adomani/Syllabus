@@ -93,9 +93,7 @@
     <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>Sub-manifolds.</li>
-          <li>Smooth maps.</li>
-          <li>Question Sheet 2.</li>
+          <li>Sub-manifolds, Inverse function theorem, PS1 P2-3.</li>
         </ul>
       </td>
     </tr>
@@ -148,8 +146,7 @@
     <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>Derivatives (continued) in charts and abstractly.</li>
-          <li>Problem Sheet 2.</li>
+          <li>PS2, P1-3.</li>
         </ul>
       </td>
     </tr>
@@ -172,8 +169,7 @@
     <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>Associativity of tensor products.</li>
-          <li>Wedge products and dimension of $\Lambda^k U$.</li>
+          <li>Partitions of unity, PS2 P4.</li>
         </ul>
       </td>
     </tr>
@@ -285,4 +281,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Saturday, Oct 28 2023</div>
+<div style="text-align: right">Last modified: Sunday, Oct 29 2023</div>

@@ -93,9 +93,7 @@
     <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>Sub-manifolds.</li>
-          <li>Smooth maps.</li>
-          <li>Question Sheet 2.</li>
+          <li>Sub-manifolds, Inverse function theorem, PS1 P2-3.</li>
         </ul>
       </td>
     </tr>
@@ -129,4 +127,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3H5_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Saturday, Oct 28 2023</div>
+<div style="text-align: right">Last modified: Sunday, Oct 29 2023</div>
