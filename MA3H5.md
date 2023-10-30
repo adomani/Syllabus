@@ -122,9 +122,19 @@
         </ul>
       </td>
     </tr>
+<!--  ##################  Week 5  ################## -->
+    <tr><th></th><th style="text-align: center">Week 5 (Oct 30-Nov 03)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>Immersions, submersions, embeddings.</li>
+          <li>(Local) 1-parameter subgroups of (local) diffeomorphisms.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3H5_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Sunday, Oct 29 2023</div>
+<div style="text-align: right">Last modified: Monday, Oct 30 2023</div>

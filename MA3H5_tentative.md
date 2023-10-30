@@ -122,7 +122,6 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
 <!--  ##################  Week 5  ################## -->
     <tr><th></th><th style="text-align: center">Week 5 (Oct 30-Nov 03)</th></tr>
     <tr><td>Monday</td>
@@ -130,15 +129,16 @@
         <ul>
           <li>Immersions, submersions, embeddings.</li>
           <li>(Local) 1-parameter subgroups of (local) diffeomorphisms.</li>
-          <li>Flows.</li>
-          <li>Complete vector fields.</li>
-          <li>Cotangent space (definition).</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Wednesday</td>
       <td>
         <ul>
+          <li>Flows.</li>
+          <li>Complete vector fields.</li>
+          <li>Cotangent space (definition).</li>
           <li>Ehresmann's Theorem.</li>
         </ul>
       </td>
@@ -281,4 +281,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Sunday, Oct 29 2023</div>
+<div style="text-align: right">Last modified: Monday, Oct 30 2023</div>

@@ -38,15 +38,15 @@ sup
   Review of tangent vectors and vector fields.
   Example.
 
-_tentative
 -- Week 5
 mon
   Immersions, submersions, embeddings.
   (Local) 1-parameter subgroups of (local) diffeomorphisms.
+_tentative
+wed
   Flows.
   Complete vector fields.
   Cotangent space (definition).
-wed
   Ehresmann's Theorem.
 sup
   PS2, P1-3.
