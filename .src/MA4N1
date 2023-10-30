@@ -36,10 +36,11 @@ sup
   and
   <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L05_limits_questions.lean">limits questions</a>
 
-_tentative
 -- Week 5
-week
-  Instances.
+mon
+  <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L06_typeclasses.lean">Typeclasses</a>.
+_tentative
+tue
   Inequalities and absolute values
 
 --  Week 6

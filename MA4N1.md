@@ -120,9 +120,18 @@
         </ul>
       </td>
     </tr>
+<!--  ##################  Week 5  ################## -->
+    <tr><th></th><th style="text-align: center">Week 5 (Oct 30-Nov 03)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L06_typeclasses.lean">Typeclasses</a>.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA4N1_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Saturday, Oct 28 2023</div>
+<div style="text-align: right">Last modified: Monday, Oct 30 2023</div>
