@@ -39,12 +39,16 @@ sup
 -- Week 5
 mon
   <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L06_typeclasses.lean">Typeclasses</a>.
-_tentative
 tue
-  Inequalities and absolute values
+  <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L07_calculations.lean">Calculations</a>.
+
+_tentative
+sup
+  Structures, classes and calculations.
 
 --  Week 6
 week
+  Inequalities and absolute values
   Breather week.
 
 --  Week 7
