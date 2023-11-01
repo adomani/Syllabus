@@ -132,17 +132,15 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Wednesday</td>
       <td>
         <ul>
           <li>Flows.</li>
           <li>Complete vector fields.</li>
-          <li>Cotangent space (definition).</li>
-          <li>Ehresmann's Theorem.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
@@ -155,6 +153,7 @@
     <tr><td>Monday</td>
       <td>
         <ul>
+          <li>Ehresmann's Theorem.</li>
           <li>Complements and Q&A during breather week.</li>
         </ul>
       </td>
@@ -178,6 +177,7 @@
     <tr><td>Monday</td>
       <td>
         <ul>
+          <li>Cotangent space (definition).</li>
           <li>Smooth 1-forms, total differential, cotangent bundle.</li>
           <li>Vector bundles.</li>
           <li>Differential $r$-forms and pull-backs.</li>
@@ -281,4 +281,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Monday, Oct 30 2023</div>
+<div style="text-align: right">Last modified: Wednesday, Nov 01 2023</div>

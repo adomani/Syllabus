@@ -42,17 +42,16 @@ sup
 mon
   Immersions, submersions, embeddings.
   (Local) 1-parameter subgroups of (local) diffeomorphisms.
-_tentative
 wed
   Flows.
   Complete vector fields.
-  Cotangent space (definition).
-  Ehresmann's Theorem.
+_tentative
 sup
   PS2, P1-3.
 
 --  Week 6
 mon
+  Ehresmann's Theorem.
   Complements and Q&A during breather week.
 wed
   Complements and Q&A during breather week.
@@ -61,6 +60,7 @@ sup
 
 --  Week 7
 mon
+  Cotangent space (definition).
   Smooth 1-forms, total differential, cotangent bundle.
   Vector bundles.
   Differential $r$-forms and pull-backs.

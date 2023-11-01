@@ -132,9 +132,17 @@
         </ul>
       </td>
     </tr>
+    <tr><td>Wednesday</td>
+      <td>
+        <ul>
+          <li>Flows.</li>
+          <li>Complete vector fields.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3H5_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Monday, Oct 30 2023</div>
+<div style="text-align: right">Last modified: Wednesday, Nov 01 2023</div>
