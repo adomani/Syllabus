@@ -136,20 +136,21 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>Structures, classes and calculations.</li>
+          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L08_Ri_hard.lean">\( R[i] \) is a field</a>.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
 <!--  ##################  Week 6  ################## -->
     <tr><th></th><th style="text-align: center">Week 6 (Nov 06-10)</th></tr>
     <tr><td>TBD</td>
       <td>
         <ul>
           <li>Inequalities and absolute values</li>
+          <li>Structures, classes and calculations.</li>
           <li>Breather week.</li>
         </ul>
       </td>
@@ -195,4 +196,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA4N1)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Oct 31 2023</div>
+<div style="text-align: right">Last modified: Monday, Nov 06 2023</div>
