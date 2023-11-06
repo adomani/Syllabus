@@ -143,18 +143,19 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
 <!--  ##################  Week 6  ################## -->
     <tr><th></th><th style="text-align: center">Week 6 (Nov 06-10)</th></tr>
-    <tr><td>TBD</td>
+    <tr><td>Monday</td>
       <td>
         <ul>
-          <li>Inequalities and absolute values</li>
-          <li>Structures, classes and calculations.</li>
           <li>Breather week.</li>
+          <li>Using the fields of a `structure`.</li>
+          <li>`noncomputable`.</li>
+          <li>`Decidable`.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
 <!--  ##################  Week 7  ################## -->
     <tr><th></th><th style="text-align: center">Week 7 (Nov 13-17)</th></tr>
     <tr><td>TBD</td>

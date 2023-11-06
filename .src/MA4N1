@@ -44,13 +44,14 @@ tue
 sup
   <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L08_Ri_hard.lean">R[i] is a field</a>.
 
-_tentative
 --  Week 6
-week
-  Inequalities and absolute values
-  Structures, classes and calculations.
+mon
   Breather week.
+  Using the fields of a `structure`.
+  `noncomputable`.
+  `Decidable`.
 
+_tentative
 --  Week 7
 week
   Formalising limits
@@ -66,3 +67,9 @@ week
 --  Week 10
 week
   TBA
+
+
+###  Further topics
+
+Inequalities and absolute values
+Structures, classes and calculations.
