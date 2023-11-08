@@ -161,7 +161,7 @@
       <td>
         <ul>
           <li>Go over definition of tensor, exterior and symmetric algebra.</li>
-          <li>Informal motivation for \( k \)-forms.</li>
+          <li>Informal motivation for $k$-forms.</li>
           <li>Informal motivation for vector bundles.</li>
           <li>Go over some parts of an exam question.</li>
           <li>Complements and Q&A during breather week.</li>
