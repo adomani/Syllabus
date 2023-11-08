@@ -877,8 +877,8 @@ Some IMO problems have been formalised: they should all be in `Archive/Imo`
 * [Ramsey Theory](https://en.wikipedia.org/wiki/Ramsey_theory)
 * Probability theory and game theory
 * Matrix analysis and QR decompositions
-* [The Basel problem](wiki#Basel_problem) in [Mathlib](docs#hasSum_zeta_two)
-* For material on sums of two squares, look at [SumTwoSquares](mlfile#NumberTheory/SumTwoSquares.html).
+* [The Basel problem](https://en.wikipedia.org/wiki/Basel_problem) in [Mathlib](https://leanprover-community.github.io/mathlib4_docs/find/?pattern=hasSum_zeta_two#doc)
+* For material on sums of two squares, look at [SumTwoSquares](https://leanprover-community.github.io/mathlib4_docs/Mathlib/NumberTheory/SumTwoSquares.html).
 
 ---
 
