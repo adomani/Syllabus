@@ -157,14 +157,18 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Wednesday</td>
       <td>
         <ul>
+          <li>Go over definition of tensor, exterior and symmetric algebra.</li>
+          <li>Informal motivation for \( k \)-forms.</li>
+          <li>Informal motivation for vector bundles.</li>
+          <li>Go over some parts of an exam question.</li>
           <li>Complements and Q&A during breather week.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
@@ -281,4 +285,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Monday, Nov 06 2023</div>
+<div style="text-align: right">Last modified: Wednesday, Nov 08 2023</div>
