@@ -50,8 +50,14 @@ mon
   Using the fields of a `structure`.
   `noncomputable`.
   `Decidable`.
-
+tue
+  Breather week.
+  More on `Decidable`.
+  Discussion on sub-structures in `Mathlib`.
 _tentative
+sup
+  TBA
+
 --  Week 7
 week
   Formalising limits

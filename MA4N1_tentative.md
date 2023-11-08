@@ -155,7 +155,23 @@
         </ul>
       </td>
     </tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
+          <li>Breather week.</li>
+          <li>More on `Decidable`.</li>
+          <li>Discussion on sub-structures in `Mathlib`.</li>
+        </ul>
+      </td>
+    </tr>
     <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
+    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li>TBA</li>
+        </ul>
+      </td>
+    </tr>
 <!--  ##################  Week 7  ################## -->
     <tr><th></th><th style="text-align: center">Week 7 (Nov 13-17)</th></tr>
     <tr><td>TBD</td>
@@ -197,4 +213,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA4N1)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Monday, Nov 06 2023</div>
+<div style="text-align: right">Last modified: Wednesday, Nov 08 2023</div>

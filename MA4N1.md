@@ -155,9 +155,18 @@
         </ul>
       </td>
     </tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
+          <li>Breather week.</li>
+          <li>More on `Decidable`.</li>
+          <li>Discussion on sub-structures in `Mathlib`.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA4N1_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Monday, Nov 06 2023</div>
+<div style="text-align: right">Last modified: Wednesday, Nov 08 2023</div>
