@@ -143,7 +143,7 @@
     <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>PS2, P1-3(?).</li>
+          <li>Problem Sheet 2, Problems 1 and 3.</li>
         </ul>
       </td>
     </tr>
@@ -285,4 +285,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Wednesday, Nov 08 2023</div>
+<div style="text-align: right">Last modified: Thursday, Nov 09 2023</div>
