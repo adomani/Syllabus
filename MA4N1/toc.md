@@ -82,6 +82,7 @@ In this module, we will only work with Lean 4.
   * [When should I figure out what my project is](https://adomani.github.io/Syllabus/MA4N1/faq#when-should-i-figure-out-what-my-project-is)
   * [What happens in support classes](https://adomani.github.io/Syllabus/MA4N1/faq#what-happens-in-support-classes)
   * [What should I write in the outline for the project](https://adomani.github.io/Syllabus/MA4N1/faq#what-should-i-write-in-the-outline-for-the-project)
+  * [What is the video presentation](https://adomani.github.io/Syllabus/MA4N1/faq#what-is-the-video-presentation)
 
 ---
 

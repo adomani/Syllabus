@@ -109,6 +109,37 @@ In fact, the outline is marked shortly after you hand it in, and definitely *muc
 If the actual development of the project requires major revisions of the outline,
 that is neither a problem, nor something that will affect your final evaluation!
 
+##  What is the video presentation
+
+The video presentation is a short video of at most 4 minutes.
+
+In the video, you should describe what you personally contributed to the formalisation project on which you are working.
+Of course, everyone will probably contribute on several different aspects.
+Your contribution will likely also change over time.
+However, try to be specific, isolate where you feel that you really made a difference, and describe your contribution *at the time of submission*!
+
+Due to the nature of formalisation, contributions come in many forms and the final result is a coherent mix of combined efforts.
+Below are a few examples, but these are just some ideas!
+
+* **Container infrastructure**: set up a working project, provide and manage tools for dealing with version control, planning, development and deployment.
+* **Focus**: find a suitable topic, adjust to constraints and strengths of group members, re-orient if needed.
+* **Mathematics**: lay out a careful mathematical proof to simplify the actual formalisation.
+* **Exploration**: try out various possible approaches, before settling on "the one that works".
+* **Divide-and-conquer**: produce a network of `sorry`ed out *statements* that, together, form the initial canvas for the formalisation.
+* **Fill in `sorry`s**: writing proofs in Lean to prove statements, highlighting which ones came easily, which ones required more effort.
+* **Formalisation infrastructure**: maintain and streamline of existing proofs, develop ergonomical API lemmas, code review, speed-ups.
+
+As I said, the list above is just a sample of possible contributions.
+You may very well feel that you helped your group in a different way: the video presentation is your chance of explaining what it is that you did!
+
+The final success of a project results from a mix of different types of contributions.
+In assessing your contribution, make sure that you explain which specific questions you were facing and how your work addressed and (hopefully!) solved the issue.
+
+Do mention how effective your solution has been and whether you expect it to require further "maintenance" or it settled completely the problem.
+Be honest about it: being unsuccessful at solving a problem is a very common situation!
+You will be assessed on your attempt, regardless of whether you completed it or not.
+Partially failing at solving a difficult problem, may still count as a great success!
+
 ---
 
 [Back to the `Theorem Proving with Lean` webpage](https://adomani.github.io/Syllabus/MA4N1/toc)
