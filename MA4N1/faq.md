@@ -127,7 +127,7 @@ Below are a few examples, but these are just some ideas!
 * **Exploration**: try out various possible approaches, before settling on "the one that works".
 * **Divide-and-conquer**: produce a network of `sorry`ed out *statements* that, together, form the initial canvas for the formalisation.
 * **Fill in `sorry`s**: writing proofs in Lean to prove statements, highlighting which ones came easily, which ones required more effort.
-* **Formalisation infrastructure**: maintain and streamline of existing proofs, develop ergonomical API lemmas, code review, speed-ups.
+* **Formalisation infrastructure**: maintain and streamline existing proofs, develop ergonomical API lemmas, code review, speed-ups.
 
 As I said, the list above is just a sample of possible contributions.
 You may very well feel that you helped your group in a different way: the video presentation is your chance of explaining what it is that you did!
