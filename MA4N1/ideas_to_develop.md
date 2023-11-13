@@ -28,7 +28,7 @@ Comments and possible Mathlib reference
     <ul>
       <li>Edward Watine</li>
       <li>Juan Antonio Montalb&aacute;n Vidal</li>
-      <li>Jaime Dı́az-Trechuelo S&aacute;nchez-Molinı́</li>
+      <li>Jaime D&iacute;az-Trechuelo S&aacute;nchez-Molin&iacute;</li>
       <li>Josh Rydell</li>
     </ul>
   </td>
@@ -203,7 +203,7 @@ Analytic Number Theory
   </td>
   <td>
     <ul>
-      <li>Doğukan E. Türköz</li>
+      <li>Do&gbreve;ukan E. T&uuml;rk&ouml;z</li>
       <li>Kit Liu</li>
       <li>Musab Guma'a</li>
     </ul>

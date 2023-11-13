@@ -755,7 +755,7 @@ Comments and possible Mathlib reference
 ·|·
 * Edward Watine
 * Juan Antonio Montalbán Vidal
-* Jaime Dı́az-Trechuelo Sánchez-Molinı́
+* Jaime Díaz-Trechuelo Sánchez-Moliní
 * Josh Rydell
 ·|·
 [Cauchy's Integral Formula](wiki#Cauchy%27s_integral_formula) in [Mathlib](docs#Complex.two_pi_I_inv_smul_circleIntegral_sub_inv_smul_of_differentiable_on_off_countable)
