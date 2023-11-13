@@ -132,7 +132,8 @@
     <tr><td>Tuesday</td>
       <td>
         <ul>
-          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L07_calculations.lean">Calculations</a>.</li>
+          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L07_calculations.lean">Calculations</a>:</li>
+          <li>`calc, conv, gcongr`.</li>
         </ul>
       </td>
     </tr>
@@ -213,4 +214,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA4N1)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Wednesday, Nov 08 2023</div>
+<div style="text-align: right">Last modified: Monday, Nov 13 2023</div>
