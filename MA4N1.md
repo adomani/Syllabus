@@ -114,8 +114,7 @@
       <td>
         <ul>
           <li>Two sets of exercises, covering</li>
-          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L05_graphs_questions.lean">graphs questions</a></li>
-          <li>and</li>
+          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L05_graphs_questions.lean">graphs questions</a>, and</li>
           <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L05_limits_questions.lean">limits questions</a></li>
         </ul>
       </td>
