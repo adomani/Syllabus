@@ -841,7 +841,7 @@ Lagrange’s Theorem
 * Henry Gallagher
 * Costas Bowgen
 ·|·
-* [Lagrange's Theorem](wiki#Lagrange%27s_theorem_(group_theory)) in [Mathlib](docs#Subgroup.card_subgroup_dvd_card)
+[Lagrange's Theorem](wiki#Lagrange%27s_theorem_(group_theory)) in [Mathlib](docs#Subgroup.card_subgroup_dvd_card)
 ·|
 |·AnalyticNT
 ·|·
