@@ -62,14 +62,16 @@ sup
   Partitions of unity, PS2 P4.
   Tensor products and multilinear maps.
 
-_tentative
 --  Week 7
 mon
   Cotangent space (definition).
   Smooth 1-forms, total differential, cotangent bundle.
+  Digression on tangent bundle to $S^2$.
+  Vector bundles.
+_tentative
+wed
   Vector bundles.
   Differential $r$-forms and pull-backs.
-wed
   Integrals and Orientability.
 sup
   Orientability and examples.

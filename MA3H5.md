@@ -176,9 +176,21 @@
         </ul>
       </td>
     </tr>
+<!--  ##################  Week 7  ################## -->
+    <tr><th></th><th style="text-align: center">Week 7 (Nov 13-17)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>Cotangent space (definition).</li>
+          <li>Smooth 1-forms, total differential, cotangent bundle.</li>
+          <li>Digression on tangent bundle to $S^2$.</li>
+          <li>Vector bundles.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3H5_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Thursday, Nov 09 2023</div>
+<div style="text-align: right">Last modified: Monday, Nov 13 2023</div>
