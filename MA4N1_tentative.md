@@ -165,20 +165,35 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L10_div_induction.lean">Induction on divisors of a natural number</a>.</li>
+        </ul>
+      </td>
+    </tr>
+<!--  ##################  Week 7  ################## -->
+    <tr><th></th><th style="text-align: center">Week 7 (Nov 13-17)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>`set_option autoImplicit false/true`.</li>
+          <li>`aesop` and `rcases` using the <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L10_div_induction.lean">div_induction</a> file.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
+    <tr><td>Tuesday</td>
       <td>
         <ul>
           <li>TBA</li>
         </ul>
       </td>
     </tr>
-<!--  ##################  Week 7  ################## -->
-    <tr><th></th><th style="text-align: center">Week 7 (Nov 13-17)</th></tr>
-    <tr><td>TBD</td>
+    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>Formalising limits</li>
+          <li>TBA</li>
         </ul>
       </td>
     </tr>

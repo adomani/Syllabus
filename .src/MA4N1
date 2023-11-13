@@ -55,13 +55,18 @@ tue
   Breather week.
   More on `Decidable`.
   Discussion on sub-structures in `Mathlib`.
-_tentative
 sup
-  TBA
+  <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L10_div_induction.lean">Induction on divisors of a natural number</a>.
 
 --  Week 7
-week
-  Formalising limits
+mon
+  `set_option autoImplicit false/true`.
+  `aesop` and `rcases` using the <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L10_div_induction.lean">div_induction</a> file.
+_tentative
+tue
+  TBA
+sup
+  TBA
 
 --  Week 8
 week

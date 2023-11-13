@@ -165,6 +165,23 @@
         </ul>
       </td>
     </tr>
+    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L10_div_induction.lean">Induction on divisors of a natural number</a>.</li>
+        </ul>
+      </td>
+    </tr>
+<!--  ##################  Week 7  ################## -->
+    <tr><th></th><th style="text-align: center">Week 7 (Nov 13-17)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>`set_option autoImplicit false/true`.</li>
+          <li>`aesop` and `rcases` using the <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L10_div_induction.lean">div_induction</a> file.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
