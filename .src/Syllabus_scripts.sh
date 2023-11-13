@@ -170,6 +170,7 @@ ptable () {
       s|"mlfile#\([^"]*\)"|"https://leanprover-community.github.io/mathlib4_docs/Mathlib/\1"|g
       s=^\* \(.*\)=    <ul>\n      <li>\1</li>\n    </ul>=
     }' |
+    sed "$( htmllify )" |
     sed -z 's=\n    </ul>\n    <ul>\n=\n=g'
 }
 

@@ -27,8 +27,8 @@ Comments and possible Mathlib reference
   <td>
     <ul>
       <li>Edward Watine</li>
-      <li>Juan Antonio Montalbán Vidal</li>
-      <li>Jaime Dı́az-Trechuelo Sánchez-Molinı́</li>
+      <li>Juan Antonio Montalb&aacute;n Vidal</li>
+      <li>Jaime Dı́az-Trechuelo S&aacute;nchez-Molinı́</li>
       <li>Josh Rydell</li>
     </ul>
   </td>
@@ -105,7 +105,7 @@ Ostrowski’s Theorem
   <td>
     <ul>
       <li>Tommaso Faustini</li>
-      <li>Mayo Mayo García</li>
+      <li>Mayo Mayo Garc&iacute;a</li>
     </ul>
   </td>
   <td>
