@@ -188,16 +188,16 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Wednesday</td>
       <td>
         <ul>
           <li>Vector bundles.</li>
-          <li>Differential $r$-forms and pull-backs.</li>
-          <li>Integrals and Orientability.</li>
+          <li>Cocycles.</li>
+          <li>Differential $r$-forms.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
@@ -211,6 +211,8 @@
     <tr><td>Monday</td>
       <td>
         <ul>
+          <li>Pull-backs of differential forms.</li>
+          <li>Integrals and Orientability.</li>
           <li>Exterior differentiation.</li>
           <li>Examples in $\mathbb{R}^3$.</li>
           <li>Stokes' Theorem for manifolds without boundary.</li>
@@ -288,4 +290,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Monday, Nov 13 2023</div>
+<div style="text-align: right">Last modified: Wednesday, Nov 15 2023</div>

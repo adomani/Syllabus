@@ -68,17 +68,19 @@ mon
   Smooth 1-forms, total differential, cotangent bundle.
   Digression on tangent bundle to $S^2$.
   Vector bundles.
-_tentative
 wed
   Vector bundles.
-  Differential $r$-forms and pull-backs.
-  Integrals and Orientability.
+  Cocycles.
+  Differential $r$-forms.
+_tentative
 sup
   Orientability and examples.
   Pull-back and differentials.
 
 --  Week 8
 mon
+  Pull-backs of differential forms.
+  Integrals and Orientability.
   Exterior differentiation.
   Examples in $\mathbb{R}^3$.
   Stokes' Theorem for manifolds without boundary.
