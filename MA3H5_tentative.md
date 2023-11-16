@@ -197,15 +197,15 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>Orientability and examples.</li>
-          <li>Pull-back and differentials.</li>
+          <li>"Baby Pre-image theorem".</li>
+          <li>Tensor products and exterior squares.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
 <!--  ##################  Week 8  ################## -->
     <tr><th></th><th style="text-align: center">Week 8 (Nov 20-24)</th></tr>
     <tr><td>Monday</td>
@@ -230,7 +230,8 @@
     <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>TBA</li>
+          <li>Orientability and examples.</li>
+          <li>Pull-back and differentials.</li>
         </ul>
       </td>
     </tr>
@@ -290,4 +291,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Wednesday, Nov 15 2023</div>
+<div style="text-align: right">Last modified: Thursday, Nov 16 2023</div>

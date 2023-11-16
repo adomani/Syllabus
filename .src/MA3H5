@@ -72,11 +72,11 @@ wed
   Vector bundles.
   Cocycles.
   Differential $r$-forms.
-_tentative
 sup
-  Orientability and examples.
-  Pull-back and differentials.
+  "Baby Pre-image theorem".
+  Tensor products and exterior squares.
 
+_tentative
 --  Week 8
 mon
   Pull-backs of differential forms.
@@ -88,7 +88,8 @@ wed
   Manifolds with boundary.
   Stokes' Theorem.
 sup
-  TBA
+  Orientability and examples.
+  Pull-back and differentials.
 
 --  Week 9
 mon
