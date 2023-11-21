@@ -191,7 +191,7 @@
     <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>TBA</li>
+          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L13_deriv_pathologies_questions.lean">deriv-pathologies</a>.</li>
         </ul>
       </td>
     </tr>
@@ -202,6 +202,13 @@
         <ul>
           <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L14_in_implicit_explicit.lean">Some syntax</a>: `variable/open ... in ...`, explicit vs implicit arguments.</li>
           <li>Beginning of <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L15_setoids.lean">setoids</a>.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
+          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L15_setoids.lean">Setoids</a>.</li>
         </ul>
       </td>
     </tr>

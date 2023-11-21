@@ -63,17 +63,17 @@ mon
 tue
   <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L12_Pathologies.lean">Pathologies</a>: `Nat.sub, Nat.div, Div, deriv`
 sup
-  TBA
+  <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L13_deriv_pathologies_questions.lean">deriv-pathologies</a>.
 
 --  Week 8
 mon
   <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L14_in_implicit_explicit.lean">Some syntax</a>: `variable/open ... in ...`, explicit vs implicit arguments.
   Beginning of <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L15_setoids.lean">setoids</a>.
-_tentative
 tue
   <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L15_setoids.lean">Setoids</a>.
+_tentative
 sup
-  TBA
+  <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L16_setoids_week_end_questions.lean">Week-end setoids</a>.
 --  Week 9
 week
   Sets
