@@ -225,7 +225,7 @@
     <tr><td>TBD</td>
       <td>
         <ul>
-          <li>Sets</li>
+          <li>Finiteness?</li>
         </ul>
       </td>
     </tr>
@@ -234,7 +234,7 @@
     <tr><td>TBD</td>
       <td>
         <ul>
-          <li>TBA</li>
+          <li><a href="https://adventofcode.com/">Advent of Code</a>?</li>
         </ul>
       </td>
     </tr>
