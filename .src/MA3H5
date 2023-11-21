@@ -76,23 +76,23 @@ sup
   "Baby Pre-image theorem".
   Tensor products and exterior squares.
 
-_tentative
 --  Week 8
 mon
   Pull-backs of differential forms.
   Integrals and Orientability.
+_tentative
+wed
   Exterior differentiation.
   Examples in $\mathbb{R}^3$.
   Stokes' Theorem for manifolds without boundary.
-wed
   Manifolds with boundary.
-  Stokes' Theorem.
 sup
   Orientability and examples.
   Pull-back and differentials.
 
 --  Week 9
 mon
+  Stokes' Theorem.
   Brouwer’s fixed point theorem.
   Closed and exact forms, de Rham cohomology, formal properties (Theorem 6.2).
   de Rham cohomology of $\mathbb{R}^n$.

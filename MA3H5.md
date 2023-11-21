@@ -205,9 +205,19 @@
         </ul>
       </td>
     </tr>
+<!--  ##################  Week 8  ################## -->
+    <tr><th></th><th style="text-align: center">Week 8 (Nov 20-24)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>Pull-backs of differential forms.</li>
+          <li>Integrals and Orientability.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3H5_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Thursday, Nov 16 2023</div>
+<div style="text-align: right">Last modified: Tuesday, Nov 21 2023</div>

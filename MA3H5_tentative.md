@@ -205,7 +205,6 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
 <!--  ##################  Week 8  ################## -->
     <tr><th></th><th style="text-align: center">Week 8 (Nov 20-24)</th></tr>
     <tr><td>Monday</td>
@@ -213,17 +212,17 @@
         <ul>
           <li>Pull-backs of differential forms.</li>
           <li>Integrals and Orientability.</li>
-          <li>Exterior differentiation.</li>
-          <li>Examples in $\mathbb{R}^3$.</li>
-          <li>Stokes' Theorem for manifolds without boundary.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Wednesday</td>
       <td>
         <ul>
+          <li>Exterior differentiation.</li>
+          <li>Examples in $\mathbb{R}^3$.</li>
+          <li>Stokes' Theorem for manifolds without boundary.</li>
           <li>Manifolds with boundary.</li>
-          <li>Stokes' Theorem.</li>
         </ul>
       </td>
     </tr>
@@ -240,6 +239,7 @@
     <tr><td>Monday</td>
       <td>
         <ul>
+          <li>Stokes' Theorem.</li>
           <li>Brouwer’s fixed point theorem.</li>
           <li>Closed and exact forms, de Rham cohomology, formal properties (Theorem 6.2).</li>
           <li>de Rham cohomology of $\mathbb{R}^n$.</li>
@@ -291,4 +291,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Thursday, Nov 16 2023</div>
+<div style="text-align: right">Last modified: Tuesday, Nov 21 2023</div>
