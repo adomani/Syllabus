@@ -215,17 +215,14 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Wednesday</td>
       <td>
         <ul>
           <li>Exterior differentiation.</li>
-          <li>Examples in $\mathbb{R}^3$.</li>
-          <li>Stokes' Theorem for manifolds without boundary.</li>
-          <li>Manifolds with boundary.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
@@ -239,17 +236,17 @@
     <tr><td>Monday</td>
       <td>
         <ul>
+          <li>Examples in $\mathbb{R}^3$.</li>
+          <li>Stokes' Theorem for manifolds without boundary.</li>
+          <li>Manifolds with boundary.</li>
           <li>Stokes' Theorem.</li>
-          <li>Brouwer’s fixed point theorem.</li>
-          <li>Closed and exact forms, de Rham cohomology, formal properties (Theorem 6.2).</li>
-          <li>de Rham cohomology of $\mathbb{R}^n$.</li>
         </ul>
       </td>
     </tr>
     <tr><td>Wednesday</td>
       <td>
         <ul>
-          <li>de Rham cohomology of $S^n$.</li>
+          <li>Brouwer’s fixed point theorem.</li>
         </ul>
       </td>
     </tr>
@@ -267,7 +264,6 @@
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>Top cohomology of compact, connected orientable manifolds is nonzero.</li>
           <li>Q&A: M&ouml;bius band, connected sums, cohomology, hyperbolic plane, surfaces,...</li>
         </ul>
       </td>
@@ -275,7 +271,7 @@
     <tr><td>Wednesday</td>
       <td>
         <ul>
-          <li>Examples of surgeries (non-examinable).</li>
+          <li>TBA</li>
         </ul>
       </td>
     </tr>
@@ -291,4 +287,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Nov 21 2023</div>
+<div style="text-align: right">Last modified: Wednesday, Nov 22 2023</div>

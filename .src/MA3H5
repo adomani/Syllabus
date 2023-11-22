@@ -80,24 +80,21 @@ sup
 mon
   Pull-backs of differential forms.
   Integrals and Orientability.
-_tentative
 wed
   Exterior differentiation.
-  Examples in $\mathbb{R}^3$.
-  Stokes' Theorem for manifolds without boundary.
-  Manifolds with boundary.
+_tentative
 sup
   Orientability and examples.
   Pull-back and differentials.
 
 --  Week 9
 mon
+  Examples in $\mathbb{R}^3$.
+  Stokes' Theorem for manifolds without boundary.
+  Manifolds with boundary.
   Stokes' Theorem.
-  Brouwer’s fixed point theorem.
-  Closed and exact forms, de Rham cohomology, formal properties (Theorem 6.2).
-  de Rham cohomology of $\mathbb{R}^n$.
 wed
-  de Rham cohomology of $S^n$.
+  Brouwer’s fixed point theorem.
 sup
   Problem Sheet 4, Questions 1-2.
   Classical notation for integrals.
@@ -105,9 +102,8 @@ sup
 
 --  Week 10
 mon
-  Top cohomology of compact, connected orientable manifolds is nonzero.
   Q&A: M&ouml;bius band, connected sums, cohomology, hyperbolic plane, surfaces,...
 wed
-  Examples of surgeries (non-examinable).
+  TBA
 sup
   TBA
