@@ -71,9 +71,10 @@ mon
   Beginning of <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L15_setoids.lean">setoids</a>.
 tue
   <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L15_setoids.lean">Setoids</a>.
-_tentative
 sup
-  <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L16_setoids_week_end_questions.lean">Week-end setoids</a>.
+  Group work.
+
+_tentative
 --  Week 9
 week
   Finiteness?
@@ -81,6 +82,8 @@ week
 --  Week 10
 week
   <a href="https://adventofcode.com/">Advent of Code</a>?
+sup
+  <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L16_setoids_week_end_questions.lean">Week-end setoids</a>.
 
 
 ###  Further topics
