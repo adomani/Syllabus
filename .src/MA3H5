@@ -82,11 +82,12 @@ mon
   Integrals and Orientability.
 wed
   Exterior differentiation.
-_tentative
 sup
-  Orientability and examples.
-  Pull-back and differentials.
+  Differential 2-forms and higher order forms.
+  Exterior derivative and $d \circ d = 0$.
+  PS3 P3.
 
+_tentative
 --  Week 9
 mon
   Examples in $\mathbb{R}^3$.
@@ -96,9 +97,10 @@ mon
 wed
   Brouwer’s fixed point theorem.
 sup
-  Problem Sheet 4, Questions 1-2.
+  PS3 P1-3.
+  Orientability and examples.
+  Pull-back and differentials.
   Classical notation for integrals.
-  Interior product.
 
 --  Week 10
 mon
@@ -106,4 +108,5 @@ mon
 wed
   TBA
 sup
-  TBA
+  Problem Sheet 4, Questions 1-2.
+  Interior product.

@@ -222,15 +222,16 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>Orientability and examples.</li>
-          <li>Pull-back and differentials.</li>
+          <li>Differential 2-forms and higher order forms.</li>
+          <li>Exterior derivative and $d \circ d = 0$.</li>
+          <li>PS3 P3.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
 <!--  ##################  Week 9  ################## -->
     <tr><th></th><th style="text-align: center">Week 9 (Nov 27-Dec 01)</th></tr>
     <tr><td>Monday</td>
@@ -253,9 +254,10 @@
     <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>Problem Sheet 4, Questions 1-2.</li>
+          <li>PS3 P1-3.</li>
+          <li>Orientability and examples.</li>
+          <li>Pull-back and differentials.</li>
           <li>Classical notation for integrals.</li>
-          <li>Interior product.</li>
         </ul>
       </td>
     </tr>
@@ -278,7 +280,8 @@
     <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>TBA</li>
+          <li>Problem Sheet 4, Questions 1-2.</li>
+          <li>Interior product.</li>
         </ul>
       </td>
     </tr>
@@ -287,4 +290,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Wednesday, Nov 22 2023</div>
+<div style="text-align: right">Last modified: Friday, Nov 24 2023</div>
