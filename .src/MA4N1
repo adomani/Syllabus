@@ -74,9 +74,11 @@ tue
 sup
   Group work.
 
-_tentative
 --  Week 9
-week
+mon
+  <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L17_Navigating_Mathlib.lean">Navigating <code>Mathlib</code></a>.
+_tentative
+tue
   Finiteness?
 sup
   <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L16_setoids_week_end_questions.lean">Week-end setoids</a>.
