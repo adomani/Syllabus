@@ -238,6 +238,7 @@
         <ul>
           <li>Stokes' Theorem for manifolds without boundary.</li>
           <li>Manifolds with boundary.</li>
+          <li>An orientation on $M$ induces an orientation on $\partial M$.</li>
         </ul>
       </td>
     </tr>

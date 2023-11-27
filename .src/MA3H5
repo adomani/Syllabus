@@ -91,11 +91,11 @@ sup
 mon
   Stokes' Theorem for manifolds without boundary.
   Manifolds with boundary.
+  An orientation on $M$ induces an orientation on $\partial M$.
 _tentative
 wed
   Stokes' Theorem.
   Brouwer’s fixed point theorem.
-  An orientation on $M$ induces an orientation on $\partial M$.
 sup
   PS3 P1-3.
   Orientability and examples.
