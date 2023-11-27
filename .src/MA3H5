@@ -87,15 +87,15 @@ sup
   Exterior derivative and $d \circ d = 0$.
   PS3 P3.
 
-_tentative
 --  Week 9
 mon
-  Examples in $\mathbb{R}^3$.
   Stokes' Theorem for manifolds without boundary.
   Manifolds with boundary.
-  Stokes' Theorem.
+_tentative
 wed
+  Stokes' Theorem.
   Brouwer’s fixed point theorem.
+  An orientation on $M$ induces an orientation on $\partial M$.
 sup
   PS3 P1-3.
   Orientability and examples.
@@ -104,6 +104,7 @@ sup
 
 --  Week 10
 mon
+  Examples in $\mathbb{R}^3$.
   Q&A: M&ouml;bius band, connected sums, cohomology, hyperbolic plane, surfaces,...
 wed
   TBA

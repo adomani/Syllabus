@@ -231,9 +231,19 @@
         </ul>
       </td>
     </tr>
+<!--  ##################  Week 9  ################## -->
+    <tr><th></th><th style="text-align: center">Week 9 (Nov 27-Dec 01)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>Stokes' Theorem for manifolds without boundary.</li>
+          <li>Manifolds with boundary.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3H5_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Friday, Nov 24 2023</div>
+<div style="text-align: right">Last modified: Monday, Nov 27 2023</div>

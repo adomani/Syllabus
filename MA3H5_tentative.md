@@ -231,23 +231,23 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
 <!--  ##################  Week 9  ################## -->
     <tr><th></th><th style="text-align: center">Week 9 (Nov 27-Dec 01)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>Examples in $\mathbb{R}^3$.</li>
           <li>Stokes' Theorem for manifolds without boundary.</li>
           <li>Manifolds with boundary.</li>
-          <li>Stokes' Theorem.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Wednesday</td>
       <td>
         <ul>
+          <li>Stokes' Theorem.</li>
           <li>Brouwer’s fixed point theorem.</li>
+          <li>An orientation on $M$ induces an orientation on $\partial M$.</li>
         </ul>
       </td>
     </tr>
@@ -266,6 +266,7 @@
     <tr><td>Monday</td>
       <td>
         <ul>
+          <li>Examples in $\mathbb{R}^3$.</li>
           <li>Q&A: M&ouml;bius band, connected sums, cohomology, hyperbolic plane, surfaces,...</li>
         </ul>
       </td>
@@ -290,4 +291,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Friday, Nov 24 2023</div>
+<div style="text-align: right">Last modified: Monday, Nov 27 2023</div>
