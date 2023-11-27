@@ -1020,7 +1020,7 @@ mkdir "${proj}"
 code .
 ```
 <!-- newFile weekly_topics_tbc.md -->
-#  Possible weekly topics &ndash; very preliminary
+#  Possible weekly topics &ndash; outdated
 
 This is a week-by-week breakdown of possible topics for the [MA4N1 Theorem Proving with Lean](toc).
 It is a highly susceptible to changes!
