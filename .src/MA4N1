@@ -54,12 +54,12 @@ tue
   More on `Decidable`.
   Discussion on sub-structures in `Mathlib`.
 sup
-  <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L10_div_induction.lean">Induction on divisors of a natural number</a>.
+  <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L10_dvd_induction.lean">Induction on divisors of a natural number</a>.
 
 --  Week 7
 mon
   `set_option autoImplicit false/true`.
-  `aesop` and `rcases` using the <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L10_div_induction.lean">div_induction</a> file.
+  `aesop` and `rcases` using the <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L10_dvd_induction.lean">dvd_induction</a> file.
 tue
   <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L12_pathologies.lean">Pathologies</a>: `Nat.sub, Nat.div, Div, deriv`
 sup

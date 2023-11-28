@@ -167,7 +167,7 @@
     <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L10_div_induction.lean">Induction on divisors of a natural number</a>.</li>
+          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L10_dvd_induction.lean">Induction on divisors of a natural number</a>.</li>
         </ul>
       </td>
     </tr>
@@ -177,7 +177,7 @@
       <td>
         <ul>
           <li>`set_option autoImplicit false/true`.</li>
-          <li>`aesop` and `rcases` using the <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L10_div_induction.lean">div_induction</a> file.</li>
+          <li>`aesop` and `rcases` using the <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L10_dvd_induction.lean">dvd_induction</a> file.</li>
         </ul>
       </td>
     </tr>
