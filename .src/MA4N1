@@ -39,35 +39,35 @@ mon
   <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L06_typeclasses.lean">Typeclasses</a>.
 tue
   <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L07_calculations.lean">Calculations</a>:
-  `calc, conv, gcongr`.
+  <code>calc, conv, gcongr</code>.
 sup
   <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L08_Ri_hard.lean">&#x211D;[i] is a field</a>.
 
 --  Week 6
 mon
   Breather week.
-  Using the fields of a `structure`.
-  `noncomputable`.
-  `Decidable`.
+  Using the fields of a <code>structure</code>.
+  <code>noncomputable</code>.
+  <code>Decidable</code>.
 tue
   Breather week.
-  More on `Decidable`.
-  Discussion on sub-structures in `Mathlib`.
+  More on <code>Decidable</code>.
+  Discussion on sub-structures in <code>Mathlib</code>.
 sup
   <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L10_dvd_induction.lean">Induction on divisors of a natural number</a>.
 
 --  Week 7
 mon
-  `set_option autoImplicit false/true`.
-  `aesop` and `rcases` using the <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L10_dvd_induction.lean">dvd_induction</a> file.
+  <code>set_option autoImplicit false/true</code>.
+  <code>aesop</code> and <code>rcases</code> using the <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L10_dvd_induction.lean">dvd_induction</a> file.
 tue
-  <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L12_pathologies.lean">Pathologies</a>: `Nat.sub, Nat.div, Div, deriv`
+  <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L12_pathologies.lean">Pathologies</a>: <code>Nat.sub, Nat.div, Div, deriv</code>
 sup
   <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L13_deriv_pathologies_questions.lean">deriv-pathologies</a>.
 
 --  Week 8
 mon
-  <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L14_in_implicit_explicit.lean">Some syntax</a>: `variable/open ... in ...`, explicit vs implicit arguments.
+  <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L14_in_implicit_explicit.lean">Some syntax</a>: <code>variable/open ... in ...</code>, explicit vs implicit arguments.
   Beginning of <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L15_setoids.lean">setoids</a>.
 tue
   <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L15_setoids.lean">Setoids</a>.

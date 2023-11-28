@@ -132,7 +132,7 @@
       <td>
         <ul>
           <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L07_calculations.lean">Calculations</a>:</li>
-          <li>`calc, conv, gcongr`.</li>
+          <li><code>calc, conv, gcongr</code>.</li>
         </ul>
       </td>
     </tr>
@@ -149,9 +149,9 @@
       <td>
         <ul>
           <li>Breather week.</li>
-          <li>Using the fields of a `structure`.</li>
-          <li>`noncomputable`.</li>
-          <li>`Decidable`.</li>
+          <li>Using the fields of a <code>structure</code>.</li>
+          <li><code>noncomputable</code>.</li>
+          <li><code>Decidable</code>.</li>
         </ul>
       </td>
     </tr>
@@ -159,8 +159,8 @@
       <td>
         <ul>
           <li>Breather week.</li>
-          <li>More on `Decidable`.</li>
-          <li>Discussion on sub-structures in `Mathlib`.</li>
+          <li>More on <code>Decidable</code>.</li>
+          <li>Discussion on sub-structures in <code>Mathlib</code>.</li>
         </ul>
       </td>
     </tr>
@@ -176,15 +176,15 @@
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>`set_option autoImplicit false/true`.</li>
-          <li>`aesop` and `rcases` using the <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L10_dvd_induction.lean">dvd_induction</a> file.</li>
+          <li><code>set_option autoImplicit false/true</code>.</li>
+          <li><code>aesop</code> and <code>rcases</code> using the <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L10_dvd_induction.lean">dvd_induction</a> file.</li>
         </ul>
       </td>
     </tr>
     <tr><td>Tuesday</td>
       <td>
         <ul>
-          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L12_pathologies.lean">Pathologies</a>: `Nat.sub, Nat.div, Div, deriv`</li>
+          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L12_pathologies.lean">Pathologies</a>: <code>Nat.sub, Nat.div, Div, deriv</code></li>
         </ul>
       </td>
     </tr>
@@ -200,7 +200,7 @@
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L14_in_implicit_explicit.lean">Some syntax</a>: `variable/open ... in ...`, explicit vs implicit arguments.</li>
+          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L14_in_implicit_explicit.lean">Some syntax</a>: <code>variable/open ... in ...</code>, explicit vs implicit arguments.</li>
           <li>Beginning of <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L15_setoids.lean">setoids</a>.</li>
         </ul>
       </td>
@@ -257,4 +257,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA4N1)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Monday, Nov 27 2023</div>
+<div style="text-align: right">Last modified: Tuesday, Nov 28 2023</div>
