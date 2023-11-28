@@ -228,6 +228,13 @@
         </ul>
       </td>
     </tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
+          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L18_finiteness.lean">Finiteness</a>.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>

@@ -228,17 +228,18 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Tuesday</td>
       <td>
         <ul>
-          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L18_finiteness.lean">Finiteness</a>?</li>
+          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L18_finiteness.lean">Finiteness</a>.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
+          <li>Group work.</li>
           <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L16_setoids_week_end_questions.lean">Week-end setoids</a>.</li>
         </ul>
       </td>
