@@ -184,7 +184,7 @@
     <tr><td>Tuesday</td>
       <td>
         <ul>
-          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L12_Pathologies.lean">Pathologies</a>: `Nat.sub, Nat.div, Div, deriv`</li>
+          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L12_pathologies.lean">Pathologies</a>: `Nat.sub, Nat.div, Div, deriv`</li>
         </ul>
       </td>
     </tr>
@@ -224,7 +224,7 @@
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L17_Navigating_Mathlib.lean">Navigating <code>Mathlib</code></a>.</li>
+          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L17_navigating_Mathlib.lean">Navigating <code>Mathlib</code></a>.</li>
         </ul>
       </td>
     </tr>

@@ -61,7 +61,7 @@ mon
   `set_option autoImplicit false/true`.
   `aesop` and `rcases` using the <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L10_div_induction.lean">div_induction</a> file.
 tue
-  <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L12_Pathologies.lean">Pathologies</a>: `Nat.sub, Nat.div, Div, deriv`
+  <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L12_pathologies.lean">Pathologies</a>: `Nat.sub, Nat.div, Div, deriv`
 sup
   <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L13_deriv_pathologies_questions.lean">deriv-pathologies</a>.
 
@@ -76,7 +76,7 @@ sup
 
 --  Week 9
 mon
-  <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L17_Navigating_Mathlib.lean">Navigating <code>Mathlib</code></a>.
+  <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L17_navigating_Mathlib.lean">Navigating <code>Mathlib</code></a>.
 _tentative
 tue
   <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L18_Finiteness.lean">Finiteness</a>?
