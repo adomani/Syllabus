@@ -92,10 +92,10 @@ mon
   Stokes' Theorem for manifolds without boundary.
   Manifolds with boundary.
   An orientation on $M$ induces an orientation on $\partial M$.
-_tentative
 wed
+  Orientation on $\partial [0,1]$.
   Stokes' Theorem.
-  Brouwer’s fixed point theorem.
+_tentative
 sup
   PS3 P1-3.
   Orientability and examples.
@@ -104,6 +104,7 @@ sup
 
 --  Week 10
 mon
+  Brouwer’s fixed point theorem.
   Examples in $\mathbb{R}^3$.
   Q&A: M&ouml;bius band, connected sums, cohomology, hyperbolic plane, surfaces,...
 wed

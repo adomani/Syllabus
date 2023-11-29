@@ -242,15 +242,15 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Wednesday</td>
       <td>
         <ul>
+          <li>Orientation on $\partial [0,1]$.</li>
           <li>Stokes' Theorem.</li>
-          <li>Brouwer’s fixed point theorem.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
@@ -266,6 +266,7 @@
     <tr><td>Monday</td>
       <td>
         <ul>
+          <li>Brouwer’s fixed point theorem.</li>
           <li>Examples in $\mathbb{R}^3$.</li>
           <li>Q&A: M&ouml;bius band, connected sums, cohomology, hyperbolic plane, surfaces,...</li>
         </ul>
@@ -291,4 +292,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Monday, Nov 27 2023</div>
+<div style="text-align: right">Last modified: Wednesday, Nov 29 2023</div>
