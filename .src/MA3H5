@@ -95,13 +95,11 @@ mon
 wed
   Orientation on $\partial [0,1]$.
   Stokes' Theorem.
-_tentative
 sup
-  PS3 P1-3.
-  Orientability and examples.
   Pull-back and differentials.
-  Classical notation for integrals.
+  PS3 P3.
 
+_tentative
 --  Week 10
 mon
   Brouwer’s fixed point theorem.
@@ -110,5 +108,6 @@ mon
 wed
   TBA
 sup
-  Problem Sheet 4, Questions 1-2.
+  Orientability and examples.
+  Classical notation for integrals.
   Interior product.

@@ -250,17 +250,15 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>PS3 P1-3.</li>
-          <li>Orientability and examples.</li>
           <li>Pull-back and differentials.</li>
-          <li>Classical notation for integrals.</li>
+          <li>PS3 P3.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
 <!--  ##################  Week 10  ################## -->
     <tr><th></th><th style="text-align: center">Week 10 (Dec 04-08)</th></tr>
     <tr><td>Monday</td>
@@ -282,7 +280,8 @@
     <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>Problem Sheet 4, Questions 1-2.</li>
+          <li>Orientability and examples.</li>
+          <li>Classical notation for integrals.</li>
           <li>Interior product.</li>
         </ul>
       </td>
@@ -292,4 +291,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Wednesday, Nov 29 2023</div>
+<div style="text-align: right">Last modified: Monday, Dec 04 2023</div>
