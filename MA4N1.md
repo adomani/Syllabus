@@ -236,9 +236,26 @@
         </ul>
       </td>
     </tr>
+    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li>Group work?</li>
+        </ul>
+      </td>
+    </tr>
+<!--  ##################  Week 10  ################## -->
+    <tr><th></th><th style="text-align: center">Week 10 (Dec 04-08)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li><a href="https://adventofcode.com/">Advent of Code</a>.</li>
+          <li>Solution to Day 2, part 1: <a href="https://github.com/adomani/advents/blob/master/Advents/day02syntax.lean">syntax parsing</a> and <a href="https://github.com/adomani/advents/blob/master/Advents/day02_main_syntax.lean">running the input</a>.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA4N1_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Nov 28 2023</div>
+<div style="text-align: right">Last modified: Monday, Dec 04 2023</div>

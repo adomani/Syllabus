@@ -80,15 +80,19 @@ mon
 tue
   <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L18_finiteness.lean">Finiteness</a>.
   <code>Classical, noncomputable, Prop, Bool</code>.
-_tentative
 sup
-  Group work.
-  <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L16_setoids_week_end_questions.lean">Week-end setoids</a>.
+  Group work?
 
 --  Week 10
-week
-  <a href="https://adventofcode.com/">Advent of Code</a>?
-
+mon
+  <a href="https://adventofcode.com/">Advent of Code</a>.
+  Solution to Day 2, part 1: <a href="https://github.com/adomani/advents/blob/master/Advents/day02syntax.lean">syntax parsing</a> and <a href="https://github.com/adomani/advents/blob/master/Advents/day02_main_syntax.lean">running the input</a>.
+_tentative
+tue
+  TBA
+sup
+  TBA
+  <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L16_setoids_week_end_questions.lean">Week-end setoids</a>.
 
 ###  Further topics
 

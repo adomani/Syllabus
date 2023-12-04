@@ -236,21 +236,36 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>Group work.</li>
-          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L16_setoids_week_end_questions.lean">Week-end setoids</a>.</li>
+          <li>Group work?</li>
         </ul>
       </td>
     </tr>
 <!--  ##################  Week 10  ################## -->
     <tr><th></th><th style="text-align: center">Week 10 (Dec 04-08)</th></tr>
-    <tr><td>TBD</td>
+    <tr><td>Monday</td>
       <td>
         <ul>
-          <li><a href="https://adventofcode.com/">Advent of Code</a>?</li>
+          <li><a href="https://adventofcode.com/">Advent of Code</a>.</li>
+          <li>Solution to Day 2, part 1: <a href="https://github.com/adomani/advents/blob/master/Advents/day02syntax.lean">syntax parsing</a> and <a href="https://github.com/adomani/advents/blob/master/Advents/day02_main_syntax.lean">running the input</a>.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
+          <li>TBA</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li>TBA</li>
+          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L16_setoids_week_end_questions.lean">Week-end setoids</a>.</li>
         </ul>
       </td>
     </tr>
@@ -259,4 +274,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA4N1)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Nov 28 2023</div>
+<div style="text-align: right">Last modified: Monday, Dec 04 2023</div>
