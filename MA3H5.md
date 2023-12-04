@@ -258,6 +258,16 @@
         </ul>
       </td>
     </tr>
+<!--  ##################  Week 10  ################## -->
+    <tr><th></th><th style="text-align: center">Week 10 (Dec 04-08)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>Brouwer’s fixed point theorem.</li>
+          <li>Q&A: germs vs functions, quotient manifolds, remarks about invariance of domain.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>

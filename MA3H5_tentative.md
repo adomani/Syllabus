@@ -258,22 +258,22 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
 <!--  ##################  Week 10  ################## -->
     <tr><th></th><th style="text-align: center">Week 10 (Dec 04-08)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
           <li>Brouwer’s fixed point theorem.</li>
-          <li>Examples in $\mathbb{R}^3$.</li>
-          <li>Q&A: M&ouml;bius band, connected sums, cohomology, hyperbolic plane, surfaces,...</li>
+          <li>Q&A: germs vs functions, quotient manifolds, remarks about invariance of domain.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Wednesday</td>
       <td>
         <ul>
           <li>TBA</li>
+          <li>Q&A: M&ouml;bius band, connected sums, cohomology, hyperbolic plane, surfaces,...</li>
         </ul>
       </td>
     </tr>
