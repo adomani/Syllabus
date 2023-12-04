@@ -249,7 +249,7 @@
       <td>
         <ul>
           <li><a href="https://adventofcode.com/">Advent of Code</a>.</li>
-          <li>Solution to Day 2, part 1: <a href="https://github.com/adomani/advents/blob/master/Advents/day02syntax.lean">syntax parsing</a> and <a href="https://github.com/adomani/advents/blob/master/Advents/day02_main_syntax.lean">running the input</a>.</li>
+          <li>Solution to Day 2: <a href="https://github.com/adomani/advents/blob/master/Advents/day02syntax.lean">syntax parsing</a> and <a href="https://github.com/adomani/advents/blob/master/Advents/day02_main_syntax.lean">running the input</a>.</li>
         </ul>
       </td>
     </tr>
