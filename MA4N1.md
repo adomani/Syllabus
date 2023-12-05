@@ -239,7 +239,7 @@
     <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>Group work?</li>
+          <li>Group work.</li>
         </ul>
       </td>
     </tr>
@@ -253,9 +253,17 @@
         </ul>
       </td>
     </tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
+          <li>Algebraic and tropical geometry in Mathlib.</li>
+          <li>Type theory and category theory.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA4N1_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Monday, Dec 04 2023</div>
+<div style="text-align: right">Last modified: Tuesday, Dec 05 2023</div>
