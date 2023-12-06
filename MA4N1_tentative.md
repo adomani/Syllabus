@@ -249,7 +249,7 @@
       <td>
         <ul>
           <li><a href="https://adventofcode.com/">Advent of Code</a>.</li>
-          <li>Solution to Day 2: <a href="https://github.com/adomani/advents/blob/master/Advents/day02syntax.lean">syntax parsing</a> and <a href="https://github.com/adomani/advents/blob/master/Advents/day02_main_syntax.lean">running the input</a>.</li>
+          <li>Solution to Day 2: <a href="https://github.com/adomani/advents/blob/master/Advents/day02_syntax.lean">syntax parsing</a> and <a href="https://github.com/adomani/advents/blob/master/Advents/day02.lean">running the input</a>.</li>
         </ul>
       </td>
     </tr>
@@ -275,4 +275,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA4N1)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Dec 05 2023</div>
+<div style="text-align: right">Last modified: Wednesday, Dec 06 2023</div>

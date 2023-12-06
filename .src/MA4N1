@@ -86,7 +86,7 @@ sup
 --  Week 10
 mon
   <a href="https://adventofcode.com/">Advent of Code</a>.
-  Solution to Day 2: <a href="https://github.com/adomani/advents/blob/master/Advents/day02syntax.lean">syntax parsing</a> and <a href="https://github.com/adomani/advents/blob/master/Advents/day02_main_syntax.lean">running the input</a>.
+  Solution to Day 2: <a href="https://github.com/adomani/advents/blob/master/Advents/day02_syntax.lean">syntax parsing</a> and <a href="https://github.com/adomani/advents/blob/master/Advents/day02.lean">running the input</a>.
 tue
   Algebraic and tropical geometry in Mathlib.
   Type theory and category theory.
