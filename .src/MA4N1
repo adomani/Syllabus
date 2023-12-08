@@ -26,10 +26,10 @@ sup
 
 -- Week 4
 mon
-  <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L04_definitions.lean">Definitions</a> in Mathlib.
+  <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L04_definitions.lean">Definitions</a> in <code>Mathlib</code>.
 tue
   Suggestions of topics.
-  <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L04_definitions.lean">Definitions</a> and inductives in Mathlib.
+  <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L04_definitions.lean">Definitions</a> and inductives in <code>Mathlib</code>.
 sup
   Two sets of exercises, covering
   <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L05_graphs_questions.lean">graphs questions</a>, and
@@ -88,7 +88,7 @@ mon
   <a href="https://adventofcode.com/">Advent of Code</a>.
   Solution to Day 2: <a href="https://github.com/adomani/advents/blob/master/Advents/day02_syntax.lean">syntax parsing</a> and <a href="https://github.com/adomani/advents/blob/master/Advents/day02.lean">running the input</a>.
 tue
-  Algebraic and tropical geometry in Mathlib.
+  Algebraic and tropical geometry in <code>Mathlib</code>.
   Type theory and category theory.
 _tentative
 sup
