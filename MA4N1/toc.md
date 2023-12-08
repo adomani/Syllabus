@@ -14,7 +14,7 @@ Two submissions are during Term 1.
 The final submission is at the end of January, in Term 2.
 
 | Assessment                                        | Submission type | Deadline       | Weighting |
-| -                                                 | :-              | :-             | -         |
+| -                                                 | :-              | :-             | :-:       |
 | Outline of formalization                          | Group           | Week 5         | 10%       |
 | Video of personal contribution (up to 4 minutes)  | Individual      | Week 9         | 20%       |
 | Final formalization                               | Group           | Term 2, Week 3 | 70%       |
