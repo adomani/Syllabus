@@ -59,3 +59,28 @@ scatterTPwL () {
       if (fileNames[name] >= 2) printf("\n** The file `%s` was declared %s times! **\n", name, fileNames[name])
   }'
 }
+
+getcloneProjectsCmds () {
+  grep -A1 "·" ~/Matematica/Warwick/Syllabus/.src/TPwL_source.md |
+    sed -n 's=.*(https://github.com/\([^)]*\))=git clone git@github.com:\1.git=p'
+}
+
+cloneProjects () {
+  (
+    IFS=$'\n'
+    for i in $( getcloneProjectsCmds )
+    do
+      brown "${i}"$'\n'
+      eval "$i"
+      if [ "${?}" -ne 0 ]; then failed+=("${i}"); fi
+    done
+    if [ "${#failed[@]}" -ne 0 ]
+    then
+      brown $'\nFailed clones:\n'
+      for i in ${failed[@]}
+      do
+        printf $'%s\n' "${i}"
+      done
+    fi
+  )
+}
