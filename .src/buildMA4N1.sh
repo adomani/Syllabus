@@ -84,3 +84,16 @@ cloneProjects () {
     fi
   )
 }
+
+commitTimes () {
+  (
+    for i in */
+    do
+      glog="$(
+        cd "${i}"
+        git log -1 --no-patch --format=%ci
+      )"
+      printf '%s  %s\n' "${glog}" "$(brown "${i}")"
+    done
+  )
+}
