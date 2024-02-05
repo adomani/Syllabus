@@ -822,7 +822,7 @@ As far as I can tell, there is no explicit result in Mathlib in this direction.
 ·|
 |·Lagrange
 ·|·
-Fermat’s Little Theorem
+[Fermat’s Little Theorem](https://github.com/Gumbah/LagrangeProject/)
 ·|·
 * Edward Gilbert
 * Rose Bedell
@@ -834,7 +834,7 @@ Fermat’s Little Theorem
 ·|
 |·Gaussian
 ·|·
-Lagrange’s Theorem
+[Lagrange’s Theorem](https://github.com/MichaelCavaliere/MA4N1-Project)
 ·|·
 * Michael Cavaliere
 * Florence Crew

@@ -141,7 +141,7 @@ As far as I can tell, there is no explicit result in Mathlib in this direction.
   <td align="center">Lagrange
   </td>
   <td>
-Fermat’s Little Theorem
+<a href="https://github.com/Gumbah/LagrangeProject/">Fermat’s Little Theorem</a>
   </td>
   <td>
     <ul>
@@ -161,7 +161,7 @@ Fermat’s Little Theorem
   <td align="center">Gaussian
   </td>
   <td>
-Lagrange’s Theorem
+<a href="https://github.com/MichaelCavaliere/MA4N1-Project">Lagrange’s Theorem</a>
   </td>
   <td>
     <ul>
