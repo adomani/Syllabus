@@ -773,7 +773,7 @@ Most of the file [Sylow](mlfile#GroupTheory/Sylow.html) is relevant.
 ·|
 |·PerfectGraphs
 ·|·
-Perfect Graphs
+[Perfect Graphs](https://github.com/tomdaboom/ma4n1_perfect_graphs)
 ·|·
 * Alex Chung
 * Tom Divers
@@ -797,7 +797,7 @@ Measure Theory folder `Mathlib/MeasureTheory/`
 ·|
 |·Ostrowski
 ·|·
-Ostrowski’s Theorem
+[Ostrowski’s Theorem](https://github.com/justmayself/Ostrowski-th-in-Lean)
 ·|·
 * Tommaso Faustini
 * Mayo Mayo García
@@ -810,7 +810,7 @@ Relevant Zulip chats:
 ·|
 |·Dirichlet
 ·|·
-A Special Case of Dirichlet’s Theorem on Arithmetic Progression
+[A Special Case of Dirichlet’s Theorem on Arithmetic Progression](https://github.com/J-Atfield/ma4n1-dirichlet-project)
 ·|·
 * Hugo Pottinger
 * Jack Atfield

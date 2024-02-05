@@ -60,7 +60,7 @@ Most of the file <a href="https://leanprover-community.github.io/mathlib4_docs/M
   <td align="center">PerfectGraphs
   </td>
   <td>
-Perfect Graphs
+<a href="https://github.com/tomdaboom/ma4n1_perfect_graphs">Perfect Graphs</a>
   </td>
   <td>
     <ul>
@@ -100,7 +100,7 @@ Measure Theory folder <code>Mathlib/MeasureTheory/</code>
   <td align="center">Ostrowski
   </td>
   <td>
-Ostrowski’s Theorem
+<a href="https://github.com/justmayself/Ostrowski-th-in-Lean">Ostrowski’s Theorem</a>
   </td>
   <td>
     <ul>
@@ -121,7 +121,7 @@ Relevant Zulip chats:
   <td align="center">Dirichlet
   </td>
   <td>
-A Special Case of Dirichlet’s Theorem on Arithmetic Progression
+<a href="https://github.com/J-Atfield/ma4n1-dirichlet-project">A Special Case of Dirichlet’s Theorem on Arithmetic Progression</a>
   </td>
   <td>
     <ul>
