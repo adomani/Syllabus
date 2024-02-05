@@ -87,13 +87,20 @@ cloneProjects () {
 
 commitTimes () {
   (
+    dl=2024-02-04
+    printf $'\n'
+    warn='!!'
     for i in */
     do
       glog="$(
         cd "${i}"
         git log -1 --no-patch --format=%ci
       )"
-      printf '%s  %s\n' "${glog}" "$(brown "${i}")"
+      glog="${glog} $( brown "${i}" )"
+      [[ "${dl}" < "${glog/% */}" ]] &&
+        lcyan "${warn} " || printf '   '
+      printf '%s  %s\n' "${glog}"
     done
+    printf $'\n%s: does not meet the deadline %s\n' "$( lcyan "${warn}" )" "${dl}"
   )
 }
