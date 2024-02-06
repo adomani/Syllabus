@@ -188,3 +188,13 @@ summaryContributions () {
     sed 's=^  *a  *=\n=; s=  *\(deletions(-)\)$=  \1=' |
     awk 'BEGIN{saw=0} (saw == 1) {saw=0; printf "   "} /\// {saw=1} {print $0}'
 }
+
+## appends `<----` to lines of contributions that added fewer than 1000 lines
+## appends `!!!!!` to lines of contributions that added and substracted fewer than 1000 lines
+flagSmallContributions () {
+  summaryContributions |
+    awk '
+      ((5 <= NF) && ($5 < 1000)) { worry=" <----" }
+      ((5 <= NF) && ($5 + $7 < 1000)) { worryMore=" !!!!!" }
+      { print $0 worry worryMore; worry=""; worryMore="" }'
+}
