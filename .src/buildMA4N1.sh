@@ -143,9 +143,7 @@ getFirstWords () {
 
 ## `getAuthors` in a Git-managed repository returns the list of people
 ##  who committed to the repository
-getAuthors () {
-  git log | sed -n 's=^Author: \(.*\) <.*>$=\1=p' | sort | uniq
-}
+getAuthors () { git log --pretty="%an" | sort -u ; }
 
 ## `gitContributedLinesRaw` in a Git-managed repository returns, for each contributor,
 ## the number of files, insertions and deletions that they committed.
