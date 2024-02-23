@@ -198,3 +198,55 @@ flagSmallContributions () {
       ((5 <= NF) && ($5 + $7 < 1000)) { worryMore=" !!!!!" }
       { print $0 worry worryMore; worry=""; worryMore="" }'
 }
+
+##  source: https://stackoverflow.com/a/23297950
+##  `commonSubstring <s> <t>` returns the largest common substring between `<s>` and `<t>`.
+commonSubstring () {
+  local long short lshort score sub subfound
+  if ((${#1}>${#2})); then
+     long=$1 short=$2
+  else
+     long=$2 short=$1
+  fi
+
+  lshort=${#short}
+  score=0
+  for ((i=0;i<lshort-score;++i)); do
+     for ((l=score+1;l<=lshort-i;++l)); do
+        sub=${short:i:l}
+        [[ $long != *$sub* ]] && break
+        subfound=$sub score=$l
+     done
+  done
+
+  if ((score)); then
+     echo "$subfound"
+  fi
+}
+
+## `getLine <i> <file>` prints the `<i>`-th line of `<file>`.
+getLine () { awk -v ind="${1}" '(NR == ind) { printf $0 }' "${2}" ; }
+
+(
+  tots=$( wc -l < allAuths )
+  for (( fir=1; fir<=${tots}; fir++))
+  do
+    if ! [[ "${matched[@]}" =~ "${fir}" ]]
+    then
+      matched+=("${fir}")
+      firName="$( getLine "${fir}" allAuths )"
+      printf '%s' "${firName}"
+      ip=$((fir+1))
+      for (( sec=${ip}; sec<=${tots}; sec++))
+      do
+        cos="$(commonSubstring "${firName}"  "$( getLine "${sec}" allAuths )")"
+        if [ ${#cos} -ge 3 ]
+        then
+          matched+=("${sec}")
+          printf ',%s' "$( getLine "${sec}" allAuths )"
+        fi
+      done
+      printf $'\n'
+    fi
+  done
+)
