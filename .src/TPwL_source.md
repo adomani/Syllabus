@@ -900,6 +900,8 @@ In case you are curious, this is what the files above do.
 * `lake-manifest.json`: information about depedencies of your project.
 * `lean-toolchain`: which version of the `Lean4` language you are using (this is still evolving quickly and roughly every month there is an update).
 * `.lake/`: a hidden folder containing the information that Lean produces once it builds a file.
+* `proj.lean`: it is common for this file to simply consist of lines of the form `import XXX`,
+  where `XXX` ranges among the files in the `Proj` folder that you want Lean to build when running `lake build`.
 
 You will likely not have to look at any of these files.
 The only possible exception is `lakefile.lean`, in case you want to set some special options (I will talk about this during the lectures).
