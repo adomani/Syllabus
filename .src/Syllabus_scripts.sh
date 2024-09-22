@@ -36,8 +36,8 @@ page_tail () {
 }
 
 exweek () {
-  ini=($(date -d "Sep 25 2023 +$1 weeks" '+%b %d'))
-  fin=($(date -d "Sep 25 2023 +$1 weeks + 4 days" '+%b %d'))
+  ini=($(date -d "Sep 23 2024 +$1 weeks" '+%b %d'))
+  fin=($(date -d "Sep 23 2024 +$1 weeks + 4 days" '+%b %d'))
   if [ $ini == $fin ]; then mid=""; else mid="${fin[0]} "; fi
   echo "${ini[0]} ${ini[1]}-$mid${fin[1]}"
 }
@@ -81,8 +81,8 @@ new_day () {
   if [ "${1}" == "sup" ]
   then
     local suppDay=TBA
-    if [ "${4}" == "MA3H5" ]; then suppDay=Thursday; fi
-    if [ "${4}" == "MA4N1" ]; then suppDay=Friday; fi
+    #if [ "${4}" == "MA3H5" ]; then suppDay=Thursday; fi
+    #if [ "${4}" == "MA4N1" ]; then suppDay=Friday; fi
     printf $'    <tr><td><p style="margin-bottom:0;">%s</p><p style="margin : 0; padding-top:0;">(support class)</p></td>\n' "${suppDay}"
   elif [ "${1}" == "week" ]
   then
@@ -111,7 +111,7 @@ to_html_from () {
   { if [[ "${1:6}" = "tentative" ]]; then tent=" tentative syllabus"; else tent=""; fi;
     case "${modd}" in
       MA3H5)
-        page_head "[MA3H5 Manifolds](https://moodle.warwick.ac.uk/course/view.php?id=60813)$tent"
+        page_head "[MA3H5 Manifolds](https://moodle.warwick.ac.uk/course/view.php?id=67177)$tent"
         ;;
       MA3J9)
         page_head "[MA3J9 Historical Challenges in Mathematics](https://moodle.warwick.ac.uk/course/view.php?id=52244)$tent"
