@@ -854,7 +854,7 @@ Go inside the newly created folder, that has the same name as the project
 cd "${proj}"
 ```
 
-Download `mathlib`, `std`, `aesop`, `Qq`, `Cli`, `proofwidgets`
+Download `mathlib` and its dependencies (`batteries`, `quote4`, `aesop`, `ProofWidgets4`, `lean4-cli`, `import-graph`, `LeanSearchClient`)
 ```bash
 lake update "${proj}"
 ```
