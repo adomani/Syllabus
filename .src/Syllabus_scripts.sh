@@ -111,7 +111,7 @@ to_html_from () {
   { if [[ "${1:6}" = "tentative" ]]; then tent=" tentative syllabus"; else tent=""; fi;
     case "${modd}" in
       MA3H5)
-        page_head "[MA3H5 Manifolds](https://moodle.warwick.ac.uk/course/view.php?id=60813)$tent"
+        page_head "[MA3H5 Manifolds](https://moodle.warwick.ac.uk/course/view.php?id=67177)$tent"
         ;;
       MA3J9)
         page_head "[MA3J9 Historical Challenges in Mathematics](https://moodle.warwick.ac.uk/course/view.php?id=52244)$tent"

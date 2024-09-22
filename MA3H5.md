@@ -22,7 +22,7 @@
       }
   })();
 </script>
-# [MA3H5 Manifolds](https://moodle.warwick.ac.uk/course/view.php?id=60813)
+# [MA3H5 Manifolds](https://moodle.warwick.ac.uk/course/view.php?id=67177)
 ## Autumn 2024
 
 <table>
