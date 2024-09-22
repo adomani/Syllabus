@@ -36,8 +36,8 @@ page_tail () {
 }
 
 exweek () {
-  ini=($(date -d "Sep 25 2023 +$1 weeks" '+%b %d'))
-  fin=($(date -d "Sep 25 2023 +$1 weeks + 4 days" '+%b %d'))
+  ini=($(date -d "Sep 23 2024 +$1 weeks" '+%b %d'))
+  fin=($(date -d "Sep 23 2024 +$1 weeks + 4 days" '+%b %d'))
   if [ $ini == $fin ]; then mid=""; else mid="${fin[0]} "; fi
   echo "${ini[0]} ${ini[1]}-$mid${fin[1]}"
 }
