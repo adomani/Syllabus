@@ -1,9 +1,9 @@
 #  Creating a new project depending on `Mathlib`
 
-##  Using the new VSCode `Lean 4` extension
+##  Using the VSCode `Lean 4` extension
 
-As of very recently (late October 2023), the Lean4 VSCode extension may take care of most of the steps that would require using the command-line!
-Here is a sequence of steps that might get Lean installed on your computer and
+The Lean4 VSCode extension takes care of most of the steps that would require using the command-line!
+Here is a sequence of steps that should get Lean installed on your computer and
 a project depending on `Mathlib` running.
 
 * Install [VSCode](https://code.visualstudio.com/).
@@ -15,7 +15,7 @@ a project depending on `Mathlib` running.
   * download the Mathlib build cache;
   * ...
 
-As I said, the functionality of the `∀` menu is very new, so the information above is subject to change and may be buggy!
+I do not use the `∀` menu too often, so let me know if the information above is out of date or confusing!
 
 If the previous steps did not work for you, continue reading!
 
@@ -31,7 +31,7 @@ These instructions *might* also work on MacOs/Windows, when typed in a terminal.
 
 `proj` is the name of the project
 ```bash
-proj='MA4N1_2023'
+proj='MA4N1_Theorem_proving_with_Lean'
 ```
 
 Initialize the new project &ndash; takes some time
@@ -78,17 +78,25 @@ proj --|-- Proj -------------- | <your_files_here>
        |
        |-- lake-manifest.json
        |
-       |-- lake-packages
-       |
        |-- lean-toolchain
        |
        |-- proj.lean
+       |
+       |-- .lake/
 ```
 
+In case you are curious, this is what the files above do.
+* `lakefile.lean`: configuration of options and what gets built with `lake build`.
+* `lake-manifest.json`: information about depedencies of your project.
+* `lean-toolchain`: which version of the `Lean4` language you are using.
+* `.lake/`: a hidden folder containing the information that Lean produces once it builds a file.
+
+You will likely not have to look at any of these files.
+The only possible exception is `lakefile.lean`, in case you want to set some special options (I will talk about this during the lectures).
 
 For ease of copy-pasting, here are all the commands in a single code-block
 ```bash
-proj=MA4N1_2023
+proj=MA4N1_Theorem_proving_with_Lean
 lake +leanprover/lean4:nightly-2023-02-04 new "${proj}" math
 cd "${proj}"
 lake update "${proj}"

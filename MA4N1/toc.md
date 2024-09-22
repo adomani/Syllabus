@@ -23,7 +23,7 @@ The final submission is at the end of January, in Term 2.
 
 You can find some ideas for what might constitute a "toy project" [here](ideas_to_develop).
 
-The Lean 4 project containing the Lean files for the lectures is [here](https://github.com/adomani/MA4N1_2023).
+The Lean 4 project containing the Lean files for the lectures is [here](https://github.com/adomani/MA4N1_Theorem_proving_with_Lean).
 
 ---
 
@@ -71,7 +71,7 @@ In this module, we will only work with Lean 4.
   * [External repositories and books for inspiration](https://adomani.github.io/Syllabus/MA4N1/ideas_to_develop#external-repositories-and-books-for-inspiration)
   * [Computer science oriented projects](https://adomani.github.io/Syllabus/MA4N1/ideas_to_develop#computer-science-oriented-projects)
 * [Creating a new project depending on `Mathlib`](https://adomani.github.io/Syllabus/MA4N1/instructions_for_new_project#creating-a-new-project-depending-on-mathlib)
-  * [Using the new VSCode `Lean 4` extension](https://adomani.github.io/Syllabus/MA4N1/instructions_for_new_project#using-the-new-vscode-lean-4-extension)
+  * [Using the VSCode `Lean 4` extension](https://adomani.github.io/Syllabus/MA4N1/instructions_for_new_project#using-the-vscode-lean-4-extension)
   * [Unix-based installation from the command-line](https://adomani.github.io/Syllabus/MA4N1/instructions_for_new_project#unix-based-installation-from-the-command-line)
 * [Possible weekly topics &ndash; outdated](https://adomani.github.io/Syllabus/MA4N1/weekly_topics_tbc#possible-weekly-topics-&ndash;-outdated)
 * [FAQ](https://adomani.github.io/Syllabus/MA4N1/faq#faq)
