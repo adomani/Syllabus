@@ -221,6 +221,7 @@ commonSubstring () {
 ## `getLine <i> <file>` prints the `<i>`-th line of `<file>`.
 getLine () { awk -v ind="${1}" '(NR == ind) { printf $0 }' "${2}" ; }
 
+wasLiveCode () {
 (
   tots=$( wc -l < allAuths )
   for (( fir=1; fir<=${tots}; fir++))
@@ -244,3 +245,4 @@ getLine () { awk -v ind="${1}" '(NR == ind) { printf $0 }' "${2}" ; }
     fi
   done
 )
+}
