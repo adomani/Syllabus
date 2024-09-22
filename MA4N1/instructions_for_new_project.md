@@ -10,7 +10,7 @@ a project depending on `Mathlib` running.
 * Within VSCode, install the [`Lean4` extension](https://marketplace.visualstudio.com/items?itemName=leanprover.lean4).
 * (Possibly opening a new file called `<someName>.lean` or simply assigning it `lean` as language): you should see a `∀` on the top right corner of an open Lean-tab.
 * Clicking on the `∀`, should open a menu, that will allow you to perform several actions:
-  * install lean/lake;
+  * install `lean`/`lake`;
   * create a new project using Mathlib as a dependency;
   * download the Mathlib build cache;
   * ...
