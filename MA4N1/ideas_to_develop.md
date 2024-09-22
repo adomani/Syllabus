@@ -1,218 +1,19 @@
 #  Projects and stubs of ideas
 
-##  Groups
+##  Past projects
 
-<table><tbody>
-<tr>
-  <th align="center">
-Group name
-  </th>
-  <th>
-Project title
-  </th>
-  <th>
-Group members
-  </th>
-  <th>
-Comments and possible Mathlib reference
-  </th>
-</tr>
-
-<tr>
-  <td align="center">Cauchy
-  </td>
-  <td>
-<a href="https://github.com/EdwardWatine/MA4N1">Cauchy’s Theorem (Complex Analysis)</a>
-  </td>
-  <td>
-    <ul>
-      <li>Edward Watine</li>
-      <li>Juan Antonio Montalb&aacute;n Vidal</li>
-      <li>Jaime D&iacute;az-Trechuelo S&aacute;nchez-Molin&iacute;</li>
-      <li>Josh Rydell</li>
-    </ul>
-  </td>
-  <td>
-<a href="https://en.wikipedia.org/wiki/Cauchy%27s_integral_formula">Cauchy's Integral Formula</a> in <a href="https://leanprover-community.github.io/mathlib4_docs/find/?pattern=Complex.two_pi_I_inv_smul_circleIntegral_sub_inv_smul_of_differentiable_on_off_countable#doc">Mathlib</a>
-  </td>
-</tr>
-
-<tr>
-  <td align="center">Sylow
-  </td>
-  <td>
-<a href="https://github.com/tom-corley/syl_thm_env">Sylow’s Theorems</a>
-  </td>
-  <td>
-    <ul>
-      <li>Antonina Sztyma</li>
-      <li>Tom Corley</li>
-      <li>Roshan Kohli</li>
-    </ul>
-  </td>
-  <td>
-<a href="https://en.wikipedia.org/wiki/Sylow_theorems">Sylow's Theorems</a> in <a href="https://leanprover-community.github.io/mathlib4_docs/find/?pattern=Sylow.exists_subgroup_card_pow_prime_le#doc">Mathlib</a>.<br />
-Most of the file <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/GroupTheory/Sylow.html">Sylow</a> is relevant.
-  </td>
-</tr>
-
-<tr>
-  <td align="center">PerfectGraphs
-  </td>
-  <td>
-<a href="https://github.com/tomdaboom/ma4n1_perfect_graphs">Perfect Graphs</a>
-  </td>
-  <td>
-    <ul>
-      <li>Alex Chung</li>
-      <li>Tom Divers</li>
-      <li>Susie Gabriel</li>
-      <li>Dan Shomron</li>
-    </ul>
-  </td>
-  <td>
-<a href="https://en.wikipedia.org/wiki/Perfect_graph">Perfect graphs</a> and examples.<br />
-There is a folder <code>Mathlib/Combinatorics/SimpleGraph/</code>,
-but I do not think that perfect graphs are in Mathlib.
-  </td>
-</tr>
-
-<tr>
-  <td align="center">MeasureTheory
-  </td>
-  <td>
-<a href="https://github.com/AadamHaq/MA4N1-Theorem-Proving-with-Lean">Lusin’s Theorem</a>
-  </td>
-  <td>
-    <ul>
-      <li>Giovanni Crocioni</li>
-      <li>Louis Genin</li>
-      <li>Aadam Haq</li>
-      <li>Ameer Saleem</li>
-    </ul>
-  </td>
-  <td>
-Measure Theory folder <code>Mathlib/MeasureTheory/</code>
-  </td>
-</tr>
-
-<tr>
-  <td align="center">Ostrowski
-  </td>
-  <td>
-<a href="https://github.com/justmayself/Ostrowski-th-in-Lean">Ostrowski’s Theorem</a>
-  </td>
-  <td>
-    <ul>
-      <li>Tommaso Faustini</li>
-      <li>Mayo Mayo Garc&iacute;a</li>
-    </ul>
-  </td>
-  <td>
-<a href="https://en.wikipedia.org/wiki/Ostrowski%27s_theorem">Ostrowski's Theorem</a>.<br />
-As far as I can tell, it is not in Mathlib, but there are some (possible) formalizations.<br />
-Relevant Zulip chats:
-<a href="https://leanprover.zulipchat.com/#narrow/stream/116395-maths/topic/Seminar.20--.20London.20Learning.20Lean/near/362025148">Link to LLL</a> and
-<a href="https://leanprover.zulipchat.com/#narrow/stream/217875-Is-there-code-for-X.3F/topic/Ostrowski's.20theorem">Ostrowski's Theorem thread</a>
-  </td>
-</tr>
-
-<tr>
-  <td align="center">Dirichlet
-  </td>
-  <td>
-<a href="https://github.com/J-Atfield/ma4n1-dirichlet-project">A Special Case of Dirichlet’s Theorem on Arithmetic Progression</a>
-  </td>
-  <td>
-    <ul>
-      <li>Hugo Pottinger</li>
-      <li>Jack Atfield</li>
-      <li>Leon Chipchase</li>
-      <li>James Harvey</li>
-    </ul>
-  </td>
-  <td>
-Special case of <a href="https://en.wikipedia.org/wiki/Dirichlet%27s_theorem_on_arithmetic_progressions">Dirichlet's Theorem on arithmetic progressions</a>.<br />
-As far as I can tell, there is no explicit result in Mathlib in this direction.
-  </td>
-</tr>
-
-<tr>
-  <td align="center">Lagrange
-  </td>
-  <td>
-<a href="https://github.com/Gumbah/LagrangeProject/">Fermat’s Little Theorem</a>
-  </td>
-  <td>
-    <ul>
-      <li>Edward Gilbert</li>
-      <li>Rose Bedell</li>
-      <li>Jakub Tucker</li>
-      <li>Katie Scarisbrick</li>
-    </ul>
-  </td>
-  <td>
-<a href="https://en.wikipedia.org/wiki/Fermat%27s_little_theorem">Fermat's Little Theorem</a> in <a href="https://leanprover-community.github.io/mathlib4_docs/find/?pattern=ZMod.pow_card#doc">Mathlib</a><br />
-<a href="https://en.wikipedia.org/wiki/Euler%27s_theorem">Euler's Theorem</a> in <a href="https://leanprover-community.github.io/mathlib4_docs/find/?pattern=FiniteField.pow_card_sub_one_eq_one#doc">Mathlib</a>
-  </td>
-</tr>
-
-<tr>
-  <td align="center">Gaussian
-  </td>
-  <td>
-<a href="https://github.com/MichaelCavaliere/MA4N1-Project">Lagrange’s Theorem</a>
-  </td>
-  <td>
-    <ul>
-      <li>Michael Cavaliere</li>
-      <li>Florence Crew</li>
-      <li>Henry Gallagher</li>
-      <li>Costas Bowgen</li>
-    </ul>
-  </td>
-  <td>
-<a href="https://en.wikipedia.org/wiki/Lagrange%27s_theorem_(group_theory)">Lagrange's Theorem</a> in <a href="https://leanprover-community.github.io/mathlib4_docs/find/?pattern=Subgroup.card_subgroup_dvd_card#doc">Mathlib</a>
-  </td>
-</tr>
-
-<tr>
-  <td align="center">AnalyticNT
-  </td>
-  <td>
-<a href="https://github.com/grhkm21/LakeSeave">Sieve Theory</a>
-  </td>
-  <td>
-    <ul>
-      <li>Gareth Ma</li>
-      <li>Neil Mukerji</li>
-    </ul>
-  </td>
-  <td>
-Analytic Number Theory
-  </td>
-</tr>
-
-<tr>
-  <td align="center">CombinatorialIMO
-  </td>
-  <td>
-<a href="https://github.com/mgsium/102_comb_lean">Combinatorial Problems</a>
-  </td>
-  <td>
-    <ul>
-      <li>Do&gbreve;ukan E. T&uuml;rk&ouml;z</li>
-      <li>Kit Liu</li>
-      <li>Musab Guma'a</li>
-    </ul>
-  </td>
-  <td>
-Combinatorial IMO Problems.<br />
-Some IMO problems have been formalised: they should all be in <code>Archive/Imo</code>
-(*not* inside the <code>Mathlib</code> folder!)
-  </td>
-</tr>
-</tbody></table>
+|Project title|Comments and possible Mathlib reference|
+|-|-|
+|[Cauchy’s Theorem (Complex Analysis)](https://github.com/EdwardWatine/MA4N1)|[Cauchy's Integral Formula](wiki#Cauchy%27s_integral_formula) in [Mathlib](docs#Complex.two_pi_I_inv_smul_circleIntegral_sub_inv_smul_of_differentiable_on_off_countable)|
+|[Sylow’s Theorems](https://github.com/tom-corley/syl_thm_env)|[Sylow's Theorems](wiki#Sylow_theorems) in [Mathlib](docs#Sylow.exists_subgroup_card_pow_prime_le) Most of the file [Sylow](mlfile#GroupTheory/Sylow.html) is relevant.|
+|[Perfect Graphs](https://github.com/tomdaboom/ma4n1_perfect_graphs)|[Perfect graphs](wiki#Perfect_graph) and examples. There is a folder `Mathlib/Combinatorics/SimpleGraph/`, but I do not think that perfect graphs are in Mathlib.|
+|[Lusin’s Theorem](https://github.com/AadamHaq/MA4N1-Theorem-Proving-with-Lean)||
+|[Ostrowski’s Theorem](https://github.com/justmayself/Ostrowski-th-in-Lean)|[Ostrowski's Theorem](wiki#Ostrowski%27s_theorem). As far as I can tell, it is not in Mathlib, but there are some (possible) formalizations. Relevant Zulip chats:[Link to LLL](zulip#116395-maths/topic/Seminar.20--.20London.20Learning.20Lean/near/362025148) and [Ostrowski's Theorem thread](zulip#217875-Is-there-code-for-X.3F/topic/Ostrowski's.20theorem)|
+|[A Special Case of Dirichlet’s Theorem on Arithmetic Progression](https://github.com/J-Atfield/ma4n1-dirichlet-project)|Special case of [Dirichlet's Theorem on arithmetic progressions](wiki#Dirichlet%27s_theorem_on_arithmetic_progressions).|
+|[Fermat’s Little Theorem](https://github.com/Gumbah/LagrangeProject)|[Fermat's Little Theorem](wiki#Fermat%27s_little_theorem) in [Mathlib](docs#ZMod.pow_card). [Euler's Theorem](wiki#Euler%27s_theorem) in [Mathlib](docs#FiniteField.pow_card_sub_one_eq_one)|
+|[Lagrange’s Theorem](https://github.com/MichaelCavaliere/MA4N1-Project)|[Lagrange's Theorem](wiki#Lagrange%27s_theorem_(group_theory)) in [Mathlib](docs#Subgroup.card_subgroup_dvd_card)|
+|[Sieve Theory](https://github.com/grhkm21/LakeSeave)|Some results in analytic number theory.|
+|[Combinatorial Problems](https://github.com/mgsium/102_comb_lean)|Problems taken or inspired by IMO problems.|
 
 ##  Orphaned projects
 
@@ -278,4 +79,4 @@ For browsing the documentation for Mathlib, go to the excellent [documentation p
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/adomani/MA4N1_2023)
 
-[Back to Moodle](https://moodle.warwick.ac.uk/course/view.php?id=58287#section-0)
+[Back to Moodle](https://moodle.warwick.ac.uk/course/view.php?id=67222#section-0)
