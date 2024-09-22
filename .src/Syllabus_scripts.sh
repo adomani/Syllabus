@@ -81,8 +81,8 @@ new_day () {
   if [ "${1}" == "sup" ]
   then
     local suppDay=TBA
-    if [ "${4}" == "MA3H5" ]; then suppDay=Thursday; fi
-    if [ "${4}" == "MA4N1" ]; then suppDay=Friday; fi
+    #if [ "${4}" == "MA3H5" ]; then suppDay=Thursday; fi
+    #if [ "${4}" == "MA4N1" ]; then suppDay=Friday; fi
     printf $'    <tr><td><p style="margin-bottom:0;">%s</p><p style="margin : 0; padding-top:0;">(support class)</p></td>\n' "${suppDay}"
   elif [ "${1}" == "week" ]
   then

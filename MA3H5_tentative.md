@@ -67,7 +67,7 @@
         </ul>
       </td>
     </tr>
-    <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+    <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
           <li>Definition of a manifold, smooth maps and diffeomorphisms.</li>
@@ -91,7 +91,7 @@
         </ul>
       </td>
     </tr>
-    <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+    <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
           <li>Sub-manifolds, Inverse function theorem, PS1 P2-3.</li>
@@ -115,7 +115,7 @@
         </ul>
       </td>
     </tr>
-    <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+    <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
           <li>Review of tangent vectors and vector fields.</li>
@@ -141,7 +141,7 @@
         </ul>
       </td>
     </tr>
-    <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+    <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
           <li>Problem Sheet 2, Problems 1 and 3.</li>
@@ -169,7 +169,7 @@
         </ul>
       </td>
     </tr>
-    <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+    <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
           <li>Partitions of unity, PS2 P4.</li>
@@ -198,7 +198,7 @@
         </ul>
       </td>
     </tr>
-    <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+    <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
           <li>"Baby Pre-image theorem".</li>
@@ -223,7 +223,7 @@
         </ul>
       </td>
     </tr>
-    <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+    <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
           <li>Differential 2-forms and higher order forms.</li>
@@ -251,7 +251,7 @@
         </ul>
       </td>
     </tr>
-    <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+    <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
           <li>Pull-back and differentials.</li>
@@ -276,7 +276,7 @@
         </ul>
       </td>
     </tr>
-    <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+    <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
           <li>Orientability and examples.</li>
