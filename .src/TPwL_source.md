@@ -3,7 +3,7 @@
 
 | Lectures |           | Room  |-| Support classes |          | Room  |
 | :-       | :-:       | -     |-| :-              | :-:      | -     |
-| Mondays  | 5pm-6pm   | MS.05 |-| Fridays         | noon-1pm | MS.05 |
+| Mondays  | 5pm-6pm   | MS.05 |-| TBA             | TBA      | TBA   |
 | Tuesdays | 11am-noon | MS.03 |-|                 |          |       |
 
 ##  Assessment
