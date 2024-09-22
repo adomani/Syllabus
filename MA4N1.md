@@ -29,6 +29,9 @@
   <tbody>
 <!--  ##################  Week 1  ################## -->
     <tr><th></th><th style="text-align: center">Week 1 (Sep 30-Oct 04)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
         </ul>
       </td>
     </tr>
