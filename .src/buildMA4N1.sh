@@ -1,19 +1,13 @@
 #! /bin/bash
 
-##  initial merge of the files, probably no longer needed.
-mergeFiles () {
-  local fil
-  for fil in intro.md basicSyntax.md informationExtraction.md ideas_to_develop.md weekly_topics_tbc.md common_symbols.md faq.md; do
-    printf $'<!-- newFile %s -->\n' "${fil}"
-    cat "${fil}"
-  done > source.md
-}
-
 ##  `scatterTPwL` reads information from `~/Matematica/Warwick/Syllabus/.src/TPwL_source.md`
 ##  splits it into files, creates the table of contents and puts them in the `MA4N1/` dir.
 scatterTPwL () {
+  # read the `ma4n1_id` variable from moving_parts
+  local ma4n1_id="$(sed -n 's|^ma4n1_id=\(.*\)|\1|p' .src/moving_parts.txt)"
+
   ptable ~/Matematica/Warwick/Syllabus/.src/TPwL_source.md |
-  awk -v home="${HOME}/${matONo}/Warwick/Syllabus/MA4N1/" 'BEGIN {
+  awk -v home="${HOME}/${matONo}/Warwick/Syllabus/MA4N1/" -v ma4n1_id="${ma4n1_id}" 'BEGIN {
     mainFileNoExt="toc"
     mainFile=mainFileNoExt".md"
     genericGHurlNS="https://adomani.github.io/Syllabus/MA4N1"
@@ -21,7 +15,7 @@ scatterTPwL () {
     ghurl=genericGHurl mainFileNoExt
     moduleurl="https://github.com/adomani/MA4N1_2023"
     toc="\n\n## Available pages\n\n* [Current syllabus](" genericGHurlNS ")"
-    moodleurl="https://moodle.warwick.ac.uk/course/view.php?id=67222#section-0"
+    moodleurl="https://moodle.warwick.ac.uk/course/view.php?id=" ma4n1_id "#section-0"
     gitpodurl="[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#" moduleurl ")"
     tpwlink="\n\n[Back to the `Theorem Proving with Lean` webpage](" ghurl ")"
     moodlink="\n\n[Back to the Mathlib project for the module](" moduleurl ")\n\n" gitpodurl "\n\n[Back to Moodle](" moodleurl ")"
