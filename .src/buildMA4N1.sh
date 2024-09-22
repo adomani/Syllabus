@@ -13,7 +13,7 @@ scatterTPwL () {
     genericGHurlNS="https://adomani.github.io/Syllabus/MA4N1"
     genericGHurl=genericGHurlNS "/"
     ghurl=genericGHurl mainFileNoExt
-    moduleurl="https://github.com/adomani/MA4N1_2023"
+    moduleurl="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean"
     toc="\n\n## Available pages\n\n* [Current syllabus](" genericGHurlNS ")"
     moodleurl="https://moodle.warwick.ac.uk/course/view.php?id=" ma4n1_id "#section-0"
     gitpodurl="[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#" moduleurl ")"
