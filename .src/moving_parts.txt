@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# This file defines the variables that change every year for `MA4N1` and `MA3H5`
+
+# the date of Monday of week 0
+monday_week_0='Sep 23 2024'
+
+# the moodle id for the MA3H5 page
+ma3h5_id=67177
+
+# the moodle id for the MA4N1 page
+ma4n1_id=67222
+
+# the day of the week when the support class for MA3H5 takes place
+suppDay_ma3h5=TBA
+
+# the day of the week when the support class for MA4N1 takes place
+suppDay_ma4n1=TBA
