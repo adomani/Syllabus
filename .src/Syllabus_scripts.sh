@@ -39,8 +39,8 @@ page_tail () {
 }
 
 exweek () {
-  ini=($(date -d "${monday_week_0} +$1 weeks" '+%b %d'))
-  fin=($(date -d "${monday_week_0} +$1 weeks + 4 days" '+%b %d'))
+  local ini=($(date -d "${monday_week_0} +$1 weeks" '+%b %d'))
+  local fin=($(date -d "${monday_week_0} +$1 weeks + 4 days" '+%b %d'))
   if [ $ini == $fin ]; then mid=""; else mid="${fin[0]} "; fi
   echo "${ini[0]} ${ini[1]}-$mid${fin[1]}"
 }
@@ -108,10 +108,11 @@ new_day () {
 # * Finally, the remaining lines beginning with `  ` (two spaces) are items in a list that
 #   correspond to the topics covered on the current day.
 to_html_from () {
-  nome="${1}.md"     # the name of the file that the program will produce
+  local nome="${1}.md"     # the name of the file that the program will produce
   echo $nome
-  modd="${1:0:5}"    # the module code, as well as the name of the file with the info
-  { if [[ "${1:6}" = "tentative" ]]; then tent=" tentative syllabus"; else tent=""; fi;
+  local modd="${1:0:5}"    # the module code, as well as the name of the file with the info
+  { local tent
+    if [[ "${1:6}" = "tentative" ]]; then tent=" tentative syllabus"; else tent=""; fi;
     case "${modd}" in
       MA3H5)
         page_head "[MA3H5 Manifolds](https://moodle.warwick.ac.uk/course/view.php?id=${ma3h5_id})$tent"
@@ -126,8 +127,9 @@ to_html_from () {
         page_head "${1}"
         ;;
     esac
-    wk=0
-    con=true
+    local wk=0
+    local con=true
+    local line
     is_tent=false
     while IFS= read -r line || [ -n "$line" ]; do
       if [[ $line =~ ^-- ]];
@@ -178,15 +180,15 @@ ptable () {
 }
 
 make_md () {
-  here=$PWD
-  mypth=$(pwd | sed -E 's=(Syllab[iu][s]?).*=\1/.src/=g')
+  local here=$PWD
+  local mypth=$(pwd | sed -E 's=(Syllab[iu][s]?).*=\1/.src/=g')
   cd "$mypth"
   to_html_from "${1}"
   if [ -f "../${1}.md" ]; then
-    diffe="$(diff "${1}".md ../"${1}".md | grep -v "Last modified" | grep -vc "^---$")"
+    local diffe="$(diff "${1}".md ../"${1}".md | grep -v "Last modified" | grep -vc "^---$")"
     echo "$diffe different lines"
   else
-    diffe=2
+    local diffe=2
     brown 'Creating file ' ; printf $'%s\n' "${1}.md"
   fi
   if [ "$diffe" -gt 1 ]
