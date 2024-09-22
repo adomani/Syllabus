@@ -737,133 +737,20 @@ lemma zero_ne_one : 0 ≠ 1 := by
 <!-- newFile ideas_to_develop.md -->
 #  Projects and stubs of ideas
 
-##  Groups
+##  Past projects
 
-table
-|·
-Group name
-·|·
-Project title
-·|·
-Group members
-·|·
-Comments and possible Mathlib reference
-·|
-|·Cauchy
-·|·
-[Cauchy’s Theorem (Complex Analysis)](https://github.com/EdwardWatine/MA4N1)
-·|·
-* Edward Watine
-* Juan Antonio Montalbán Vidal
-* Jaime Díaz-Trechuelo Sánchez-Moliní
-* Josh Rydell
-·|·
-[Cauchy's Integral Formula](wiki#Cauchy%27s_integral_formula) in [Mathlib](docs#Complex.two_pi_I_inv_smul_circleIntegral_sub_inv_smul_of_differentiable_on_off_countable)
-·|
-|·Sylow
-·|·
-[Sylow’s Theorems](https://github.com/tom-corley/syl_thm_env)
-·|·
-* Antonina Sztyma
-* Tom Corley
-* Roshan Kohli
-·|·
-[Sylow's Theorems](wiki#Sylow_theorems) in [Mathlib](docs#Sylow.exists_subgroup_card_pow_prime_le).<br />
-Most of the file [Sylow](mlfile#GroupTheory/Sylow.html) is relevant.
-·|
-|·PerfectGraphs
-·|·
-[Perfect Graphs](https://github.com/tomdaboom/ma4n1_perfect_graphs)
-·|·
-* Alex Chung
-* Tom Divers
-* Susie Gabriel
-* Dan Shomron
-·|·
-[Perfect graphs](wiki#Perfect_graph) and examples.<br />
-There is a folder `Mathlib/Combinatorics/SimpleGraph/`,
-but I do not think that perfect graphs are in Mathlib.
-·|
-|·MeasureTheory
-·|·
-[Lusin’s Theorem](https://github.com/AadamHaq/MA4N1-Theorem-Proving-with-Lean)
-·|·
-* Giovanni Crocioni
-* Louis Genin
-* Aadam Haq
-* Ameer Saleem
-·|·
-Measure Theory folder `Mathlib/MeasureTheory/`
-·|
-|·Ostrowski
-·|·
-[Ostrowski’s Theorem](https://github.com/justmayself/Ostrowski-th-in-Lean)
-·|·
-* Tommaso Faustini
-* Mayo Mayo García
-·|·
-[Ostrowski's Theorem](wiki#Ostrowski%27s_theorem).<br />
-As far as I can tell, it is not in Mathlib, but there are some (possible) formalizations.<br />
-Relevant Zulip chats:
-[Link to LLL](zulip#116395-maths/topic/Seminar.20--.20London.20Learning.20Lean/near/362025148) and
-[Ostrowski's Theorem thread](zulip#217875-Is-there-code-for-X.3F/topic/Ostrowski's.20theorem)
-·|
-|·Dirichlet
-·|·
-[A Special Case of Dirichlet’s Theorem on Arithmetic Progression](https://github.com/J-Atfield/ma4n1-dirichlet-project)
-·|·
-* Hugo Pottinger
-* Jack Atfield
-* Leon Chipchase
-* James Harvey
-·|·
-Special case of [Dirichlet's Theorem on arithmetic progressions](wiki#Dirichlet%27s_theorem_on_arithmetic_progressions).<br />
-As far as I can tell, there is no explicit result in Mathlib in this direction.
-·|
-|·Lagrange
-·|·
-[Fermat’s Little Theorem](https://github.com/Gumbah/LagrangeProject)
-·|·
-* Edward Gilbert
-* Rose Bedell
-* Jakub Tucker
-* Katie Scarisbrick
-·|·
-[Fermat's Little Theorem](wiki#Fermat%27s_little_theorem) in [Mathlib](docs#ZMod.pow_card)<br />
-[Euler's Theorem](wiki#Euler%27s_theorem) in [Mathlib](docs#FiniteField.pow_card_sub_one_eq_one)
-·|
-|·Gaussian
-·|·
-[Lagrange’s Theorem](https://github.com/MichaelCavaliere/MA4N1-Project)
-·|·
-* Michael Cavaliere
-* Florence Crew
-* Henry Gallagher
-* Costas Bowgen
-·|·
-[Lagrange's Theorem](wiki#Lagrange%27s_theorem_(group_theory)) in [Mathlib](docs#Subgroup.card_subgroup_dvd_card)
-·|
-|·AnalyticNT
-·|·
-[Sieve Theory](https://github.com/grhkm21/LakeSeave)
-·|·
-* Gareth Ma
-* Neil Mukerji
-·|·
-Analytic Number Theory
-·|
-|·CombinatorialIMO
-·|·
-[Combinatorial Problems](https://github.com/mgsium/102_comb_lean)
-·|·
-* Doğukan E. Türköz
-* Kit Liu
-* Musab Guma'a
-·|·
-Combinatorial IMO Problems.<br />
-Some IMO problems have been formalised: they should all be in `Archive/Imo`
-(*not* inside the `Mathlib` folder!)
-/table
+|Project title|Comments and possible Mathlib reference|
+|-|-|
+|[Cauchy’s Theorem (Complex Analysis)](https://github.com/EdwardWatine/MA4N1)|[Cauchy's Integral Formula](wiki#Cauchy%27s_integral_formula) in [Mathlib](docs#Complex.two_pi_I_inv_smul_circleIntegral_sub_inv_smul_of_differentiable_on_off_countable)|
+|[Sylow’s Theorems](https://github.com/tom-corley/syl_thm_env)|[Sylow's Theorems](wiki#Sylow_theorems) in [Mathlib](docs#Sylow.exists_subgroup_card_pow_prime_le) Most of the file [Sylow](mlfile#GroupTheory/Sylow.html) is relevant.|
+|[Perfect Graphs](https://github.com/tomdaboom/ma4n1_perfect_graphs)|[Perfect graphs](wiki#Perfect_graph) and examples. There is a folder `Mathlib/Combinatorics/SimpleGraph/`, but I do not think that perfect graphs are in Mathlib.|
+|[Lusin’s Theorem](https://github.com/AadamHaq/MA4N1-Theorem-Proving-with-Lean)||
+|[Ostrowski’s Theorem](https://github.com/justmayself/Ostrowski-th-in-Lean)|[Ostrowski's Theorem](wiki#Ostrowski%27s_theorem). As far as I can tell, it is not in Mathlib, but there are some (possible) formalizations. Relevant Zulip chats:[Link to LLL](zulip#116395-maths/topic/Seminar.20--.20London.20Learning.20Lean/near/362025148) and [Ostrowski's Theorem thread](zulip#217875-Is-there-code-for-X.3F/topic/Ostrowski's.20theorem)|
+|[A Special Case of Dirichlet’s Theorem on Arithmetic Progression](https://github.com/J-Atfield/ma4n1-dirichlet-project)|Special case of [Dirichlet's Theorem on arithmetic progressions](wiki#Dirichlet%27s_theorem_on_arithmetic_progressions).|
+|[Fermat’s Little Theorem](https://github.com/Gumbah/LagrangeProject)|[Fermat's Little Theorem](wiki#Fermat%27s_little_theorem) in [Mathlib](docs#ZMod.pow_card). [Euler's Theorem](wiki#Euler%27s_theorem) in [Mathlib](docs#FiniteField.pow_card_sub_one_eq_one)|
+|[Lagrange’s Theorem](https://github.com/MichaelCavaliere/MA4N1-Project)|[Lagrange's Theorem](wiki#Lagrange%27s_theorem_(group_theory)) in [Mathlib](docs#Subgroup.card_subgroup_dvd_card)|
+|[Sieve Theory](https://github.com/grhkm21/LakeSeave)|Some results in analytic number theory.|
+|[Combinatorial Problems](https://github.com/mgsium/102_comb_lean)|Problems taken or inspired by IMO problems.|
 
 ##  Orphaned projects
 
