@@ -23,12 +23,13 @@
   })();
 </script>
 # [MA4N1 Theorem Proving with Lean](https://adomani.github.io/Syllabus/MA4N1/toc) tentative syllabus
-## Autumn 2023
+## Autumn 2024
 
 <table>
   <tbody>
 <!--  ##################  Week 1  ################## -->
-    <tr><th></th><th style="text-align: center">Week 1 (Oct 02-06)</th></tr>
+    <tr><th></th><th style="text-align: center">Week 1 (Sep 30-Oct 04)</th></tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
@@ -45,7 +46,7 @@
       </td>
     </tr>
 <!--  ##################  Week 2  ################## -->
-    <tr><th></th><th style="text-align: center">Week 2 (Oct 09-13)</th></tr>
+    <tr><th></th><th style="text-align: center">Week 2 (Oct 07-11)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
@@ -69,7 +70,7 @@
       </td>
     </tr>
 <!--  ##################  Week 3  ################## -->
-    <tr><th></th><th style="text-align: center">Week 3 (Oct 16-20)</th></tr>
+    <tr><th></th><th style="text-align: center">Week 3 (Oct 14-18)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
@@ -94,7 +95,7 @@
       </td>
     </tr>
 <!--  ##################  Week 4  ################## -->
-    <tr><th></th><th style="text-align: center">Week 4 (Oct 23-27)</th></tr>
+    <tr><th></th><th style="text-align: center">Week 4 (Oct 21-25)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
@@ -120,7 +121,7 @@
       </td>
     </tr>
 <!--  ##################  Week 5  ################## -->
-    <tr><th></th><th style="text-align: center">Week 5 (Oct 30-Nov 03)</th></tr>
+    <tr><th></th><th style="text-align: center">Week 5 (Oct 28-Nov 01)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
@@ -144,7 +145,7 @@
       </td>
     </tr>
 <!--  ##################  Week 6  ################## -->
-    <tr><th></th><th style="text-align: center">Week 6 (Nov 06-10)</th></tr>
+    <tr><th></th><th style="text-align: center">Week 6 (Nov 04-08)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
@@ -172,7 +173,7 @@
       </td>
     </tr>
 <!--  ##################  Week 7  ################## -->
-    <tr><th></th><th style="text-align: center">Week 7 (Nov 13-17)</th></tr>
+    <tr><th></th><th style="text-align: center">Week 7 (Nov 11-15)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
@@ -196,7 +197,7 @@
       </td>
     </tr>
 <!--  ##################  Week 8  ################## -->
-    <tr><th></th><th style="text-align: center">Week 8 (Nov 20-24)</th></tr>
+    <tr><th></th><th style="text-align: center">Week 8 (Nov 18-22)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
@@ -220,7 +221,7 @@
       </td>
     </tr>
 <!--  ##################  Week 9  ################## -->
-    <tr><th></th><th style="text-align: center">Week 9 (Nov 27-Dec 01)</th></tr>
+    <tr><th></th><th style="text-align: center">Week 9 (Nov 25-29)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
@@ -244,7 +245,7 @@
       </td>
     </tr>
 <!--  ##################  Week 10  ################## -->
-    <tr><th></th><th style="text-align: center">Week 10 (Dec 04-08)</th></tr>
+    <tr><th></th><th style="text-align: center">Week 10 (Dec 02-06)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
@@ -261,7 +262,6 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
@@ -275,4 +275,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA4N1)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Friday, Dec 08 2023</div>
+<div style="text-align: right">Last modified: Sunday, Sep 22 2024</div>

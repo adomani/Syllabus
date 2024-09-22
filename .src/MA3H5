@@ -1,4 +1,5 @@
 -- Week 1
+_tentative
 mon
   Example: projective space.
   Definition of pseudo-group of transformations.
@@ -105,7 +106,6 @@ mon
   Q&A: germs vs functions, quotient manifolds, remarks about invariance of domain.
 wed
   Q&A: partitions of unity, immersions, differentials,...
-_tentative
 sup
   Orientability and examples.
   Classical notation for integrals.

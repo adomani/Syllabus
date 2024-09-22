@@ -1,4 +1,5 @@
 -- Week 1
+_tentative
 mon
   Overview of assessment.
   Introduction to formalization and to Lean.
@@ -90,7 +91,6 @@ mon
 tue
   Algebraic and tropical geometry in <code>Mathlib</code>.
   Type theory and category theory.
-_tentative
 sup
   Group work?
   <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L16_setoids_week_end_questions.lean">Week-end setoids</a>?
