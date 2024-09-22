@@ -23,12 +23,13 @@
   })();
 </script>
 # [MA3H5 Manifolds](https://moodle.warwick.ac.uk/course/view.php?id=60813) tentative syllabus
-## Autumn 2023
+## Autumn 2024
 
 <table>
   <tbody>
 <!--  ##################  Week 1  ################## -->
     <tr><th></th><th style="text-align: center">Week 1 (Oct 02-06)</th></tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
@@ -275,7 +276,6 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
@@ -290,4 +290,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Wednesday, Dec 06 2023</div>
+<div style="text-align: right">Last modified: Sunday, Sep 22 2024</div>
