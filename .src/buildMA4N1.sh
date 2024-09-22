@@ -1,14 +1,5 @@
 #! /bin/bash
 
-##  initial merge of the files, probably no longer needed.
-mergeFiles () {
-  local fil
-  for fil in intro.md basicSyntax.md informationExtraction.md ideas_to_develop.md weekly_topics_tbc.md common_symbols.md faq.md; do
-    printf $'<!-- newFile %s -->\n' "${fil}"
-    cat "${fil}"
-  done > source.md
-}
-
 ##  `scatterTPwL` reads information from `~/Matematica/Warwick/Syllabus/.src/TPwL_source.md`
 ##  splits it into files, creates the table of contents and puts them in the `MA4N1/` dir.
 scatterTPwL () {
