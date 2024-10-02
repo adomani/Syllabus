@@ -44,17 +44,14 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Wednesday</td>
       <td>
         <ul>
-          <li>Symmetric algebra.</li>
-          <li>Tensor algebra.</li>
           <li>Introduction to tensor products.</li>
-          <li>Introduction to exterior algebra.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
 <!--  ##################  Week 2  ################## -->
     <tr><th></th><th style="text-align: center">Week 2 (Oct 07-11)</th></tr>
     <tr><td>Monday</td>
@@ -69,6 +66,9 @@
     <tr><td>Wednesday</td>
       <td>
         <ul>
+          <li>Tensor algebra.</li>
+          <li>Symmetric algebra.</li>
+          <li>Introduction to exterior algebra.</li>
           <li>More on the tensor and exterior algebra.</li>
         </ul>
       </td>
@@ -296,4 +296,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Oct 01 2024</div>
+<div style="text-align: right">Last modified: Wednesday, Oct 02 2024</div>
