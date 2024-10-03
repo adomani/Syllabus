@@ -35,6 +35,12 @@
         <ul>
           <li>Example: projective space.</li>
           <li>Definition of pseudo-group of transformations.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
           <li>Definition of a manifold.</li>
         </ul>
       </td>
@@ -42,13 +48,11 @@
     <tr><td>Wednesday</td>
       <td>
         <ul>
-          <li>Symmetric algebra.</li>
-          <li>Tensor algebra.</li>
           <li>Introduction to tensor products.</li>
-          <li>Introduction to exterior algebra.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
 <!--  ##################  Week 2  ################## -->
     <tr><th></th><th style="text-align: center">Week 2 (Oct 07-11)</th></tr>
     <tr><td>Monday</td>
@@ -63,11 +67,14 @@
     <tr><td>Wednesday</td>
       <td>
         <ul>
+          <li>Tensor algebra.</li>
+          <li>Symmetric algebra.</li>
+          <li>Introduction to exterior algebra.</li>
           <li>More on the tensor and exterior algebra.</li>
         </ul>
       </td>
     </tr>
-    <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+    <tr><td><p style="margin-bottom:0;">Thursday?</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
           <li>Definition of a manifold, smooth maps and diffeomorphisms.</li>
@@ -91,7 +98,7 @@
         </ul>
       </td>
     </tr>
-    <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+    <tr><td><p style="margin-bottom:0;">Thursday?</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
           <li>Sub-manifolds, Inverse function theorem, PS1 P2-3.</li>
@@ -115,7 +122,7 @@
         </ul>
       </td>
     </tr>
-    <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+    <tr><td><p style="margin-bottom:0;">Thursday?</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
           <li>Review of tangent vectors and vector fields.</li>
@@ -141,7 +148,7 @@
         </ul>
       </td>
     </tr>
-    <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+    <tr><td><p style="margin-bottom:0;">Thursday?</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
           <li>Problem Sheet 2, Problems 1 and 3.</li>
@@ -169,7 +176,7 @@
         </ul>
       </td>
     </tr>
-    <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+    <tr><td><p style="margin-bottom:0;">Thursday?</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
           <li>Partitions of unity, PS2 P4.</li>
@@ -198,7 +205,7 @@
         </ul>
       </td>
     </tr>
-    <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+    <tr><td><p style="margin-bottom:0;">Thursday?</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
           <li>"Baby Pre-image theorem".</li>
@@ -223,7 +230,7 @@
         </ul>
       </td>
     </tr>
-    <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+    <tr><td><p style="margin-bottom:0;">Thursday?</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
           <li>Differential 2-forms and higher order forms.</li>
@@ -251,7 +258,7 @@
         </ul>
       </td>
     </tr>
-    <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+    <tr><td><p style="margin-bottom:0;">Thursday?</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
           <li>Pull-back and differentials.</li>
@@ -276,7 +283,7 @@
         </ul>
       </td>
     </tr>
-    <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+    <tr><td><p style="margin-bottom:0;">Thursday?</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
           <li>Orientability and examples.</li>
@@ -290,4 +297,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Sunday, Sep 22 2024</div>
+<div style="text-align: right">Last modified: Thursday, Oct 03 2024</div>

@@ -3,19 +3,21 @@ _tentative
 mon
   Example: projective space.
   Definition of pseudo-group of transformations.
+tue
   Definition of a manifold.
 wed
-  Symmetric algebra.
-  Tensor algebra.
   Introduction to tensor products.
-  Introduction to exterior algebra.
 
+_tentative
 -- Week 2
 mon
   Examples.
   Product manifolds, submanifolds, manifolds defined by equations in another manifold.
   Quotient manifolds.
 wed
+  Tensor algebra.
+  Symmetric algebra.
+  Introduction to exterior algebra.
   More on the tensor and exterior algebra.
 sup
   Definition of a manifold, smooth maps and diffeomorphisms.

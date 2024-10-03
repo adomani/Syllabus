@@ -37,4 +37,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3H5_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Sunday, Sep 22 2024</div>
+<div style="text-align: right">Last modified: Thursday, Oct 03 2024</div>

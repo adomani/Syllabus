@@ -29,7 +29,6 @@
   <tbody>
 <!--  ##################  Week 1  ################## -->
     <tr><th></th><th style="text-align: center">Week 1 (Sep 30-Oct 04)</th></tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
@@ -41,16 +40,18 @@
     <tr><td>Tuesday</td>
       <td>
         <ul>
-          <li>Syntax, infoview, tactics, structuring proofs (<a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L00_intro.lean">L00_intro.lean</a>).</li>
+          <li>Difference between `Bool` and `Prop`, preliminary discussion about project topics.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
 <!--  ##################  Week 2  ################## -->
     <tr><th></th><th style="text-align: center">Week 2 (Oct 07-11)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>Begin <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L01_polynomials.lean">polynomials</a>.</li>
+          <li>Syntax, infoview, tactics, structuring proofs (<a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L00_intro.lean">L00_intro.lean</a>).</li>
+          <li>Begin <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L01_polynomials.lean">polynomials</a>.</li>
         </ul>
       </td>
     </tr>
@@ -64,7 +65,7 @@
     <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>Solve <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L01_polynomial_questions.lean">polynomial questions</a>.</li>
+          <li>Solve <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L01_polynomial_questions.lean">polynomial questions</a>.</li>
           <li>The <code><;></code> tactic combinator.</li>
         </ul>
       </td>
@@ -74,8 +75,8 @@
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>More on <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L01_polynomials.lean">polynomials</a>.</li>
-          <li>Go over beginning of <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L02_generalizations.lean">generalizations</a>.</li>
+          <li>More on <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L01_polynomials.lean">polynomials</a>.</li>
+          <li>Go over beginning of <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">generalizations</a>.</li>
         </ul>
       </td>
     </tr>
@@ -83,14 +84,14 @@
       <td>
         <ul>
           <li>Assign (most) groups.</li>
-          <li>Continue with <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L02_generalizations.lean">generalizations</a>.</li>
+          <li>Continue with <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">generalizations</a>.</li>
         </ul>
       </td>
     </tr>
     <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L03_groups_questions.lean">Group questions</a>.</li>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L03_groups_questions.lean">Group questions</a>.</li>
         </ul>
       </td>
     </tr>
@@ -99,7 +100,7 @@
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L04_definitions.lean">Definitions</a> in <code>Mathlib</code>.</li>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L04_definitions.lean">Definitions</a> in <code>Mathlib</code>.</li>
         </ul>
       </td>
     </tr>
@@ -107,7 +108,7 @@
       <td>
         <ul>
           <li>Suggestions of topics.</li>
-          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L04_definitions.lean">Definitions</a> and inductives in <code>Mathlib</code>.</li>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L04_definitions.lean">Definitions</a> and inductives in <code>Mathlib</code>.</li>
         </ul>
       </td>
     </tr>
@@ -115,8 +116,8 @@
       <td>
         <ul>
           <li>Two sets of exercises, covering</li>
-          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L05_graphs_questions.lean">graphs questions</a>, and</li>
-          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L05_limits_questions.lean">limits questions</a>.</li>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L05_graphs_questions.lean">graphs questions</a>, and</li>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L05_limits_questions.lean">limits questions</a>.</li>
         </ul>
       </td>
     </tr>
@@ -125,14 +126,14 @@
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L06_typeclasses.lean">Typeclasses</a>.</li>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L06_typeclasses.lean">Typeclasses</a>.</li>
         </ul>
       </td>
     </tr>
     <tr><td>Tuesday</td>
       <td>
         <ul>
-          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L07_calculations.lean">Calculations</a>:</li>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L07_calculations.lean">Calculations</a>:</li>
           <li><code>calc, conv, gcongr</code>.</li>
         </ul>
       </td>
@@ -140,7 +141,7 @@
     <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L08_Ri_hard.lean">&#x211D;[i] is a field</a>.</li>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L08_Ri_hard.lean">&#x211D;[i] is a field</a>.</li>
         </ul>
       </td>
     </tr>
@@ -168,7 +169,7 @@
     <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L10_dvd_induction.lean">Induction on divisors of a natural number</a>.</li>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L10_dvd_induction.lean">Induction on divisors of a natural number</a>.</li>
         </ul>
       </td>
     </tr>
@@ -178,21 +179,21 @@
       <td>
         <ul>
           <li><code>set_option autoImplicit false/true</code>.</li>
-          <li><code>aesop</code> and <code>rcases</code> using the <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L10_dvd_induction.lean">dvd_induction</a> file.</li>
+          <li><code>aesop</code> and <code>rcases</code> using the <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L10_dvd_induction.lean">dvd_induction</a> file.</li>
         </ul>
       </td>
     </tr>
     <tr><td>Tuesday</td>
       <td>
         <ul>
-          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L12_pathologies.lean">Pathologies</a>: <code>Nat.sub, Nat.div, Div, deriv</code></li>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L12_pathologies.lean">Pathologies</a>: <code>Nat.sub, Nat.div, Div, deriv</code></li>
         </ul>
       </td>
     </tr>
     <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L13_deriv_pathologies_questions.lean">deriv-pathologies</a>.</li>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L13_deriv_pathologies_questions.lean">deriv-pathologies</a>.</li>
         </ul>
       </td>
     </tr>
@@ -201,15 +202,15 @@
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L14_in_implicit_explicit.lean">Some syntax</a>: <code>variable/open ... in ...</code>, explicit vs implicit arguments.</li>
-          <li>Beginning of <a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L15_setoids.lean">setoids</a>.</li>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L14_in_implicit_explicit.lean">Some syntax</a>: <code>variable/open ... in ...</code>, explicit vs implicit arguments.</li>
+          <li>Beginning of <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L15_setoids.lean">setoids</a>.</li>
         </ul>
       </td>
     </tr>
     <tr><td>Tuesday</td>
       <td>
         <ul>
-          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L15_setoids.lean">Setoids</a>.</li>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L15_setoids.lean">Setoids</a>.</li>
         </ul>
       </td>
     </tr>
@@ -225,14 +226,14 @@
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L17_navigating_Mathlib.lean">Navigating <code>Mathlib</code></a>.</li>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L17_navigating_Mathlib.lean">Navigating <code>Mathlib</code></a>.</li>
         </ul>
       </td>
     </tr>
     <tr><td>Tuesday</td>
       <td>
         <ul>
-          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L18_finiteness.lean">Finiteness</a>.</li>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L18_finiteness.lean">Finiteness</a>.</li>
           <li><code>Classical, noncomputable, Prop, Bool</code>.</li>
         </ul>
       </td>
@@ -266,7 +267,7 @@
       <td>
         <ul>
           <li>Group work?</li>
-          <li><a href="https://github.com/adomani/MA4N1_2023/blob/master/MA4N1_2023/L16_setoids_week_end_questions.lean">Week-end setoids</a>?</li>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L16_setoids_week_end_questions.lean">Week-end setoids</a>?</li>
         </ul>
       </td>
     </tr>
@@ -275,4 +276,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA4N1)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Sunday, Sep 22 2024</div>
+<div style="text-align: right">Last modified: Tuesday, Oct 01 2024</div>
