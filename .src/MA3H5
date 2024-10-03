@@ -2,19 +2,21 @@
 mon
   Example: projective space.
   Definition of pseudo-group of transformations.
+tue
   Definition of a manifold.
 wed
-  Symmetric algebra.
-  Tensor algebra.
   Introduction to tensor products.
-  Introduction to exterior algebra.
 
+_tentative
 -- Week 2
 mon
   Examples.
   Product manifolds, submanifolds, manifolds defined by equations in another manifold.
   Quotient manifolds.
 wed
+  Tensor algebra.
+  Symmetric algebra.
+  Introduction to exterior algebra.
   More on the tensor and exterior algebra.
 sup
   Definition of a manifold, smooth maps and diffeomorphisms.
@@ -25,84 +27,87 @@ mon
   Tangent vectors, tangent spaces, vector fields.
 wed
   Interpretation of exterior algebra via multilinear, alternating maps.
-_tentative
 sup
-  Sub-manifolds.
-  Smooth maps.
-  Question Sheet 1.
+  Sub-manifolds, Inverse function theorem, PS1 P2-3.
 
 -- Week 4
 mon
   Vector fields, bracket.
-  Differential, definition of immersion, submersion, embedding.
+  Differential, beginning of definition of immersion, submersion, embedding.
 wed
   Partitions of unity.
-  Beginning of Ehresmann's Theorem.
 sup
-  Surgery (Theorem 2.12).
-  Tensor products (continued).
-  Tangent spaces and derivatives.
+  Review of tangent vectors and vector fields.
+  Example.
 
 -- Week 5
 mon
+  Immersions, submersions, embeddings.
   (Local) 1-parameter subgroups of (local) diffeomorphisms.
+wed
   Flows.
   Complete vector fields.
-  Cotangent space (definition).
-wed
-  Ehresmann's Theorem.
 sup
-  Derivatives (continued) in charts and abstractly.
-  Problem Sheet 2.
+  Problem Sheet 2, Problems 1 and 3.
 
 --  Week 6
 mon
+  Ehresmann's Theorem.
   Complements and Q&A during breather week.
 wed
+  Go over definition of tensor, exterior and symmetric algebra.
+  Informal motivation for $k$-forms.
+  Informal motivation for vector bundles.
+  Go over some parts of an exam question.
   Complements and Q&A during breather week.
 sup
-  Associativity of tensor products.
-  Wedge products and dimension of $\Lambda^k U$.
+  Partitions of unity, PS2 P4.
+  Tensor products and multilinear maps.
 
 --  Week 7
 mon
+  Cotangent space (definition).
   Smooth 1-forms, total differential, cotangent bundle.
+  Digression on tangent bundle to $S^2$.
   Vector bundles.
-  Differential $r$-forms and pull-backs.
 wed
-  Integrals and Orientability.
+  Vector bundles.
+  Cocycles.
+  Differential $r$-forms.
 sup
-  Orientability and examples.
-  Pull-back and differentials.
+  "Baby Pre-image theorem".
+  Tensor products and exterior squares.
 
 --  Week 8
 mon
-  Exterior differentiation.
-  Examples in $\mathbb{R}^3$.
-  Stokes' Theorem for manifolds without boundary.
+  Pull-backs of differential forms.
+  Integrals and Orientability.
 wed
-  Manifolds with boundary.
-  Stokes' Theorem.
+  Exterior differentiation.
 sup
-  TBA
+  Differential 2-forms and higher order forms.
+  Exterior derivative and $d \circ d = 0$.
+  PS3 P3.
 
 --  Week 9
 mon
-  Brouwer’s fixed point theorem.
-  Closed and exact forms, de Rham cohomology, formal properties (Theorem 6.2).
-  de Rham cohomology of $\mathbb{R}^n$.
+  Stokes' Theorem for manifolds without boundary.
+  Manifolds with boundary.
+  An orientation on $M$ induces an orientation on $\partial M$.
 wed
-  de Rham cohomology of $S^n$.
+  Orientation on $\partial [0,1]$.
+  Stokes' Theorem.
 sup
-  Problem Sheet 4, Questions 1-2.
-  Classical notation for integrals.
-  Interior product.
+  Pull-back and differentials.
+  PS3 P3.
 
 --  Week 10
 mon
-  Top cohomology of compact, connected orientable manifolds is nonzero.
-  Q&A: M&ouml;bius band, connected sums, cohomology, hyperbolic plane, surfaces,...
+  Brouwer’s fixed point theorem.
+  Q&A: germs vs functions, quotient manifolds, remarks about invariance of domain.
 wed
-  Examples of surgeries (non-examinable).
+  Q&A: partitions of unity, immersions, differentials,...
 sup
-  TBA
+  Orientability and examples.
+  Classical notation for integrals.
+  Interior product.

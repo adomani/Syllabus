@@ -88,6 +88,10 @@ Here is an itemised list of some questions that you may want to address in the o
 * Explain what result you want to formalize.
   If it is a theorem, explain what proof you intend to formalise,
   either by writing it down or by referring to a resource that contains a detailed proof.
+* Be fairly explicit about the first steps.
+  Being more explicit, means committing in writing to what you intend to do,
+  but does *not* mean that you will be expected to follow these steps literally.
+  What you mention in the outline can be changed as you make progress and realise what is realistic and what is not.
 * If you have already tried something and it failed or worked, mention successes/failures!
 * If your result is already contained in `Mathlib` (I try to help with this, so do ask!),
   then think about where you want your formalisation to start.
@@ -101,13 +105,47 @@ Here is an itemised list of some questions that you may want to address in the o
   without duplicating effort.
 
 Finally, the outline is meant to be a plan of what you think that the project will look like **at the time of writing**.
+In fact, the outline is marked shortly after you hand it in, and definitely *much earlier* than when you submit your final project.
 If the actual development of the project requires major revisions of the outline,
 that is neither a problem, nor something that will affect your final evaluation!
+
+##  What is the video presentation
+
+The video presentation is a short video of at most 4 minutes.
+
+In the video, you should describe what you personally contributed to the formalisation project on which you are working.
+Of course, everyone will probably contribute on several different aspects.
+Your contribution will likely also change over time.
+However, try to be specific, isolate where you feel that you really made a difference, and describe your contribution *at the time of submission*!
+
+Due to the nature of formalisation, contributions come in many forms and the final result is a coherent mix of combined efforts.
+Below are a few examples, but these are just some ideas!
+
+* **Container infrastructure**: set up a working project, provide and manage tools for dealing with version control, planning, development and deployment.
+* **Focus**: find a suitable topic, adjust to constraints and strengths of group members, re-orient if needed.
+* **Mathematics**: lay out a careful mathematical proof to simplify the actual formalisation.
+* **Exploration**: try out various possible approaches, before settling on "the one that works".
+* **Divide-and-conquer**: produce a network of `sorry`ed out *statements* that, together, form the initial canvas for the formalisation.
+* **Fill in `sorry`s**: writing proofs in Lean to prove statements, highlighting which ones came easily, which ones required more effort.
+* **Formalisation infrastructure**: maintain and streamline existing proofs, develop ergonomical API lemmas, code review, speed-ups.
+
+As I said, the list above is just a sample of possible contributions.
+You may very well feel that you helped your group in a different way: the video presentation is your chance of explaining what it is that you did!
+
+The final success of a project results from a mix of different types of contributions.
+In assessing your contribution, make sure that you explain which specific questions you were facing and how your work addressed and (hopefully!) solved the issue.
+
+Do mention how effective your solution has been and whether you expect it to require further "maintenance" or it settled completely the problem.
+Be honest about it: being unsuccessful at solving a problem is a very common situation!
+You will be assessed on your attempt, regardless of whether you completed it or not.
+Partially failing at solving a difficult problem, may still count as a great success!
 
 ---
 
 [Back to the `Theorem Proving with Lean` webpage](https://adomani.github.io/Syllabus/MA4N1/toc)
 
-[Back to the Mathlib project for the module](https://github.com/adomani/MA4N1_2023)
+[Back to the Mathlib project for the module](https://github.com/adomani/MA4N1_Theorem_proving_with_Lean)
 
-[Back to Moodle](https://moodle.warwick.ac.uk/course/view.php?id=58287#section-0)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/adomani/MA4N1_Theorem_proving_with_Lean)
+
+[Back to Moodle](https://moodle.warwick.ac.uk/course/view.php?id=67222#section-0)
