@@ -1,3 +1,5 @@
+# Initial tactic, brackets and basic logic symbols
+
 ##  Some tactics
 
 * `constructor`, splits a goal such as `a ∧ b` into two separate goals.
@@ -89,12 +91,14 @@ echo 'Name | Symbol
 You can find a cheat-sheet with commonly used symbols and tactics
 [here](https://github.com/madvorak/lean4-cheatsheet/blob/main/lean-tactics.pdf) and also
 [here](https://github.com/madvorak/lean4-tactics)
-(these page are externally maintained -- let me know if it stops working).
+(these page are externally maintained -- let me know if they stop working).
 
 ---
 
 [Back to the `Theorem Proving with Lean` webpage](https://adomani.github.io/Syllabus/MA4N1/toc)
 
-[Back to the Mathlib project for the module](https://github.com/adomani/MA4N1_2023)
+[Back to the Mathlib project for the module](https://github.com/adomani/MA4N1_Theorem_proving_with_Lean)
 
-[Back to Moodle](https://moodle.warwick.ac.uk/course/view.php?id=58287#section-0)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/adomani/MA4N1_Theorem_proving_with_Lean)
+
+[Back to Moodle](https://moodle.warwick.ac.uk/course/view.php?id=67222#section-0)
