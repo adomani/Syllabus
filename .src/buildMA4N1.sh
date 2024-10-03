@@ -7,7 +7,7 @@ scatterTPwL () {
   local ma4n1_id="$(sed -n 's|^ma4n1_id=\(.*\)|\1|p' .src/moving_parts.txt)"
 
   ptable ~/Matematica/Warwick/Syllabus/.src/TPwL_source.md |
-  awk -v home="${HOME}/${matONo}/Warwick/Syllabus/MA4N1/" -v ma4n1_id="${ma4n1_id}" 'BEGIN {
+  awk -v home="${HOME}/Matematica/Warwick/Syllabus/MA4N1/" -v ma4n1_id="${ma4n1_id}" 'BEGIN {
     mainFileNoExt="toc"
     mainFile=mainFileNoExt".md"
     genericGHurlNS="https://adomani.github.io/Syllabus/MA4N1"
