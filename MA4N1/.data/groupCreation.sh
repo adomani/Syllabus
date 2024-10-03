@@ -26,8 +26,10 @@ dataFile='Matematica/Warwick/Syllabus/MA4N1/.data/end.csv'
 inactiveFile='Matematica/Warwick/Syllabus/MA4N1/.data/inactive.csv'
 guests='Damiano,Marc Truter,Inna'
 
+ma4n1_id="$(sed -n 's|^ma4n1_id=\(.*\)|\1|p' .src/moving_parts.txt)"
+
 brown $'From the participants list on Moodle ('
-  printf '%s' 'https://moodle.warwick.ac.uk/user/index.php?id=58287'
+  printf 'https://moodle.warwick.ac.uk/user/index.php?id=%s' "${ma4n1_id}"
 brown $')
 * select them all
 * download to'

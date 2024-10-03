@@ -7,13 +7,13 @@ scatterTPwL () {
   local ma4n1_id="$(sed -n 's|^ma4n1_id=\(.*\)|\1|p' .src/moving_parts.txt)"
 
   ptable ~/Matematica/Warwick/Syllabus/.src/TPwL_source.md |
-  awk -v home="${HOME}/${matONo}/Warwick/Syllabus/MA4N1/" -v ma4n1_id="${ma4n1_id}" 'BEGIN {
+  awk -v home="${HOME}/Matematica/Warwick/Syllabus/MA4N1/" -v ma4n1_id="${ma4n1_id}" 'BEGIN {
     mainFileNoExt="toc"
     mainFile=mainFileNoExt".md"
     genericGHurlNS="https://adomani.github.io/Syllabus/MA4N1"
     genericGHurl=genericGHurlNS "/"
     ghurl=genericGHurl mainFileNoExt
-    moduleurl="https://github.com/adomani/MA4N1_2023"
+    moduleurl="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean"
     toc="\n\n## Available pages\n\n* [Current syllabus](" genericGHurlNS ")"
     moodleurl="https://moodle.warwick.ac.uk/course/view.php?id=" ma4n1_id "#section-0"
     gitpodurl="[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#" moduleurl ")"
@@ -221,6 +221,7 @@ commonSubstring () {
 ## `getLine <i> <file>` prints the `<i>`-th line of `<file>`.
 getLine () { awk -v ind="${1}" '(NR == ind) { printf $0 }' "${2}" ; }
 
+wasLiveCode () {
 (
   tots=$( wc -l < allAuths )
   for (( fir=1; fir<=${tots}; fir++))
@@ -244,3 +245,4 @@ getLine () { awk -v ind="${1}" '(NR == ind) { printf $0 }' "${2}" ; }
     fi
   done
 )
+}
