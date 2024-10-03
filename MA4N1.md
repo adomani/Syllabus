@@ -29,6 +29,18 @@
   <tbody>
 <!--  ##################  Week 1  ################## -->
     <tr><th></th><th style="text-align: center">Week 1 (Sep 30-Oct 04)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>Overview of assessment.</li>
+          <li>Introduction to formalization and to Lean.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
+          <li>Difference between `Bool` and `Prop`, preliminary discussion about project topics.</li>
         </ul>
       </td>
     </tr>
@@ -37,4 +49,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA4N1_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Thursday, Oct 03 2024</div>
+<div style="text-align: right">Last modified: Tuesday, Oct 01 2024</div>
