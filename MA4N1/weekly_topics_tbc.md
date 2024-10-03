@@ -1,4 +1,4 @@
-#  Possible weekly topics &ndash; very preliminary
+#  Possible weekly topics &ndash; outdated
 
 This is a week-by-week breakdown of possible topics for the [MA4N1 Theorem Proving with Lean](toc).
 It is a highly susceptible to changes!
@@ -92,6 +92,8 @@ Addressing specific issues arising from working on the projects.
 
 [Back to the `Theorem Proving with Lean` webpage](https://adomani.github.io/Syllabus/MA4N1/toc)
 
-[Back to the Mathlib project for the module](https://github.com/adomani/MA4N1_2023)
+[Back to the Mathlib project for the module](https://github.com/adomani/MA4N1_Theorem_proving_with_Lean)
 
-[Back to Moodle](https://moodle.warwick.ac.uk/course/view.php?id=58287#section-0)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/adomani/MA4N1_Theorem_proving_with_Lean)
+
+[Back to Moodle](https://moodle.warwick.ac.uk/course/view.php?id=67222#section-0)

@@ -3,7 +3,7 @@
 
 | Lectures |           | Room  |-| Support classes |          | Room  |
 | :-       | :-:       | -     |-| :-              | :-:      | -     |
-| Mondays  | 5pm-6pm   | MS.05 |-| Fridays         | noon-1pm | MS.05 |
+| Mondays  | 5pm-6pm   | MS.05 |-| Tuesdays        | 4pm-5pm  | D1.07 |
 | Tuesdays | 11am-noon | MS.03 |-|                 |          |       |
 
 ##  Assessment
@@ -14,17 +14,17 @@ Two submissions are during Term 1.
 
 The final submission is at the end of January, in Term 2.
 
-| Assessment                                        | Submission type | Deadline       |
-| -                                                 | :-              | :-             |
-| Outline of formalization                          | Group           | Week 5         |
-| Video of personal contribution (up to 4 minutes)  | Individual      | Week 8         |
-| Final formalization                               | Group           | Term 2, Week 3 |
+| Assessment                                        | Submission type | Deadline       | Weighting |
+| -                                                 | :-              | :-             | :-:       |
+| Outline of formalization                          | Group           | Week 5         | 10%       |
+| Video of personal contribution (up to 4 minutes)  | Individual      | Week 9         | 20%       |
+| Final formalization                               | Group           | Term 2, Week 3 | 70%       |
 
 <!-- `echo 'markdown table' | column -s'|' -o'|' -t` -->
 
 You can find some ideas for what might constitute a "toy project" [here](ideas_to_develop).
 
-The Lean 4 project containing the Lean files for the lectures is [here](https://github.com/adomani/MA4N1_2023).
+The Lean 4 project containing the Lean files for the lectures is [here](https://github.com/adomani/MA4N1_Theorem_proving_with_Lean).
 
 ---
 
@@ -106,6 +106,8 @@ The link takes you to the Lean4 version.
 The original [Natural Numbers Game (Lean 3)](https://www.ma.imperial.ac.uk/~buzzard/xena/natural_number_game/) was developed by Kevin Buzzard and Mohammad Pedramfar.
 In fact, you are encouraged to play with it to see if this module might be a good choice for you!
 <!-- newFile syntaxSummary.md -->
+# Initial tactic, brackets and basic logic symbols
+
 ##  Some tactics
 
 * `constructor`, splits a goal such as `a ∧ b` into two separate goals.
@@ -197,7 +199,7 @@ echo 'Name | Symbol
 You can find a cheat-sheet with commonly used symbols and tactics
 [here](https://github.com/madvorak/lean4-cheatsheet/blob/main/lean-tactics.pdf) and also
 [here](https://github.com/madvorak/lean4-tactics)
-(these page are externally maintained -- let me know if it stops working).
+(these page are externally maintained -- let me know if they stop working).
 <!-- newFile basicSyntax.md -->
 # Basic Lean4 syntax
 
@@ -735,114 +737,22 @@ lemma zero_ne_one : 0 ≠ 1 := by
 <!-- newFile ideas_to_develop.md -->
 #  Projects and stubs of ideas
 
-##  Groups
+##  Past projects
 
-table
-|·
-Group name
-·|·
-Group members
-·|·
-Comments and possible Mathlib reference
-·|
-|·Cauchy
-·|·
-* Josh R
-* Ed W
-* Jaime
-* Juan
-·|·
-* [The Basel problem](wiki#Basel_problem) in [Mathlib](docs#hasSum_zeta_two)
-* [Cauchy's Integral Formula](wiki#Cauchy%27s_integral_formula) in [Mathlib](docs#Complex.two_pi_I_inv_smul_circleIntegral_sub_inv_smul_of_differentiable_on_off_countable)
-·|
-|·Sylow
-·|·
-* Antonina
-* Tom C
-* Roshan
-·|·
-* [Sylow's Theorems](wiki#Sylow_theorems) in [Mathlib](docs#Sylow.exists_subgroup_card_pow_prime_le).<br />
-Most of the file [Sylow](mlfile#GroupTheory/Sylow.html) is relevant.
-·|
-|·PerfectGraphs
-·|·
-* Susie G
-* Alex C
-* Tom D
-* Dan S
-·|·
-[Perfect graphs](wiki#Perfect_graph) and examples.<br />
-There is a folder `Mathlib/Combinatorics/SimpleGraph/`,
-but I do not think that perfect graphs are in Mathlib.
-·|
-|·MeasureTheory
-·|·
-* Ameer S
-* Aadam H
-* Louis G
-* Giovanni C
-·|·
-Measure Theory folder `Mathlib/MeasureTheory/`
-·|
-|·Ostrowski
-·|·
-* Tommaso F
-* Mayo
-·|·
-[Ostrowski's Theorem](wiki#Ostrowski%27s_theorem).<br />
-As far as I can tell, it is not in Mathlib, but there are some (possible) formalizations.<br />
-Relevant Zulip chats:
-[Link to LLL](zulip#116395-maths/topic/Seminar.20--.20London.20Learning.20Lean/near/362025148) and
-[Ostrowski's Theorem thread](zulip#217875-Is-there-code-for-X.3F/topic/Ostrowski's.20theorem)
-·|
-|·Dirichlet
-·|·
-* Hugo Pottinger
-* Jack Atfield
-* Leon Chipchase
-* James Harvey
-·|·
-Special case of [Dirichlet's Theorem on arithmetic progressions](wiki#Dirichlet%27s_theorem_on_arithmetic_progressions).<br />
-As far as I can tell, there is no explicit result in Mathlib in this direction.
-·|
-|·Lagrange
-·|·
-* Jakub Tucker
-* Katie Scarisbrick
-* Rose Bedell
-* Edward Gilbert
-·|·
-Group Theory
-* [Lagrange's Theorem](wiki#Lagrange%27s_theorem_(group_theory)) in [Mathlib](docs#Subgroup.card_subgroup_dvd_card)
-* [Fermat's Little Theorem](wiki#Fermat%27s_little_theorem) in [Mathlib](docs#ZMod.pow_card)
-* [Euler's Theorem](wiki#Euler%27s_theorem) in [Mathlib](docs#FiniteField.pow_card_sub_one_eq_one)
-·|
-|·Gaussian
-·|·
-* Florence
-* Michael C
-·|·
-Number Theory/Group Theory<br />
-For material on sums of two squares, look at [SumTwoSquares](mlfile#NumberTheory/SumTwoSquares.html).
-·|
-|·TBD
-·|·
-* Gareth M
-·|·
-Combinatorics/Analytic Number Theory?
-·|
-|·CombinatorialIMO
-·|·
-* Musab
-* Kit L
-* Dogukan
-·|·
-Combinatorial IMO Problems.<br />
-Some IMO problems have been formalised: they should all be in `Archive/Imo`
-(*not* inside the `Mathlib` folder!)
-/table
+|Project title|Comments and possible Mathlib reference|
+|-|-|
+|[Cauchy’s Theorem (Complex Analysis)](https://github.com/EdwardWatine/MA4N1)|[Cauchy's Integral Formula](wiki#Cauchy%27s_integral_formula) in [Mathlib](docs#Complex.two_pi_I_inv_smul_circleIntegral_sub_inv_smul_of_differentiable_on_off_countable)|
+|[Sylow’s Theorems](https://github.com/tom-corley/syl_thm_env)|[Sylow's Theorems](wiki#Sylow_theorems) in [Mathlib](docs#Sylow.exists_subgroup_card_pow_prime_le) Most of the file [Sylow](mlfile#GroupTheory/Sylow.html) is relevant.|
+|[Perfect Graphs](https://github.com/tomdaboom/ma4n1_perfect_graphs)|[Perfect graphs](wiki#Perfect_graph) and examples. There is a folder `Mathlib/Combinatorics/SimpleGraph/`, but I do not think that perfect graphs are in Mathlib.|
+|[Lusin’s Theorem](https://github.com/AadamHaq/MA4N1-Theorem-Proving-with-Lean)||
+|[Ostrowski’s Theorem](https://github.com/justmayself/Ostrowski-th-in-Lean)|[Ostrowski's Theorem](wiki#Ostrowski%27s_theorem). As far as I can tell, it is not in Mathlib, but there are some (possible) formalizations. Relevant Zulip chats:[Link to LLL](zulip#116395-maths/topic/Seminar.20--.20London.20Learning.20Lean/near/362025148) and [Ostrowski's Theorem thread](zulip#217875-Is-there-code-for-X.3F/topic/Ostrowski's.20theorem)|
+|[A Special Case of Dirichlet’s Theorem on Arithmetic Progression](https://github.com/J-Atfield/ma4n1-dirichlet-project)|Special case of [Dirichlet's Theorem on arithmetic progressions](wiki#Dirichlet%27s_theorem_on_arithmetic_progressions).|
+|[Fermat’s Little Theorem](https://github.com/Gumbah/LagrangeProject)|[Fermat's Little Theorem](wiki#Fermat%27s_little_theorem) in [Mathlib](docs#ZMod.pow_card). [Euler's Theorem](wiki#Euler%27s_theorem) in [Mathlib](docs#FiniteField.pow_card_sub_one_eq_one)|
+|[Lagrange’s Theorem](https://github.com/MichaelCavaliere/MA4N1-Project)|[Lagrange's Theorem](wiki#Lagrange%27s_theorem_(group_theory)) in [Mathlib](docs#Subgroup.card_subgroup_dvd_card)|
+|[Sieve Theory](https://github.com/grhkm21/LakeSeave)|Some results in analytic number theory.|
+|[Combinatorial Problems](https://github.com/mgsium/102_comb_lean)|Problems taken or inspired by IMO problems.|
 
-###  Orphaned projects
+##  Orphaned projects
 
 * [Hall subgroups](https://en.wikipedia.org/wiki/Hall_subgroup) and their existence in soluble groups
 
@@ -854,10 +764,12 @@ Some IMO problems have been formalised: they should all be in `Archive/Imo`
 * [Ramsey Theory](https://en.wikipedia.org/wiki/Ramsey_theory)
 * Probability theory and game theory
 * Matrix analysis and QR decompositions
+* [The Basel problem](https://en.wikipedia.org/wiki/Basel_problem) in [Mathlib](https://leanprover-community.github.io/mathlib4_docs/find/?pattern=hasSum_zeta_two#doc)
+* For material on sums of two squares, look at [SumTwoSquares](https://leanprover-community.github.io/mathlib4_docs/Mathlib/NumberTheory/SumTwoSquares.html).
 
 ---
 
-###  Mathematically oriented projects
+##  Mathematically oriented projects
 
 * Sums of squares of a field are a group with zero
 * The non-zero sums of squares of a field form a multiplicative group
@@ -870,7 +782,7 @@ Some IMO problems have been formalised: they should all be in `Archive/Imo`
 * Find infinite subsets of the natural numbers containing no 3-term arithmetic progression
 * Your favourite theorem!
 
-###  External repositories and books for inspiration
+##  External repositories and books for inspiration
 
 The `.pdf`s in Keith Conrad's [blurbs page](https://kconrad.math.uconn.edu/blurbs/) contain plenty of ideas.
 
@@ -879,7 +791,7 @@ Two books that contain lots of inspiration are
 * [Counterexamples in Topology](https://link.springer.com/book/10.1007/978-1-4612-6290-9),
 * [Counterexamples in Analysis](https://faculty.ksu.edu.sa/sites/default/files/_olmsted_1.pdf).
 
-###  Computer science oriented projects
+##  Computer science oriented projects
 
 * Automating proofs:
   * write a tactic to dispatch "junk values"
@@ -898,6 +810,30 @@ For browsing the documentation for Mathlib, go to the excellent [documentation p
 <!-- newFile instructions_for_new_project.md -->
 #  Creating a new project depending on `Mathlib`
 
+##  Using the VSCode `Lean 4` extension
+
+The Lean4 VSCode extension takes care of most of the steps that would require using the command-line!
+Here is a sequence of steps that should get Lean installed on your computer and
+a project depending on `Mathlib` running.
+
+* Install [VSCode](https://code.visualstudio.com/).
+* Within VSCode, install the [`Lean4` extension](https://marketplace.visualstudio.com/items?itemName=leanprover.lean4).
+* (Possibly opening a new file called `<someName>.lean` or simply assigning it `lean` as language): you should see a `∀` on the top right corner of an open Lean-tab.
+* Clicking on the `∀`, should open a menu, that will allow you to perform several actions:
+  * install `lean`/`lake`;
+  * create a new project using Mathlib as a dependency;
+  * download the Mathlib build cache;
+  * ...
+
+I do not use the `∀` menu too often, so let me know if the information above is out of date or confusing!
+
+If the previous steps did not work for you, continue reading!
+
+##  Unix-based installation from the command-line
+
+Below are instructions on creating a new project using the command-line on Unix-based systems.
+They may also work for MacOS or Windows, assuming that you have access to a terminal.
+
 [Source: Mathlib](https://leanprover-community.github.io/install/project.html#creating-a-lean-project)
 
 These instructions should work on Unix-based systems, assuming that you have already installed successfully `Lean` and `lake`.
@@ -905,7 +841,7 @@ These instructions *might* also work on MacOs/Windows, when typed in a terminal.
 
 `proj` is the name of the project
 ```bash
-proj='MA4N1_2023'
+proj='MA4N1_Theorem_proving_with_Lean'
 ```
 
 Initialize the new project &ndash; takes some time
@@ -918,7 +854,7 @@ Go inside the newly created folder, that has the same name as the project
 cd "${proj}"
 ```
 
-Download `mathlib`, `std`, `aesop`, `Qq`, `Cli`, `proofwidgets`
+Download `mathlib` and its dependencies (`batteries`, `quote4`, `aesop`, `ProofWidgets4`, `lean4-cli`, `import-graph`, `LeanSearchClient`)
 ```bash
 lake update "${proj}"
 ```
@@ -952,17 +888,27 @@ proj --|-- Proj -------------- | <your_files_here>
        |
        |-- lake-manifest.json
        |
-       |-- lake-packages
-       |
        |-- lean-toolchain
        |
        |-- proj.lean
+       |
+       |-- .lake/
 ```
 
+In case you are curious, this is what the files above do.
+* `lakefile.lean`: configuration of options and what gets built with `lake build`.
+* `lake-manifest.json`: information about depedencies of your project.
+* `lean-toolchain`: which version of the `Lean4` language you are using (this is still evolving quickly and roughly every month there is an update).
+* `.lake/`: a hidden folder containing the information that Lean produces once it builds a file.
+* `proj.lean`: it is common for this file to simply consist of lines of the form `import XXX`,
+  where `XXX` ranges among the files in the `Proj` folder that you want Lean to build when running `lake build`.
+
+You will likely not have to look at any of these files.
+The only possible exception is `lakefile.lean`, in case you want to set some special options (I will talk about this during the lectures).
 
 For ease of copy-pasting, here are all the commands in a single code-block
 ```bash
-proj=MA4N1_2023
+proj=MA4N1_Theorem_proving_with_Lean
 lake +leanprover/lean4:nightly-2023-02-04 new "${proj}" math
 cd "${proj}"
 lake update "${proj}"
@@ -971,7 +917,7 @@ mkdir "${proj}"
 code .
 ```
 <!-- newFile weekly_topics_tbc.md -->
-#  Possible weekly topics &ndash; very preliminary
+#  Possible weekly topics &ndash; outdated
 
 This is a week-by-week breakdown of possible topics for the [MA4N1 Theorem Proving with Lean](toc).
 It is a highly susceptible to changes!
@@ -1131,3 +1077,75 @@ Depending on how the lectures and projects proceed, I may suggest some targeted 
 but I expect this to be less and less relevant, once the term progresses and you focus on your project.
 
 I view the support classes as group learning and brainstorming sessions.
+
+##  What should I write in the outline for the project
+
+The outline is a written text that you upload to Moodle as a group (i.e. one submission per group).
+I expect its length to be roughly 1-2 pages.
+You can choose which format you prefer,
+but producing a .pdf file using LaTeX is probably what is more flexible for writing formulas.
+
+There are no set rules on the content,
+but the outline should give me a clear idea of
+* what the project is about,
+* how you intend to formalise it,
+* how you imagine that you will distribute the work among group members.
+
+Possibly you may also want to comment on how much of what is already in `Mathlib` you expect to use.
+
+Here is an itemised list of some questions that you may want to address in the outline.
+
+* Explain what result you want to formalize.
+  If it is a theorem, explain what proof you intend to formalise,
+  either by writing it down or by referring to a resource that contains a detailed proof.
+* Be fairly explicit about the first steps.
+  Being more explicit, means committing in writing to what you intend to do,
+  but does *not* mean that you will be expected to follow these steps literally.
+  What you mention in the outline can be changed as you make progress and realise what is realistic and what is not.
+* If you have already tried something and it failed or worked, mention successes/failures!
+* If your result is already contained in `Mathlib` (I try to help with this, so do ask!),
+  then think about where you want your formalisation to start.
+  A good way of making this concrete is to give an estimate of what `Mathlib` files you want to import for your project.
+
+  Keep in mind that `import Mathlib.Tactic` is already a fairly "large" import,
+  so you may want to use smaller imports for your project.
+* A rough splitting of the formalisation effort among group members.
+  In particular, try to explain what are subproblems that you can work on independently,
+  so that all group members can, potentially, be working on the project simultaneously
+  without duplicating effort.
+
+Finally, the outline is meant to be a plan of what you think that the project will look like **at the time of writing**.
+In fact, the outline is marked shortly after you hand it in, and definitely *much earlier* than when you submit your final project.
+If the actual development of the project requires major revisions of the outline,
+that is neither a problem, nor something that will affect your final evaluation!
+
+##  What is the video presentation
+
+The video presentation is a short video of at most 4 minutes.
+
+In the video, you should describe what you personally contributed to the formalisation project on which you are working.
+Of course, everyone will probably contribute on several different aspects.
+Your contribution will likely also change over time.
+However, try to be specific, isolate where you feel that you really made a difference, and describe your contribution *at the time of submission*!
+
+Due to the nature of formalisation, contributions come in many forms and the final result is a coherent mix of combined efforts.
+Below are a few examples, but these are just some ideas!
+
+* **Container infrastructure**: set up a working project, provide and manage tools for dealing with version control, planning, development and deployment.
+* **Focus**: find a suitable topic, adjust to constraints and strengths of group members, re-orient if needed.
+* **Mathematics**: lay out a careful mathematical proof to simplify the actual formalisation.
+* **Exploration**: try out various possible approaches, before settling on "the one that works".
+* **Divide-and-conquer**: produce a network of `sorry`ed out *statements* that, together, form the initial canvas for the formalisation.
+* **Fill in `sorry`s**: writing proofs in Lean to prove statements, highlighting which ones came easily, which ones required more effort.
+* **Formalisation infrastructure**: maintain and streamline existing proofs, develop ergonomical API lemmas, code review, speed-ups.
+
+As I said, the list above is just a sample of possible contributions.
+You may very well feel that you helped your group in a different way: the video presentation is your chance of explaining what it is that you did!
+
+The final success of a project results from a mix of different types of contributions.
+In assessing your contribution, make sure that you explain which specific questions you were facing and how your work addressed and (hopefully!) solved the issue.
+
+Do mention how effective your solution has been and whether you expect it to require further "maintenance" or it settled completely the problem.
+Be honest about it: being unsuccessful at solving a problem is a very common situation!
+You will be assessed on your attempt, regardless of whether you completed it or not.
+Partially failing at solving a difficult problem, may still count as a great success!
