@@ -51,15 +51,21 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
 <!--  ##################  Week 2  ################## -->
     <tr><th></th><th style="text-align: center">Week 2 (Oct 07-11)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
           <li>Examples.</li>
-          <li>Product manifolds, submanifolds, manifolds defined by equations in another manifold.</li>
-          <li>Quotient manifolds.</li>
+          <li>Open submanifolds, product manifolds, submanifolds.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
+          <li>More on submanifolds, manifolds defined by equations in another manifold, quotient manifolds.</li>
         </ul>
       </td>
     </tr>
@@ -296,4 +302,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Wednesday, Oct 02 2024</div>
+<div style="text-align: right">Last modified: Tuesday, Oct 08 2024</div>

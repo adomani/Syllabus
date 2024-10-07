@@ -51,9 +51,19 @@
         </ul>
       </td>
     </tr>
+<!--  ##################  Week 2  ################## -->
+    <tr><th></th><th style="text-align: center">Week 2 (Oct 07-11)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>Examples.</li>
+          <li>Open submanifolds, product manifolds, submanifolds.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3H5_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Wednesday, Oct 02 2024</div>
+<div style="text-align: right">Last modified: Tuesday, Oct 08 2024</div>

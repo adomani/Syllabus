@@ -7,12 +7,13 @@ tue
 wed
   Introduction to tensor products.
 
-_tentative
 -- Week 2
 mon
   Examples.
-  Product manifolds, submanifolds, manifolds defined by equations in another manifold.
-  Quotient manifolds.
+  Open submanifolds, product manifolds, submanifolds.
+_tentative
+tue
+  More on submanifolds, manifolds defined by equations in another manifold, quotient manifolds.
 wed
   Tensor algebra.
   Symmetric algebra.
