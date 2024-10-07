@@ -7,9 +7,10 @@ tue
 
 -- Week 2
 mon
-  Syntax, infoview, tactics, structuring proofs (<a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L00_intro.lean">L00_intro.lean</a>).
+  Syntax, infoview, `rfl`, `inductive`s.
 _tentative
 tue
+  Tactics, structuring proofs (<a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L00_intro.lean">L00_intro.lean</a>)
   Begin <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L01_polynomials.lean">polynomials</a>.
   Coordinate projects.
 sup

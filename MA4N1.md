@@ -49,7 +49,7 @@
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>Syntax, infoview, tactics, structuring proofs (<a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L00_intro.lean">L00_intro.lean</a>).</li>
+          <li>Syntax, infoview, `rfl`, `inductive`s.</li>
         </ul>
       </td>
     </tr>
