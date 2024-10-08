@@ -11,9 +11,9 @@ wed
 mon
   Examples.
   Open submanifolds, product manifolds, submanifolds.
-_tentative
 tue
-  More on submanifolds, manifolds defined by equations in another manifold, quotient manifolds.
+  More on submanifolds, manifolds defined by equations in another manifold.
+_tentative
 wed
   Tensor algebra.
   Symmetric algebra.
@@ -25,6 +25,7 @@ sup
 
 -- Week 3
 mon
+  Quotient manifolds.
   Tangent vectors, tangent spaces, vector fields.
 wed
   Interpretation of exterior algebra via multilinear, alternating maps.

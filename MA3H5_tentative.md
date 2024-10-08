@@ -61,14 +61,14 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Tuesday</td>
       <td>
         <ul>
-          <li>More on submanifolds, manifolds defined by equations in another manifold, quotient manifolds.</li>
+          <li>More on submanifolds, manifolds defined by equations in another manifold.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Wednesday</td>
       <td>
         <ul>
@@ -92,6 +92,7 @@
     <tr><td>Monday</td>
       <td>
         <ul>
+          <li>Quotient manifolds.</li>
           <li>Tangent vectors, tangent spaces, vector fields.</li>
         </ul>
       </td>
