@@ -12,7 +12,7 @@ ma3h5_id=67177
 ma4n1_id=67222
 
 # the day of the week when the support class for MA3H5 takes place
-suppDay_ma3h5='Thursday?'
+suppDay_ma3h5='Friday?'
 
 # the day of the week when the support class for MA4N1 takes place
 suppDay_ma4n1=TBA
