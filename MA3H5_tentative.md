@@ -68,17 +68,14 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Wednesday</td>
       <td>
         <ul>
-          <li>Tensor algebra.</li>
-          <li>Symmetric algebra.</li>
-          <li>Introduction to exterior algebra.</li>
-          <li>More on the tensor and exterior algebra.</li>
+          <li>Universal properties, tensor algebra.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Friday?</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
@@ -100,6 +97,8 @@
     <tr><td>Wednesday</td>
       <td>
         <ul>
+          <li>Symmetric algebra.</li>
+          <li>Introduction to exterior algebra.</li>
           <li>Interpretation of exterior algebra via multilinear, alternating maps.</li>
         </ul>
       </td>
@@ -303,4 +302,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Oct 08 2024</div>
+<div style="text-align: right">Last modified: Wednesday, Oct 09 2024</div>

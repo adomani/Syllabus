@@ -13,12 +13,9 @@ mon
   Open submanifolds, product manifolds, submanifolds.
 tue
   More on submanifolds, manifolds defined by equations in another manifold.
-_tentative
 wed
-  Tensor algebra.
-  Symmetric algebra.
-  Introduction to exterior algebra.
-  More on the tensor and exterior algebra.
+  Universal properties, tensor algebra.
+_tentative
 sup
   Definition of a manifold, smooth maps and diffeomorphisms.
   Problems 1 and 4.
@@ -28,6 +25,8 @@ mon
   Quotient manifolds.
   Tangent vectors, tangent spaces, vector fields.
 wed
+  Symmetric algebra.
+  Introduction to exterior algebra.
   Interpretation of exterior algebra via multilinear, alternating maps.
 sup
   Sub-manifolds, Inverse function theorem, PS1 P2-3.
