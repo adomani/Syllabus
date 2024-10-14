@@ -60,7 +60,7 @@
         </ul>
       </td>
     </tr>
-    <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+    <tr><td><p style="margin-bottom:0;">Tuesday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
           <li>Functional programming, object oriented programming, more proofs.</li>
