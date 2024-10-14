@@ -15,7 +15,6 @@ tue
   More on submanifolds, manifolds defined by equations in another manifold.
 wed
   Universal properties, tensor algebra.
-_tentative
 sup
   Definition of a manifold, smooth maps and diffeomorphisms.
   Problems 1 and 4.
@@ -23,6 +22,8 @@ sup
 -- Week 3
 mon
   Quotient manifolds.
+_tentative
+tue
   Tangent vectors, tangent spaces, vector fields.
 wed
   Symmetric algebra.
