@@ -4,28 +4,27 @@ mon
   Introduction to formalization and to Lean.
 tue
   Difference between `Bool` and `Prop`, preliminary discussion about project topics.
-sup
-  Functional programming, object oriented programming, more proofs.
 
 -- Week 2
 mon
   Syntax, infoview, `rfl`, `inductive`s.
 tue
   Tactics, structuring proofs (<a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L00_intro.lean">L00_intro.lean</a>)
-_tentative
 sup
-  Solve <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L01_polynomial_questions.lean">polynomial questions</a>.
-  The <code><;></code> tactic combinator.
+  Functional programming, object oriented programming, more proofs.
 
 -- Week 3
 mon
-  Work on <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L01_polynomials.lean">polynomials</a>.
+  Begin with <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L01_polynomials.lean">polynomials</a>.
+_tentative
+tue
   Coordinate projects.
   Go over beginning of <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">generalizations</a>.
-tue
   Assign (most) groups.
   Continue with <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">generalizations</a>.
 sup
+  Solve <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L01_polynomial_questions.lean">polynomial questions</a>.
+  The <code><;></code> tactic combinator.
   <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L03_groups_questions.lean">Group questions</a>.
 
 -- Week 4

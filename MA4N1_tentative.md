@@ -44,13 +44,6 @@
         </ul>
       </td>
     </tr>
-    <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
-      <td>
-        <ul>
-          <li>Functional programming, object oriented programming, more proofs.</li>
-        </ul>
-      </td>
-    </tr>
 <!--  ##################  Week 2  ################## -->
     <tr><th></th><th style="text-align: center">Week 2 (Oct 07-11)</th></tr>
     <tr><td>Monday</td>
@@ -67,12 +60,10 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>Solve <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L01_polynomial_questions.lean">polynomial questions</a>.</li>
-          <li>The <code><;></code> tactic combinator.</li>
+          <li>Functional programming, object oriented programming, more proofs.</li>
         </ul>
       </td>
     </tr>
@@ -81,15 +72,16 @@
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>Work on <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L01_polynomials.lean">polynomials</a>.</li>
-          <li>Coordinate projects.</li>
-          <li>Go over beginning of <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">generalizations</a>.</li>
+          <li>Begin with <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L01_polynomials.lean">polynomials</a>.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Tuesday</td>
       <td>
         <ul>
+          <li>Coordinate projects.</li>
+          <li>Go over beginning of <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">generalizations</a>.</li>
           <li>Assign (most) groups.</li>
           <li>Continue with <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">generalizations</a>.</li>
         </ul>
@@ -98,6 +90,8 @@
     <tr><td><p style="margin-bottom:0;">TBA</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
+          <li>Solve <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L01_polynomial_questions.lean">polynomial questions</a>.</li>
+          <li>The <code><;></code> tactic combinator.</li>
           <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L03_groups_questions.lean">Group questions</a>.</li>
         </ul>
       </td>
