@@ -4,6 +4,8 @@ mon
   Introduction to formalization and to Lean.
 tue
   Difference between `Bool` and `Prop`, preliminary discussion about project topics.
+sup
+  Functional programming, object oriented programming, more proofs.
 
 -- Week 2
 mon
