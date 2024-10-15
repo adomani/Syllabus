@@ -22,9 +22,9 @@ sup
 -- Week 3
 mon
   Quotient manifolds.
-_tentative
 tue
-  Tangent vectors, tangent spaces, vector fields.
+  Tangent vectors.
+_tentative
 wed
   Symmetric algebra.
   Introduction to exterior algebra.
@@ -34,7 +34,7 @@ sup
 
 -- Week 4
 mon
-  Vector fields, bracket.
+  Tangent spaces, vector fields, bracket.
   Differential, beginning of definition of immersion, submersion, embedding.
 wed
   Partitions of unity.

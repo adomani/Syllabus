@@ -92,14 +92,14 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Tuesday</td>
       <td>
         <ul>
-          <li>Tangent vectors, tangent spaces, vector fields.</li>
+          <li>Tangent vectors.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Wednesday</td>
       <td>
         <ul>
@@ -121,7 +121,7 @@
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>Vector fields, bracket.</li>
+          <li>Tangent spaces, vector fields, bracket.</li>
           <li>Differential, beginning of definition of immersion, submersion, embedding.</li>
         </ul>
       </td>
@@ -308,4 +308,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Monday, Oct 14 2024</div>
+<div style="text-align: right">Last modified: Wednesday, Oct 16 2024</div>
