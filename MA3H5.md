@@ -99,6 +99,15 @@
         </ul>
       </td>
     </tr>
+    <tr><td>Wednesday</td>
+      <td>
+        <ul>
+          <li>Symmetric algebra.</li>
+          <li>Introduction to exterior algebra.</li>
+          <li>Interpretation of exterior algebra via multilinear, alternating maps.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
