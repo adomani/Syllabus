@@ -115,6 +115,15 @@
         </ul>
       </td>
     </tr>
+<!--  ##################  Week 4  ################## -->
+    <tr><th></th><th style="text-align: center">Week 4 (Oct 21-25)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>Tangent spaces, vector fields, bracket (beginning).</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>

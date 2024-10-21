@@ -115,13 +115,19 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
 <!--  ##################  Week 4  ################## -->
     <tr><th></th><th style="text-align: center">Week 4 (Oct 21-25)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>Tangent spaces, vector fields, bracket.</li>
+          <li>Tangent spaces, vector fields, bracket (beginning).</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
           <li>Differential, beginning of definition of immersion, submersion, embedding.</li>
         </ul>
       </td>

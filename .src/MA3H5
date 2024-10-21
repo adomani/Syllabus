@@ -31,10 +31,11 @@ wed
 sup
   Tensor products, local charts of manifolds.
 
-_tentative
 -- Week 4
 mon
-  Tangent spaces, vector fields, bracket.
+  Tangent spaces, vector fields, bracket (beginning).
+_tentative
+tue
   Differential, beginning of definition of immersion, submersion, embedding.
 wed
   Partitions of unity.
