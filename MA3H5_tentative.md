@@ -115,6 +115,7 @@
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
 <!--  ##################  Week 4  ################## -->
     <tr><th></th><th style="text-align: center">Week 4 (Oct 21-25)</th></tr>
     <tr><td>Monday</td>
@@ -125,7 +126,6 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Wednesday</td>
       <td>
         <ul>
