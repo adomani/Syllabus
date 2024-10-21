@@ -108,11 +108,10 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>Sub-manifolds, Inverse function theorem, PS1 P2-3.</li>
+          <li>Tensor products, local charts of manifolds.</li>
         </ul>
       </td>
     </tr>
@@ -126,6 +125,7 @@
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Wednesday</td>
       <td>
         <ul>
@@ -136,6 +136,7 @@
     <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
+          <li>Sub-manifolds, Inverse function theorem, PS1 P2-3.</li>
           <li>Review of tangent vectors and vector fields.</li>
           <li>Example.</li>
         </ul>
@@ -308,4 +309,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Wednesday, Oct 16 2024</div>
+<div style="text-align: right">Last modified: Monday, Oct 21 2024</div>

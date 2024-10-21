@@ -28,17 +28,18 @@ wed
   Symmetric algebra.
   Introduction to exterior algebra.
   Interpretation of exterior algebra via multilinear, alternating maps.
-_tentative
 sup
-  Sub-manifolds, Inverse function theorem, PS1 P2-3.
+  Tensor products, local charts of manifolds.
 
 -- Week 4
 mon
+_tentative
   Tangent spaces, vector fields, bracket.
   Differential, beginning of definition of immersion, submersion, embedding.
 wed
   Partitions of unity.
 sup
+  Sub-manifolds, Inverse function theorem, PS1 P2-3.
   Review of tangent vectors and vector fields.
   Example.
 
