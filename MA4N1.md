@@ -49,7 +49,7 @@
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>Syntax, infoview, `rfl`, `inductive`s.</li>
+          <li>Syntax, infoview, <code>rfl</code>, <code>inductive</code>s.</li>
         </ul>
       </td>
     </tr>
