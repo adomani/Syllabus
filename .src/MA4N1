@@ -30,9 +30,9 @@ sup
 mon
   Discussion about <code>structure</code>, <code>class</code>
   Working with two topologies on the same set/type.
-_tentative
 tue
   <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">Generalizations</a>.
+_tentative
 sup
   Solve <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L01_polynomial_questions.lean">polynomial questions</a>.
   The <code><;></code> tactic combinator.
