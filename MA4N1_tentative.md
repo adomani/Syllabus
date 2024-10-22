@@ -84,13 +84,14 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Tuesday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>Solve <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L01_polynomial_questions.lean">polynomial questions</a>.</li>
-          <li>The <code><;></code> tactic combinator.</li>
-          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L03_groups_questions.lean">Group questions</a>.</li>
+          <li>Implicit vs explicit variables.</li>
+          <li>Dependent Cartesian Product <code>< , ></code>.</li>
+          <li>Addition of two even numbers is even.</li>
+          <li>Negation.</li>
+          <li>Contradiction (absurd).</li>
         </ul>
       </td>
     </tr>
@@ -99,26 +100,24 @@
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>Go over beginning of <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">generalizations</a>.</li>
-          <li>Continue with <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">generalizations</a>.</li>
-          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L04_definitions.lean">Definitions</a> in <code>Mathlib</code>.</li>
+          <li>Discussion about <code>structure</code>, <code>class</code></li>
+          <li>Working with two topologies on the same set/type.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Tuesday</td>
       <td>
         <ul>
-          <li>Suggestions of topics.</li>
-          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L04_definitions.lean">Definitions</a> and inductives in <code>Mathlib</code>.</li>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">Generalizations</a>.</li>
         </ul>
       </td>
     </tr>
     <tr><td><p style="margin-bottom:0;">Tuesday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>Two sets of exercises, covering</li>
-          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L05_graphs_questions.lean">graphs questions</a>, and</li>
-          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L05_limits_questions.lean">limits questions</a>.</li>
+          <li>Solve <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L01_polynomial_questions.lean">polynomial questions</a>.</li>
+          <li>The <code><;></code> tactic combinator.</li>
         </ul>
       </td>
     </tr>
@@ -127,6 +126,7 @@
     <tr><td>Monday</td>
       <td>
         <ul>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L04_definitions.lean">Definitions</a> and inductives in <code>Mathlib</code>,</li>
           <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L06_typeclasses.lean">Typeclasses</a>.</li>
         </ul>
       </td>
@@ -142,6 +142,10 @@
     <tr><td><p style="margin-bottom:0;">Tuesday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
+          <li>Various possibilities:</li>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L03_groups_questions.lean">Group questions</a>,</li>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L05_graphs_questions.lean">graphs questions</a>,</li>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L05_limits_questions.lean">limits questions</a>,</li>
           <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L08_Ri_hard.lean">&#x211D;[i] is a field</a>.</li>
         </ul>
       </td>
@@ -277,4 +281,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA4N1)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Oct 15 2024</div>
+<div style="text-align: right">Last modified: Tuesday, Oct 22 2024</div>
