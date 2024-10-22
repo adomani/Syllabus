@@ -40,7 +40,7 @@
     <tr><td>Tuesday</td>
       <td>
         <ul>
-          <li>Difference between `Bool` and `Prop`, preliminary discussion about project topics.</li>
+          <li>Difference between <code>Bool</code> and <code>Prop</code>, preliminary discussion about project topics.</li>
         </ul>
       </td>
     </tr>
