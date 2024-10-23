@@ -34,11 +34,11 @@ sup
 -- Week 4
 mon
   Tangent spaces, vector fields, bracket (beginning).
-_tentative
 tue
   Differential, beginning of definition of immersion, submersion, embedding.
 wed
-  Partitions of unity.
+  Immersions, submersions, embeddings.
+_tentative
 sup
   Sub-manifolds, Inverse function theorem, PS1 P2-3.
   Review of tangent vectors and vector fields.
@@ -46,11 +46,11 @@ sup
 
 -- Week 5
 mon
-  Immersions, submersions, embeddings.
   (Local) 1-parameter subgroups of (local) diffeomorphisms.
 wed
   Flows.
   Complete vector fields.
+  Partitions of unity.
 sup
   Problem Sheet 2, Problems 1 and 3.
 
