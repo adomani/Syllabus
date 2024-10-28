@@ -138,7 +138,6 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
@@ -154,13 +153,14 @@
       <td>
         <ul>
           <li>(Local) 1-parameter subgroups of (local) diffeomorphisms.</li>
+          <li>Flows.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Wednesday</td>
       <td>
         <ul>
-          <li>Flows.</li>
           <li>Complete vector fields.</li>
           <li>Partitions of unity.</li>
         </ul>
@@ -315,4 +315,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Wednesday, Oct 23 2024</div>
+<div style="text-align: right">Last modified: Monday, Oct 28 2024</div>

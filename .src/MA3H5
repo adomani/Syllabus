@@ -38,7 +38,6 @@ tue
   Differential, beginning of definition of immersion, submersion, embedding.
 wed
   Immersions, submersions, embeddings.
-_tentative
 sup
   Sub-manifolds, Inverse function theorem, PS1 P2-3.
   Review of tangent vectors and vector fields.
@@ -47,8 +46,9 @@ sup
 -- Week 5
 mon
   (Local) 1-parameter subgroups of (local) diffeomorphisms.
-wed
   Flows.
+_tentative
+wed
   Complete vector fields.
   Partitions of unity.
 sup

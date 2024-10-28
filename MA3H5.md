@@ -138,9 +138,28 @@
         </ul>
       </td>
     </tr>
+    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li>Sub-manifolds, Inverse function theorem, PS1 P2-3.</li>
+          <li>Review of tangent vectors and vector fields.</li>
+          <li>Example.</li>
+        </ul>
+      </td>
+    </tr>
+<!--  ##################  Week 5  ################## -->
+    <tr><th></th><th style="text-align: center">Week 5 (Oct 28-Nov 01)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>(Local) 1-parameter subgroups of (local) diffeomorphisms.</li>
+          <li>Flows.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3H5_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Wednesday, Oct 23 2024</div>
+<div style="text-align: right">Last modified: Monday, Oct 28 2024</div>
