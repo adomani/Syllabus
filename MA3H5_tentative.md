@@ -162,7 +162,8 @@
       <td>
         <ul>
           <li>Complete vector fields.</li>
-          <li>Partitions of unity.</li>
+          <li>Cotangent space (definition).</li>
+          <li>Smooth 1-forms, total differential, cotangent bundle.</li>
         </ul>
       </td>
     </tr>
@@ -178,6 +179,7 @@
     <tr><td>Monday</td>
       <td>
         <ul>
+          <li>Partitions of unity.</li>
           <li>Ehresmann's Theorem.</li>
           <li>Complements and Q&A during breather week.</li>
         </ul>
@@ -207,8 +209,6 @@
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>Cotangent space (definition).</li>
-          <li>Smooth 1-forms, total differential, cotangent bundle.</li>
           <li>Digression on tangent bundle to $S^2$.</li>
           <li>Vector bundles.</li>
         </ul>
@@ -315,4 +315,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Monday, Oct 28 2024</div>
+<div style="text-align: right">Last modified: Tuesday, Oct 29 2024</div>

@@ -50,12 +50,14 @@ mon
 _tentative
 wed
   Complete vector fields.
-  Partitions of unity.
+  Cotangent space (definition).
+  Smooth 1-forms, total differential, cotangent bundle.
 sup
   Problem Sheet 2, Problems 1 and 3.
 
 --  Week 6
 mon
+  Partitions of unity.
   Ehresmann's Theorem.
   Complements and Q&A during breather week.
 wed
@@ -70,8 +72,6 @@ sup
 
 --  Week 7
 mon
-  Cotangent space (definition).
-  Smooth 1-forms, total differential, cotangent bundle.
   Digression on tangent bundle to $S^2$.
   Vector bundles.
 wed
