@@ -129,24 +129,23 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Tuesday</td>
       <td>
         <ul>
-          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L04_definitions.lean">Definitions</a> and inductives in <code>Mathlib</code>,</li>
-          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L06_typeclasses.lean">Typeclasses</a>.</li>
-          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L07_calculations.lean">Calculations</a>:</li>
-          <li><code>calc, conv, gcongr</code>.</li>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L03_groups_questions.lean">Group questions</a>,</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Tuesday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
           <li>Various possibilities:</li>
-          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L03_groups_questions.lean">Group questions</a>,</li>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L04_definitions.lean">Definitions</a> and inductives in <code>Mathlib</code>,</li>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L06_typeclasses.lean">Typeclasses</a>.</li>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L07_calculations.lean">Calculations</a>:</li>
+          <li><code>calc, conv, gcongr</code>.</li>
           <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L05_graphs_questions.lean">graphs questions</a>,</li>
-          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L05_limits_questions.lean">limits questions</a>,</li>
           <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L08_Ri_hard.lean">&#x211D;[i] is a field</a>.</li>
         </ul>
       </td>
@@ -157,6 +156,7 @@
       <td>
         <ul>
           <li>Breather week.</li>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L05_limits_questions.lean">limits questions</a>,</li>
           <li>Using the fields of a <code>structure</code>.</li>
           <li><code>noncomputable</code>.</li>
           <li><code>Decidable</code>.</li>
@@ -282,4 +282,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA4N1)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Monday, Oct 28 2024</div>
+<div style="text-align: right">Last modified: Tuesday, Oct 29 2024</div>

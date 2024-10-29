@@ -129,9 +129,16 @@
         </ul>
       </td>
     </tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L03_groups_questions.lean">Group questions</a>,</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA4N1_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Monday, Oct 28 2024</div>
+<div style="text-align: right">Last modified: Tuesday, Oct 29 2024</div>
