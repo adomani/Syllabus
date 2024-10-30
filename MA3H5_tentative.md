@@ -157,11 +157,18 @@
         </ul>
       </td>
     </tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
+          <li>Local flows and vector fields.</li>
+          <li>Complete vector fields.</li>
+        </ul>
+      </td>
+    </tr>
     <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Wednesday</td>
       <td>
         <ul>
-          <li>Complete vector fields.</li>
           <li>Cotangent space (definition).</li>
           <li>Smooth 1-forms, total differential, cotangent bundle.</li>
         </ul>
@@ -315,4 +322,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Oct 29 2024</div>
+<div style="text-align: right">Last modified: Wednesday, Oct 30 2024</div>
