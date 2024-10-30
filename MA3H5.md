@@ -165,6 +165,14 @@
         </ul>
       </td>
     </tr>
+    <tr><td>Wednesday</td>
+      <td>
+        <ul>
+          <li>Cotangent space (definition).</li>
+          <li>Smooth 1-forms, total differential, tangent bundle.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>

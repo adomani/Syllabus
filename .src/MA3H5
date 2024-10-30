@@ -50,10 +50,10 @@ mon
 tue
   Local flows and vector fields.
   Complete vector fields.
-_tentative
 wed
   Cotangent space (definition).
-  Smooth 1-forms, total differential, cotangent bundle.
+  Smooth 1-forms, total differential, tangent bundle.
+_tentative
 sup
   Problem Sheet 2, Problems 1 and 3.
 
@@ -77,7 +77,6 @@ mon
   Digression on tangent bundle to $S^2$.
   Vector bundles.
 wed
-  Vector bundles.
   Cocycles.
   Differential $r$-forms.
 sup

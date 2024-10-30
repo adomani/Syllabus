@@ -165,15 +165,15 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Wednesday</td>
       <td>
         <ul>
           <li>Cotangent space (definition).</li>
-          <li>Smooth 1-forms, total differential, cotangent bundle.</li>
+          <li>Smooth 1-forms, total differential, tangent bundle.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
@@ -224,7 +224,6 @@
     <tr><td>Wednesday</td>
       <td>
         <ul>
-          <li>Vector bundles.</li>
           <li>Cocycles.</li>
           <li>Differential $r$-forms.</li>
         </ul>
