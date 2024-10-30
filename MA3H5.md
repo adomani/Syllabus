@@ -141,9 +141,7 @@
     <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>Sub-manifolds, Inverse function theorem, PS1 P2-3.</li>
-          <li>Review of tangent vectors and vector fields.</li>
-          <li>Example.</li>
+          <li>Review of tangent vectors and vector fields, commuting vector fields and P2-2.</li>
         </ul>
       </td>
     </tr>
