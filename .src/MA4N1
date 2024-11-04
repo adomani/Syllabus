@@ -41,7 +41,6 @@ mon
   <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">Generalizations</a>.
 tue
   <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L03_groups_questions.lean">Group questions</a>.
-_tentative
 sup
   Various possibilities:
   <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L04_definitions.lean">Definitions</a> and inductives in <code>Mathlib</code>,
@@ -54,13 +53,14 @@ sup
 --  Week 6
 mon
   Breather week.
+  Quick introduction to <code>Filter</code>s.
   <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L05_limits_questions.lean">limits questions</a>,
+_tentative
+tue
+  Breather week.
   Using the fields of a <code>structure</code>.
   <code>noncomputable</code>.
   <code>Decidable</code>.
-tue
-  Breather week.
-  More on <code>Decidable</code>.
   Discussion on sub-structures in <code>Mathlib</code>.
 sup
   <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L10_dvd_induction.lean">Induction on divisors of a natural number</a>.

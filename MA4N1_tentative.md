@@ -136,7 +136,6 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Tuesday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
@@ -156,18 +155,19 @@
       <td>
         <ul>
           <li>Breather week.</li>
+          <li>Quick introduction to <code>Filter</code>s.</li>
           <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L05_limits_questions.lean">limits questions</a>,</li>
-          <li>Using the fields of a <code>structure</code>.</li>
-          <li><code>noncomputable</code>.</li>
-          <li><code>Decidable</code>.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Tuesday</td>
       <td>
         <ul>
           <li>Breather week.</li>
-          <li>More on <code>Decidable</code>.</li>
+          <li>Using the fields of a <code>structure</code>.</li>
+          <li><code>noncomputable</code>.</li>
+          <li><code>Decidable</code>.</li>
           <li>Discussion on sub-structures in <code>Mathlib</code>.</li>
         </ul>
       </td>
@@ -282,4 +282,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA4N1)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Wednesday, Oct 30 2024</div>
+<div style="text-align: right">Last modified: Monday, Nov 04 2024</div>
