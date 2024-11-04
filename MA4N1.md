@@ -155,8 +155,8 @@
       <td>
         <ul>
           <li>Breather week.</li>
-          <li>Quick introduction to <code>Filter</code>s.</li>
-          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L05_limits_questions.lean">limits questions</a>,</li>
+          <li>Quick introduction to <code>Filter</code>s,</li>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L05_limits_questions.lean">limits questions</a>.</li>
         </ul>
       </td>
     </tr>

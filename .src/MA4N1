@@ -53,13 +53,13 @@ sup
 --  Week 6
 mon
   Breather week.
-  Quick introduction to <code>Filter</code>s.
-  <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L05_limits_questions.lean">limits questions</a>,
+  Quick introduction to <code>Filter</code>s,
+  <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L05_limits_questions.lean">limits questions</a>.
 _tentative
 tue
   Breather week.
-  Using the fields of a <code>structure</code>.
-  <code>noncomputable</code>.
+  Using the fields of a <code>structure</code>,
+  <code>noncomputable</code>,
   <code>Decidable</code>.
   Discussion on sub-structures in <code>Mathlib</code>.
 sup
