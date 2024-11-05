@@ -183,21 +183,23 @@
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>Partitions of unity.</li>
+          <li>Partitions of unity, part 1.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
+          <li>Partitions of unity, part 2.</li>
+          <li>Digression on analytic functions vs smooth functions.</li>
         </ul>
       </td>
     </tr>
     <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
-    <tr><td>Tuesday</td>
-      <td>
-        <ul>
-          <li>Ehresmann's Theorem.</li>
-        </ul>
-      </td>
-    </tr>
     <tr><td>Wednesday</td>
       <td>
         <ul>
+          <li>Ehresmann's Theorem.</li>
           <li>Go over definition of tensor, exterior and symmetric algebra.</li>
           <li>Informal motivation for $k$-forms.</li>
           <li>Informal motivation for vector bundles.</li>
@@ -324,4 +326,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Monday, Nov 04 2024</div>
+<div style="text-align: right">Last modified: Tuesday, Nov 05 2024</div>

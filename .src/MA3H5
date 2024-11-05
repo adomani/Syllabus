@@ -56,11 +56,13 @@ sup
 
 --  Week 6
 mon
-  Partitions of unity.
-_tentative
+  Partitions of unity, part 1.
 tue
-  Ehresmann's Theorem.
+  Partitions of unity, part 2.
+  Digression on analytic functions vs smooth functions.
+_tentative
 wed
+  Ehresmann's Theorem.
   Go over definition of tensor, exterior and symmetric algebra.
   Informal motivation for $k$-forms.
   Informal motivation for vector bundles.

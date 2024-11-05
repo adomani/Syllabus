@@ -183,7 +183,15 @@
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>Partitions of unity.</li>
+          <li>Partitions of unity, part 1.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
+          <li>Partitions of unity, part 2.</li>
+          <li>Digression on analytic functions vs smooth functions.</li>
         </ul>
       </td>
     </tr>
@@ -192,4 +200,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3H5_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Monday, Nov 04 2024</div>
+<div style="text-align: right">Last modified: Tuesday, Nov 05 2024</div>
