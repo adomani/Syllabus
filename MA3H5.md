@@ -195,9 +195,22 @@
         </ul>
       </td>
     </tr>
+    <tr><td>Wednesday</td>
+      <td>
+        <ul>
+          <li>Ehresmann's Theorem. <!--</li>
+          <li>Go over definition of tensor, exterior and symmetric algebra.</li>
+          <li>Informal motivation for $k$-forms.</li>
+          <li>Informal motivation for vector bundles.</li>
+          <li>Go over some parts of an exam question.</li>
+          <li>Complements and Q&A during breather week.</li>
+          <li>--></li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3H5_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Nov 05 2024</div>
+<div style="text-align: right">Last modified: Wednesday, Nov 06 2024</div>
