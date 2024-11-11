@@ -68,15 +68,15 @@ wed
   Go over some parts of an exam question.
   Complements and Q&A during breather week.
   -->
-_tentative
 sup
   Partitions of unity, PS2 P4.
   Tensor products and multilinear maps.
 
 --  Week 7
 mon
-  Digression on tangent bundle to $S^2$.
   Vector bundles.
+  Rank 1 bundles on $S^1$. <!-- Digression on tangent bundle to $S^2$.-->
+_tentative
 wed
   Cocycles.
   Differential $r$-forms.

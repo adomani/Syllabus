@@ -208,9 +208,27 @@
         </ul>
       </td>
     </tr>
+    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li>Partitions of unity, PS2 P4.</li>
+          <li>Tensor products and multilinear maps.</li>
+        </ul>
+      </td>
+    </tr>
+<!--  ##################  Week 7  ################## -->
+    <tr><th></th><th style="text-align: center">Week 7 (Nov 11-15)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>Vector bundles.</li>
+          <li>Rank 1 bundles on $S^1$. <!-- Digression on tangent bundle to $S^2$.--></li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3H5_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Wednesday, Nov 06 2024</div>
+<div style="text-align: right">Last modified: Monday, Nov 11 2024</div>

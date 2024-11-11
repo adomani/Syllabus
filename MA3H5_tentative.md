@@ -208,7 +208,6 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
@@ -222,11 +221,12 @@
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>Digression on tangent bundle to $S^2$.</li>
           <li>Vector bundles.</li>
+          <li>Rank 1 bundles on $S^1$. <!-- Digression on tangent bundle to $S^2$.--></li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Wednesday</td>
       <td>
         <ul>
@@ -327,4 +327,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Wednesday, Nov 06 2024</div>
+<div style="text-align: right">Last modified: Monday, Nov 11 2024</div>
