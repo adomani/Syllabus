@@ -161,9 +161,26 @@
         </ul>
       </td>
     </tr>
+    <tr><td><p style="margin-bottom:0;">Tuesday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li>Finish <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L05_limits_questions.lean">limits questions</a>,</li>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L05_graphs_questions.lean">graphs questions</a>.</li>
+        </ul>
+      </td>
+    </tr>
+<!--  ##################  Week 7  ################## -->
+    <tr><th></th><th style="text-align: center">Week 7 (Nov 11-15)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L06_typeclasses.lean">Typeclasses</a> and introduction to differences between `def`, `structure` and `class`.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA4N1_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Nov 05 2024</div>
+<div style="text-align: right">Last modified: Monday, Nov 11 2024</div>

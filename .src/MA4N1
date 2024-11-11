@@ -51,28 +51,29 @@ mon
   <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L05_limits_questions.lean">limits questions</a>.
 tue
   <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L05_graphs_questions.lean">graphs questions</a>.
-_tentative
 sup
-  Various possibilities:
-  <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L10_dvd_induction.lean">Induction on divisors of a natural number</a>.
-  <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L04_definitions.lean">Definitions</a> and inductives in <code>Mathlib</code>,
-  <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L06_typeclasses.lean">Typeclasses</a>.
-  <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L07_calculations.lean">Calculations</a>:
-  <code>calc, conv, gcongr</code>.
-  <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L08_Ri_hard.lean">&#x211D;[i] is a field</a>.
+  Finish <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L05_limits_questions.lean">limits questions</a>,
+  <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L05_graphs_questions.lean">graphs questions</a>.
 
 --  Week 7
 mon
-  Breather week.
+  <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L06_typeclasses.lean">Typeclasses</a> and introduction to differences between `def`, `structure` and `class`.
+_tentative
+tue
   Using the fields of a <code>structure</code>,
   <code>noncomputable</code>,
   <code>Decidable</code>.
   Discussion on sub-structures in <code>Mathlib</code>.
   <code>set_option autoImplicit false/true</code>.
   <code>aesop</code> and <code>rcases</code> using the <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L10_dvd_induction.lean">dvd_induction</a> file.
-tue
   <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L12_pathologies.lean">Pathologies</a>: <code>Nat.sub, Nat.div, Div, deriv</code>
 sup
+  Various possibilities:
+  <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L10_dvd_induction.lean">Induction on divisors of a natural number</a>.
+  <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L04_definitions.lean">Definitions</a> and inductives in <code>Mathlib</code>,
+  <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L07_calculations.lean">Calculations</a>:
+  <code>calc, conv, gcongr</code>.
+  <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L08_Ri_hard.lean">&#x211D;[i] is a field</a>.
   <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L13_deriv_pathologies_questions.lean">deriv-pathologies</a>.
 
 --  Week 8
