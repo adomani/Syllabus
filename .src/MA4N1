@@ -57,7 +57,7 @@ sup
 
 --  Week 7
 mon
-  <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L06_typeclasses.lean">Typeclasses</a> and introduction to differences between `def`, `structure` and `class`.
+  <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L06_typeclasses.lean">Typeclasses</a> and introduction to differences between <code>def</code>, <code>structure</code> and <code>class</code>.
 _tentative
 tue
   Using the fields of a <code>structure</code>,
