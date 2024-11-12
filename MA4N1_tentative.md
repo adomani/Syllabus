@@ -178,20 +178,14 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Tuesday</td>
       <td>
         <ul>
-          <li>Using the fields of a <code>structure</code>,</li>
-          <li><code>noncomputable</code>,</li>
-          <li><code>Decidable</code>.</li>
-          <li>Discussion on sub-structures in <code>Mathlib</code>.</li>
-          <li><code>set_option autoImplicit false/true</code>.</li>
-          <li><code>aesop</code> and <code>rcases</code> using the <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L10_dvd_induction.lean">dvd_induction</a> file.</li>
-          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L12_pathologies.lean">Pathologies</a>: <code>Nat.sub, Nat.div, Div, deriv</code></li>
+          <li>Working with a <code>structure</code> and adding <code>instance</code>s to it.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Tuesday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
@@ -284,4 +278,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA4N1)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Monday, Nov 11 2024</div>
+<div style="text-align: right">Last modified: Tuesday, Nov 12 2024</div>
