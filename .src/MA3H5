@@ -76,10 +76,13 @@ sup
 mon
   Vector bundles.
   Rank 1 bundles on $S^1$. <!-- Digression on tangent bundle to $S^2$.-->
+tue
+  Differential $r$-forms. <!-- Cocycles. -->
+  Beginning of pull-backs of differential forms.
 _tentative
 wed
-  Cocycles.
-  Differential $r$-forms.
+  Pull-backs of differential forms.
+  Integrals and Orientability.
 sup
   "Baby Pre-image theorem".
   Tensor products and exterior squares.

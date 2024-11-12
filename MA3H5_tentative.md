@@ -226,12 +226,20 @@
         </ul>
       </td>
     </tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
+          <li>Differential $r$-forms. <!-- Cocycles. --></li>
+          <li>Beginning of pull-backs of differential forms.</li>
+        </ul>
+      </td>
+    </tr>
     <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Wednesday</td>
       <td>
         <ul>
-          <li>Cocycles.</li>
-          <li>Differential $r$-forms.</li>
+          <li>Pull-backs of differential forms.</li>
+          <li>Integrals and Orientability.</li>
         </ul>
       </td>
     </tr>
@@ -327,4 +335,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Monday, Nov 11 2024</div>
+<div style="text-align: right">Last modified: Tuesday, Nov 12 2024</div>
