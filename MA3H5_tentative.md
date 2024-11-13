@@ -234,15 +234,15 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Wednesday</td>
       <td>
         <ul>
           <li>Pull-backs of differential forms.</li>
-          <li>Integrals and Orientability.</li>
+          <li>Orientability.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
@@ -256,7 +256,6 @@
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>Pull-backs of differential forms.</li>
           <li>Integrals and Orientability.</li>
         </ul>
       </td>
@@ -335,4 +334,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Nov 12 2024</div>
+<div style="text-align: right">Last modified: Wednesday, Nov 13 2024</div>
