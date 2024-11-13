@@ -211,8 +211,8 @@
     <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>Partitions of unity, PS2 P4.</li>
-          <li>Tensor products and multilinear maps.</li>
+          <li>Tangent vectors to surfaces in $\mathbb{R}^3$. <!-- Partitions of unity, PS2 P4. Tensor products and multilinear maps. --></li>
+          <li>Riemannian metrics and pull-backs.</li>
         </ul>
       </td>
     </tr>
