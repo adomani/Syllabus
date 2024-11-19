@@ -259,6 +259,86 @@
         </ul>
       </td>
     </tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
+          <li>Orientability of $S^n$, non-orientability of $\mathbb{P}^{2n}_{\mathbb{R}}$.</li>
+          <li>Exterior differentiation.</li>
+          <li>_tentative</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td>Wednesday</td>
+      <td>
+        <ul>
+          <li>Stokes' Theorem for manifolds without boundary.</li>
+          <li>Manifolds with boundary.</li>
+          <li>An orientation on $M$ induces an orientation on $\partial M$.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li>Differential 2-forms and higher order forms.</li>
+          <li>Exterior derivative and $d \circ d = 0$.</li>
+          <li>PS3 P3.</li>
+        </ul>
+      </td>
+    </tr>
+<!--  ##################  Week 9  ################## -->
+    <tr><th></th><th style="text-align: center">Week 9 (Nov 25-29)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>Stokes' Theorem for manifolds without boundary.</li>
+          <li>Manifolds with boundary.</li>
+          <li>An orientation on $M$ induces an orientation on $\partial M$.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td>Wednesday</td>
+      <td>
+        <ul>
+          <li>Orientation on $\partial [0,1]$.</li>
+          <li>Stokes' Theorem.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li>Pull-back and differentials.</li>
+          <li>PS3 P3.</li>
+        </ul>
+      </td>
+    </tr>
+<!--  ##################  Week 10  ################## -->
+    <tr><th></th><th style="text-align: center">Week 10 (Dec 02-06)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>Brouwer’s fixed point theorem.</li>
+          <li>Q&A: germs vs functions, quotient manifolds, remarks about invariance of domain.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td>Wednesday</td>
+      <td>
+        <ul>
+          <li>Q&A: partitions of unity, immersions, differentials,...</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li>Orientability and examples.</li>
+          <li>Classical notation for integrals.</li>
+          <li>Interior product.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>

@@ -259,12 +259,12 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Tuesday</td>
       <td>
         <ul>
+          <li>Orientability of $S^n$, non-orientability of $\mathbb{P}^{2n}_{\mathbb{R}}$.</li>
           <li>Exterior differentiation.</li>
-          <li>Stokes' Theorem for manifolds without boundary.</li>
+          <li>_tentative</li>
         </ul>
       </td>
     </tr>

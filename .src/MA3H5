@@ -88,10 +88,10 @@ sup
 --  Week 8
 mon
   Integrals and Orientability.
-_tentative
 tue
+  Orientability of $S^n$, non-orientability of $\mathbb{P}^{2n}_{\mathbb{R}}$.
   Exterior differentiation.
-  Stokes' Theorem for manifolds without boundary.
+  _tentative
 wed
   Stokes' Theorem for manifolds without boundary.
   Manifolds with boundary.
