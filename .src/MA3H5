@@ -81,7 +81,6 @@ tue
 wed
   Pull-backs of differential forms.
   Orientability.
-_tentative
 sup
   "Baby Pre-image theorem".
   Tensor products and exterior squares.
@@ -89,8 +88,14 @@ sup
 --  Week 8
 mon
   Integrals and Orientability.
-wed
+tue
+_tentative
   Exterior differentiation.
+  Stokes' Theorem for manifolds without boundary.
+wed
+  Stokes' Theorem for manifolds without boundary.
+  Manifolds with boundary.
+  An orientation on $M$ induces an orientation on $\partial M$.
 sup
   Differential 2-forms and higher order forms.
   Exterior derivative and $d \circ d = 0$.

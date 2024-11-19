@@ -242,9 +242,32 @@
         </ul>
       </td>
     </tr>
+    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li>"Baby Pre-image theorem".</li>
+          <li>Tensor products and exterior squares.</li>
+        </ul>
+      </td>
+    </tr>
+<!--  ##################  Week 8  ################## -->
+    <tr><th></th><th style="text-align: center">Week 8 (Nov 18-22)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>Integrals and Orientability.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3H5_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Wednesday, Nov 13 2024</div>
+<div style="text-align: right">Last modified: Tuesday, Nov 19 2024</div>
