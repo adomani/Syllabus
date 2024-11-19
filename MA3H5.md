@@ -259,12 +259,6 @@
         </ul>
       </td>
     </tr>
-    <tr><td>Tuesday</td>
-      <td>
-        <ul>
-        </ul>
-      </td>
-    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
