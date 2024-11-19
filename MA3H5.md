@@ -259,6 +259,14 @@
         </ul>
       </td>
     </tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
+          <li>Orientability of $S^n$, non-orientability of $\mathbb{P}^{2n}_{\mathbb{R}}$.</li>
+          <li>Exterior differentiation.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
