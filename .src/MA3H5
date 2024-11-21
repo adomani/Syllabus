@@ -91,11 +91,9 @@ mon
 tue
   Orientability of $S^n$, non-orientability of $\mathbb{P}^{2n}_{\mathbb{R}}$.
   Exterior differentiation.
-_tentative
 wed
-  Stokes' Theorem for manifolds without boundary.
-  Manifolds with boundary.
-  An orientation on $M$ induces an orientation on $\partial M$.
+  Exterior differentiation commutes with pull-back.
+_tentative
 sup
   Differential 2-forms and higher order forms.
   Exterior derivative and $d \circ d = 0$.

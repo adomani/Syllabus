@@ -267,16 +267,14 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Wednesday</td>
       <td>
         <ul>
-          <li>Stokes' Theorem for manifolds without boundary.</li>
-          <li>Manifolds with boundary.</li>
-          <li>An orientation on $M$ induces an orientation on $\partial M$.</li>
+          <li>Exterior differentiation commutes with pull-back.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
@@ -344,4 +342,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Nov 19 2024</div>
+<div style="text-align: right">Last modified: Thursday, Nov 21 2024</div>
