@@ -245,8 +245,8 @@
     <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>"Baby Pre-image theorem".</li>
-          <li>Tensor products and exterior squares.</li>
+          <li>Problem Sheet 3, Exercise 1, pull-backs, Jacobians. <!-- "Baby Pre-image theorem".</li>
+          <li>Tensor products and exterior squares. --></li>
         </ul>
       </td>
     </tr>
@@ -274,9 +274,28 @@
         </ul>
       </td>
     </tr>
+    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li>Exterior derivative, divergence, integrals. <!--  and $d \circ d = 0$. Differential 2-forms and higher order forms. --></li>
+          <li>More Problem Sheet 3.</li>
+        </ul>
+      </td>
+    </tr>
+<!--  ##################  Week 9  ################## -->
+    <tr><th></th><th style="text-align: center">Week 9 (Nov 25-29)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>Stokes' Theorem for manifolds without boundary.</li>
+          <li>Manifolds with boundary.</li>
+          <li>Orientation on $\partial [0,1]$.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3H5_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Thursday, Nov 21 2024</div>
+<div style="text-align: right">Last modified: Monday, Nov 25 2024</div>

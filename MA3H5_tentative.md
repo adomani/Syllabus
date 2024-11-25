@@ -245,8 +245,8 @@
     <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>"Baby Pre-image theorem".</li>
-          <li>Tensor products and exterior squares.</li>
+          <li>Problem Sheet 3, Exercise 1, pull-backs, Jacobians. <!-- "Baby Pre-image theorem".</li>
+          <li>Tensor products and exterior squares. --></li>
         </ul>
       </td>
     </tr>
@@ -274,13 +274,11 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>Differential 2-forms and higher order forms.</li>
-          <li>Exterior derivative and $d \circ d = 0$.</li>
-          <li>PS3 P3.</li>
+          <li>Exterior derivative, divergence, integrals. <!--  and $d \circ d = 0$. Differential 2-forms and higher order forms. --></li>
+          <li>More Problem Sheet 3.</li>
         </ul>
       </td>
     </tr>
@@ -291,15 +289,24 @@
         <ul>
           <li>Stokes' Theorem for manifolds without boundary.</li>
           <li>Manifolds with boundary.</li>
+          <li>Orientation on $\partial [0,1]$.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
           <li>An orientation on $M$ induces an orientation on $\partial M$.</li>
+          <li>Stokes' Theorem.</li>
         </ul>
       </td>
     </tr>
     <tr><td>Wednesday</td>
       <td>
         <ul>
-          <li>Orientation on $\partial [0,1]$.</li>
-          <li>Stokes' Theorem.</li>
+          <li>Brouwer’s fixed point theorem.</li>
+          <li>Homological algebra.</li>
         </ul>
       </td>
     </tr>
@@ -316,7 +323,6 @@
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>Brouwer’s fixed point theorem.</li>
           <li>Q&A: germs vs functions, quotient manifolds, remarks about invariance of domain.</li>
         </ul>
       </td>
@@ -342,4 +348,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Thursday, Nov 21 2024</div>
+<div style="text-align: right">Last modified: Monday, Nov 25 2024</div>

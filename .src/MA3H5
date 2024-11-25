@@ -82,8 +82,8 @@ wed
   Pull-backs of differential forms.
   Orientability.
 sup
-  "Baby Pre-image theorem".
-  Tensor products and exterior squares.
+  Problem Sheet 3, Exercise 1, pull-backs, Jacobians. <!-- "Baby Pre-image theorem".
+  Tensor products and exterior squares. -->
 
 --  Week 8
 mon
@@ -93,27 +93,28 @@ tue
   Exterior differentiation.
 wed
   Exterior differentiation commutes with pull-back.
-_tentative
 sup
-  Differential 2-forms and higher order forms.
-  Exterior derivative and $d \circ d = 0$.
-  PS3 P3.
+  Exterior derivative, divergence, integrals. <!--  and $d \circ d = 0$. Differential 2-forms and higher order forms. -->
+  More Problem Sheet 3.
 
 --  Week 9
 mon
   Stokes' Theorem for manifolds without boundary.
   Manifolds with boundary.
-  An orientation on $M$ induces an orientation on $\partial M$.
-wed
   Orientation on $\partial [0,1]$.
+_tentative
+tue
+  An orientation on $M$ induces an orientation on $\partial M$.
   Stokes' Theorem.
+wed
+  Brouwer’s fixed point theorem.
+  Homological algebra.
 sup
   Pull-back and differentials.
   PS3 P3.
 
 --  Week 10
 mon
-  Brouwer’s fixed point theorem.
   Q&A: germs vs functions, quotient manifolds, remarks about invariance of domain.
 wed
   Q&A: partitions of unity, immersions, differentials,...
