@@ -80,11 +80,10 @@ sup
   Inaccessible room!  Hopefully, this only affected this week.
 
 --  Week 9
-_tentative
 mon
-  <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L17_navigating_Mathlib.lean">Navigating <code>Mathlib</code></a>.
-tue
   <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L18_finiteness.lean">Finiteness</a>.
+_tentative
+tue
   <code>Classical, noncomputable, Prop, Bool</code>.
 sup
   Group work.

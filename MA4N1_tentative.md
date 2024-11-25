@@ -225,18 +225,17 @@
     </tr>
 <!--  ##################  Week 9  ################## -->
     <tr><th></th><th style="text-align: center">Week 9 (Nov 25-29)</th></tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L17_navigating_Mathlib.lean">Navigating <code>Mathlib</code></a>.</li>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L18_finiteness.lean">Finiteness</a>.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Tuesday</td>
       <td>
         <ul>
-          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L18_finiteness.lean">Finiteness</a>.</li>
           <li><code>Classical, noncomputable, Prop, Bool</code>.</li>
         </ul>
       </td>
@@ -279,4 +278,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA4N1)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Thursday, Nov 21 2024</div>
+<div style="text-align: right">Last modified: Monday, Nov 25 2024</div>
