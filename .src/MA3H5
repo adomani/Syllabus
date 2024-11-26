@@ -102,12 +102,12 @@ mon
   Stokes' Theorem for manifolds without boundary.
   Manifolds with boundary.
   Orientation on $\partial [0,1]$.
-_tentative
 tue
   An orientation on $M$ induces an orientation on $\partial M$.
-  Stokes' Theorem.
+  Stokes' Theorem for manifolds with boundary.
+_tentative
 wed
-  Brouwer’s fixed point theorem.
+  Brouwer's fixed point theorem.
   Homological algebra.
 sup
   Pull-back and differentials.

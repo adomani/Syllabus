@@ -293,19 +293,19 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Tuesday</td>
       <td>
         <ul>
           <li>An orientation on $M$ induces an orientation on $\partial M$.</li>
-          <li>Stokes' Theorem.</li>
+          <li>Stokes' Theorem for manifolds with boundary.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Wednesday</td>
       <td>
         <ul>
-          <li>Brouwer’s fixed point theorem.</li>
+          <li>Brouwer's fixed point theorem.</li>
           <li>Homological algebra.</li>
         </ul>
       </td>
@@ -348,4 +348,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Monday, Nov 25 2024</div>
+<div style="text-align: right">Last modified: Tuesday, Nov 26 2024</div>
