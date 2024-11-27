@@ -105,18 +105,19 @@ mon
 tue
   An orientation on $M$ induces an orientation on $\partial M$.
   Stokes' Theorem for manifolds with boundary.
-_tentative
 wed
   Brouwer's fixed point theorem.
-  Homological algebra.
+  Definition of de Rham cohomology, first properties.
+_tentative
 sup
   Pull-back and differentials.
   PS3 P3.
 
 --  Week 10
 mon
-  Q&A: germs vs functions, quotient manifolds, remarks about invariance of domain.
+  More on de Rham cohomology, computations.
 wed
+  Q&A: germs vs functions, quotient manifolds, remarks about invariance of domain.
   Q&A: partitions of unity, immersions, differentials,...
 sup
   Orientability and examples.
