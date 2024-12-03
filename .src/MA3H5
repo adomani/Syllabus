@@ -115,9 +115,10 @@ sup
 --  Week 10
 mon
   More on de Rham cohomology, Theorem 6.3 (homotopy invariance).
-_tentative
 tue
   Cohomology of $\mathbb{R}^n$ and of $S^n$.
+  Non-existence of nowhere vanishing vector fields on even-dimensional spheres.
+_tentative
 wed
   Q&A: germs vs functions, quotient manifolds, remarks about invariance of domain.
   Q&A: partitions of unity, immersions, differentials,...

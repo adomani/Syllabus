@@ -326,14 +326,15 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Tuesday</td>
       <td>
         <ul>
           <li>Cohomology of $\mathbb{R}^n$ and of $S^n$.</li>
+          <li>Non-existence of nowhere vanishing vector fields on even-dimensional spheres.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Wednesday</td>
       <td>
         <ul>
