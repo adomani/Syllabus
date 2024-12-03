@@ -309,7 +309,6 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
@@ -323,7 +322,15 @@
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>More on de Rham cohomology, computations.</li>
+          <li>More on de Rham cohomology, Theorem 6.3 (homotopy invariance).</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
+          <li>Cohomology of $\mathbb{R}^n$ and of $S^n$.</li>
         </ul>
       </td>
     </tr>
@@ -349,4 +356,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Wednesday, Nov 27 2024</div>
+<div style="text-align: right">Last modified: Tuesday, Dec 03 2024</div>

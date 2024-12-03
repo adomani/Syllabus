@@ -108,14 +108,16 @@ tue
 wed
   Brouwer's fixed point theorem.
   Definition of de Rham cohomology, first properties.
-_tentative
 sup
   Pull-back and differentials.
   PS3 P3.
 
 --  Week 10
 mon
-  More on de Rham cohomology, computations.
+  More on de Rham cohomology, Theorem 6.3 (homotopy invariance).
+_tentative
+tue
+  Cohomology of $\mathbb{R}^n$ and of $S^n$.
 wed
   Q&A: germs vs functions, quotient manifolds, remarks about invariance of domain.
   Q&A: partitions of unity, immersions, differentials,...
