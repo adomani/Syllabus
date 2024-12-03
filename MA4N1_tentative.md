@@ -234,7 +234,7 @@
     <tr><td>Tuesday</td>
       <td>
         <ul>
-          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L12_pathologies.lean">Pathologies</a>, leading up to <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L13_deriv_pathologies_questions.lean">deriv-pathologies</a>. <!-- code>Classical, noncomputable, Prop, Bool</code --></li>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L12_pathologies.lean">Pathologies</a>, leading up to <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L13_deriv_pathologies.lean">deriv-pathologies</a>. <!-- code>Classical, noncomputable, Prop, Bool</code --></li>
         </ul>
       </td>
     </tr>
