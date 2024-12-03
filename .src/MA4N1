@@ -83,17 +83,18 @@ mon
   <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L18_finiteness.lean">Finiteness</a>.
 tue
   <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L12_pathologies.lean">Pathologies</a>, leading up to <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L13_deriv_pathologies_questions.lean">deriv-pathologies</a>. <!-- code>Classical, noncomputable, Prop, Bool</code -->
-_tentative
 sup
   Group work.
 
 --  Week 10
 mon
   <a href="https://adventofcode.com/">Advent of Code</a>.
-  Solution to Day 2: <a href="https://github.com/adomani/advents/blob/master/Advents/day02_syntax.lean">syntax parsing</a> and <a href="https://github.com/adomani/advents/blob/master/Advents/day02.lean">running the input</a>.
+  Solution to Day 2, 2023: <a href="https://github.com/adomani/advents/blob/master/Advents/AoC2023/day02_syntax.lean">syntax parsing</a> and <a href="https://github.com/adomani/advents/blob/master/Advents/AoC2023/day02.lean">running the input</a>.
 tue
-  Algebraic and tropical geometry in <code>Mathlib</code>.
-  Type theory and category theory.
+  <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L15_setoids.lean">setoids</a>.
+  <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L09_noncomputable_IsSquare.lean">Noncomputability and decidable instances</a>.  <!-- Algebraic and tropical geometry in <code>Mathlib</code>.
+  Type theory and category theory. -->
+_tentative
 sup
   Group work?
   <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L16_setoids_week_end_questions.lean">Week-end setoids</a>?
