@@ -334,15 +334,16 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Wednesday</td>
       <td>
         <ul>
-          <li>Q&A: germs vs functions, quotient manifolds, remarks about invariance of domain.</li>
-          <li>Q&A: partitions of unity, immersions, differentials,...</li>
+          <li>Invariance of domain.</li>
+          <li>Remarks about cohomology in general. <!-- Q&A: germs vs functions, quotient manifolds,</li>
+          <li>Q&A: partitions of unity, immersions, differentials,... --></li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
@@ -357,4 +358,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA3H5)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Dec 03 2024</div>
+<div style="text-align: right">Last modified: Wednesday, Dec 04 2024</div>

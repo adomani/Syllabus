@@ -118,10 +118,11 @@ mon
 tue
   Cohomology of $\mathbb{R}^n$ and of $S^n$.
   Non-existence of nowhere vanishing vector fields on even-dimensional spheres.
-_tentative
 wed
-  Q&A: germs vs functions, quotient manifolds, remarks about invariance of domain.
-  Q&A: partitions of unity, immersions, differentials,...
+  Invariance of domain.
+  Remarks about cohomology in general. <!-- Q&A: germs vs functions, quotient manifolds,
+  Q&A: partitions of unity, immersions, differentials,... -->
+_tentative
 sup
   Orientability and examples.
   Classical notation for integrals.

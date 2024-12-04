@@ -334,9 +334,18 @@
         </ul>
       </td>
     </tr>
+    <tr><td>Wednesday</td>
+      <td>
+        <ul>
+          <li>Invariance of domain.</li>
+          <li>Remarks about cohomology in general. <!-- Q&A: germs vs functions, quotient manifolds,</li>
+          <li>Q&A: partitions of unity, immersions, differentials,... --></li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3H5_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Dec 03 2024</div>
+<div style="text-align: right">Last modified: Wednesday, Dec 04 2024</div>
