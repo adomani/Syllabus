@@ -93,11 +93,11 @@ mon
 tue
   <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L15_setoids.lean">Quotients and setoids</a>.
   <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L09_noncomputable_IsSquare.lean">Noncomputability and decidable instances</a>.  <!-- Algebraic and tropical geometry in <code>Mathlib</code>.
-  Type theory and category theory. -->
-_tentative
+  Type theory and category theory.
 sup
   Group work?
   <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L16_setoids_week_end_questions.lean">Week-end setoids</a>?
+   -->
 
 ###  Further topics
 

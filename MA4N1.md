@@ -260,7 +260,16 @@
         <ul>
           <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L15_setoids.lean">Quotients and setoids</a>.</li>
           <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L09_noncomputable_IsSquare.lean">Noncomputability and decidable instances</a>.  <!-- Algebraic and tropical geometry in <code>Mathlib</code>.</li>
-          <li>Type theory and category theory. --></li>
+          <li>Type theory and category theory.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td><p style="margin-bottom:0;">Tuesday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li>Group work?</li>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L16_setoids_week_end_questions.lean">Week-end setoids</a>?</li>
+          <li> --></li>
         </ul>
       </td>
     </tr>
@@ -269,4 +278,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA4N1_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Dec 03 2024</div>
+<div style="text-align: right">Last modified: Wednesday, Dec 04 2024</div>
