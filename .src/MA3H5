@@ -68,51 +68,61 @@ wed
   Go over some parts of an exam question.
   Complements and Q&A during breather week.
   -->
-_tentative
 sup
-  Partitions of unity, PS2 P4.
-  Tensor products and multilinear maps.
-
+  Tangent vectors to surfaces in $\mathbb{R}^3$. <!-- Partitions of unity, PS2 P4. Tensor products and multilinear maps. -->
+  Riemannian metrics and pull-backs.
 --  Week 7
 mon
-  Digression on tangent bundle to $S^2$.
   Vector bundles.
+  Rank 1 bundles on $S^1$. <!-- Digression on tangent bundle to $S^2$.-->
+tue
+  Differential $r$-forms. <!-- Cocycles. -->
+  Beginning of pull-backs of differential forms.
 wed
-  Cocycles.
-  Differential $r$-forms.
+  Pull-backs of differential forms.
+  Orientability.
 sup
-  "Baby Pre-image theorem".
-  Tensor products and exterior squares.
+  Problem Sheet 3, Exercise 1, pull-backs, Jacobians. <!-- "Baby Pre-image theorem".
+  Tensor products and exterior squares. -->
 
 --  Week 8
 mon
-  Pull-backs of differential forms.
   Integrals and Orientability.
-wed
+tue
+  Orientability of $S^n$, non-orientability of $\mathbb{P}^{2n}_{\mathbb{R}}$.
   Exterior differentiation.
+wed
+  Exterior differentiation commutes with pull-back.
 sup
-  Differential 2-forms and higher order forms.
-  Exterior derivative and $d \circ d = 0$.
-  PS3 P3.
+  Exterior derivative, divergence, integrals. <!--  and $d \circ d = 0$. Differential 2-forms and higher order forms. -->
+  More Problem Sheet 3.
 
 --  Week 9
 mon
   Stokes' Theorem for manifolds without boundary.
   Manifolds with boundary.
-  An orientation on $M$ induces an orientation on $\partial M$.
-wed
   Orientation on $\partial [0,1]$.
-  Stokes' Theorem.
+tue
+  An orientation on $M$ induces an orientation on $\partial M$.
+  Stokes' Theorem for manifolds with boundary.
+wed
+  Brouwer's fixed point theorem.
+  Definition of de Rham cohomology, first properties.
 sup
   Pull-back and differentials.
   PS3 P3.
 
 --  Week 10
 mon
-  Brouwer’s fixed point theorem.
-  Q&A: germs vs functions, quotient manifolds, remarks about invariance of domain.
+  More on de Rham cohomology, Theorem 6.3 (homotopy invariance).
+tue
+  Cohomology of $\mathbb{R}^n$ and of $S^n$.
+  Non-existence of nowhere vanishing vector fields on even-dimensional spheres.
 wed
-  Q&A: partitions of unity, immersions, differentials,...
+  Invariance of domain.
+  Remarks about cohomology in general. <!-- Q&A: germs vs functions, quotient manifolds,
+  Q&A: partitions of unity, immersions, differentials,... -->
+_tentative
 sup
   Orientability and examples.
   Classical notation for integrals.

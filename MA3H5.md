@@ -208,9 +208,144 @@
         </ul>
       </td>
     </tr>
+    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li>Tangent vectors to surfaces in $\mathbb{R}^3$. <!-- Partitions of unity, PS2 P4. Tensor products and multilinear maps. --></li>
+          <li>Riemannian metrics and pull-backs.</li>
+        </ul>
+      </td>
+    </tr>
+<!--  ##################  Week 7  ################## -->
+    <tr><th></th><th style="text-align: center">Week 7 (Nov 11-15)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>Vector bundles.</li>
+          <li>Rank 1 bundles on $S^1$. <!-- Digression on tangent bundle to $S^2$.--></li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
+          <li>Differential $r$-forms. <!-- Cocycles. --></li>
+          <li>Beginning of pull-backs of differential forms.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td>Wednesday</td>
+      <td>
+        <ul>
+          <li>Pull-backs of differential forms.</li>
+          <li>Orientability.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li>Problem Sheet 3, Exercise 1, pull-backs, Jacobians. <!-- "Baby Pre-image theorem".</li>
+          <li>Tensor products and exterior squares. --></li>
+        </ul>
+      </td>
+    </tr>
+<!--  ##################  Week 8  ################## -->
+    <tr><th></th><th style="text-align: center">Week 8 (Nov 18-22)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>Integrals and Orientability.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
+          <li>Orientability of $S^n$, non-orientability of $\mathbb{P}^{2n}_{\mathbb{R}}$.</li>
+          <li>Exterior differentiation.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td>Wednesday</td>
+      <td>
+        <ul>
+          <li>Exterior differentiation commutes with pull-back.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li>Exterior derivative, divergence, integrals. <!--  and $d \circ d = 0$. Differential 2-forms and higher order forms. --></li>
+          <li>More Problem Sheet 3.</li>
+        </ul>
+      </td>
+    </tr>
+<!--  ##################  Week 9  ################## -->
+    <tr><th></th><th style="text-align: center">Week 9 (Nov 25-29)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>Stokes' Theorem for manifolds without boundary.</li>
+          <li>Manifolds with boundary.</li>
+          <li>Orientation on $\partial [0,1]$.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
+          <li>An orientation on $M$ induces an orientation on $\partial M$.</li>
+          <li>Stokes' Theorem for manifolds with boundary.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td>Wednesday</td>
+      <td>
+        <ul>
+          <li>Brouwer's fixed point theorem.</li>
+          <li>Definition of de Rham cohomology, first properties.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td><p style="margin-bottom:0;">Friday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li>Pull-back and differentials.</li>
+          <li>PS3 P3.</li>
+        </ul>
+      </td>
+    </tr>
+<!--  ##################  Week 10  ################## -->
+    <tr><th></th><th style="text-align: center">Week 10 (Dec 02-06)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>More on de Rham cohomology, Theorem 6.3 (homotopy invariance).</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
+          <li>Cohomology of $\mathbb{R}^n$ and of $S^n$.</li>
+          <li>Non-existence of nowhere vanishing vector fields on even-dimensional spheres.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td>Wednesday</td>
+      <td>
+        <ul>
+          <li>Invariance of domain.</li>
+          <li>Remarks about cohomology in general. <!-- Q&A: germs vs functions, quotient manifolds,</li>
+          <li>Q&A: partitions of unity, immersions, differentials,... --></li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA3H5_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Wednesday, Nov 06 2024</div>
+<div style="text-align: right">Last modified: Wednesday, Dec 04 2024</div>
