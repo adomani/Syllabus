@@ -65,7 +65,6 @@ In this module, we will only work with Lean 4.
   * [`#eval`](https://adomani.github.io/Syllabus/MA4N1/informationExtraction#eval)
 * [Sample Lean file](https://adomani.github.io/Syllabus/MA4N1/sample_lean_file#sample-lean-file)
 * [Projects and stubs of ideas](https://adomani.github.io/Syllabus/MA4N1/ideas_to_develop#projects-and-stubs-of-ideas)
-  * [Past projects](https://adomani.github.io/Syllabus/MA4N1/ideas_to_develop#past-projects)
   * [Orphaned projects](https://adomani.github.io/Syllabus/MA4N1/ideas_to_develop#orphaned-projects)
   * [Mathematically oriented projects](https://adomani.github.io/Syllabus/MA4N1/ideas_to_develop#mathematically-oriented-projects)
   * [External repositories and books for inspiration](https://adomani.github.io/Syllabus/MA4N1/ideas_to_develop#external-repositories-and-books-for-inspiration)
