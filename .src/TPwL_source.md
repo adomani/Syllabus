@@ -737,7 +737,22 @@ lemma zero_ne_one : 0 ≠ 1 := by
 <!-- newFile ideas_to_develop.md -->
 #  Projects and stubs of ideas
 
+|Project title|Comments and possible Mathlib reference|
+|-|-|
+|[Properties of Trees]()||
+|[The Isomorphism Theorem]()||
+|[Green’s Theorem]()||
+|[Lusin’s Theorem](https://github.com/AadamHaq/MA4N1-Theorem-Proving-with-Lean)||
+|[Liouville’s Theorem]()||
+|[Post’s Functional Completeness Theorem]()||
+|[Jordan Normal Form]()||
+|[The Halting Problem]()||
+
+<details><summary>
+
 ##  Past projects
+
+</summary>
 
 |Project title|Comments and possible Mathlib reference|
 |-|-|
@@ -751,6 +766,8 @@ lemma zero_ne_one : 0 ≠ 1 := by
 |[Lagrange’s Theorem](https://github.com/MichaelCavaliere/MA4N1-Project)|[Lagrange's Theorem](wiki#Lagrange%27s_theorem_(group_theory)) in [Mathlib](docs#Subgroup.card_subgroup_dvd_card)|
 |[Sieve Theory](https://github.com/grhkm21/LakeSeave)|Some results in analytic number theory.|
 |[Combinatorial Problems](https://github.com/mgsium/102_comb_lean)|Problems taken or inspired by IMO problems.|
+
+</details>
 
 ##  Orphaned projects
 
