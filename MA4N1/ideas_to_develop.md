@@ -4,9 +4,9 @@
 |-|-|
 |[Properties of Trees](https://github.com/ElliotJoyce09/lean_trees)|The definition of a [tree](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Combinatorics/SimpleGraph/Acyclic.html#SimpleGraph.IsTree) in Mathlib|
 |[The Isomorphism Theorem](https://github.com/Oeggy123/LEAN-ISO)||
-|[Green’s Theorem](https://github.com/RisingStar111/Lean4-Greens-Theorem)||
+|[Green’s Theorem](https://github.com/RisingStar111/Lean4-Greens-Theorem)|I don't think that this is in Mathlib|
 |[Liouville’s Theorem](https://github.com/invertedpi18/Liouville)|[Liouville Theorem in Mathlib](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/Complex/Liouville.html)|
-|[Post’s Functional Completeness Theorem](https://github.com/SushiKebab17/MA4N1_TPwL_Posts_Theorem)||
+|[Post’s Functional Completeness Theorem](https://github.com/SushiKebab17/MA4N1_TPwL_Posts_Theorem)|I don't think that this is in Mathlib|
 |[Jordan Normal Form](https://github.com/devluhar26/MA4N1)|[Generalized eigenspaces](https://leanprover-community.github.io/mathlib4_docs/Mathlib/LinearAlgebra/Eigenspace/Basic.html#Module.End.genEigenspace)|
 |[The Halting Problem](https://github.com/raemundo5/halting)|The definition of a [Turing machine](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Computability/TMComputable.html) in Mathlib|
 
