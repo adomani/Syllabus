@@ -748,11 +748,11 @@ lemma zero_ne_one : 0 ≠ 1 := by
 |[Jordan Normal Form](https://github.com/devluhar26/MA4N1)||
 |[The Halting Problem](https://github.com/raemundo5/halting)||
 
-<details><summary>
+<!--details><summary -->
 
 ##  Past projects
 
-</summary>
+<!--/summary-->
 
 |Project title|Comments and possible Mathlib reference|
 |-|-|
