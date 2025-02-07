@@ -740,7 +740,7 @@ lemma zero_ne_one : 0 ≠ 1 := by
 |Project title|Comments and possible Mathlib reference|
 |-|-|
 |[Properties of Trees](https://github.com/ElliotJoyce09/lean_trees)|The definition of a [tree](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Combinatorics/SimpleGraph/Acyclic.html#SimpleGraph.IsTree) in Mathlib|
-|[The Isomorphism Theorem](https://github.com/Oeggy123/LEAN-ISO)||
+|[The Isomorphism Theorem](https://github.com/Oeggy123/LEAN-ISO)|Various isomorphism theorems are in [this file](https://leanprover-community.github.io/mathlib4_docs/Mathlib/GroupTheory/QuotientGroup/Basic.html#QuotientGroup.quotientKerEquivRange)|
 |[Green’s Theorem](https://github.com/RisingStar111/Lean4-Greens-Theorem)|I don't think that this is in Mathlib|
 |[Liouville’s Theorem](https://github.com/invertedpi18/Liouville)|[Liouville Theorem in Mathlib](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/Complex/Liouville.html)|
 |[Post’s Functional Completeness Theorem](https://github.com/SushiKebab17/MA4N1_TPwL_Posts_Theorem)|I don't think that this is in Mathlib|
