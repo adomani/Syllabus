@@ -11,7 +11,9 @@
 |[Jordan Normal Form](https://github.com/devluhar26/MA4N1)||
 |[The Halting Problem](https://github.com/raemundo5/halting)||
 
-<details><summary><h2 id="past-projects">Past projects</h2></summary>
+## Past projects
+
+<details><summary>Click to expand</h2></summary>
 
 <table>
   <thead>
