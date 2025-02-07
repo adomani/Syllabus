@@ -2,14 +2,14 @@
 
 |Project title|Comments and possible Mathlib reference|
 |-|-|
-|[Properties of Trees]()||
-|[The Isomorphism Theorem]()||
-|[Green’s Theorem]()||
+|[Properties of Trees](https://github.com/ElliotJoyce09/lean_trees)||
+|[The Isomorphism Theorem](https://github.com/Oeggy123/LEAN-ISO)||
+|[Green’s Theorem](https://github.com/RisingStar111/Lean4-Greens-Theorem)||
 |[Lusin’s Theorem](https://github.com/AadamHaq/MA4N1-Theorem-Proving-with-Lean)||
-|[Liouville’s Theorem]()||
-|[Post’s Functional Completeness Theorem]()||
-|[Jordan Normal Form]()||
-|[The Halting Problem]()||
+|[Liouville’s Theorem](https://github.com/invertedpi18/Liouville)||
+|[Post’s Functional Completeness Theorem](https://github.com/SushiKebab17/MA4N1_TPwL_Posts_Theorem)||
+|[Jordan Normal Form](https://github.com/devluhar26/MA4N1)||
+|[The Halting Problem](https://github.com/raemundo5/halting)||
 
 <details><summary>
 
