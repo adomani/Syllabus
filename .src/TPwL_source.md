@@ -750,7 +750,7 @@ lemma zero_ne_one : 0 ≠ 1 := by
 
 ## Past projects
 
-<details><summary>Click to expand</h2></summary>
+<details><summary>Click to expand</summary>
 
 <table>
   <thead>

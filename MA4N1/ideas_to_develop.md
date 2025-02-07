@@ -13,7 +13,7 @@
 
 ## Past projects
 
-<details><summary>Click to expand</h2></summary>
+<details><summary>Click to expand</summary>
 
 <table>
   <thead>
