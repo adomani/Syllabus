@@ -576,8 +576,10 @@ example : True := by
   apply trivial
 ```
 In this case, `Go to declaration` and `Go to definition` on the `apply` will take you to different places.
-* `Go to declaration` takes you to where the syntax for `apply` is defined -- this is the first time that Lean was told that `apply` *existed*.
-* `Go to definition` takes you to where the tactic `apply` is defined -- this is where Lean was told what `apply` *meant*.
+* `Go to declaration` takes you to where the syntax for `apply` is defined --
+  this is the first time that Lean was told that `apply` *existed*.
+* `Go to definition` takes you to where the tactic `apply` is defined --
+  this is where Lean was told what `apply` *meant*.
 
 ## `#check`
 
