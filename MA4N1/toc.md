@@ -2,7 +2,7 @@
 
 | Lectures |           | Room  |-| Support classes |          | Room  |
 | :-       | :-:       | -     |-| :-              | :-:      | -     |
-| Mondays  | 5pm-6pm   | MS.05 |-| Tuesdays        | 4pm-5pm  | D1.07 |
+| Mondays  | 5pm-6pm   | MS.05 |-| Tuesdays  | 4pm-5pm  | D1.07 |
 | Tuesdays | 11am-noon | MS.03 |-|                 |          |       |
 
 ##  Assessment
@@ -90,4 +90,4 @@ In this module, we will only work with Lean 4.
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/adomani/MA4N1_Theorem_proving_with_Lean)
 
-[Back to Moodle](https://moodle.warwick.ac.uk/course/view.php?id=67222#section-0)
+[Back to Moodle](https://moodle.warwick.ac.uk/course/view.php?id=71736#section-0)

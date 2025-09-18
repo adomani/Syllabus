@@ -202,7 +202,7 @@ make_md () {
   cd "$here"
 }
 
-alias mani='make_md MA3H5; make_md MA3H5_tentative'
-alias hcim='make_md MA3J9; make_md MA3J9_tentative'
+#alias mani='make_md MA3H5; make_md MA3H5_tentative'
+#alias hcim='make_md MA3J9; make_md MA3J9_tentative'
 alias tpwl='make_md MA4N1; make_md MA4N1_tentative'
-alias both="lblue $'Manifolds\n'; mani; lblue $'\nTPwL\n'; tpwl"
+#alias both="lblue $'Manifolds\n'; mani; lblue $'\nTPwL\n'; tpwl"

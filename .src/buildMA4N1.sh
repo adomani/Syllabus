@@ -5,8 +5,9 @@
 scatterTPwL () {
   # read the `ma4n1_id` variable from moving_parts
   local ma4n1_id="$(sed -n 's|^ma4n1_id=\(.*\)|\1|p' .src/moving_parts.txt)"
-
+  local suppDay_ma4n1="$(sed -n 's|^suppDay_ma4n1=\(.*\)|\1|p' .src/moving_parts.txt)"
   ptable ~/Matematica/Warwick/Syllabus/.src/TPwL_source.md |
+  sed "s=suppDay_ma4n1=${suppDay_ma4n1}=g" |
   awk -v home="${HOME}/Matematica/Warwick/Syllabus/MA4N1/" -v ma4n1_id="${ma4n1_id}" 'BEGIN {
     mainFileNoExt="toc"
     mainFile=mainFileNoExt".md"
