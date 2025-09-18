@@ -1241,9 +1241,15 @@ Partially failing at solving a difficult problem, may still count as a great suc
 ##  What is the project
 
 The "project" is a GitHub repository with Lean code, most likely depending on `Mathlib`.
-It contains the formal verification that you have worked on during the first term and up until the deadline, typically sometime in mid Term 2.
+It contains the formal verification on which you and your group have worked during the first term and up until the deadline, typically sometime in mid Term 2.
 
 The final version of the project may contain `sorry`s.
 It should *not* however, contain errors.
 Ideally, besides documenting each file with what its contents prove, also each `sorry` should come with an explanation for why the result was not formalized.
 Possible reasons are: running out of time, particularly tricky formalization, not needed for the "main" part of the project, and so on.
+If you end up using some `sorry`ed results, make *really* sure that they are true even in the most trivial of cases.
+
+The previous warning also applies to and `def`inition that you may introduce:
+make really sure that it is saying *exactly* what you have in mind.
+Otherwise, you run the risk of formalizing a result that is not what you think it is!
+In fact, checking that definitions are "correct" is something for which Lean cannot help you!
