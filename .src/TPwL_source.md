@@ -251,11 +251,20 @@ In my opinion, the best way to learn is to play yourself with the code, modify i
 
 ## Text that Lean4 parses
 
-* The bulk of each file consists of definitions.
+* The bulk of each file consists of definitions, lemmas, theorems and examples.
 
   ```lean
   def myFn <inputs> : <target> := <whatTheFunctionDoes>
+
+  lemma myEasyLemma <assumptions> : <goal> := by <proof>
+
+  theorem myTheorem <assumptions> : <goal> := by <proof>
+
+  example <assumptions> : <goal> := by <proof>
   ```
+
+  `lemma`s and `theorem`s are virtually identical. `example`s are as well, except that they do not have
+  a name and they are discarded as soon as they are checked: cannot be referenced later on.
 
 * Usually once per file, you will find `namespace <name>` (and `<name>` is often `Day<number>`, though `List`, `String` and `Array` are also common).
   This indicates that if the remaining code defines a function `myFn`, then its actual full name is `Day<number>.myFn`.
