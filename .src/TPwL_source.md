@@ -273,7 +273,7 @@ In my opinion, the best way to learn is to play yourself with the code, modify i
 
 * The command `open <name>` means that you can refer to `<name>.myFn` simply as `myFn`, even if you are not within `namespace <name>`.
 
-  Thus, in the following code, the second `def fn` defines `fn`.
+  Thus, in the following code, the first `def fn` really defines `myName.fn`, while the second `def fn` defines `fn`.
   Note that, if the first `fn` had not been inside a namespace, then there would have been a clash of names and Lean4 would have complained.
 
   ```lean
