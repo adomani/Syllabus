@@ -568,6 +568,17 @@ VSCode will show you a menu whose first option is `Go to Definition`.
 This will take you to the location in the code where the declaration was defined.
 You can then read the code and try to make sense of what you are seeing!
 
+*Note.*
+There is also a `Go to Declaration` which, sometimes, takes you to a different place.
+Here is an example:
+```lean
+example : True := by
+  apply trivial
+```
+In this case, `Go to declaration` and `Go to definition` on the `apply` will take you to different places.
+* `Go to declaration` takes you to where the syntax for `apply` is defined -- this is the first time that Lean was told that `apply` *existed*.
+* `Go to definition` takes you to where the tactic `apply` is defined -- this is where Lean was told what `apply` *meant*.
+
 ## `#check`
 
 As we already saw above, `#check <whatever>` gets Lean to see if what you are trying
