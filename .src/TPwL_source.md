@@ -1237,3 +1237,13 @@ Do mention how effective your solution has been and whether you expect it to req
 Be honest about it: being unsuccessful at solving a problem is a very common situation!
 You will be assessed on your attempt, regardless of whether you completed it or not.
 Partially failing at solving a difficult problem, may still count as a great success!
+
+##  What is the project
+
+The "project" is a GitHub repository with Lean code, most likely depending on `Mathlib`.
+It contains the formal verification that you have worked on during the first term and up until the deadline, typically sometime in mid Term 2.
+
+The final version of the project may contain `sorry`s.
+It should *not* however, contain errors.
+Ideally, besides documenting each file with what its contents prove, also each `sorry` should come with an explanation for why the result was not formalized.
+Possible reasons are: running out of time, particularly tricky formalization, not needed for the "main" part of the project, and so on.
