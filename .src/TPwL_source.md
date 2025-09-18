@@ -356,8 +356,6 @@ First, `"abc".toList` is dot-notation for `String.toList "abc"` (we know this, s
 Moreover, `"abc".toList` produces a `List`, as the name suggests!
 Thus, if we want to apply `List.twice` to `"abc".toList`, we can again take advantage of dot-notation:
 we can compress `List.twice "abc".toList` to `"abc".toList.twice`.
-
-You can find a more extended example [here](stringProcessing.lean)
 <!-- newFile informationExtraction.md -->
 # What tools do I have to tease information out of Lean4?
 
