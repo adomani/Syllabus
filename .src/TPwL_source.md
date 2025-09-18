@@ -331,7 +331,7 @@ In this situation, we can replace the *namespace* `List` with the term `L` and o
 Of course, this trick cannot work always: there is the need of the coincidence of an argument of a function having a Type that is the namespace of the function itself.
 Nevertheless, since we choose the namespace, we can get "dot-notation" to work fairly often.
 This is a further reason why definitions and theorems about `List`s are very often in the `List` namespace: since they apply to `List`s, they likely take a term of type `List ...` as an argument and then dot-notation can be used.
-In case you are wondering, the shortening can happen also if the function has several arguments: dot-notation allows you to merge the first explicit argument of the correct Type with the namespace of the declaration.
+In case you are wondering, the shortening can happen also if the function has several arguments: dot-notation allows you to merge the first (implicit or explicit) argument of the correct Type with the namespace of the declaration.
 
 Here is a situation where we can use dot-notation twice.
 We first generalize the definition of `List.twice` above to work for lists of arbitrary Types.
