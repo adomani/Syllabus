@@ -867,6 +867,7 @@ lemma zero_ne_one : 0 ≠ 1 := by
 * Polynomials over an integral domain are an integral domain
 * Irrational numbers exist
 * Find infinite subsets of the natural numbers containing no 3-term arithmetic progression
+* Define one of the 26 sporadic groups and prove some of its properties
 * Your favourite theorem!
 
 ##  External repositories and books for inspiration
