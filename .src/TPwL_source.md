@@ -412,11 +412,13 @@ Here are a few common errors that show up all the time and what they often mean.
     ```lean
     #check (1 2)
   /-
-  function expected at
+  Function expected at
     1
-  term has type
-    ?m.2721
-  -/
+  but this term has type
+    ?m.3
+
+  Note: Expected a function because this term is being applied to the argument
+    2  -/
   ```
   oops, I forgot a comma!  I meant
   ```lean
@@ -431,29 +433,28 @@ Here are a few common errors that show up all the time and what they often mean.
   ```lean
   #check List.drop 2 "abcdef"
   /-
-  application type mismatch
-    List.drop 2 "abcdef"
-  argument
+  Application type mismatch: The argument
     "abcdef"
   has type
-    String : Type
+    String
   but is expected to have type
-    List ?m.8151 : Type ?u.8150
-  List.drop 2 (sorryAx (List ?m.8151) true) : List ?m.8151
+    List ?m.1
+  in the application
+    List.drop 2 "abcdef"
   -/
   ```
   oops, I meant
   ```lean
   #check List.drop 2 "abcdef".toList
   /-
-  List.drop 2 (String.toList "abcdef") : List Char
+  List.drop 2 "abcdef".toList : List Char
   -/
   ```
   or maybe
   ```lean
   #check String.drop "abcdef" 2
   /-
-  String.drop "abcdef" 2 : String
+  "abcdef".drop 2 : String
   -/
   ```
   If you continue reading the error message beyond `type mismatch`, you will see that Lean actually
@@ -465,11 +466,13 @@ Here are a few common errors that show up all the time and what they often mean.
   ```lean
   #check ∀ α, ∀ a b : α, if a = b then True else False
   /-
-  failed to synthesize instance
+  failed to synthesize
     Decidable (a = b)
-  ∀ (α : Sort u_1), α → α → sorryAx Prop true : Prop
+
+  Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.
   -/
   ```
+  (In this case, the additional diagnostics do not really add much.)
   Lean tells us that it does not know how to handle `a = b`,
   since it does not know that the Type `α` has a `Decidable (a = b)` instance
   (and `α` need not have decidable equality after all!).
@@ -485,9 +488,10 @@ Here are a few common errors that show up all the time and what they often mean.
   ```lean
   #check [1] + [2]
   /-
-  failed to synthesize instance
-    HAdd (List Nat) (List Nat) ?m.21819
-  [1] + [2] : ?m.21819
+  failed to synthesize
+    HAdd (List Nat) (List Nat) ?m.11
+
+  Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.
   -/
   ```
   Lean is looking for an instance of addition on lists of natural numbers,
@@ -502,9 +506,13 @@ Here are a few common errors that show up all the time and what they often mean.
   ```lean
   #check [1] :: [2]
   /-
-  failed to synthesize instance
-    OfNat (List ?m.27405) 2
-  [[1], sorryAx (List Nat) true] : List (List Nat)
+  failed to synthesize
+    OfNat (List ?m.5) 2
+  numerals are polymorphic in Lean, but the numeral `2` cannot be used in a context where the expected type is
+    List ?m.5
+  due to the absence of the instance above
+
+  Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.
   -/
   ```
   Lean wants an `OfNat (List ??) 2` instance, whereas I really meant
