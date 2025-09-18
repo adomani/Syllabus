@@ -13,6 +13,8 @@ Two submissions are during Term 1.
 
 The final submission is at the end of January, in Term 2.
 
+All deadlines are on Thursdays at noon of the specified weeks.
+
 | Assessment                                        | Submission type | Deadline       | Weighting |
 | -                                                 | :-              | :-             | :-:       |
 | Outline of formalization                          | Group           | Week 5         | 10%       |
@@ -36,8 +38,9 @@ You can find ways to interact with Lean and Mathlib on the [Mathlib webpage](htt
 
 #### Note: `Lean 3` vs `Lean 4`
 Lean 4 is the latest version of Lean.
-Switching from Lean 3 to Lean 4 means rewriting all the code, all the supporting information and all the webpages.
-This process is completed for `Mathlib`, however there are still online resources that talk about Lean and mean Lean 3.
+
+Most online resources use Lean 4.
+Very few may still talk about Lean 3.
 In this module, we will only work with Lean 4.
 
 ---
@@ -83,6 +86,7 @@ In this module, we will only work with Lean 4.
   * [What happens in support classes](https://adomani.github.io/Syllabus/MA4N1/faq#what-happens-in-support-classes)
   * [What should I write in the outline for the project](https://adomani.github.io/Syllabus/MA4N1/faq#what-should-i-write-in-the-outline-for-the-project)
   * [What is the video presentation](https://adomani.github.io/Syllabus/MA4N1/faq#what-is-the-video-presentation)
+  * [What is the project](https://adomani.github.io/Syllabus/MA4N1/faq#what-is-the-project)
 
 ---
 

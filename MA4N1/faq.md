@@ -140,6 +140,22 @@ Be honest about it: being unsuccessful at solving a problem is a very common sit
 You will be assessed on your attempt, regardless of whether you completed it or not.
 Partially failing at solving a difficult problem, may still count as a great success!
 
+##  What is the project
+
+The "project" is a GitHub repository with Lean code, most likely depending on `Mathlib`.
+It contains the formal verification on which you and your group have worked during the first term and up until the deadline, typically sometime in mid Term 2.
+
+The final version of the project may contain `sorry`s.
+It should *not* however, contain errors.
+Ideally, besides documenting each file with what its contents prove, also each `sorry` should come with an explanation for why the result was not formalized.
+Possible reasons are: running out of time, particularly tricky formalization, not needed for the "main" part of the project, and so on.
+If you end up using some `sorry`ed results, make *really* sure that they are true even in the most trivial of cases.
+
+The previous warning also applies to and `def`inition that you may introduce:
+make really sure that it is saying *exactly* what you have in mind.
+Otherwise, you run the risk of formalizing a result that is not what you think it is!
+In fact, checking that definitions are "correct" is something for which Lean cannot help you!
+
 ---
 
 [Back to the `Theorem Proving with Lean` webpage](https://adomani.github.io/Syllabus/MA4N1/toc)
