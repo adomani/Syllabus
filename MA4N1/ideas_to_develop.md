@@ -2,13 +2,7 @@
 
 |Project title|Comments and possible Mathlib reference|
 |-|-|
-|[Properties of Trees](https://github.com/ElliotJoyce09/lean_trees)|The definition of a [tree](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Combinatorics/SimpleGraph/Acyclic.html#SimpleGraph.IsTree) in Mathlib|
-|[The Isomorphism Theorem](https://github.com/Oeggy123/LEAN-ISO)|Various isomorphism theorems are in [this file](https://leanprover-community.github.io/mathlib4_docs/Mathlib/GroupTheory/QuotientGroup/Basic.html#QuotientGroup.quotientKerEquivRange)|
-|[Green’s Theorem](https://github.com/RisingStar111/Lean4-Greens-Theorem)|I don't think that this is in Mathlib|
-|[Liouville’s Theorem](https://github.com/invertedpi18/Liouville)|[Liouville Theorem in Mathlib](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/Complex/Liouville.html)|
-|[Post’s Functional Completeness Theorem](https://github.com/SushiKebab17/MA4N1_TPwL_Posts_Theorem)|I don't think that this is in Mathlib|
-|[Jordan Normal Form](https://github.com/devluhar26/MA4N1)|[Generalized eigenspaces](https://leanprover-community.github.io/mathlib4_docs/Mathlib/LinearAlgebra/Eigenspace/Basic.html#Module.End.genEigenspace)|
-|[The Halting Problem](https://github.com/raemundo5/halting)|The definition of a [Turing machine](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Computability/TMComputable.html) in Mathlib|
+|||
 
 ## Past projects
 
@@ -22,6 +16,34 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td><a href="https://github.com/raemundo5/halting">The Halting Problem</a></td>
+      <td>The definition of a <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/Computability/TMComputable.html">Turing machine</a> in Mathlib</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/devluhar26/MA4N1">Jordan Normal Form</a></td>
+      <td><a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/LinearAlgebra/Eigenspace/Basic.html#Module.End.genEigenspace">Generalized eigenspaces</a> in Mathlib</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/SushiKebab17/MA4N1_TPwL_Posts_Theorem">Post’s Functional Completeness Theorem</a></td>
+      <td>Not in Mathlib</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/invertedpi18/Liouville">Liouville’s Theorem</a></td>
+      <td><a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/Complex/Liouville.html">Liouville Theorem</a> in Mathlib</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/RisingStar111/Lean4-Greens-Theorem">Green’s Theorem</a></td>
+      <td>Not in Mathlib</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Oeggy123/LEAN-ISO">The Isomorphism Theorem</a></td>
+      <td>Various isomorphism theorems are in <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/GroupTheory/QuotientGroup/Basic.html#QuotientGroup.quotientKerEquivRange">this file</a> in Mathlib</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/ElliotJoyce09/lean_trees">Properties of Trees</a></td>
+      <td>The definition of a <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/Combinatorics/SimpleGraph/Acyclic.html#SimpleGraph.IsTree">tree</a> in Mathlib</td>
+    </tr>
     <tr>
       <td><a href="https://github.com/EdwardWatine/MA4N1">Cauchy’s Theorem (Complex Analysis)</a></td>
       <td><a href="wiki#Cauchy%27s_integral_formula">Cauchy’s Integral Formula</a> in <a href="docs#Complex.two_pi_I_inv_smul_circleIntegral_sub_inv_smul_of_differentiable_on_off_countable">Mathlib</a></td>
@@ -67,23 +89,6 @@
 
 </details>
 
-##  Orphaned projects
-
-* [Hall subgroups](https://en.wikipedia.org/wiki/Hall_subgroup) and their existence in soluble groups
-
-  I could not find Hall's theorem in Mathlib, the file on Sylow's Theorems is relevant.
-* [Cap set problem](https://en.wikipedia.org/wiki/Cap_set)
-* [Cantor's Theorem](https://en.wikipedia.org/wiki/Cantor%27s_theorem)
-* [Group cohomology](https://en.wikipedia.org/wiki/Group_cohomology)
-* [Transcendence of &pi;](https://en.wikipedia.org/wiki/Lindemann%E2%80%93Weierstrass_theorem)
-* [Ramsey Theory](https://en.wikipedia.org/wiki/Ramsey_theory)
-* Probability theory and game theory
-* Matrix analysis and QR decompositions
-* [The Basel problem](https://en.wikipedia.org/wiki/Basel_problem) in [Mathlib](https://leanprover-community.github.io/mathlib4_docs/find/?pattern=hasSum_zeta_two#doc)
-* For material on sums of two squares, look at [SumTwoSquares](https://leanprover-community.github.io/mathlib4_docs/Mathlib/NumberTheory/SumTwoSquares.html).
-
----
-
 ##  Mathematically oriented projects
 
 * Sums of squares of a field are a group with zero
@@ -95,6 +100,7 @@
 * Polynomials over an integral domain are an integral domain
 * Irrational numbers exist
 * Find infinite subsets of the natural numbers containing no 3-term arithmetic progression
+* Define one of the 26 sporadic finte simple groups and prove some of its properties
 * Your favourite theorem!
 
 ##  External repositories and books for inspiration
@@ -119,6 +125,23 @@ Two books that contain lots of inspiration are
   * finishing tactics (frequency distribution of the last tactic in a proof)
 * Come up with your meta-programming goal!
 
+##  Orphaned projects
+
+* [Hall subgroups](https://en.wikipedia.org/wiki/Hall_subgroup) and their existence in soluble groups
+
+  I could not find Hall's theorem in Mathlib, the file on Sylow's Theorems is relevant.
+* [Cap set problem](https://en.wikipedia.org/wiki/Cap_set)
+* [Cantor's Theorem](https://en.wikipedia.org/wiki/Cantor%27s_theorem)
+* [Group cohomology](https://en.wikipedia.org/wiki/Group_cohomology)
+* [Transcendence of &pi;](https://en.wikipedia.org/wiki/Lindemann%E2%80%93Weierstrass_theorem)
+* [Ramsey Theory](https://en.wikipedia.org/wiki/Ramsey_theory)
+* Probability theory and game theory
+* Matrix analysis and QR decompositions
+* [The Basel problem](https://en.wikipedia.org/wiki/Basel_problem) in [Mathlib](https://leanprover-community.github.io/mathlib4_docs/find/?pattern=hasSum_zeta_two#doc)
+* For material on sums of two squares, look at [SumTwoSquares](https://leanprover-community.github.io/mathlib4_docs/Mathlib/NumberTheory/SumTwoSquares.html).
+
+---
+
 For instructions on how to create a project depending on Mathlib, look at [this page](instructions_for_new_project).
 
 For browsing the documentation for Mathlib, go to the excellent [documentation pages](https://leanprover-community.github.io/mathlib4_docs/).
@@ -131,4 +154,4 @@ For browsing the documentation for Mathlib, go to the excellent [documentation p
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/adomani/MA4N1_Theorem_proving_with_Lean)
 
-[Back to Moodle](https://moodle.warwick.ac.uk/course/view.php?id=67222#section-0)
+[Back to Moodle](https://moodle.warwick.ac.uk/course/view.php?id=71736#section-0)

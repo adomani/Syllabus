@@ -46,6 +46,8 @@ Each group will decide on a result to formalize and will work towards producing 
 [This link](ideas_to_develop) contains some sample ideas that could turn into projects.
 
 For more examples, Freek Wiedijk's webpage [Formalizing 100 Theorems](https://www.cs.ru.nl/~freek/100/) has a list of theorems of varying difficulty.
+You can find the current progress on their formalization in Lean [here](https://leanprover-community.github.io/100.html).
+There is also the more ambitious [1000+ theorems project](https://leanprover-community.github.io/1000.html).
 
 An indispensable prerequisite is the willingness to work using the computer program Lean.
 You can use one of the online versions at
@@ -71,4 +73,4 @@ In fact, you are encouraged to play with it to see if this module might be a goo
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/adomani/MA4N1_Theorem_proving_with_Lean)
 
-[Back to Moodle](https://moodle.warwick.ac.uk/course/view.php?id=67222#section-0)
+[Back to Moodle](https://moodle.warwick.ac.uk/course/view.php?id=71736#section-0)

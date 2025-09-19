@@ -41,11 +41,20 @@ In my opinion, the best way to learn is to play yourself with the code, modify i
 
 ## Text that Lean4 parses
 
-* The bulk of each file consists of definitions.
+* The bulk of each file consists of definitions, lemmas, theorems and examples.
 
   ```lean
   def myFn <inputs> : <target> := <whatTheFunctionDoes>
+
+  lemma myEasyLemma <assumptions> : <goal> := by <proof>
+
+  theorem myTheorem <assumptions> : <goal> := by <proof>
+
+  example <assumptions> : <goal> := by <proof>
   ```
+
+  `lemma`s and `theorem`s are virtually identical. `example`s are as well, except that they do not have
+  a name and they are discarded as soon as they are checked: cannot be referenced later on.
 
 * Usually once per file, you will find `namespace <name>` (and `<name>` is often `Day<number>`, though `List`, `String` and `Array` are also common).
   This indicates that if the remaining code defines a function `myFn`, then its actual full name is `Day<number>.myFn`.
@@ -54,7 +63,7 @@ In my opinion, the best way to learn is to play yourself with the code, modify i
 
 * The command `open <name>` means that you can refer to `<name>.myFn` simply as `myFn`, even if you are not within `namespace <name>`.
 
-  Thus, in the following code, the second `def fn` defines `fn`.
+  Thus, in the following code, the first `def fn` really defines `myName.fn`, while the second `def fn` defines `fn`.
   Note that, if the first `fn` had not been inside a namespace, then there would have been a clash of names and Lean4 would have complained.
 
   ```lean
@@ -112,7 +121,7 @@ In this situation, we can replace the *namespace* `List` with the term `L` and o
 Of course, this trick cannot work always: there is the need of the coincidence of an argument of a function having a Type that is the namespace of the function itself.
 Nevertheless, since we choose the namespace, we can get "dot-notation" to work fairly often.
 This is a further reason why definitions and theorems about `List`s are very often in the `List` namespace: since they apply to `List`s, they likely take a term of type `List ...` as an argument and then dot-notation can be used.
-In case you are wondering, the shortening can happen also if the function has several arguments: dot-notation allows you to merge the first explicit argument of the correct Type with the namespace of the declaration.
+In case you are wondering, the shortening can happen also if the function has several arguments: dot-notation allows you to merge the first (implicit or explicit) argument of the correct Type with the namespace of the declaration.
 
 Here is a situation where we can use dot-notation twice.
 We first generalize the definition of `List.twice` above to work for lists of arbitrary Types.
@@ -136,9 +145,7 @@ Let's go over the expression `"abc".toList.twice` again.
 First, `"abc".toList` is dot-notation for `String.toList "abc"` (we know this, since `"abc"` is a `String`).
 Moreover, `"abc".toList` produces a `List`, as the name suggests!
 Thus, if we want to apply `List.twice` to `"abc".toList`, we can again take advantage of dot-notation:
-we can compress it to `"abc".toList.twice`.
-
-You can find a more extended example [here](stringProcessing.lean)
+we can compress `List.twice "abc".toList` to `"abc".toList.twice`.
 
 ---
 
@@ -148,4 +155,4 @@ You can find a more extended example [here](stringProcessing.lean)
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/adomani/MA4N1_Theorem_proving_with_Lean)
 
-[Back to Moodle](https://moodle.warwick.ac.uk/course/view.php?id=67222#section-0)
+[Back to Moodle](https://moodle.warwick.ac.uk/course/view.php?id=71736#section-0)

@@ -3,7 +3,7 @@
 
 | Lectures |           | Room  |-| Support classes |          | Room  |
 | :-       | :-:       | -     |-| :-              | :-:      | -     |
-| Mondays  | 5pm-6pm   | MS.05 |-| Tuesdays        | 4pm-5pm  | D1.07 |
+| Mondays  | 5pm-6pm   | MS.05 |-| suppDay_ma4n1s  | 4pm-5pm  | D1.07 |
 | Tuesdays | 11am-noon | MS.03 |-|                 |          |       |
 
 ##  Assessment
@@ -13,6 +13,8 @@ The assessment for the module is 100% coursework, based on group projects.
 Two submissions are during Term 1.
 
 The final submission is at the end of January, in Term 2.
+
+All deadlines are on Thursdays at noon of the specified weeks.
 
 | Assessment                                        | Submission type | Deadline       | Weighting |
 | -                                                 | :-              | :-             | :-:       |
@@ -37,8 +39,9 @@ You can find ways to interact with Lean and Mathlib on the [Mathlib webpage](htt
 
 #### Note: `Lean 3` vs `Lean 4`
 Lean 4 is the latest version of Lean.
-Switching from Lean 3 to Lean 4 means rewriting all the code, all the supporting information and all the webpages.
-This process is completed for `Mathlib`, however there are still online resources that talk about Lean and mean Lean 3.
+
+Most online resources use Lean 4.
+Very few may still talk about Lean 3.
 In this module, we will only work with Lean 4.
 <!-- newFile intro.md -->
 # Introduction to `Theorem Proving with Lean`
@@ -89,6 +92,8 @@ Each group will decide on a result to formalize and will work towards producing 
 [This link](ideas_to_develop) contains some sample ideas that could turn into projects.
 
 For more examples, Freek Wiedijk's webpage [Formalizing 100 Theorems](https://www.cs.ru.nl/~freek/100/) has a list of theorems of varying difficulty.
+You can find the current progress on their formalization in Lean [here](https://leanprover-community.github.io/100.html).
+There is also the more ambitious [1000+ theorems project](https://leanprover-community.github.io/1000.html).
 
 An indispensable prerequisite is the willingness to work using the computer program Lean.
 You can use one of the online versions at
@@ -198,8 +203,10 @@ echo 'Name | Symbol
 
 You can find a cheat-sheet with commonly used symbols and tactics
 [here](https://github.com/madvorak/lean4-cheatsheet/blob/main/lean-tactics.pdf) and also
-[here](https://github.com/madvorak/lean4-tactics)
-(these page are externally maintained -- let me know if they stop working).
+[here](https://github.com/madvorak/lean4-tactics).
+A more comprehensive guide to the `Mathlib` tactics is [here](https://leanprover-community.github.io/mathlib-manual/html-multi/).
+
+These page are externally maintained -- let me know if they stop working.
 <!-- newFile basicSyntax.md -->
 # Basic Lean4 syntax
 
@@ -244,11 +251,20 @@ In my opinion, the best way to learn is to play yourself with the code, modify i
 
 ## Text that Lean4 parses
 
-* The bulk of each file consists of definitions.
+* The bulk of each file consists of definitions, lemmas, theorems and examples.
 
   ```lean
   def myFn <inputs> : <target> := <whatTheFunctionDoes>
+
+  lemma myEasyLemma <assumptions> : <goal> := by <proof>
+
+  theorem myTheorem <assumptions> : <goal> := by <proof>
+
+  example <assumptions> : <goal> := by <proof>
   ```
+
+  `lemma`s and `theorem`s are virtually identical. `example`s are as well, except that they do not have
+  a name and they are discarded as soon as they are checked: cannot be referenced later on.
 
 * Usually once per file, you will find `namespace <name>` (and `<name>` is often `Day<number>`, though `List`, `String` and `Array` are also common).
   This indicates that if the remaining code defines a function `myFn`, then its actual full name is `Day<number>.myFn`.
@@ -257,7 +273,7 @@ In my opinion, the best way to learn is to play yourself with the code, modify i
 
 * The command `open <name>` means that you can refer to `<name>.myFn` simply as `myFn`, even if you are not within `namespace <name>`.
 
-  Thus, in the following code, the second `def fn` defines `fn`.
+  Thus, in the following code, the first `def fn` really defines `myName.fn`, while the second `def fn` defines `fn`.
   Note that, if the first `fn` had not been inside a namespace, then there would have been a clash of names and Lean4 would have complained.
 
   ```lean
@@ -315,7 +331,7 @@ In this situation, we can replace the *namespace* `List` with the term `L` and o
 Of course, this trick cannot work always: there is the need of the coincidence of an argument of a function having a Type that is the namespace of the function itself.
 Nevertheless, since we choose the namespace, we can get "dot-notation" to work fairly often.
 This is a further reason why definitions and theorems about `List`s are very often in the `List` namespace: since they apply to `List`s, they likely take a term of type `List ...` as an argument and then dot-notation can be used.
-In case you are wondering, the shortening can happen also if the function has several arguments: dot-notation allows you to merge the first explicit argument of the correct Type with the namespace of the declaration.
+In case you are wondering, the shortening can happen also if the function has several arguments: dot-notation allows you to merge the first (implicit or explicit) argument of the correct Type with the namespace of the declaration.
 
 Here is a situation where we can use dot-notation twice.
 We first generalize the definition of `List.twice` above to work for lists of arbitrary Types.
@@ -339,9 +355,7 @@ Let's go over the expression `"abc".toList.twice` again.
 First, `"abc".toList` is dot-notation for `String.toList "abc"` (we know this, since `"abc"` is a `String`).
 Moreover, `"abc".toList` produces a `List`, as the name suggests!
 Thus, if we want to apply `List.twice` to `"abc".toList`, we can again take advantage of dot-notation:
-we can compress it to `"abc".toList.twice`.
-
-You can find a more extended example [here](stringProcessing.lean)
+we can compress `List.twice "abc".toList` to `"abc".toList.twice`.
 <!-- newFile informationExtraction.md -->
 # What tools do I have to tease information out of Lean4?
 
@@ -398,11 +412,13 @@ Here are a few common errors that show up all the time and what they often mean.
     ```lean
     #check (1 2)
   /-
-  function expected at
+  Function expected at
     1
-  term has type
-    ?m.2721
-  -/
+  but this term has type
+    ?m.3
+
+  Note: Expected a function because this term is being applied to the argument
+    2  -/
   ```
   oops, I forgot a comma!  I meant
   ```lean
@@ -417,29 +433,28 @@ Here are a few common errors that show up all the time and what they often mean.
   ```lean
   #check List.drop 2 "abcdef"
   /-
-  application type mismatch
-    List.drop 2 "abcdef"
-  argument
+  Application type mismatch: The argument
     "abcdef"
   has type
-    String : Type
+    String
   but is expected to have type
-    List ?m.8151 : Type ?u.8150
-  List.drop 2 (sorryAx (List ?m.8151) true) : List ?m.8151
+    List ?m.1
+  in the application
+    List.drop 2 "abcdef"
   -/
   ```
   oops, I meant
   ```lean
   #check List.drop 2 "abcdef".toList
   /-
-  List.drop 2 (String.toList "abcdef") : List Char
+  List.drop 2 "abcdef".toList : List Char
   -/
   ```
   or maybe
   ```lean
   #check String.drop "abcdef" 2
   /-
-  String.drop "abcdef" 2 : String
+  "abcdef".drop 2 : String
   -/
   ```
   If you continue reading the error message beyond `type mismatch`, you will see that Lean actually
@@ -451,11 +466,13 @@ Here are a few common errors that show up all the time and what they often mean.
   ```lean
   #check ∀ α, ∀ a b : α, if a = b then True else False
   /-
-  failed to synthesize instance
+  failed to synthesize
     Decidable (a = b)
-  ∀ (α : Sort u_1), α → α → sorryAx Prop true : Prop
+
+  Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.
   -/
   ```
+  (In this case, the additional diagnostics do not really add much.)
   Lean tells us that it does not know how to handle `a = b`,
   since it does not know that the Type `α` has a `Decidable (a = b)` instance
   (and `α` need not have decidable equality after all!).
@@ -471,9 +488,10 @@ Here are a few common errors that show up all the time and what they often mean.
   ```lean
   #check [1] + [2]
   /-
-  failed to synthesize instance
-    HAdd (List Nat) (List Nat) ?m.21819
-  [1] + [2] : ?m.21819
+  failed to synthesize
+    HAdd (List Nat) (List Nat) ?m.11
+
+  Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.
   -/
   ```
   Lean is looking for an instance of addition on lists of natural numbers,
@@ -488,9 +506,13 @@ Here are a few common errors that show up all the time and what they often mean.
   ```lean
   #check [1] :: [2]
   /-
-  failed to synthesize instance
-    OfNat (List ?m.27405) 2
-  [[1], sorryAx (List Nat) true] : List (List Nat)
+  failed to synthesize
+    OfNat (List ?m.5) 2
+  numerals are polymorphic in Lean, but the numeral `2` cannot be used in a context where the expected type is
+    List ?m.5
+  due to the absence of the instance above
+
+  Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.
   -/
   ```
   Lean wants an `OfNat (List ??) 2` instance, whereas I really meant
@@ -545,6 +567,19 @@ If you right-click on a declaration,
 VSCode will show you a menu whose first option is `Go to Definition`.
 This will take you to the location in the code where the declaration was defined.
 You can then read the code and try to make sense of what you are seeing!
+
+*Note.*
+There is also a `Go to Declaration` which, sometimes, takes you to a different place.
+Here is an example:
+```lean
+example : True := by
+  apply trivial
+```
+In this case, `Go to declaration` and `Go to definition` on the `apply` will take you to different places.
+* `Go to declaration` takes you to where the syntax for `apply` is defined --
+  this is the first time that Lean was told that `apply` *existed*.
+* `Go to definition` takes you to where the tactic `apply` is defined --
+  this is where Lean was told what `apply` *meant*.
 
 ## `#check`
 
@@ -739,13 +774,7 @@ lemma zero_ne_one : 0 ≠ 1 := by
 
 |Project title|Comments and possible Mathlib reference|
 |-|-|
-|[Properties of Trees](https://github.com/ElliotJoyce09/lean_trees)|The definition of a [tree](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Combinatorics/SimpleGraph/Acyclic.html#SimpleGraph.IsTree) in Mathlib|
-|[The Isomorphism Theorem](https://github.com/Oeggy123/LEAN-ISO)|Various isomorphism theorems are in [this file](https://leanprover-community.github.io/mathlib4_docs/Mathlib/GroupTheory/QuotientGroup/Basic.html#QuotientGroup.quotientKerEquivRange)|
-|[Green’s Theorem](https://github.com/RisingStar111/Lean4-Greens-Theorem)|I don't think that this is in Mathlib|
-|[Liouville’s Theorem](https://github.com/invertedpi18/Liouville)|[Liouville Theorem in Mathlib](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/Complex/Liouville.html)|
-|[Post’s Functional Completeness Theorem](https://github.com/SushiKebab17/MA4N1_TPwL_Posts_Theorem)|I don't think that this is in Mathlib|
-|[Jordan Normal Form](https://github.com/devluhar26/MA4N1)|[Generalized eigenspaces](https://leanprover-community.github.io/mathlib4_docs/Mathlib/LinearAlgebra/Eigenspace/Basic.html#Module.End.genEigenspace)|
-|[The Halting Problem](https://github.com/raemundo5/halting)|The definition of a [Turing machine](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Computability/TMComputable.html) in Mathlib|
+|||
 
 ## Past projects
 
@@ -759,6 +788,34 @@ lemma zero_ne_one : 0 ≠ 1 := by
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td><a href="https://github.com/raemundo5/halting">The Halting Problem</a></td>
+      <td>The definition of a <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/Computability/TMComputable.html">Turing machine</a> in Mathlib</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/devluhar26/MA4N1">Jordan Normal Form</a></td>
+      <td><a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/LinearAlgebra/Eigenspace/Basic.html#Module.End.genEigenspace">Generalized eigenspaces</a> in Mathlib</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/SushiKebab17/MA4N1_TPwL_Posts_Theorem">Post’s Functional Completeness Theorem</a></td>
+      <td>Not in Mathlib</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/invertedpi18/Liouville">Liouville’s Theorem</a></td>
+      <td><a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/Complex/Liouville.html">Liouville Theorem</a> in Mathlib</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/RisingStar111/Lean4-Greens-Theorem">Green’s Theorem</a></td>
+      <td>Not in Mathlib</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Oeggy123/LEAN-ISO">The Isomorphism Theorem</a></td>
+      <td>Various isomorphism theorems are in <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/GroupTheory/QuotientGroup/Basic.html#QuotientGroup.quotientKerEquivRange">this file</a> in Mathlib</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/ElliotJoyce09/lean_trees">Properties of Trees</a></td>
+      <td>The definition of a <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/Combinatorics/SimpleGraph/Acyclic.html#SimpleGraph.IsTree">tree</a> in Mathlib</td>
+    </tr>
     <tr>
       <td><a href="https://github.com/EdwardWatine/MA4N1">Cauchy’s Theorem (Complex Analysis)</a></td>
       <td><a href="wiki#Cauchy%27s_integral_formula">Cauchy’s Integral Formula</a> in <a href="docs#Complex.two_pi_I_inv_smul_circleIntegral_sub_inv_smul_of_differentiable_on_off_countable">Mathlib</a></td>
@@ -804,23 +861,6 @@ lemma zero_ne_one : 0 ≠ 1 := by
 
 </details>
 
-##  Orphaned projects
-
-* [Hall subgroups](https://en.wikipedia.org/wiki/Hall_subgroup) and their existence in soluble groups
-
-  I could not find Hall's theorem in Mathlib, the file on Sylow's Theorems is relevant.
-* [Cap set problem](https://en.wikipedia.org/wiki/Cap_set)
-* [Cantor's Theorem](https://en.wikipedia.org/wiki/Cantor%27s_theorem)
-* [Group cohomology](https://en.wikipedia.org/wiki/Group_cohomology)
-* [Transcendence of &pi;](https://en.wikipedia.org/wiki/Lindemann%E2%80%93Weierstrass_theorem)
-* [Ramsey Theory](https://en.wikipedia.org/wiki/Ramsey_theory)
-* Probability theory and game theory
-* Matrix analysis and QR decompositions
-* [The Basel problem](https://en.wikipedia.org/wiki/Basel_problem) in [Mathlib](https://leanprover-community.github.io/mathlib4_docs/find/?pattern=hasSum_zeta_two#doc)
-* For material on sums of two squares, look at [SumTwoSquares](https://leanprover-community.github.io/mathlib4_docs/Mathlib/NumberTheory/SumTwoSquares.html).
-
----
-
 ##  Mathematically oriented projects
 
 * Sums of squares of a field are a group with zero
@@ -832,6 +872,7 @@ lemma zero_ne_one : 0 ≠ 1 := by
 * Polynomials over an integral domain are an integral domain
 * Irrational numbers exist
 * Find infinite subsets of the natural numbers containing no 3-term arithmetic progression
+* Define one of the 26 sporadic finte simple groups and prove some of its properties
 * Your favourite theorem!
 
 ##  External repositories and books for inspiration
@@ -855,6 +896,23 @@ Two books that contain lots of inspiration are
   * tactic usage (frequency distribution of tactics)
   * finishing tactics (frequency distribution of the last tactic in a proof)
 * Come up with your meta-programming goal!
+
+##  Orphaned projects
+
+* [Hall subgroups](https://en.wikipedia.org/wiki/Hall_subgroup) and their existence in soluble groups
+
+  I could not find Hall's theorem in Mathlib, the file on Sylow's Theorems is relevant.
+* [Cap set problem](https://en.wikipedia.org/wiki/Cap_set)
+* [Cantor's Theorem](https://en.wikipedia.org/wiki/Cantor%27s_theorem)
+* [Group cohomology](https://en.wikipedia.org/wiki/Group_cohomology)
+* [Transcendence of &pi;](https://en.wikipedia.org/wiki/Lindemann%E2%80%93Weierstrass_theorem)
+* [Ramsey Theory](https://en.wikipedia.org/wiki/Ramsey_theory)
+* Probability theory and game theory
+* Matrix analysis and QR decompositions
+* [The Basel problem](https://en.wikipedia.org/wiki/Basel_problem) in [Mathlib](https://leanprover-community.github.io/mathlib4_docs/find/?pattern=hasSum_zeta_two#doc)
+* For material on sums of two squares, look at [SumTwoSquares](https://leanprover-community.github.io/mathlib4_docs/Mathlib/NumberTheory/SumTwoSquares.html).
+
+---
 
 For instructions on how to create a project depending on Mathlib, look at [this page](instructions_for_new_project).
 
@@ -893,12 +951,12 @@ These instructions *might* also work on MacOs/Windows, when typed in a terminal.
 
 `proj` is the name of the project
 ```bash
-proj='MA4N1_Theorem_proving_with_Lean'
+proj='name_of_your_project'
 ```
 
 Initialize the new project &ndash; takes some time
 ```bash
-lake +leanprover/lean4:nightly-2023-02-04 new "${proj}" math
+lake +leanprover/lean4:nightly-2024-04-24 new "${proj}" math
 ```
 
 Go inside the newly created folder, that has the same name as the project
@@ -960,8 +1018,8 @@ The only possible exception is `lakefile.lean`, in case you want to set some spe
 
 For ease of copy-pasting, here are all the commands in a single code-block
 ```bash
-proj=MA4N1_Theorem_proving_with_Lean
-lake +leanprover/lean4:nightly-2023-02-04 new "${proj}" math
+proj='name_of_your_project'
+lake +leanprover/lean4:nightly-2024-04-24 new "${proj}" math
 cd "${proj}"
 lake update "${proj}"
 lake exe cache get
@@ -1201,3 +1259,19 @@ Do mention how effective your solution has been and whether you expect it to req
 Be honest about it: being unsuccessful at solving a problem is a very common situation!
 You will be assessed on your attempt, regardless of whether you completed it or not.
 Partially failing at solving a difficult problem, may still count as a great success!
+
+##  What is the project
+
+The "project" is a GitHub repository with Lean code, most likely depending on `Mathlib`.
+It contains the formal verification on which you and your group have worked during the first term and up until the deadline, typically sometime in mid Term 2.
+
+The final version of the project may contain `sorry`s.
+It should *not* however, contain errors.
+Ideally, besides documenting each file with what its contents prove, also each `sorry` should come with an explanation for why the result was not formalized.
+Possible reasons are: running out of time, particularly tricky formalization, not needed for the "main" part of the project, and so on.
+If you end up using some `sorry`ed results, make *really* sure that they are true even in the most trivial of cases.
+
+The previous warning also applies to and `def`inition that you may introduce:
+make really sure that it is saying *exactly* what you have in mind.
+Otherwise, you run the risk of formalizing a result that is not what you think it is!
+In fact, checking that definitions are "correct" is something for which Lean cannot help you!

@@ -31,12 +31,12 @@ These instructions *might* also work on MacOs/Windows, when typed in a terminal.
 
 `proj` is the name of the project
 ```bash
-proj='MA4N1_Theorem_proving_with_Lean'
+proj='name_of_your_project'
 ```
 
 Initialize the new project &ndash; takes some time
 ```bash
-lake +leanprover/lean4:nightly-2023-02-04 new "${proj}" math
+lake +leanprover/lean4:nightly-2024-04-24 new "${proj}" math
 ```
 
 Go inside the newly created folder, that has the same name as the project
@@ -98,8 +98,8 @@ The only possible exception is `lakefile.lean`, in case you want to set some spe
 
 For ease of copy-pasting, here are all the commands in a single code-block
 ```bash
-proj=MA4N1_Theorem_proving_with_Lean
-lake +leanprover/lean4:nightly-2023-02-04 new "${proj}" math
+proj='name_of_your_project'
+lake +leanprover/lean4:nightly-2024-04-24 new "${proj}" math
 cd "${proj}"
 lake update "${proj}"
 lake exe cache get
@@ -115,4 +115,4 @@ code .
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/adomani/MA4N1_Theorem_proving_with_Lean)
 
-[Back to Moodle](https://moodle.warwick.ac.uk/course/view.php?id=67222#section-0)
+[Back to Moodle](https://moodle.warwick.ac.uk/course/view.php?id=71736#section-0)

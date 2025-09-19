@@ -2,7 +2,7 @@
 
 | Lectures |           | Room  |-| Support classes |          | Room  |
 | :-       | :-:       | -     |-| :-              | :-:      | -     |
-| Mondays  | 5pm-6pm   | MS.05 |-| Tuesdays        | 4pm-5pm  | D1.07 |
+| Mondays  | 5pm-6pm   | MS.05 |-| Tuesdays  | 4pm-5pm  | D1.07 |
 | Tuesdays | 11am-noon | MS.03 |-|                 |          |       |
 
 ##  Assessment
@@ -12,6 +12,8 @@ The assessment for the module is 100% coursework, based on group projects.
 Two submissions are during Term 1.
 
 The final submission is at the end of January, in Term 2.
+
+All deadlines are on Thursdays at noon of the specified weeks.
 
 | Assessment                                        | Submission type | Deadline       | Weighting |
 | -                                                 | :-              | :-             | :-:       |
@@ -36,8 +38,9 @@ You can find ways to interact with Lean and Mathlib on the [Mathlib webpage](htt
 
 #### Note: `Lean 3` vs `Lean 4`
 Lean 4 is the latest version of Lean.
-Switching from Lean 3 to Lean 4 means rewriting all the code, all the supporting information and all the webpages.
-This process is completed for `Mathlib`, however there are still online resources that talk about Lean and mean Lean 3.
+
+Most online resources use Lean 4.
+Very few may still talk about Lean 3.
 In this module, we will only work with Lean 4.
 
 ---
@@ -66,10 +69,10 @@ In this module, we will only work with Lean 4.
 * [Sample Lean file](https://adomani.github.io/Syllabus/MA4N1/sample_lean_file#sample-lean-file)
 * [Projects and stubs of ideas](https://adomani.github.io/Syllabus/MA4N1/ideas_to_develop#projects-and-stubs-of-ideas)
   * [Past projects](https://adomani.github.io/Syllabus/MA4N1/ideas_to_develop#past-projects)
-  * [Orphaned projects](https://adomani.github.io/Syllabus/MA4N1/ideas_to_develop#orphaned-projects)
   * [Mathematically oriented projects](https://adomani.github.io/Syllabus/MA4N1/ideas_to_develop#mathematically-oriented-projects)
   * [External repositories and books for inspiration](https://adomani.github.io/Syllabus/MA4N1/ideas_to_develop#external-repositories-and-books-for-inspiration)
   * [Computer science oriented projects](https://adomani.github.io/Syllabus/MA4N1/ideas_to_develop#computer-science-oriented-projects)
+  * [Orphaned projects](https://adomani.github.io/Syllabus/MA4N1/ideas_to_develop#orphaned-projects)
 * [Creating a new project depending on `Mathlib`](https://adomani.github.io/Syllabus/MA4N1/instructions_for_new_project#creating-a-new-project-depending-on-mathlib)
   * [Using the VSCode `Lean 4` extension](https://adomani.github.io/Syllabus/MA4N1/instructions_for_new_project#using-the-vscode-lean-4-extension)
   * [Unix-based installation from the command-line](https://adomani.github.io/Syllabus/MA4N1/instructions_for_new_project#unix-based-installation-from-the-command-line)
@@ -83,6 +86,7 @@ In this module, we will only work with Lean 4.
   * [What happens in support classes](https://adomani.github.io/Syllabus/MA4N1/faq#what-happens-in-support-classes)
   * [What should I write in the outline for the project](https://adomani.github.io/Syllabus/MA4N1/faq#what-should-i-write-in-the-outline-for-the-project)
   * [What is the video presentation](https://adomani.github.io/Syllabus/MA4N1/faq#what-is-the-video-presentation)
+  * [What is the project](https://adomani.github.io/Syllabus/MA4N1/faq#what-is-the-project)
 
 ---
 
@@ -90,4 +94,4 @@ In this module, we will only work with Lean 4.
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/adomani/MA4N1_Theorem_proving_with_Lean)
 
-[Back to Moodle](https://moodle.warwick.ac.uk/course/view.php?id=67222#section-0)
+[Back to Moodle](https://moodle.warwick.ac.uk/course/view.php?id=71736#section-0)
