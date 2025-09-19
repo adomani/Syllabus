@@ -861,23 +861,6 @@ lemma zero_ne_one : 0 ≠ 1 := by
 
 </details>
 
-##  Orphaned projects
-
-* [Hall subgroups](https://en.wikipedia.org/wiki/Hall_subgroup) and their existence in soluble groups
-
-  I could not find Hall's theorem in Mathlib, the file on Sylow's Theorems is relevant.
-* [Cap set problem](https://en.wikipedia.org/wiki/Cap_set)
-* [Cantor's Theorem](https://en.wikipedia.org/wiki/Cantor%27s_theorem)
-* [Group cohomology](https://en.wikipedia.org/wiki/Group_cohomology)
-* [Transcendence of &pi;](https://en.wikipedia.org/wiki/Lindemann%E2%80%93Weierstrass_theorem)
-* [Ramsey Theory](https://en.wikipedia.org/wiki/Ramsey_theory)
-* Probability theory and game theory
-* Matrix analysis and QR decompositions
-* [The Basel problem](https://en.wikipedia.org/wiki/Basel_problem) in [Mathlib](https://leanprover-community.github.io/mathlib4_docs/find/?pattern=hasSum_zeta_two#doc)
-* For material on sums of two squares, look at [SumTwoSquares](https://leanprover-community.github.io/mathlib4_docs/Mathlib/NumberTheory/SumTwoSquares.html).
-
----
-
 ##  Mathematically oriented projects
 
 * Sums of squares of a field are a group with zero
@@ -913,6 +896,23 @@ Two books that contain lots of inspiration are
   * tactic usage (frequency distribution of tactics)
   * finishing tactics (frequency distribution of the last tactic in a proof)
 * Come up with your meta-programming goal!
+
+##  Orphaned projects
+
+* [Hall subgroups](https://en.wikipedia.org/wiki/Hall_subgroup) and their existence in soluble groups
+
+  I could not find Hall's theorem in Mathlib, the file on Sylow's Theorems is relevant.
+* [Cap set problem](https://en.wikipedia.org/wiki/Cap_set)
+* [Cantor's Theorem](https://en.wikipedia.org/wiki/Cantor%27s_theorem)
+* [Group cohomology](https://en.wikipedia.org/wiki/Group_cohomology)
+* [Transcendence of &pi;](https://en.wikipedia.org/wiki/Lindemann%E2%80%93Weierstrass_theorem)
+* [Ramsey Theory](https://en.wikipedia.org/wiki/Ramsey_theory)
+* Probability theory and game theory
+* Matrix analysis and QR decompositions
+* [The Basel problem](https://en.wikipedia.org/wiki/Basel_problem) in [Mathlib](https://leanprover-community.github.io/mathlib4_docs/find/?pattern=hasSum_zeta_two#doc)
+* For material on sums of two squares, look at [SumTwoSquares](https://leanprover-community.github.io/mathlib4_docs/Mathlib/NumberTheory/SumTwoSquares.html).
+
+---
 
 For instructions on how to create a project depending on Mathlib, look at [this page](instructions_for_new_project).
 
