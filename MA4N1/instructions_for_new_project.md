@@ -31,7 +31,7 @@ These instructions *might* also work on MacOs/Windows, when typed in a terminal.
 
 `proj` is the name of the project
 ```bash
-proj='MA4N1_Theorem_proving_with_Lean'
+proj='name_of_your_project'
 ```
 
 Initialize the new project &ndash; takes some time
@@ -98,7 +98,7 @@ The only possible exception is `lakefile.lean`, in case you want to set some spe
 
 For ease of copy-pasting, here are all the commands in a single code-block
 ```bash
-proj=MA4N1_Theorem_proving_with_Lean
+proj='name_of_your_project'
 lake +leanprover/lean4:nightly-2024-04-24 new "${proj}" math
 cd "${proj}"
 lake update "${proj}"
