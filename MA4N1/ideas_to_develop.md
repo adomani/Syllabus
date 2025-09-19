@@ -2,13 +2,7 @@
 
 |Project title|Comments and possible Mathlib reference|
 |-|-|
-|[Properties of Trees](https://github.com/ElliotJoyce09/lean_trees)|The definition of a [tree](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Combinatorics/SimpleGraph/Acyclic.html#SimpleGraph.IsTree) in Mathlib|
-|[The Isomorphism Theorem](https://github.com/Oeggy123/LEAN-ISO)|Various isomorphism theorems are in [this file](https://leanprover-community.github.io/mathlib4_docs/Mathlib/GroupTheory/QuotientGroup/Basic.html#QuotientGroup.quotientKerEquivRange)|
-|[Green’s Theorem](https://github.com/RisingStar111/Lean4-Greens-Theorem)|I don't think that this is in Mathlib|
-|[Liouville’s Theorem](https://github.com/invertedpi18/Liouville)|[Liouville Theorem in Mathlib](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/Complex/Liouville.html)|
-|[Post’s Functional Completeness Theorem](https://github.com/SushiKebab17/MA4N1_TPwL_Posts_Theorem)|I don't think that this is in Mathlib|
-|[Jordan Normal Form](https://github.com/devluhar26/MA4N1)|[Generalized eigenspaces](https://leanprover-community.github.io/mathlib4_docs/Mathlib/LinearAlgebra/Eigenspace/Basic.html#Module.End.genEigenspace)|
-|[The Halting Problem](https://github.com/raemundo5/halting)|The definition of a [Turing machine](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Computability/TMComputable.html) in Mathlib|
+|||
 
 ## Past projects
 
@@ -22,6 +16,34 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td><a href="https://github.com/raemundo5/halting">The Halting Problem</a></td>
+      <td>The definition of a <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/Computability/TMComputable.html">Turing machine</a> in Mathlib</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/devluhar26/MA4N1">Jordan Normal Form</a></td>
+      <td><a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/LinearAlgebra/Eigenspace/Basic.html#Module.End.genEigenspace">Generalized eigenspaces</a> in Mathlib</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/SushiKebab17/MA4N1_TPwL_Posts_Theorem">Post’s Functional Completeness Theorem</a></td>
+      <td>Not in Mathlib</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/invertedpi18/Liouville">Liouville’s Theorem</a></td>
+      <td><a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/Analysis/Complex/Liouville.html">Liouville Theorem</a> in Mathlib</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/RisingStar111/Lean4-Greens-Theorem">Green’s Theorem</a></td>
+      <td>Not in Mathlib</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Oeggy123/LEAN-ISO">The Isomorphism Theorem</a></td>
+      <td>Various isomorphism theorems are in <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/GroupTheory/QuotientGroup/Basic.html#QuotientGroup.quotientKerEquivRange">this file</a> in Mathlib</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/ElliotJoyce09/lean_trees">Properties of Trees</a></td>
+      <td>The definition of a <a href="https://leanprover-community.github.io/mathlib4_docs/Mathlib/Combinatorics/SimpleGraph/Acyclic.html#SimpleGraph.IsTree">tree</a> in Mathlib</td>
+    </tr>
     <tr>
       <td><a href="https://github.com/EdwardWatine/MA4N1">Cauchy’s Theorem (Complex Analysis)</a></td>
       <td><a href="wiki#Cauchy%27s_integral_formula">Cauchy’s Integral Formula</a> in <a href="docs#Complex.two_pi_I_inv_smul_circleIntegral_sub_inv_smul_of_differentiable_on_off_countable">Mathlib</a></td>
