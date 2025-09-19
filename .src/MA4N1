@@ -2,6 +2,7 @@
 mon
   Overview of assessment.
   Introduction to formalization and to Lean.
+_tentative
 tue
   Difference between <code>Bool</code> and <code>Prop</code>, preliminary discussion about project topics.
 
