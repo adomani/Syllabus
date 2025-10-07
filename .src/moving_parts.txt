@@ -15,4 +15,4 @@ ma4n1_id=71736
 suppDay_ma3h5='Friday'
 
 # the day of the week when the support class for MA4N1 takes place
-suppDay_ma4n1=Tuesday
+suppDay_ma4n1=Thursday
