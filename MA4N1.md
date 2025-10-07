@@ -44,11 +44,6 @@
         </ul>
       </td>
     </tr>
-<!--  ##################  Week 2  ################## -->
-    <tr><th></th><th style="text-align: center">Week 2 (Oct 13-17)</th></tr>
-        </ul>
-      </td>
-    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>

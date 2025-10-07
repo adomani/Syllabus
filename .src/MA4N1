@@ -4,9 +4,9 @@ mon
   Introduction to formalization and to Lean.
 tue
   Difference between <code>Bool</code> and <code>Prop</code>, basic tactics: <code>exact?</code>,  <code>apply</code>, <code>constructor</code>, <code>cases</code>.
+_tentative
 
 -- Week 2
-_tentative
 mon
   Syntax, infoview, <code>rfl</code>, <code>inductive</code>s, preliminary discussion about project topics.
 tue
