@@ -37,20 +37,20 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Tuesday</td>
       <td>
         <ul>
-          <li>Difference between <code>Bool</code> and <code>Prop</code>, preliminary discussion about project topics.</li>
+          <li>Difference between <code>Bool</code> and <code>Prop</code>, basic tactics: <code>exact?</code>,  <code>apply</code>, <code>constructor</code>, <code>cases</code>.</li>
         </ul>
       </td>
     </tr>
 <!--  ##################  Week 2  ################## -->
     <tr><th></th><th style="text-align: center">Week 2 (Oct 13-17)</th></tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>Syntax, infoview, <code>rfl</code>, <code>inductive</code>s.</li>
+          <li>Syntax, infoview, <code>rfl</code>, <code>inductive</code>s, preliminary discussion about project topics.</li>
         </ul>
       </td>
     </tr>

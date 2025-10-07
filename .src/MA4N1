@@ -2,13 +2,13 @@
 mon
   Overview of assessment.
   Introduction to formalization and to Lean.
-_tentative
 tue
-  Difference between <code>Bool</code> and <code>Prop</code>, preliminary discussion about project topics.
+  Difference between <code>Bool</code> and <code>Prop</code>, basic tactics: <code>exact?</code>,  <code>apply</code>, <code>constructor</code>, <code>cases</code>.
 
 -- Week 2
+_tentative
 mon
-  Syntax, infoview, <code>rfl</code>, <code>inductive</code>s.
+  Syntax, infoview, <code>rfl</code>, <code>inductive</code>s, preliminary discussion about project topics.
 tue
   Tactics, structuring proofs (<a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L00_intro.lean">L00_intro.lean</a>)
 sup

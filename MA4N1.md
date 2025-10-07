@@ -37,9 +37,21 @@
         </ul>
       </td>
     </tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
+          <li>Difference between <code>Bool</code> and <code>Prop</code>, basic tactics: <code>exact?</code>,  <code>apply</code>, <code>constructor</code>, <code>cases</code>.</li>
+        </ul>
+      </td>
+    </tr>
+<!--  ##################  Week 2  ################## -->
+    <tr><th></th><th style="text-align: center">Week 2 (Oct 13-17)</th></tr>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA4N1_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Friday, Sep 19 2025</div>
+<div style="text-align: right">Last modified: Tuesday, Oct 07 2025</div>
