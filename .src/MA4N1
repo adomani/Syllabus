@@ -4,13 +4,15 @@ mon
   Introduction to formalization and to Lean.
 tue
   Difference between <code>Bool</code> and <code>Prop</code>, basic tactics: <code>exact?</code>,  <code>apply</code>, <code>constructor</code>, <code>cases</code>.
-_tentative
+  Tactics, structuring proofs (<a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L00_intro.lean">L00_intro.lean</a>)
 
 -- Week 2
 mon
-  Syntax, infoview, <code>rfl</code>, <code>inductive</code>s, preliminary discussion about project topics.
+  Infoview, <!--code>rfl</code>, <code>inductive</code--> preliminary discussion about project topics.
+  Begin with <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L01_polynomials.lean">polynomials</a>, <code>cases</code>, type ascriptions.
 tue
-  Tactics, structuring proofs (<a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L00_intro.lean">L00_intro.lean</a>)
+  More <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L01_polynomials.lean">polynomials</a>.
+_tentative
 sup
   Functional programming, object oriented programming, more proofs.
 
