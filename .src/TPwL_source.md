@@ -3,8 +3,13 @@
 
 | Lectures |           | Room  |-| Support classes |          | Room  |
 | :-       | :-:       | -     |-| :-              | :-:      | -     |
-| Mondays  | 5pm-6pm   | MS.05 |-| suppDay_ma4n1s  | 4pm-5pm  | D1.07 |
+| Mondays  | 5pm-6pm   | MS.05 |-| suppDay_ma4n1s  | 4pm-5pm  | B1.01 |
 | Tuesdays | 11am-noon | MS.03 |-|                 |          |       |
+
+| Office hours          |          | Room  |
+| :-                    | :-:      | -     |
+| Mondays (odd weeks)   | 4pm-5pm  | C2.13 |
+| Tuesdays (even weeks) | noon-1pm | C2.13 |
 
 ##  Assessment
 

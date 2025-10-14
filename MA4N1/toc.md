@@ -5,6 +5,11 @@
 | Mondays  | 5pm-6pm   | MS.05 |-| Thursdays  | 4pm-5pm  | B1.01 |
 | Tuesdays | 11am-noon | MS.03 |-|                 |          |       |
 
+| Office hours          |          | Room  |
+| :-                    | :-:      | -     |
+| Mondays (odd weeks)   | 4pm-5pm  | C2.13 |
+| Tuesdays (even weeks) | noon-1pm | C2.13 |
+
 ##  Assessment
 
 The assessment for the module is 100% coursework, based on group projects.
