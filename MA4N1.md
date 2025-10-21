@@ -62,9 +62,35 @@
         </ul>
       </td>
     </tr>
+    <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li>Cancelled due to illness. <!--Functional programming, object oriented programming, more proofs.--></li>
+        </ul>
+      </td>
+    </tr>
+<!--  ##################  Week 3  ################## -->
+    <tr><th></th><th style="text-align: center">Week 3 (Oct 20-24)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>Coordinate projects.</li>
+          <li>Continue <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L01_polynomials.lean">polynomials</a>.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
+          <li>Coordinate projects.</li>
+          <li>Start forming groups.</li>
+          <li>Begin <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">Generalizations</a>.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA4N1_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Oct 14 2025</div>
+<div style="text-align: right">Last modified: Tuesday, Oct 21 2025</div>

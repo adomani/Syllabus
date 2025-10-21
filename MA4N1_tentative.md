@@ -62,11 +62,10 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>Functional programming, object oriented programming, more proofs.</li>
+          <li>Cancelled due to illness. <!--Functional programming, object oriented programming, more proofs.--></li>
         </ul>
       </td>
     </tr>
@@ -75,7 +74,8 @@
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>Begin with <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L01_polynomials.lean">polynomials</a>.</li>
+          <li>Coordinate projects.</li>
+          <li>Continue <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L01_polynomials.lean">polynomials</a>.</li>
         </ul>
       </td>
     </tr>
@@ -83,10 +83,12 @@
       <td>
         <ul>
           <li>Coordinate projects.</li>
-          <li>Start assigning groups.</li>
+          <li>Start forming groups.</li>
+          <li>Begin <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">Generalizations</a>.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
@@ -281,4 +283,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA4N1)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Oct 14 2025</div>
+<div style="text-align: right">Last modified: Tuesday, Oct 21 2025</div>
