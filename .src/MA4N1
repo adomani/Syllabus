@@ -20,9 +20,10 @@ mon
   Coordinate projects.
   Continue <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L01_polynomials.lean">polynomials</a>.
 tue
+  How to find the multiplication instance on <code>Polynomial</code>s.
   Coordinate projects.
   Start forming groups.
-  Begin <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">Generalizations</a>.
+  Begin <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">generalizations</a>.
 _tentative
 sup
   Implicit vs explicit variables.

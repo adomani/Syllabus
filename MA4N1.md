@@ -82,9 +82,10 @@
     <tr><td>Tuesday</td>
       <td>
         <ul>
+          <li>How to find the multiplication instance on <code>Polynomial</code>s.</li>
           <li>Coordinate projects.</li>
           <li>Start forming groups.</li>
-          <li>Begin <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">Generalizations</a>.</li>
+          <li>Begin <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">generalizations</a>.</li>
         </ul>
       </td>
     </tr>
