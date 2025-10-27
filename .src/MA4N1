@@ -24,18 +24,16 @@ tue
   Coordinate projects.
   Start forming groups.
   Begin <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">generalizations</a>.
-_tentative
 sup
-  Implicit vs explicit variables.
-  Dependent Cartesian Product <code>< , ></code>.
-  Addition of two even numbers is even.
-  Negation.
-  Contradiction (absurd).
+  Proofs with $\varepsilon$ and $\delta$.
+  Archimedean property of the real numbers.
 
 -- Week 4
 mon
-  Discussion about <code>structure</code>, <code>class</code>
-  Working with two topologies on the same set/type.
+  Creating a new project (and failing on Windows).
+  Comments about the project outline.
+  Continuing <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">generalizations</a>: tactic mode and term mode.  <!--Discussion about <code>structure</code>, <code>class</code>, Working with two topologies on the same set/type. -->
+_tentative
 tue
   <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">Generalizations</a>.
 sup

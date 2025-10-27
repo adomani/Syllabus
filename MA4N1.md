@@ -89,9 +89,28 @@
         </ul>
       </td>
     </tr>
+    <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li>Proofs with $\varepsilon$ and $\delta$.</li>
+          <li>Archimedean property of the real numbers.</li>
+        </ul>
+      </td>
+    </tr>
+<!--  ##################  Week 4  ################## -->
+    <tr><th></th><th style="text-align: center">Week 4 (Oct 27-31)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>Creating a new project (and failing on Windows).</li>
+          <li>Comments about the project outline.</li>
+          <li>Continuing <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">generalizations</a>: tactic mode and term mode.  <!--Discussion about <code>structure</code>, <code>class</code>, Working with two topologies on the same set/type. --></li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA4N1_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Oct 21 2025</div>
+<div style="text-align: right">Last modified: Monday, Oct 27 2025</div>
