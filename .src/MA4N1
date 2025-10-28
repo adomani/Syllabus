@@ -33,9 +33,11 @@ mon
   Creating a new project (and failing on Windows).
   Comments about the project outline.
   Continuing <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">generalizations</a>: tactic mode and term mode.  <!--Discussion about <code>structure</code>, <code>class</code>, Working with two topologies on the same set/type. -->
-_tentative
 tue
   <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">Generalizations</a>.
+  Differences between <code>simp?</code> and <code>exact?</code>.
+  Comparison between <code>convert</code> and <code>exact</code>/<code>apply</code>.
+_tentative
 sup
   Solve <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L01_polynomial_questions.lean">polynomial questions</a>.
   The <code><;></code> tactic combinator.
