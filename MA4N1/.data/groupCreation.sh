@@ -24,7 +24,7 @@ Docs
 
 dataFile='Matematica/Warwick/Syllabus/MA4N1/.data/end.csv'
 inactiveFile='Matematica/Warwick/Syllabus/MA4N1/.data/inactive.csv'
-guests='Damiano,Marc Truter,Inna'
+guests='Damiano,Marc Truter,Inna,Dan Roebuck'
 
 ma4n1_id="$(sed -n 's|^ma4n1_id=\(.*\)|\1|p' .src/moving_parts.txt)"
 
