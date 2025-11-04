@@ -125,9 +125,18 @@
         </ul>
       </td>
     </tr>
+<!--  ##################  Week 5  ################## -->
+    <tr><th></th><th style="text-align: center">Week 5 (Nov 03-07)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">Generalizations</a>.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA4N1_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Monday, Nov 03 2025</div>
+<div style="text-align: right">Last modified: Tuesday, Nov 04 2025</div>
