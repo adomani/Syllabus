@@ -142,9 +142,30 @@
         </ul>
       </td>
     </tr>
+    <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li>TBA<!--a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L05_limits_questions.lean">limits questions</a-->.</li>
+        </ul>
+      </td>
+    </tr>
+<!--  ##################  Week 6  ################## -->
+    <tr><th></th><th style="text-align: center">Week 6 (Nov 10-14)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>Breather week.</li>
+          <li>Sample formalisation of an inequality: avoid Nat-subtraction, absorb inequalities, write more lemmas.</li>
+          <li>Informal introduction to <code>aesop</code> and <code>grind</code>.</li>
+          <li><a href="https://raw.githubusercontent.com/fpvandoorn/LeanCourse24/master/lean-tactics.pdf">Tactic cheat sheet</a>.</li>
+          <li><!--Quick introduction to <code>Filter</code>s,</li>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L05_limits_questions.lean">limits questions</a-->.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA4N1_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Nov 04 2025</div>
+<div style="text-align: right">Last modified: Monday, Nov 10 2025</div>
