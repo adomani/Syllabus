@@ -157,8 +157,7 @@
           <li>Breather week.</li>
           <li>Sample formalisation of an inequality: avoid Nat-subtraction, absorb inequalities, write more lemmas.</li>
           <li>Informal introduction to <code>aesop</code> and <code>grind</code>.</li>
-          <li><a href="https://raw.githubusercontent.com/fpvandoorn/LeanCourse24/master/lean-tactics.pdf">Tactic cheat sheet</a>.</li>
-          <li><!--Quick introduction to <code>Filter</code>s,</li>
+          <li><a href="https://raw.githubusercontent.com/fpvandoorn/LeanCourse24/master/lean-tactics.pdf">Tactic cheat sheet</a>. <!--Quick introduction to <code>Filter</code>s,</li>
           <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L05_limits_questions.lean">limits questions</a--></li>
         </ul>
       </td>
