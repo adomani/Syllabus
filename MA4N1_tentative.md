@@ -145,7 +145,7 @@
     <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>TBA<!--a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L05_limits_questions.lean">limits questions</a-->.</li>
+          <li>TBA<!--a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L05_limits_questions.lean">limits questions</a--></li>
         </ul>
       </td>
     </tr>
@@ -159,7 +159,7 @@
           <li>Informal introduction to <code>aesop</code> and <code>grind</code>.</li>
           <li><a href="https://raw.githubusercontent.com/fpvandoorn/LeanCourse24/master/lean-tactics.pdf">Tactic cheat sheet</a>.</li>
           <li><!--Quick introduction to <code>Filter</code>s,</li>
-          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L05_limits_questions.lean">limits questions</a-->.</li>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L05_limits_questions.lean">limits questions</a--></li>
         </ul>
       </td>
     </tr>
