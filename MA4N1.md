@@ -155,10 +155,18 @@
       <td>
         <ul>
           <li>Breather week.</li>
-          <li>Sample formalisation of an inequality: avoid Nat-subtraction, absorb inequalities, write more lemmas.</li>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/BreatherWeek.lean">Sample formalisation of an inequality</a>: avoid Nat-subtraction, absorb inequalities, write more lemmas.</li>
           <li>Informal introduction to <code>aesop</code> and <code>grind</code>.</li>
           <li><a href="https://raw.githubusercontent.com/fpvandoorn/LeanCourse24/master/lean-tactics.pdf">Tactic cheat sheet</a>. <!--Quick introduction to <code>Filter</code>s,</li>
           <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L05_limits_questions.lean">limits questions</a--></li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
+          <li>Continue with the <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/BreatherWeek.lean">inequality</a>.</li>
+          <li>Discuss how to formalise the notion of <a href="https://en.wikipedia.org/wiki/Subnormal_subgroup">subnormal subgroups</a>.</li>
         </ul>
       </td>
     </tr>
@@ -167,4 +175,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA4N1_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Monday, Nov 10 2025</div>
+<div style="text-align: right">Last modified: Tuesday, Nov 11 2025</div>
