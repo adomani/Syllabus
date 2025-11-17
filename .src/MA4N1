@@ -61,10 +61,10 @@ mon
 tue
   Continue with the <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/BreatherWeek.lean">inequality</a>.
   Discuss how to formalise the notion of <a href="https://en.wikipedia.org/wiki/Subnormal_subgroup">subnormal subgroups</a>.
-_tentative
 sup
-  Finish <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L05_limits_questions.lean">limits questions</a>,
-  <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L05_graphs_questions.lean">graphs questions</a>.
+  Installation issues: git and github.
+  Independent work.
+_tentative
 
 --  Week 7
 mon
