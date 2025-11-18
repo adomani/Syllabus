@@ -39,6 +39,15 @@ We will use [Mathlib](https://leanprover-community.github.io/), the mathematical
 
 You can find ways to interact with Lean and Mathlib on the [Mathlib webpage](https://leanprover-community.github.io/).
 
+##  Further reading
+
+There are [plenty of resources](https://leanprover-community.github.io/learn.html) to learn more about Lean.
+I encourage you to look around, since there is only so much that I can cover in these lectures!
+
+In particular, [Mathematics in Lean](https://leanprover-community.github.io/mathematics_in_lean/) is agreat tutorial for learning about formalisation of mathematics.
+
+There is also [The Mechanics of Proof](https://leanprover-community.github.io/mathematics_in_lean/) which is a slower-paced introduction.
+
 <hr style="border:2px solid gray">
 
 #### Note: `Lean 3` vs `Lean 4`
@@ -55,6 +64,7 @@ In this module, we will only work with Lean 4.
 * [Current syllabus](https://adomani.github.io/Syllabus/MA4N1)
 * [MA4N1 Theorem Proving with Lean](https://adomani.github.io/Syllabus/MA4N1/toc#ma4n1-theorem-proving-with-lean)
   * [Assessment](https://adomani.github.io/Syllabus/MA4N1/toc#assessment)
+  * [Further reading](https://adomani.github.io/Syllabus/MA4N1/toc#further-reading)
 * [Introduction to `Theorem Proving with Lean`](https://adomani.github.io/Syllabus/MA4N1/intro#introduction-to-theorem-proving-with-lean)
 * [Initial tactic, brackets and basic logic symbols](https://adomani.github.io/Syllabus/MA4N1/syntaxSummary#initial-tactic,-brackets-and-basic-logic-symbols)
   * [Some tactics](https://adomani.github.io/Syllabus/MA4N1/syntaxSummary#some-tactics)
