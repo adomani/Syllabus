@@ -179,9 +179,26 @@
         </ul>
       </td>
     </tr>
+<!--  ##################  Week 7  ################## -->
+    <tr><th></th><th style="text-align: center">Week 7 (Nov 17-21)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li><code>Set</code>s vs <code>Type</code>s: differences with set theory.</li>
+          <li><code>Set.univ</code> vs the type itself.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L17_navigating_Mathlib.lean">Navigating <code>Mathlib</code></a>.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA4N1_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Monday, Nov 17 2025</div>
+<div style="text-align: right">Last modified: Thursday, Nov 20 2025</div>
