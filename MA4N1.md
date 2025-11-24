@@ -205,6 +205,16 @@
         </ul>
       </td>
     </tr>
+<!--  ##################  Week 8  ################## -->
+    <tr><th></th><th style="text-align: center">Week 8 (Nov 24-28)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>Integer polynomials in an <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/BreatherWeek.lean">extension of the breather week file</a>.</li>
+          <li>Mentioned <code>ext</code> for polynomials and <code>simp [field]</code> as a <code>simp</code>-based version of <code>field</code>.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>

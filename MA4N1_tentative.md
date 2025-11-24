@@ -205,18 +205,17 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
 <!--  ##################  Week 8  ################## -->
     <tr><th></th><th style="text-align: center">Week 8 (Nov 24-28)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L06_typeclasses.lean">Typeclasses</a> and introduction to differences between <code>def</code>, <code>structure</code> and <code>class</code>.</li>
-          <li>Working with a <code>structure</code> and adding <code>instance</code>s to it.</li>
-          <li>Beginning of <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L15_setoids.lean">setoids</a>. --></li>
+          <li>Integer polynomials in an <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/BreatherWeek.lean">extension of the breather week file</a>.</li>
+          <li>Mentioned <code>ext</code> for polynomials and <code>simp [field]</code> as a <code>simp</code>-based version of <code>field</code>.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Tuesday</td>
       <td>
         <ul>

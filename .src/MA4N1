@@ -75,13 +75,12 @@ sup
   More on <code>Set</code>s vs <code>Type</code>s.
   Coercions.
   Group work.
-_tentative
 
 --  Week 8
 mon
-  <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L06_typeclasses.lean">Typeclasses</a> and introduction to differences between <code>def</code>, <code>structure</code> and <code>class</code>.
-  Working with a <code>structure</code> and adding <code>instance</code>s to it.
-  Beginning of <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L15_setoids.lean">setoids</a>. -->
+  Integer polynomials in an <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/BreatherWeek.lean">extension of the breather week file</a>.
+  Mentioned <code>ext</code> for polynomials and <code>simp [field]</code> as a <code>simp</code>-based version of <code>field</code>.
+_tentative
 tue
   Finished <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L06_typeclasses.lean">Typeclasses</a>. <!--  <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L14_in_implicit_explicit.lean">Some syntax</a>: <code>variable/open ... in ...</code>, explicit vs implicit arguments.
   Digression about <code>PowerSeries</code> and <code>HasFPowerSeriesOnBall</code>. <!-- a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L15_setoids.lean">Setoids</a>. -->
