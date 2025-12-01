@@ -83,13 +83,15 @@ mon
 tue
   Covered <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L04_definitions.lean">definitions, structure and inductives</a>.
   Digression about presentations of groups by generators and relations and universal properties in category theory.
-_tentative
 sup
-  Inaccessible room!  Hopefully, this only affected this week.
+  More on induction.
+  Equivalences in Mathlib.
 
 --  Week 9
 mon
-  <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L18_finiteness.lean">Finiteness</a>.
+  Using the <code>variable</code> command.
+  Beginning with <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L12_pathologies.lean">pathologies</a>.
+_tentative
 tue
   <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L12_pathologies.lean">Pathologies</a>, leading up to <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L13_deriv_pathologies.lean">deriv-pathologies</a>. <!-- code>Classical, noncomputable, Prop, Bool</code -->
 sup

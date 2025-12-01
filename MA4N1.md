@@ -223,9 +223,27 @@
         </ul>
       </td>
     </tr>
+    <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li>More on induction.</li>
+          <li>Equivalences in Mathlib.</li>
+        </ul>
+      </td>
+    </tr>
+<!--  ##################  Week 9  ################## -->
+    <tr><th></th><th style="text-align: center">Week 9 (Dec 01-05)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>Using the <code>variable</code> command.</li>
+          <li>Beginning with <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L12_pathologies.lean">pathologies</a>.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA4N1_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Nov 25 2025</div>
+<div style="text-align: right">Last modified: Monday, Dec 01 2025</div>
