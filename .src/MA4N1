@@ -91,9 +91,10 @@ sup
 mon
   Using the <code>variable</code> command.
   Beginning with <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L12_pathologies.lean">pathologies</a>.
-_tentative
 tue
+  Difference between <code>apply</code>, <code>refine</code>, <code>exact</code> and <code>specialize</code>.
   <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L12_pathologies.lean">Pathologies</a>, leading up to <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L13_deriv_pathologies.lean">deriv-pathologies</a>. <!-- code>Classical, noncomputable, Prop, Bool</code -->
+_tentative
 sup
   Group work.
 
