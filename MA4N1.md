@@ -249,9 +249,25 @@
         </ul>
       </td>
     </tr>
+    <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li>Cancelled due to illness.</li>
+        </ul>
+      </td>
+    </tr>
+<!--  ##################  Week 10  ################## -->
+    <tr><th></th><th style="text-align: center">Week 10 (Dec 08-12)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L07_calculations.lean">Calculations</a>, in particular <code>conv</code> and <code>calc</code>.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA4N1_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Dec 02 2025</div>
+<div style="text-align: right">Last modified: Tuesday, Dec 09 2025</div>
