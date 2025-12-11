@@ -101,19 +101,19 @@ sup
 mon
   <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L07_calculations.lean">Calculations</a>, in particular <code>conv</code> and <code>calc</code>.
 
-_tentative
 tue
-  <a href="https://adventofcode.com/">Advent of Code</a>.
+  <code>Coe</code>rcions, <code>gcongr</code>, general discussion on proof style and automation.  <!--a href="https://adventofcode.com/">Advent of Code</a>.
   Solution to Day 2, 2023: <a href="https://github.com/adomani/advents/blob/master/Advents/AoC2023/day02_syntax.lean">syntax parsing</a> and <a href="https://github.com/adomani/advents/blob/master/Advents/AoC2023/day02.lean">running the input</a>.
   <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L15_setoids.lean">Quotients and setoids</a>.
   <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L09_noncomputable_IsSquare.lean">Noncomputability and decidable instances</a>.  <!-- Algebraic and tropical geometry in <code>Mathlib</code>.
-  Type theory and category theory.
+  Type theory and category theory. -->
 sup
-  Group work?
-  <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L16_setoids_week_end_questions.lean">Week-end setoids</a>?
-   -->
+  Group work.
+<!--
+_tentative
 
 ###  Further topics
 
 Inequalities and absolute values
 Structures, classes and calculations.
+-->

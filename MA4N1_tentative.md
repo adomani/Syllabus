@@ -265,24 +265,27 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Tuesday</td>
       <td>
         <ul>
-          <li><a href="https://adventofcode.com/">Advent of Code</a>.</li>
+          <li><code>Coe</code>rcions, <code>gcongr</code>, general discussion on proof style and automation.  <!--a href="https://adventofcode.com/">Advent of Code</a>.</li>
           <li>Solution to Day 2, 2023: <a href="https://github.com/adomani/advents/blob/master/Advents/AoC2023/day02_syntax.lean">syntax parsing</a> and <a href="https://github.com/adomani/advents/blob/master/Advents/AoC2023/day02.lean">running the input</a>.</li>
           <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L15_setoids.lean">Quotients and setoids</a>.</li>
           <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L09_noncomputable_IsSquare.lean">Noncomputability and decidable instances</a>.  <!-- Algebraic and tropical geometry in <code>Mathlib</code>.</li>
-          <li>Type theory and category theory.</li>
+          <li>Type theory and category theory. --></li>
         </ul>
       </td>
     </tr>
     <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>Group work?</li>
-          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L16_setoids_week_end_questions.lean">Week-end setoids</a>?</li>
-          <li> --></li>
+          <li>Group work.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
+<!--  ##################  Week 11  ################## -->
+    <tr><th></th><th style="text-align: center">Week 11 (Dec 15-19)</th></tr>
         </ul>
       </td>
     </tr>
@@ -291,4 +294,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA4N1)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Dec 09 2025</div>
+<div style="text-align: right">Last modified: Thursday, Dec 11 2025</div>
