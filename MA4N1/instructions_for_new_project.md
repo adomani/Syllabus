@@ -74,7 +74,7 @@ You folder structure should look more or less like this:
 ```
 proj --|-- Proj -------------- | <your_files_here>
        |
-       |-- lakefile.lean
+       |-- lakefile.toml
        |
        |-- lake-manifest.json
        |
@@ -86,7 +86,8 @@ proj --|-- Proj -------------- | <your_files_here>
 ```
 
 In case you are curious, this is what the files above do.
-* `lakefile.lean`: configuration of options and what gets built with `lake build`.
+* `lakefile.toml`: configuration of options and what gets built with `lake build`.
+  It used to be `lakefile.lean`, but now the `toml` format is accepted (and usually preferred).
 * `lake-manifest.json`: information about depedencies of your project.
 * `lean-toolchain`: which version of the `Lean4` language you are using (this is still evolving quickly and roughly every month there is an update).
 * `.lake/`: a hidden folder containing the information that Lean produces once it builds a file.
@@ -94,7 +95,7 @@ In case you are curious, this is what the files above do.
   where `XXX` ranges among the files in the `Proj` folder that you want Lean to build when running `lake build`.
 
 You will likely not have to look at any of these files.
-The only possible exception is `lakefile.lean`, in case you want to set some special options (I will talk about this during the lectures).
+The only possible exception is `lakefile.toml`, in case you want to set some special options (I will talk about this during the lectures).
 
 For ease of copy-pasting, here are all the commands in a single code-block
 ```bash
