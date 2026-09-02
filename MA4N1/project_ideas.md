@@ -13,6 +13,12 @@ A project that carefully formalises the first two or three steps, with a well-de
 clear documentation, is a much better project than one that piles up `sorry`s trying to get to
 the end.
 
+**This mode of project is fully experimental for this year.**
+Running a project from a detailed outline like the ones below, rather than from a topic that you
+choose yourselves, is something that we are trying out for the first time.
+Expect the outlines to be adjusted as we go, and do talk to me early if the shape of one of them
+is not working for your group.
+
 ---
 
 ## The Brauer--Suzuki theorem
