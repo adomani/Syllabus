@@ -1,4 +1,4 @@
-# Project ideas
+# Project ideas -- experimental this year
 
 A collection of possible outlines for group projects.
 

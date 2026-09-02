@@ -142,7 +142,8 @@ Two books that contain lots of inspiration are
 
 ---
 
-For fully worked-out outlines, with milestones and pointers into Mathlib, see [Project ideas](project_ideas).
+For fully worked-out outlines, with milestones and pointers into Mathlib, see
+[Project ideas](project_ideas) -- a mode of project that is fully experimental this year.
 
 For instructions on how to create a project depending on Mathlib, look at [this page](instructions_for_new_project).
 
