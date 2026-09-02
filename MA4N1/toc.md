@@ -88,6 +88,8 @@ In this module, we will only work with Lean 4.
   * [External repositories and books for inspiration](https://adomani.github.io/Syllabus/MA4N1/ideas_to_develop#external-repositories-and-books-for-inspiration)
   * [Computer science oriented projects](https://adomani.github.io/Syllabus/MA4N1/ideas_to_develop#computer-science-oriented-projects)
   * [Orphaned projects](https://adomani.github.io/Syllabus/MA4N1/ideas_to_develop#orphaned-projects)
+* [Project ideas](https://adomani.github.io/Syllabus/MA4N1/project_ideas#project-ideas)
+  * [The Brauer--Suzuki theorem](https://adomani.github.io/Syllabus/MA4N1/project_ideas#the-brauer--suzuki-theorem)
 * [Creating a new project depending on `Mathlib`](https://adomani.github.io/Syllabus/MA4N1/instructions_for_new_project#creating-a-new-project-depending-on-mathlib)
   * [Using the VSCode `Lean 4` extension](https://adomani.github.io/Syllabus/MA4N1/instructions_for_new_project#using-the-vscode-lean-4-extension)
   * [Unix-based installation from the command-line](https://adomani.github.io/Syllabus/MA4N1/instructions_for_new_project#unix-based-installation-from-the-command-line)
