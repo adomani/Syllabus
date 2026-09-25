@@ -23,12 +23,12 @@
   })();
 </script>
 # [MA4N1 Theorem Proving with Lean](https://adomani.github.io/Syllabus/MA4N1/toc) tentative syllabus
-## Autumn 2025
+## Autumn 2026
 
 <table>
   <tbody>
 <!--  ##################  Week 1  ################## -->
-    <tr><th></th><th style="text-align: center">Week 1 (Oct 06-10)</th></tr>
+    <tr><th></th><th style="text-align: center">Week 1 (Oct 05-09)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
@@ -37,6 +37,7 @@
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Tuesday</td>
       <td>
         <ul>
@@ -46,7 +47,7 @@
       </td>
     </tr>
 <!--  ##################  Week 2  ################## -->
-    <tr><th></th><th style="text-align: center">Week 2 (Oct 13-17)</th></tr>
+    <tr><th></th><th style="text-align: center">Week 2 (Oct 12-16)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
@@ -70,7 +71,7 @@
       </td>
     </tr>
 <!--  ##################  Week 3  ################## -->
-    <tr><th></th><th style="text-align: center">Week 3 (Oct 20-24)</th></tr>
+    <tr><th></th><th style="text-align: center">Week 3 (Oct 19-23)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
@@ -98,7 +99,7 @@
       </td>
     </tr>
 <!--  ##################  Week 4  ################## -->
-    <tr><th></th><th style="text-align: center">Week 4 (Oct 27-31)</th></tr>
+    <tr><th></th><th style="text-align: center">Week 4 (Oct 26-30)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
@@ -126,7 +127,7 @@
       </td>
     </tr>
 <!--  ##################  Week 5  ################## -->
-    <tr><th></th><th style="text-align: center">Week 5 (Nov 03-07)</th></tr>
+    <tr><th></th><th style="text-align: center">Week 5 (Nov 02-06)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
@@ -151,7 +152,7 @@
       </td>
     </tr>
 <!--  ##################  Week 6  ################## -->
-    <tr><th></th><th style="text-align: center">Week 6 (Nov 10-14)</th></tr>
+    <tr><th></th><th style="text-align: center">Week 6 (Nov 09-13)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
@@ -180,7 +181,7 @@
       </td>
     </tr>
 <!--  ##################  Week 7  ################## -->
-    <tr><th></th><th style="text-align: center">Week 7 (Nov 17-21)</th></tr>
+    <tr><th></th><th style="text-align: center">Week 7 (Nov 16-20)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
@@ -206,7 +207,7 @@
       </td>
     </tr>
 <!--  ##################  Week 8  ################## -->
-    <tr><th></th><th style="text-align: center">Week 8 (Nov 24-28)</th></tr>
+    <tr><th></th><th style="text-align: center">Week 8 (Nov 23-27)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
@@ -232,7 +233,7 @@
       </td>
     </tr>
 <!--  ##################  Week 9  ################## -->
-    <tr><th></th><th style="text-align: center">Week 9 (Dec 01-05)</th></tr>
+    <tr><th></th><th style="text-align: center">Week 9 (Nov 30-Dec 04)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
@@ -257,7 +258,7 @@
       </td>
     </tr>
 <!--  ##################  Week 10  ################## -->
-    <tr><th></th><th style="text-align: center">Week 10 (Dec 08-12)</th></tr>
+    <tr><th></th><th style="text-align: center">Week 10 (Dec 07-11)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
@@ -283,9 +284,8 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
 <!--  ##################  Week 11  ################## -->
-    <tr><th></th><th style="text-align: center">Week 11 (Dec 15-19)</th></tr>
+    <tr><th></th><th style="text-align: center">Week 11 (Dec 14-18)</th></tr>
         </ul>
       </td>
     </tr>
@@ -294,4 +294,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA4N1)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Thursday, Dec 11 2025</div>
+<div style="text-align: right">Last modified: Friday, Sep 25 2026</div>
