@@ -284,11 +284,6 @@
         </ul>
       </td>
     </tr>
-<!--  ##################  Week 11  ################## -->
-    <tr><th></th><th style="text-align: center">Week 11 (Dec 14-18)</th></tr>
-        </ul>
-      </td>
-    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
