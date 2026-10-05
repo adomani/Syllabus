@@ -1251,7 +1251,6 @@ A more stable, periodically updated, syllabus is [here](https://adomani.github.i
 
 * Accessing Lean
   * installing on a personal computer,
-  * online GitPod setup,
   * online Lean server.
 * Resolve potential issues
   * installation,
