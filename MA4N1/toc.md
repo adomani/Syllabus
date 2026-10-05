@@ -5,10 +5,10 @@
 | Mondays  | 5pm-6pm   | MS.05 |-| Thursdays  | 4pm-5pm  | B1.01 |
 | Tuesdays | 11am-noon | MS.03 |-|                 |          |       |
 
-| Office hours          |            | Room  |
-| :-                    | :-:        | -     |
-| Mondays (odd weeks)   | 4.30pm-5pm | C2.13 |
-| Tuesdays (even weeks) | 10.30-11am | C2.13 |
+| Office Feedback and Support Hours |            | Room  |
+| :-                                | :-:        | -     |
+| Mondays (odd weeks)               | 4.30pm-5pm | C2.13 |
+| Tuesdays (even weeks)             | 10.30-11am | C2.13 |
 
 ##  Assessment
 
