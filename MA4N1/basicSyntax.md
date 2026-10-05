@@ -155,4 +155,4 @@ we can compress `List.twice "abc".toList` to `"abc".toList.twice`.
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/adomani/MA4N1_Theorem_proving_with_Lean)
 
-[Back to Moodle](https://moodle.warwick.ac.uk/course/view.php?id=71736#section-0)
+[Back to Moodle](https://moodle.warwick.ac.uk/course/view.php?id=77348#section-0)
