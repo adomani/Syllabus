@@ -32,6 +32,9 @@
     <tr><td>Monday</td>
       <td>
         <ul>
+          <li>Overview of assessment.</li>
+          <li>Introduction to formalization and to Lean.</li>
+          <li>The <code>Nat</code>ural numbers.</li>
         </ul>
       </td>
     </tr>
@@ -40,4 +43,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA4N1_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Friday, Sep 25 2026</div>
+<div style="text-align: right">Last modified: Monday, Oct 05 2026</div>
