@@ -17,9 +17,8 @@ scatterTPwL () {
     moduleurl="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean"
     toc="\n\n## Available pages\n\n* [Current syllabus](" genericGHurlNS ")"
     moodleurl="https://moodle.warwick.ac.uk/course/view.php?id=" ma4n1_id "#section-0"
-    gitpodurl="[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#" moduleurl ")"
     tpwlink="\n\n[Back to the `Theorem Proving with Lean` webpage](" ghurl ")"
-    moodlink="\n\n[Back to the Mathlib project for the module](" moduleurl ")\n\n" gitpodurl "\n\n[Back to Moodle](" moodleurl ")"
+    moodlink="\n\n[Back to the Mathlib project for the module](" moduleurl ")\n\n" "[Back to Moodle](" moodleurl ")"
   }
     /^<!-- newFile [^ ]* -->/  { curr=$3; content[curr]=""; fileNames[$3]++; con=1; }
     #con == 1 &&
