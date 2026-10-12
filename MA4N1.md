@@ -45,9 +45,20 @@
         </ul>
       </td>
     </tr>
+<!--  ##################  Week 2  ################## -->
+    <tr><th></th><th style="text-align: center">Week 2 (Oct 12-16)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>Infoview.<!--code>rfl</code>, <code>inductive</code> Difference between <code>Bool</code> and <code>Prop</code>,  <code>apply</code> --></li>
+          <li>Basic tactics: <code>exact?</code>, <code>constructor</code>, <code>cases</code>.</li>
+          <li>Type ascriptions, structuring proofs (<a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L00_intro.lean">L00_intro.lean</a>)</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA4N1_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Oct 06 2026</div>
+<div style="text-align: right">Last modified: Monday, Oct 12 2026</div>
