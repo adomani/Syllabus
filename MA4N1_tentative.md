@@ -67,7 +67,7 @@
     <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>Cancelled due to illness. <!--Functional programming, object oriented programming, more proofs.--></li>
+          <li>Functional programming, object oriented programming, more proofs.</li>
         </ul>
       </td>
     </tr>
@@ -254,7 +254,7 @@
     <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>Cancelled due to illness.</li>
+          <li>First meeting.</li>
         </ul>
       </td>
     </tr>
@@ -290,4 +290,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA4N1)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Monday, Oct 12 2026</div>
+<div style="text-align: right">Last modified: Tuesday, Oct 13 2026</div>
