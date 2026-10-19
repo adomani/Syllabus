@@ -72,6 +72,15 @@
         </ul>
       </td>
     </tr>
+<!--  ##################  Week 3  ################## -->
+    <tr><th></th><th style="text-align: center">Week 3 (Oct 19-23)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L01_polynomials.lean">Polynomials</a>, constants, basic lemmas.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>

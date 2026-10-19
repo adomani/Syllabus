@@ -72,20 +72,20 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
 <!--  ##################  Week 3  ################## -->
     <tr><th></th><th style="text-align: center">Week 3 (Oct 19-23)</th></tr>
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>Coordinate projects.</li>
-          <li>Continue <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L01_polynomials.lean">polynomials</a>.</li>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L01_polynomials.lean">Polynomials</a>, constants, basic lemmas.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Tuesday</td>
       <td>
         <ul>
+          <li>Coordinate projects.</li>
           <li>How to find the multiplication instance on <code>Polynomial</code>s.</li>
           <li>Coordinate projects.</li>
           <li>Start forming groups.</li>
