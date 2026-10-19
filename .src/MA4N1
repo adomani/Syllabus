@@ -14,9 +14,10 @@ mon
 tue
   Finish <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L00_intro.lean">L00_intro.lean</a>.
   Proof obligations, forward and backward reasoning.
-_tentative
 sup
-  Functional programming, object oriented programming, more proofs.
+  Overview of available resources.
+  Installation troubleshooting.
+_tentative
 
 -- Week 3
 mon
