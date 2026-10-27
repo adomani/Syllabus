@@ -89,9 +89,27 @@
         </ul>
       </td>
     </tr>
+    <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li>Tutorial cancelled due to illness.<!--Proofs with $\varepsilon$ and $\delta$.</li>
+          <li>Archimedean property of the real numbers.--></li>
+        </ul>
+      </td>
+    </tr>
+<!--  ##################  Week 4  ################## -->
+    <tr><th></th><th style="text-align: center">Week 4 (Oct 26-30)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>Comments about the project outline.</li>
+          <li>Live coding with the fundamental theorem of algebra and the pigeonhole principle.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA4N1_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Oct 20 2026</div>
+<div style="text-align: right">Last modified: Tuesday, Oct 27 2026</div>

@@ -89,12 +89,11 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>Proofs with $\varepsilon$ and $\delta$.</li>
-          <li>Archimedean property of the real numbers.</li>
+          <li>Tutorial cancelled due to illness.<!--Proofs with $\varepsilon$ and $\delta$.</li>
+          <li>Archimedean property of the real numbers.--></li>
         </ul>
       </td>
     </tr>
@@ -103,12 +102,12 @@
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>Creating a new project (and failing on Windows).</li>
           <li>Comments about the project outline.</li>
-          <li>Continuing <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">generalizations</a>: tactic mode and term mode.  <!--Discussion about <code>structure</code>, <code>class</code>, Working with two topologies on the same set/type. --></li>
+          <li>Live coding with the fundamental theorem of algebra and the pigeonhole principle.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Tuesday</td>
       <td>
         <ul>
@@ -289,4 +288,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA4N1)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Oct 20 2026</div>
+<div style="text-align: right">Last modified: Tuesday, Oct 27 2026</div>
