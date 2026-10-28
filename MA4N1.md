@@ -103,7 +103,7 @@
       <td>
         <ul>
           <li>Comments about the project outline.</li>
-          <li>Live coding with the fundamental theorem of algebra and the pigeonhole principle.</li>
+          <li> <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/AudienceStatements.lean">Live coding</a> with the fundamental theorem of algebra and the pigeonhole principle.</li>
         </ul>
       </td>
     </tr>
@@ -111,7 +111,7 @@
       <td>
         <ul>
           <li>Project discussion.</li>
-          <li>More live coding: handshake lemma, chain rule. <!-- a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">Generalizations</a>.</li>
+          <li> <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/AudienceStatements.lean">More live coding</a>: handshake lemma, chain rule. <!-- a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">Generalizations</a>.</li>
           <li>Differences between <code>simp?</code> and <code>exact?</code>.</li>
           <li>Comparison between <code>convert</code> and <code>exact</code>/<code>apply</code --></li>
         </ul>
