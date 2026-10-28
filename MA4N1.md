@@ -107,9 +107,19 @@
         </ul>
       </td>
     </tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
+          <li>Project discussion.</li>
+          <li>More live coding: handshake lemma, chain rule. <!-- a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">Generalizations</a>.</li>
+          <li>Differences between <code>simp?</code> and <code>exact?</code>.</li>
+          <li>Comparison between <code>convert</code> and <code>exact</code>/<code>apply</code --></li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA4N1_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Oct 27 2026</div>
+<div style="text-align: right">Last modified: Wednesday, Oct 28 2026</div>
