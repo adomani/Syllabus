@@ -117,15 +117,16 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>Individual work on <a href="https://adam.math.hhu.de/#/g/leanprover-community/nng4">Natural Numbers Game</a>.</li>
-          <li>Individual work on <a href="https://github.com/PatrickMassot/GlimpseOfLean">Glimpse of Lean</a>.</li>
+          <li>Basics about tactics.</li>
+          <li>Project supervision.  <!-- Individual work on <a href="https://adam.math.hhu.de/#/g/leanprover-community/nng4">Natural Numbers Game</a>.</li>
+          <li>Individual work on <a href="https://github.com/PatrickMassot/GlimpseOfLean">Glimpse of Lean</a --></li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
 <!--  ##################  Week 5  ################## -->
     <tr><th></th><th style="text-align: center">Week 5 (Nov 02-06)</th></tr>
     <tr><td>Monday</td>
@@ -289,4 +290,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA4N1)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Wednesday, Oct 28 2026</div>
+<div style="text-align: right">Last modified: Monday, Nov 02 2026</div>
