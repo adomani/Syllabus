@@ -89,12 +89,11 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>Proofs with $\varepsilon$ and $\delta$.</li>
-          <li>Archimedean property of the real numbers.</li>
+          <li>Tutorial cancelled due to illness.<!--Proofs with $\varepsilon$ and $\delta$.</li>
+          <li>Archimedean property of the real numbers.--></li>
         </ul>
       </td>
     </tr>
@@ -103,26 +102,27 @@
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>Creating a new project (and failing on Windows).</li>
           <li>Comments about the project outline.</li>
-          <li>Continuing <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">generalizations</a>: tactic mode and term mode.  <!--Discussion about <code>structure</code>, <code>class</code>, Working with two topologies on the same set/type. --></li>
+          <li> <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/AudienceStatements.lean">Live coding</a> with the fundamental theorem of algebra and the pigeonhole principle.</li>
         </ul>
       </td>
     </tr>
     <tr><td>Tuesday</td>
       <td>
         <ul>
-          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">Generalizations</a>.</li>
+          <li>Project discussion.</li>
+          <li> <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/AudienceStatements.lean">More live coding</a>: handshake lemma, chain rule. <!-- a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">Generalizations</a>.</li>
           <li>Differences between <code>simp?</code> and <code>exact?</code>.</li>
-          <li>Comparison between <code>convert</code> and <code>exact</code>/<code>apply</code>.</li>
+          <li>Comparison between <code>convert</code> and <code>exact</code>/<code>apply</code --></li>
         </ul>
       </td>
     </tr>
     <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>Individual work on <a href="https://adam.math.hhu.de/#/g/leanprover-community/nng4">Natural Numbers Game</a>.</li>
-          <li>Individual work on <a href="https://github.com/PatrickMassot/GlimpseOfLean">Glimpse of Lean</a>.</li>
+          <li>Basics about tactics.</li>
+          <li>Project supervision.  <!-- Individual work on <a href="https://adam.math.hhu.de/#/g/leanprover-community/nng4">Natural Numbers Game</a>.</li>
+          <li>Individual work on <a href="https://github.com/PatrickMassot/GlimpseOfLean">Glimpse of Lean</a --></li>
         </ul>
       </td>
     </tr>
@@ -131,18 +131,18 @@
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">Generalizations</a>.</li>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">L05_graphs.lean</a>.</li>
         </ul>
       </td>
     </tr>
     <tr><td>Tuesday</td>
       <td>
         <ul>
-          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">Generalizations</a> and "exotic" typeclasses.</li>
-          <li>More on groups formation<!--a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L03_groups_questions.lean">Group questions</a-->.</li>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L03_groups_questions.lean">Group questions</a>.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
@@ -185,6 +185,7 @@
     <tr><td>Monday</td>
       <td>
         <ul>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">Generalizations</a> and "exotic" typeclasses.</li>
           <li><code>Set</code>s vs <code>Type</code>s: differences with set theory.</li>
           <li><code>Set.univ</code> vs the type itself.</li>
         </ul>
@@ -289,4 +290,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA4N1)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Oct 20 2026</div>
+<div style="text-align: right">Last modified: Tuesday, Nov 03 2026</div>
