@@ -157,7 +157,7 @@
         <ul>
           <li>Breather week.</li>
           <li>Mention <code>assert_not_exists</code> as a way of making sure that you are not importing declarations that you want to avoid.</li>
-          <li>Distinction between implicit (<code>{x : Nat}</code>) and explicit (<code>(h : x = 0)</code>) variables.</li>
+          <li>Distinction between implicit (<code>{x : Nat}</code>) and explicit (<code>(h : x = 0)</code>) variables -- see also these <a href="https://adomani.github.io/Syllabus/MA4N1/syntaxSummary#brackets">notes</a>.</li>
           <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L07_calculations.lean">Calculations</a>: use of <code>calc</code>, <code>conv</code>. <!--a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/BreatherWeek.lean">Sample formalisation of an inequality</a>: avoid Nat-subtraction, absorb inequalities, write more lemmas. <a href="https://raw.githubusercontent.com/fpvandoorn/LeanCourse24/master/lean-tactics.pdf">Tactic cheat sheet</a>. <Quick introduction to <code>Filter</code>s, <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L05_limits_questions.lean">limits questions</a--></li>
         </ul>
       </td>
