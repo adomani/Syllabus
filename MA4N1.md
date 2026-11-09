@@ -142,9 +142,29 @@
         </ul>
       </td>
     </tr>
+    <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li>Finding results in Mathlib.</li>
+          <li>Breaking up proofs with <code>have</code>.<!--a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L05_limits_questions.lean">limits questions</a--></li>
+        </ul>
+      </td>
+    </tr>
+<!--  ##################  Week 6  ################## -->
+    <tr><th></th><th style="text-align: center">Week 6 (Nov 09-13)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>Breather week.</li>
+          <li>Mention <code>assert_not_exists</code> as a way of making sure that you are not importing declarations that you want to avoid.</li>
+          <li>Distinction between implicit (<code>{x : Nat}</code>) and explicit (<code>(h : x = 0)</code>) variables.</li>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L07_calculations.lean">Calculations</a>: use of <code>calc</code>, <code>conv</code>. <!--a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/BreatherWeek.lean">Sample formalisation of an inequality</a>: avoid Nat-subtraction, absorb inequalities, write more lemmas. <a href="https://raw.githubusercontent.com/fpvandoorn/LeanCourse24/master/lean-tactics.pdf">Tactic cheat sheet</a>. <Quick introduction to <code>Filter</code>s, <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L05_limits_questions.lean">limits questions</a--></li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA4N1_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Nov 03 2026</div>
+<div style="text-align: right">Last modified: Monday, Nov 09 2026</div>
