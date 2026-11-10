@@ -145,8 +145,8 @@
     <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>Finding results in Mathlib.</li>
           <li>Breaking up proofs with <code>have</code>.<!--a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L05_limits_questions.lean">limits questions</a--></li>
+          <li>Limits and <code>tends_to</code>.<!--Finding results in Mathlib.--></li>
         </ul>
       </td>
     </tr>
@@ -167,4 +167,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA4N1_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Monday, Nov 09 2026</div>
+<div style="text-align: right">Last modified: Tuesday, Nov 10 2026</div>

@@ -48,8 +48,8 @@ mon
 tue
   <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L03_groups.lean">Group questions</a>.
 sup
-  Finding results in Mathlib.
   Breaking up proofs with <code>have</code>.<!--a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L05_limits_questions.lean">limits questions</a-->
+  Limits and <code>tends_to</code>.<!--Finding results in Mathlib.-->
 
 --  Week 6
 mon
