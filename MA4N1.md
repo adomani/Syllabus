@@ -162,6 +162,14 @@
         </ul>
       </td>
     </tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
+          <li>Explain weird <code>calc</code> and <code>≤</code> interaction.</li>
+          <li>Defining bijections and computability.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
