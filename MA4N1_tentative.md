@@ -174,8 +174,8 @@
     <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>Installation issues: git and github.</li>
-          <li>Independent work.</li>
+          <li>Limits and <code>tends_to</code>.<!-- Installation issues: git and github. --></li>
+          <li>Project work/troubleshooting.</li>
         </ul>
       </td>
     </tr>
