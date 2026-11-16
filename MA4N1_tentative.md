@@ -170,7 +170,6 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
@@ -184,16 +183,20 @@
     <tr><td>Monday</td>
       <td>
         <ul>
-          <li>Discuss how to formalise the notion of <a href="https://en.wikipedia.org/wiki/Subnormal_subgroup">subnormal subgroups</a>.</li>
-          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">Generalizations</a> and "exotic" typeclasses.</li>
+          <li>AI usage and formalisation: what represents a good formalisation?</li>
+          <li>Minimising hypotheses (cf zero-divisors).</li>
+          <li>Start on the Claude-generated <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/topology/MA4N1/L19_topology.lean">topology</a>.</li>
           <li><code>Set</code>s vs <code>Type</code>s: differences with set theory.</li>
           <li><code>Set.univ</code> vs the type itself.</li>
         </ul>
       </td>
     </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td>Tuesday</td>
       <td>
         <ul>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">Generalizations</a> and "exotic" typeclasses.</li>
+          <li>Discuss how to formalise the notion of <a href="https://en.wikipedia.org/wiki/Subnormal_subgroup">subnormal subgroups</a>.</li>
           <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L17_navigating_Mathlib.lean">Navigating <code>Mathlib</code></a>.</li>
         </ul>
       </td>
@@ -203,6 +206,7 @@
         <ul>
           <li>More on <code>Set</code>s vs <code>Type</code>s.</li>
           <li>Coercions.</li>
+          <li>Stars and bars?</li>
           <li>Group work.</li>
         </ul>
       </td>
@@ -290,4 +294,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA4N1)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Nov 10 2026</div>
+<div style="text-align: right">Last modified: Monday, Nov 16 2026</div>

@@ -60,22 +60,26 @@ mon
 tue
   Explain weird <code>calc</code> and <code>≤</code> interaction.
   Defining bijections and computability.
-_tentative
 sup
   Limits and <code>tends_to</code>.<!-- Installation issues: git and github. -->
   Project work/troubleshooting.
 
 --  Week 7
 mon
-  Discuss how to formalise the notion of <a href="https://en.wikipedia.org/wiki/Subnormal_subgroup">subnormal subgroups</a>.
-  <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">Generalizations</a> and "exotic" typeclasses.
+  AI usage and formalisation: what represents a good formalisation?
+  Minimising hypotheses (cf zero-divisors).
+  Start on the Claude-generated <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/topology/MA4N1/L19_topology.lean">topology</a>.
   <code>Set</code>s vs <code>Type</code>s: differences with set theory.
   <code>Set.univ</code> vs the type itself.
+_tentative
 tue
+  <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">Generalizations</a> and "exotic" typeclasses.
+  Discuss how to formalise the notion of <a href="https://en.wikipedia.org/wiki/Subnormal_subgroup">subnormal subgroups</a>.
   <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L17_navigating_Mathlib.lean">Navigating <code>Mathlib</code></a>.
 sup
   More on <code>Set</code>s vs <code>Type</code>s.
   Coercions.
+  Stars and bars?
   Group work.
 
 --  Week 8

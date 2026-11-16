@@ -170,9 +170,30 @@
         </ul>
       </td>
     </tr>
+    <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li>Limits and <code>tends_to</code>.<!-- Installation issues: git and github. --></li>
+          <li>Project work/troubleshooting.</li>
+        </ul>
+      </td>
+    </tr>
+<!--  ##################  Week 7  ################## -->
+    <tr><th></th><th style="text-align: center">Week 7 (Nov 16-20)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>AI usage and formalisation: what represents a good formalisation?</li>
+          <li>Minimising hypotheses (cf zero-divisors).</li>
+          <li>Start on the Claude-generated <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/topology/MA4N1/L19_topology.lean">topology</a>.</li>
+          <li><code>Set</code>s vs <code>Type</code>s: differences with set theory.</li>
+          <li><code>Set.univ</code> vs the type itself.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA4N1_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Nov 10 2026</div>
+<div style="text-align: right">Last modified: Monday, Nov 16 2026</div>
