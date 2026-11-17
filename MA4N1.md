@@ -191,9 +191,18 @@
         </ul>
       </td>
     </tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
+          <li>Continue on the Claude-generated <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/topology/MA4N1/L19_topology.lean">topology</a>.</li>
+          <li>Mention the <code>rw??</code> tactic for finding "aimed" rewrites (there is also <code>rw?</code> which has fewer features and is not point-and-click).</li>
+          <li>Brief digression on <code>simp</code>. <!-- a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">Generalizations</a> and "exotic" typeclasses.--></li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA4N1_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Monday, Nov 16 2026</div>
+<div style="text-align: right">Last modified: Tuesday, Nov 17 2026</div>
