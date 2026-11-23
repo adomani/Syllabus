@@ -200,14 +200,12 @@
         </ul>
       </td>
     </tr>
-    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
     <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
       <td>
         <ul>
-          <li>More on <code>Set</code>s vs <code>Type</code>s.</li>
+          <li>Group work. <!-- More on <code>Set</code>s vs <code>Type</code>s.</li>
           <li>Coercions.</li>
-          <li>Stars and bars?</li>
-          <li>Group work.</li>
+          <li>Stars and bars? --></li>
         </ul>
       </td>
     </tr>
@@ -216,16 +214,21 @@
     <tr><td>Monday</td>
       <td>
         <ul>
+          <li>Continue on the Claude-generated <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/topology/MA4N1/L19_topology.lean">topology</a>.</li>
+          <li>Tactics <code>fun_prop</code> and <code>constructore</code>.</li>
+          <li>Examples of dot-notation.</li>
+          <li>Multiple topologies on the same underlying set.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr><td class="divider"><hr/></td><td class="divider"><hr/></td></tr>
+    <tr><td>Tuesday</td>
+      <td>
+        <ul>
           <li>Discuss how to formalise the notion of <a href="https://en.wikipedia.org/wiki/Subnormal_subgroup">subnormal subgroups</a>.</li>
           <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L17_navigating_Mathlib.lean">Navigating <code>Mathlib</code></a>.</li>
           <li>Integer polynomials in an <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/BreatherWeek.lean">extension of the breather week file</a>.</li>
           <li>Mentioned <code>ext</code> for polynomials and <code>simp [field]</code> as a <code>simp</code>-based version of <code>field</code>.</li>
-        </ul>
-      </td>
-    </tr>
-    <tr><td>Tuesday</td>
-      <td>
-        <ul>
           <li>Covered <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L04_definitions.lean">definitions, structure and inductives</a>.</li>
           <li>Digression about presentations of groups by generators and relations and universal properties in category theory.</li>
         </ul>
@@ -296,4 +299,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA4N1)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Nov 17 2026</div>
+<div style="text-align: right">Last modified: Monday, Nov 23 2026</div>

@@ -200,9 +200,30 @@
         </ul>
       </td>
     </tr>
+    <tr><td><p style="margin-bottom:0;">Thursday</p><p style="margin : 0; padding-top:0;">(support class)</p></td>
+      <td>
+        <ul>
+          <li>Group work. <!-- More on <code>Set</code>s vs <code>Type</code>s.</li>
+          <li>Coercions.</li>
+          <li>Stars and bars? --></li>
+        </ul>
+      </td>
+    </tr>
+<!--  ##################  Week 8  ################## -->
+    <tr><th></th><th style="text-align: center">Week 8 (Nov 23-27)</th></tr>
+    <tr><td>Monday</td>
+      <td>
+        <ul>
+          <li>Continue on the Claude-generated <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/topology/MA4N1/L19_topology.lean">topology</a>.</li>
+          <li>Tactics <code>fun_prop</code> and <code>constructore</code>.</li>
+          <li>Examples of dot-notation.</li>
+          <li>Multiple topologies on the same underlying set.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA4N1_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Tuesday, Nov 17 2026</div>
+<div style="text-align: right">Last modified: Monday, Nov 23 2026</div>
