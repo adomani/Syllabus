@@ -215,7 +215,7 @@
       <td>
         <ul>
           <li>Continue on the Claude-generated <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/topology/MA4N1/L19_topology.lean">topology</a>.</li>
-          <li>Tactics <code>fun_prop</code> and <code>constructore</code>.</li>
+          <li>Tactics <code>fun_prop</code> and <code>constructor</code>.</li>
           <li>Examples of dot-notation.</li>
           <li>Multiple topologies on the same underlying set.</li>
         </ul>
@@ -225,12 +225,9 @@
     <tr><td>Tuesday</td>
       <td>
         <ul>
-          <li>Discuss how to formalise the notion of <a href="https://en.wikipedia.org/wiki/Subnormal_subgroup">subnormal subgroups</a>.</li>
-          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L17_navigating_Mathlib.lean">Navigating <code>Mathlib</code></a>.</li>
-          <li>Integer polynomials in an <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/BreatherWeek.lean">extension of the breather week file</a>.</li>
-          <li>Mentioned <code>ext</code> for polynomials and <code>simp [field]</code> as a <code>simp</code>-based version of <code>field</code>.</li>
-          <li>Covered <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L04_definitions.lean">definitions, structure and inductives</a>.</li>
-          <li>Digression about presentations of groups by generators and relations and universal properties in category theory.</li>
+          <li>Continue on the Claude-generated <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/topology/MA4N1/L19_topology.lean">topology</a>.</li>
+          <li>Difference between <code>let</code> and <code>have</code>.</li>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L09_noncomputable_IsSquare.lean">Noncomputability and decidable instances</a>.</li>
         </ul>
       </td>
     </tr>
@@ -247,6 +244,12 @@
     <tr><td>Monday</td>
       <td>
         <ul>
+          <li>Discuss how to formalise the notion of <a href="https://en.wikipedia.org/wiki/Subnormal_subgroup">subnormal subgroups</a>.</li>
+          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L17_navigating_Mathlib.lean">Navigating <code>Mathlib</code></a>.</li>
+          <li>Integer polynomials in an <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/BreatherWeek.lean">extension of the breather week file</a>.</li>
+          <li>Mentioned <code>ext</code> for polynomials and <code>simp [field]</code> as a <code>simp</code>-based version of <code>field</code>.</li>
+          <li>Covered <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L04_definitions.lean">definitions, structure and inductives</a>.</li>
+          <li>Digression about presentations of groups by generators and relations and universal properties in category theory.</li>
           <li>Using the <code>variable</code> command.</li>
           <li>Beginning with <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L12_pathologies.lean">pathologies</a>.</li>
         </ul>
@@ -282,7 +285,7 @@
           <li><code>Coe</code>rcions, <code>gcongr</code>, general discussion on proof style and automation.  <!--a href="https://adventofcode.com/">Advent of Code</a>.</li>
           <li>Solution to Day 2, 2023: <a href="https://github.com/adomani/advents/blob/master/Advents/AoC2023/day02_syntax.lean">syntax parsing</a> and <a href="https://github.com/adomani/advents/blob/master/Advents/AoC2023/day02.lean">running the input</a>.</li>
           <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L15_setoids.lean">Quotients and setoids</a>.</li>
-          <li><a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L09_noncomputable_IsSquare.lean">Noncomputability and decidable instances</a>.  <!-- Algebraic and tropical geometry in <code>Mathlib</code>.</li>
+          <li>Algebraic and tropical geometry in <code>Mathlib</code>.</li>
           <li>Type theory and category theory. --></li>
         </ul>
       </td>
@@ -299,4 +302,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we have done so far: [current syllabus](MA4N1)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Monday, Nov 23 2026</div>
+<div style="text-align: right">Last modified: Tuesday, Nov 24 2026</div>

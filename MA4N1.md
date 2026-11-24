@@ -215,7 +215,7 @@
       <td>
         <ul>
           <li>Continue on the Claude-generated <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/topology/MA4N1/L19_topology.lean">topology</a>.</li>
-          <li>Tactics <code>fun_prop</code> and <code>constructore</code>.</li>
+          <li>Tactics <code>fun_prop</code> and <code>constructor</code>.</li>
           <li>Examples of dot-notation.</li>
           <li>Multiple topologies on the same underlying set.</li>
         </ul>
@@ -226,4 +226,4 @@
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
 What we may be doing in the coming lectures: [tentative syllabus](MA4N1_tentative)
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div style="text-align: right">Last modified: Monday, Nov 23 2026</div>
+<div style="text-align: right">Last modified: Tuesday, Nov 24 2026</div>
