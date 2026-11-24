@@ -75,28 +75,34 @@ tue
   Continue on the Claude-generated <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/topology/MA4N1/L19_topology.lean">topology</a>.
   Mention the <code>rw??</code> tactic for finding "aimed" rewrites (there is also <code>rw?</code> which has fewer features and is not point-and-click).
   Brief digression on <code>simp</code>. <!-- a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L02_generalizations.lean">Generalizations</a> and "exotic" typeclasses.-->
-_tentative
 sup
-  More on <code>Set</code>s vs <code>Type</code>s.
+  Group work. <!-- More on <code>Set</code>s vs <code>Type</code>s.
   Coercions.
-  Stars and bars?
-  Group work.
+  Stars and bars? -->
 
 --  Week 8
 mon
-  Discuss how to formalise the notion of <a href="https://en.wikipedia.org/wiki/Subnormal_subgroup">subnormal subgroups</a>.
-  <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L17_navigating_Mathlib.lean">Navigating <code>Mathlib</code></a>.
-  Integer polynomials in an <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/BreatherWeek.lean">extension of the breather week file</a>.
-  Mentioned <code>ext</code> for polynomials and <code>simp [field]</code> as a <code>simp</code>-based version of <code>field</code>.
+  Continue on the Claude-generated <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/topology/MA4N1/L19_topology.lean">topology</a>.
+  Tactics <code>fun_prop</code> and <code>constructor</code>.
+  Examples of dot-notation.
+  Multiple topologies on the same underlying set.
+_tentative
 tue
-  Covered <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L04_definitions.lean">definitions, structure and inductives</a>.
-  Digression about presentations of groups by generators and relations and universal properties in category theory.
+  Continue on the Claude-generated <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/topology/MA4N1/L19_topology.lean">topology</a>.
+  Difference between <code>let</code> and <code>have</code>.
+  <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L09_noncomputable_IsSquare.lean">Noncomputability and decidable instances</a>.
 sup
   More on induction.
   Equivalences in Mathlib.
 
 --  Week 9
 mon
+  Discuss how to formalise the notion of <a href="https://en.wikipedia.org/wiki/Subnormal_subgroup">subnormal subgroups</a>.
+  <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L17_navigating_Mathlib.lean">Navigating <code>Mathlib</code></a>.
+  Integer polynomials in an <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/BreatherWeek.lean">extension of the breather week file</a>.
+  Mentioned <code>ext</code> for polynomials and <code>simp [field]</code> as a <code>simp</code>-based version of <code>field</code>.
+  Covered <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L04_definitions.lean">definitions, structure and inductives</a>.
+  Digression about presentations of groups by generators and relations and universal properties in category theory.
   Using the <code>variable</code> command.
   Beginning with <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L12_pathologies.lean">pathologies</a>.
 tue
@@ -113,7 +119,7 @@ tue
   <code>Coe</code>rcions, <code>gcongr</code>, general discussion on proof style and automation.  <!--a href="https://adventofcode.com/">Advent of Code</a>.
   Solution to Day 2, 2023: <a href="https://github.com/adomani/advents/blob/master/Advents/AoC2023/day02_syntax.lean">syntax parsing</a> and <a href="https://github.com/adomani/advents/blob/master/Advents/AoC2023/day02.lean">running the input</a>.
   <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L15_setoids.lean">Quotients and setoids</a>.
-  <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L09_noncomputable_IsSquare.lean">Noncomputability and decidable instances</a>.  <!-- Algebraic and tropical geometry in <code>Mathlib</code>.
+  Algebraic and tropical geometry in <code>Mathlib</code>.
   Type theory and category theory. -->
 sup
   Group work.
