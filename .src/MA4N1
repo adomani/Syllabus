@@ -86,11 +86,11 @@ mon
   Tactics <code>fun_prop</code> and <code>constructor</code>.
   Examples of dot-notation.
   Multiple topologies on the same underlying set.
-_tentative
 tue
   Continue on the Claude-generated <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/topology/MA4N1/L19_topology.lean">topology</a>.
   Difference between <code>let</code> and <code>have</code>.
   <a href="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean/blob/master/MA4N1/L09_noncomputable_IsSquare.lean">Noncomputability and decidable instances</a>.
+_tentative
 sup
   More on induction.
   Equivalences in Mathlib.
