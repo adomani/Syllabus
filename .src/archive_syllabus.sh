@@ -19,9 +19,16 @@
 ##    as in `Week 1 (Oct 02-06, 2023)`.
 ##  * The link to the tentative syllabus, which is not archived, is replaced by
 ##    a link to the past syllabi.
-##  * Links to files on GitHub that use a branch name, such as `.../blob/master/...`,
-##    are pinned to the last commit on that branch before the last update of
-##    `<module>.md`, so that they keep showing the files as they were that year.
+##  * Links that would show later versions of what they point to are pinned to the
+##    versions current at the last update of `<module>.md`, so that they keep showing
+##    what they showed that year:
+##    - links to files on GitHub that use a branch name, such as `.../blob/master/...`,
+##      and links to raw files on GitHub point to the last commit on that branch
+##      before that date;
+##    - links to the home page of a GitHub repository point to the repository at its
+##      last commit before that date;
+##    - links to other pages of this website, which only shows their current version,
+##      point to their source on GitHub at the commit that last changed `<module>.md`.
 ##    Links to renamed repositories use the current name of the repository.
 ##
 ##  The script warns about links to files that did not exist at the pinned commit:
@@ -104,35 +111,110 @@ warn () {
   warnings=$(( warnings + 1 ))
 }
 
-##  pin the links to GitHub files and directories that use a branch name
-for repoRef in $(grep -oE 'https://github.com/[^/"]+/[^/"]+/(blob|tree)/[^/"]+/' <<< "${page}" | sort -u)
-do
-  IFS=/ read -r _ _ _ owner repo kind ref _ <<< "${repoRef}"
-  [[ "${ref}" =~ ^[0-9a-f]{40}$ ]] && continue
-  clone="${tmp}/${owner}_${repo}"
-  if [ ! -d "${clone}" ] &&
-    ! retry git clone -q --bare --filter=blob:none "https://github.com/${owner}/${repo}.git" "${clone}"
+##  `pin <owner> <repo> <ref>` sets `fullName` to the current name of the GitHub repository
+##  `<owner>/<repo>` and `sha` to its last commit on `<ref>` before the last update of the page.
+##  If this is not possible, it warns and fails.
+pin () {
+  local clone="${tmp}/${1}_${2}"
+  if [ ! -d "${clone}" ]
   then
-    warn "could not clone ${owner}/${repo}: its links are not pinned"
-    continue
+    if ! retry git clone -q --bare --filter=blob:none "https://github.com/${1}/${2}.git" "${clone}"
+    then
+      warn "could not clone ${1}/${2}: its links are not pinned"
+      return 1
+    fi
+    retry gh api "repos/${1}/${2}" --jq .full_name > "${clone}.name" 2>/dev/null ||
+      printf '%s/%s\n' "${1}" "${2}" > "${clone}.name"
   fi
-  sha="$(git -C "${clone}" rev-list -1 --before="${lastDate}" "${ref}" -- 2>/dev/null || true)"
+  fullName="$(< "${clone}.name")"
+  sha="$(git -C "${clone}" rev-list -1 --before="${lastDate}" "${3}" -- 2>/dev/null || true)"
   if [ -z "${sha}" ]
   then
-    warn "no commit on ${owner}/${repo} ${ref} before ${lastDate}: its links are not pinned"
-    continue
+    warn "no commit on ${1}/${2} ${3} before ${lastDate}: its links are not pinned"
+    return 1
   fi
-  fullName="$(retry gh api "repos/${owner}/${repo}" --jq .full_name 2>/dev/null || printf '%s/%s' "${owner}" "${repo}")"
-  pinned="https://github.com/${fullName}/${kind}/${sha}/"
-  page="${page//"${repoRef}"/"${pinned}"}"
-  printf 'Pinned %s to %s\n' "${repoRef}" "${pinned}"
-  for path in $(grep -oE "${pinned}[^\"#?)]*" <<< "${page}" | sed "s|^${pinned}||" | sort -u)
+}
+
+##  `check_paths <owner> <repo> <prefix>` warns about the links starting with `<prefix>`
+##  to files or directories that do not exist in `<owner>/<repo>` at the commit `sha`.
+check_paths () {
+  local path
+  for path in $(grep -oE "${3}[^\"#?)]*" <<< "${page}" | sed "s|^${3}||" | sort -u)
   do
-    if [ -z "$(git -C "${clone}" ls-tree "${sha}" -- "${path%/}")" ]
-    then
+    [ -n "$(git -C "${tmp}/${1}_${2}" ls-tree "${sha}" -- "${path%/}")" ] ||
       warn "${path} does not exist in ${fullName} at ${sha:0:10}"
+  done
+}
+
+##  `replace_link <url> <new>` replaces the links to exactly `<url>`, possibly followed by
+##  `/`, an anchor or a query, with links to `<new>`.
+replace_link () {
+  local end
+  for end in '"' '#' '?' ')' '/"' '/#' '/?' '/)'
+  do
+    page="${page//"${1}${end}"/"${2}${end#/}"}"
+  done
+  printf 'Pinned %s to %s\n' "${1}" "${2}"
+}
+
+##  pin the links to files and directories on GitHub that use a branch name
+for prefix in $(grep -oE 'https://github\.com/[^/"]+/[^/"]+/(blob|tree)/[^/"]+/' <<< "${page}" | sort -u)
+do
+  IFS=/ read -r _ _ _ owner repo kind ref _ <<< "${prefix}"
+  [[ "${ref}" =~ ^[0-9a-f]{40}$ ]] && continue
+  pin "${owner}" "${repo}" "${ref}" || continue
+  pinned="https://github.com/${fullName}/${kind}/${sha}/"
+  page="${page//"${prefix}"/"${pinned}"}"
+  printf 'Pinned %s to %s\n' "${prefix}" "${pinned}"
+  check_paths "${owner}" "${repo}" "${pinned}"
+done
+
+##  pin the links to raw files on GitHub that use a branch name
+for prefix in $(grep -oE 'https://raw\.githubusercontent\.com/[^/"]+/[^/"]+/[^/"]+/' <<< "${page}" | sort -u)
+do
+  IFS=/ read -r _ _ _ owner repo ref _ <<< "${prefix}"
+  [[ "${ref}" =~ ^[0-9a-f]{40}$ ]] && continue
+  pin "${owner}" "${repo}" "${ref}" || continue
+  pinned="https://raw.githubusercontent.com/${fullName}/${sha}/"
+  page="${page//"${prefix}"/"${pinned}"}"
+  printf 'Pinned %s to %s\n' "${prefix}" "${pinned}"
+  check_paths "${owner}" "${repo}" "${pinned}"
+done
+
+##  pin the links to the home pages of GitHub repositories
+for url in $(grep -oE 'https://github\.com/[^/"#?)]+/[^/"#?)]+/?["#?)]' <<< "${page}" |
+  sed 's=/\{0,1\}["#?)]$==' | sort -u)
+do
+  IFS=/ read -r _ _ _ owner repo <<< "${url}"
+  pin "${owner}" "${repo}" HEAD || continue
+  replace_link "${url}" "https://github.com/${fullName}/tree/${sha}"
+done
+
+##  pin the links to the pages of this website, which only shows their current version,
+##  to their source on GitHub when `<module>.md` was last changed
+siteUrl='https://adomani.github.io/Syllabus'
+siteSha="$(git rev-list -1 "${commit}" -- "${module}.md")"
+for url in $(grep -oE 'https://adomani\.github\.io/Syllabus(/[^"#?)]*)?' <<< "${page}" | sed 's=/$==' | sort -u)
+do
+  path="${url#"${siteUrl}"}"
+  path="${path#/}"
+  [[ "${path}" == archive || "${path}" == archive/* ]] && continue
+  file=''
+  for candidate in "${path}.md" "${path}/index.md" "${path}"
+  do
+    candidate="${candidate#/}"
+    if [ "$(git cat-file -t "${siteSha}:${candidate}" 2>/dev/null)" == blob ]
+    then
+      file="${candidate}"
+      break
     fi
   done
+  if [ -z "${file}" ]
+  then
+    warn "${url} has no source in this repository at ${siteSha:0:10}: it is not pinned"
+    continue
+  fi
+  replace_link "${url}" "https://github.com/adomani/Syllabus/blob/${siteSha}/${file}"
 done
 
 ##  the year of the term, to add to the dates of the weeks
@@ -142,7 +224,7 @@ grep -q '>Week [0-9]* ([^)]*Jan' <<< "${page}" &&
   warn "some weeks are in January: check that they show the right year, not ${autumn}"
 
 banner="> **Archived syllabus**: the final version of the syllabus for the academic year ${year}.
-> Links to files on GitHub point to the versions current at the last update of this page.
+> Links to GitHub and to other pages of this website point to their versions at the last update of this page.
 > [All past syllabi](${archiveUrl})"
 
 mkdir -p archive
