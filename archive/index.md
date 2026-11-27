@@ -12,6 +12,7 @@ The current syllabus for MA4N1 Theorem Proving with Lean is [here](https://adoma
 
 ## MA3H5 Manifolds
 
+* [2023-24](https://adomani.github.io/Syllabus/archive/MA3H5_2023-24) (Autumn 2023)
 * [2022-23](https://adomani.github.io/Syllabus/archive/MA3H5_2022-23) (Autumn 2022)
 
 ---
