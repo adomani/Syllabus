@@ -14,6 +14,8 @@
 ##
 ##  The archived copy differs from the original as follows.
 ##  * The script that reloads the page once is removed: the page no longer changes.
+##  * The HTML comments in the lectures, which are not shown on the page, are removed.
+##    The comments that separate the weeks, such as `<!--  ####  Week 1  #### -->`, are kept.
 ##  * A note below the title says that the page is archived and links to the past syllabi.
 ##  * The dates of the weeks include the year, taken from the `## Autumn <year>` heading,
 ##    as in `Week 1 (Oct 02-06, 2023)`.
@@ -89,7 +91,17 @@ then
   exit 1
 fi
 
-page="$(git show "${commit}:${module}.md")"
+##  the page without the script that reloads it and without HTML comments, except for the
+##  ones separating the weeks.  As in HTML, a comment ends at the first `-->`.
+##  Lines with only comments are removed, as are the spaces before a comment at the end of a line.
+weekSeparator='^\s*#+\s*Week\s+\d+\s*#+\s*$'
+page="$(git show "${commit}:${module}.md" |
+  sed '/how-to-reload-page-only-once/,/<\/script>/d' |
+  SEP="${weekSeparator}" perl -0pe '
+    s/<!--((?:(?!-->).)*)-->/ do { my $c = $1; $c =~ m{$ENV{SEP}} ? "<!--$c-->" : "\x00" } /gse;
+    s/^[ \t\x00]*\x00[ \t\x00]*\n//gm;
+    s/[ \t]*\x00[ \t\x00]*$//gm;
+    s/\x00//g')"
 
 ##  `retry <cmd>` runs `<cmd>` up to three times, until it succeeds.
 retry () {
@@ -229,7 +241,6 @@ banner="> **Archived syllabus**: the final version of the syllabus for the acade
 
 mkdir -p archive
 printf '%s\n' "${page}" |
-  sed '/how-to-reload-page-only-once/,/<\/script>/d' |
   BANNER="${banner}" awk '
     { print }
     (! done) && /^## / { print ""; print ENVIRON["BANNER"]; done = 1 }' |
@@ -237,6 +248,9 @@ printf '%s\n' "${page}" |
   sed "${autumn:+s|\(>Week [0-9]* ([^)]*\))<|\1, ${autumn})<|}" > "${target}"
 
 grep -q 'location.reload' "${target}" && warn 'the script that reloads the page is still there'
+SEP="${weekSeparator}" perl -0ne '
+  while (/<!--((?:(?!-->).)*)-->/gs) { exit 0 if $1 !~ m{$ENV{SEP}} }
+  exit 1' "${target}" && warn 'some HTML comments in the lectures are still there'
 grep -q 'tentative syllabus' "${target}" && warn 'the link to the tentative syllabus is still there'
 grep -q '^> \*\*Archived syllabus\*\*' "${target}" || warn 'the note about the archived syllabus was not added'
 
