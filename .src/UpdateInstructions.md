@@ -10,6 +10,15 @@ Useful commands
 
 ###  Modifications
 
+* Before resetting anything, archive the final syllabi of the past academic year,
+  for instance
+  ```bash
+  .src/archive_syllabus.sh MA4N1 2026-27
+  ```
+  This saves `archive/MA4N1_2026-27.md` and updates the list of past syllabi in `archive/index.md`.
+  If you already reset the syllabus, pass the commit with the final version as third argument.
+  Fix by hand the links that the script reports as missing.
+
 * In `.src/moving_parts.txt` update all variables:
   * the term start date to the Monday of the week before the start of term
   * the moodle id for `MA3H5 Manifolds`
