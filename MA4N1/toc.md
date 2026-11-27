@@ -62,6 +62,7 @@ In this module, we will only work with Lean 4.
 ## Available pages
 
 * [Current syllabus](https://adomani.github.io/Syllabus/MA4N1)
+* [Past syllabi](https://adomani.github.io/Syllabus/archive)
 * [MA4N1 Theorem Proving with Lean](https://adomani.github.io/Syllabus/MA4N1/toc#ma4n1-theorem-proving-with-lean)
   * [Assessment](https://adomani.github.io/Syllabus/MA4N1/toc#assessment)
   * [Further reading](https://adomani.github.io/Syllabus/MA4N1/toc#further-reading)

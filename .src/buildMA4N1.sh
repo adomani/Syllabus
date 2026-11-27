@@ -15,7 +15,7 @@ scatterTPwL () {
     genericGHurl=genericGHurlNS "/"
     ghurl=genericGHurl mainFileNoExt
     moduleurl="https://github.com/adomani/MA4N1_Theorem_proving_with_Lean"
-    toc="\n\n## Available pages\n\n* [Current syllabus](" genericGHurlNS ")"
+    toc="\n\n## Available pages\n\n* [Current syllabus](" genericGHurlNS ")\n* [Past syllabi](https://adomani.github.io/Syllabus/archive)"
     moodleurl="https://moodle.warwick.ac.uk/course/view.php?id=" ma4n1_id "#section-0"
     tpwlink="\n\n[Back to the `Theorem Proving with Lean` webpage](" ghurl ")"
     moodlink="\n\n[Back to the Mathlib project for the module](" moduleurl ")\n\n" "[Back to Moodle](" moodleurl ")"
